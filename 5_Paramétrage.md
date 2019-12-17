@@ -9,7 +9,7 @@ Pour remonter d'un niveau dans l'arborescence, double-cliquer sur **```..```** e
 
 ![cmd_rtkbase](./images/param/cmd_rtkbase.png)
 
-## 3.2.1 Données
+### 3.2.1 Données
 
 La Base produit par défaut un flux de données RTCM3 vers le caster Centipede et des fichiers de log (.ubx) permettant entre autre de calculer sa position. Les données sont disponibles dans le dossier **```./rtkbase/data```**
 
@@ -17,7 +17,7 @@ La Base produit par défaut un flux de données RTCM3 vers le caster Centipede e
 
 Les fichiers **```*.ubx```** et **```*.ubx.tag```** sont des fichiers de log en cours d'acquisition (24h), ils vont permettre de calculer la position de la base. Toutes les nuits à 4h du matin les logs **```*.ubx```** et **```*.ubx.tag```** sont compressés en **```*-UBX.zip```** mais également convertis en **```*-RINEX_XX-5s-24h.zip```**.
 
-## 3.2.3 Commandes
+### 3.2.3 Commandes
 
 Les commandes permettent d'effectuer des actions sur la Base RTK, comme vérifier si elle fonctionne, arrêter ou démarrer des services, mettre à jour, redémarrer...
 
@@ -41,7 +41,7 @@ Les commandes permettent d'effectuer des actions sur la Base RTK, comme vérifie
 
 ## 3.3 Installation initiale
 
-### 3.3.1 update logiciel et paramétrage automatique de l'antenne
+#### 3.3.1 update logiciel et paramétrage automatique de l'antenne
 
 > [Avant toute chose vérifier que:](https://github.com/jancelin/rtkbase/wiki/2.-Installation)
 > * l'antenne D910 et bien connectée au module F9P
@@ -52,7 +52,7 @@ Les commandes permettent d'effectuer des actions sur la Base RTK, comme vérifie
 > * le Rasberry Pi est sous tension
 
 * Sur un Pc connecté au même réseau que la Base RTK, ouvrir un navigateur web ([firefox](https://www.mozilla.org/fr/firefox/new/)) et rejoindre l'adresse http://centipede.local:8000
-## 3.3.2 Paramétrage
+### 3.3.2 Paramétrage
 
 * Se placer dans le répertoire **```./rtkbase```**
 * Mettre à jour le système informatique de la base: **```F2 > Update system```** puis **```F2 > Reboot```**, appuyer ensuite sur la croix pour sortir. Attendre que le rédemarrage s'effectue (env 1-2min) et frafraichir la page web (F5)

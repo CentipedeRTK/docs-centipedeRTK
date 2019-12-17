@@ -2,7 +2,7 @@
 
 Cette étape doit vous permettre de bien anticiper quel matériel acheter en fonction de la zone d'installation de l'antenne RTK et de vos possibilités de raccordement à un réseau Internet pour diffuser les corrections produites.
 
-## 2.1 Choix de la zone d'implantation
+### 2.1 Choix de la zone d'implantation
 
  * La zone d'implantation de l'antenne de réception ne nécessite pas une position dominante, mais doit proposer une visibilité maximum du ciel ; il est indispensable de ne pas avoir d'obstacles (bâtiments, arbres, murs ...) sous les 30 premiers degrés par rapport à la base de l'antenne.
  * Elle doit également être très stable au niveau de sa position, il est donc préférable de la fixer sur un plot en béton ou sur le pignon d'un bâtiment (Attention à la dilatation des bâtiments en acier).
@@ -11,7 +11,7 @@ Cette étape doit vous permettre de bien anticiper quel matériel acheter en fon
 
 ![sky_view](./images/mat/skyview-obstacles_1.png)
 
-## 2.2 Liste
+### 2.2 Liste
 
 Voici la liste des éléments nécessaires à la mise en place d'une base RTK L1-L2:
 
@@ -31,7 +31,7 @@ Voici la liste des éléments nécessaires à la mise en place d'une base RTK L1
 
 Dans le cas ou vous souhaitez fabriquer une base RTK seulement en WIFI, il est possible de remplacer le Raspberry Pi 3/4 par un [Raspberry Pi Zero W](https://www.kubii.fr/les-cartes-raspberry-pi/1851-raspberry-pi-zero-w-kubii-3272496006997.html) à 11€ + un [Câble USB vers Micro USB](https://www.kubii.fr/cables-cordons-raspberry-pi/2275-cable-usb-vers-micro-usb-kubii-3272496011878.html?search_query=otg&results=5) à 3€
 
-## 2.3 Assemblage
+### 2.3 Assemblage
 
 ![composant](./images/mat/composant.jpg)
 
@@ -47,7 +47,7 @@ Dans un premier temps faites un premier montage sans la boite:
 
 ![composant](./images/wifi/pi_zero.jpg)
 
-## 2.4 Montage
+### 2.4 Montage
 
 ![composant](./images/mat/boite1.jpg)
 ![composant](./images/mat/boite2.jpg)
@@ -55,5 +55,5 @@ Dans un premier temps faites un premier montage sans la boite:
 ![composant](./images/mat/boite4.jpg)
 
 
-## 2.5 Next step
+### 2.5 Next step
    * Prendre la [Micro SD 16Go](https://www.kubii.fr/carte-sd-et-stockage/2359-carte-microsd-16go-classe-10-u1-sandisk-kubii-619659161347.html) et passons maintenant à l'étape suivante, [l'installation logicielle](./4_Installation.md).
