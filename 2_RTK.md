@@ -1,7 +1,4 @@
----
-title: 1.1 Le GNSS RTK c'est quoi?
-sidebar: toc
----
+## 1.2 Le GNSS RTK c'est quoi?
 
 ![sketch](images/index/1.jpg)
 

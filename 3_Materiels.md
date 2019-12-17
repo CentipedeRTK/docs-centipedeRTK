@@ -1,7 +1,4 @@
----
-title: 2 Materiel
-sidebar: toc
----
+## 2 Materiel
 
 Cette étape doit vous permettre de bien anticiper quel matériel acheter en fonction de la zone d'installation de l'antenne RTK et de vos possibilités de raccordement à un réseau Internet pour diffuser les corrections produites.
 

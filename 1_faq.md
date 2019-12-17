@@ -1,7 +1,4 @@
----
-title: 1.2 FAQ
-sidebar: toc
----
+## 1 FAQ
 
 * ### Ca sert à quoi ?
 
