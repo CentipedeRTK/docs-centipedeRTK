@@ -1,4 +1,4 @@
-## 2 Le GNSS RTK c'est quoi?
+## 02 Le GNSS RTK c'est quoi?
 
 ![sketch](images/index/1.jpg)
 
