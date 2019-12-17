@@ -1,5 +1,5 @@
 
-## Bluetooth
+## 11 Bluetooth
 
 Le Bluetooth est utile en mode Rover comme antenne mobile pour de l'acquision ou du positionnnement sur le terrain. le partage de la trame NMEA via bluetooth permet par exemple d'avoir une précison centimétrique sur votre smartphone et donc sur l'ensemble des applications utilisants la géolocalisation.
 

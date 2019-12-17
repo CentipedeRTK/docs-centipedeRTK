@@ -1,4 +1,4 @@
-## Insertion des coordonnées corrigées dans la Base RTK
+## 7 Déclaration
 
 ### mofifier la valeur de la posiotion dans la base RTK
 
