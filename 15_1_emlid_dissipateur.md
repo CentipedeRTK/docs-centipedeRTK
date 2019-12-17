@@ -1,4 +1,4 @@
-# 16  Régulation thermique EMLID
+# Régulation thermique EMLID
 
 Les Bases RTK peuvent souffrir de la chaleur si elles ne sont pas protégées en étant dans un bâtiment régulé thermiquement. Une solution est de leur offrir un dissipateur (actif ou passif) de chaleur afin de les réguler.
 

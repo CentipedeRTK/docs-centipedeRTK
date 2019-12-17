@@ -1,4 +1,4 @@
-## Calcul de la position de la base
+## 6 Calcul de la position de la base
 
 Nous allons déterminer la position de la base le plus précisement possible.
 
@@ -98,7 +98,7 @@ La deuxième avec ces mêmes fichiers + les fichiers de l'IGS récupérés 20 jo
 ```
 ./RTKPOST_Qt-x86_64.AppImage
 ```
-## 06 Positionnement
+## Positionnement
 
 * Charger le fichier *.obs* de la base à corriger (Rover)
 * Charger le fichier *.19o* de la base de référence (Base Station)

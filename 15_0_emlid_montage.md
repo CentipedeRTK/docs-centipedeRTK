@@ -1,6 +1,4 @@
-
-
-## 15 Base Emlid
+## Base Emlid
 
 Voici la liste des éléments nécessaires à la mise en place d'une base RTK L1:
 

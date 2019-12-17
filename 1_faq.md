@@ -1,4 +1,4 @@
-## 01 FAQ
+## 1 FAQ
 
 * ### Ca sert à quoi ?
 

@@ -1,4 +1,4 @@
-## Interface
+## 5 Paramétrage
 
 La connexion initiale sur http://centipede.local:8000 affiche un explorateur de fichiers, à la racine du système : **```./```**
 
@@ -52,7 +52,7 @@ Les commandes permettent d'effectuer des actions sur la Base RTK, comme vérifie
 > * le Rasberry Pi est sous tension
 
 * Sur un Pc connecté au même réseau que la Base RTK, ouvrir un navigateur web ([firefox](https://www.mozilla.org/fr/firefox/new/)) et rejoindre l'adresse http://centipede.local:8000
-## 05 Paramétrage
+## Paramétrage
 
 * Se placer dans le répertoire **```./rtkbase```**
 * Mettre à jour le système informatique de la base: **```F2 > Update system```** puis **```F2 > Reboot```**, appuyer ensuite sur la croix pour sortir. Attendre que le rédemarrage s'effectue (env 1-2min) et frafraichir la page web (F5)

@@ -1,4 +1,4 @@
-## 07 Déclaration
+## 7 Déclaration
 
 ### mofifier la valeur de la posiotion dans la base RTK
 
