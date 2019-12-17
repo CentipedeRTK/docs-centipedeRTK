@@ -1,4 +1,7 @@
-## 3.2 Paramétrage
+---
+title: 3.2 Paramétrage
+sidebar: toc
+---
 
 La connexion initiale sur http://centipede.local:8000 affiche un explorateur de fichiers, à la racine du système : **```./```**
 

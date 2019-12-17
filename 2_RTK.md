@@ -1,4 +1,3 @@
-
 ---
 title: 1.1 Le GNSS RTK c'est quoi?
 sidebar: toc
