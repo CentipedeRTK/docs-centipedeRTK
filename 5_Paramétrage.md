@@ -1,4 +1,4 @@
-## 5 Paramétrage
+## 3.2 Paramétrage
 
 La connexion initiale sur http://centipede.local:8000 affiche un explorateur de fichiers, à la racine du système : **```./```**
 

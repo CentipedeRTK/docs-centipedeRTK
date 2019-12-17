@@ -1,4 +1,4 @@
-## 8 WIFI
+## 6.1 WIFI
 
 La Base RTK dispose d'une option de connexion WIFI avec les Rasperry Pi Raspberry Pi [3](https://www.kubii.fr/les-cartes-raspberry-pi/2119-raspberry-pi-3-modele-b-1-gb-kubii-713179640259.html), [4](https://www.kubii.fr/les-cartes-raspberry-pi/2770-nouveau-raspberry-pi-4-modele-b-1gb-kubii-0765756931168.html) ou [Zero W](https://www.kubii.fr/les-cartes-raspberry-pi/1851-raspberry-pi-zero-w-kubii-3272496006997.html). Elle peut se connecter à tout type de hotspot WIFI dosmetique, entreprise ou smartphone (partage de connexion 3-4-5G ) pour la mobilité.
 
