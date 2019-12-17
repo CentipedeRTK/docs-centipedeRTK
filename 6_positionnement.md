@@ -1,32 +1,10 @@
-## 4 Calcul de la position de la base
+## Calcul de la position de la base
 
-Il est necessaire maintenant de déterminer la position de la base le plus précisement possible.
+Nous allons déterminer la position de la base le plus précisement possible.
 
 Votre base va servir de référentiel pour vous mais aussi pour toute personne se trouvant dans sa zone d'action. il est primordial que sa postion soit juste et très précise afin de pourvoir tous travailler sur un même référentiel géographique.
 
-### 4.1 Paramétrage de la position des satellites
-
-Paramétrer le recepteur en postionnnement static 
-
-![reachview](image/positionnement/RTK_setting1.png)
-
-La valeur du *Update rate* conditionne le nombre de mesures par seconde. 
-
-### 4.2 Récupération des données nécessaires
-
-Afin d'utiliser le reach en tant que base fixe, il est indispensable de définir ses coordonnées le plus précisément possible.
-Pour ce faire, nous activons l'enregistrement des positions dans la rubrique logging, en activant l'option *Raw data* (position ON). Les options *Position* et *Base correction* ne doivent pas être activées pour l'instant.
-
-![reachview](image/positionnement/reach_log.png)
-
-L'enregistrement se fait pendant une période minimale de 12h00 consécutives. Les positions enregistrées sont ensuite post-traitées en s'appuyant sur la trame de l'antenne RGP la plus proche (IGN - <a href="http://rgp.ign.fr">En savoir plus</a>), enregistrée sur la même période. Plus l'antenne de référence sera proche, meilleure sera la précision de localisation de notre base.
-
-Plusieurs méthodes de post-traitements existent, et ce sont les conditions locales (éloignement de l'antenne de référence, modèle de l'antenne,  visibilité de la constellation ...) qui aident à déterminer la méthode la plus pertinente.
-
-* Télécharger le fichier UBX (Raw_xxx_UBX.zip) en cliquant sur l'icône.
-> Le téléchargement n'est possible qu'en stoppant préalablement les logs (*Raw Data* sur OFF).
-
-### 4.3 Récupérer les données du RGP
+### Récupérer les données du RGP
 
 * Aller sur le [site IGN](http://rgp.ign.fr/DONNEES/diffusion){:target="_blank"}
 
@@ -48,38 +26,17 @@ Plusieurs méthodes de post-traitements existent, et ce sont les conditions loca
 
 ![ign](image/positionnement/ign.png)
 
-* Réunir les 2 fichiers (UBX + Rinex) dans un même répertoire.
+* décompresser les archives dans un même répertoire sur votre PC, pour le ZIP IGN vous pouvez ne récupérer que le **XXXXX.19o**
+
+ex: **2019-12-10-000000-GNSS-1.19o** et **lroc3440.19o**
 
 > [Pour en savoir plus sur les formats UBX et Rinex](https://en.wikipedia.org/wiki/RINEX){:target="_blank"}
 
-### 4.4 Calcul de la correction
+### Calcul de la correction
 
-Télécharger la version d'RTKLIB fournie par EMLID (RTKLib for Reach RS2): [docs.emlid.com](https://docs.emlid.com/reachm-plus/common/tutorials/gps-post-processing/){:target="_blank"}
-
-#### 4.4.1 RTKCONV
-
-```
-./rtkconv.exe
-```
-
-* Renseigner la date start et end (la même)
-* Renseigner l'heure : start 00:01:00 et end 23:59:00
-* Interval = 5s
-* Unit= 24 h
-* Charger le fichier UBX
-* Sélectionner le format u-blox
-* Cliquer sur options 
-    * changer la version Rinex (2.11 : celle de la base RGP)
-    * cocher ```Scan Obs Types``` ```Half Cyc Corr``` ```Iono Corr``` ```Time Corr``` ```Leap sec```
-    * Satellite systems: ```GPS``` ```GLO``` ```GAL```
-    * Observation types: ``` C L D S ```
-    * Frequencies: ```L1``` ```L2```
-    * Time Torelance (s): ```0```
-* Cliquer sur Convert
-* En sortie, nous récupérons 6 fichiers :
-    - *.nav*, *.qnav*, *.lnav*, *.gnav*, *.hnav*, *.obs*
+Télécharger cette version d'RTKLIB fournie (RTKLib for Reach RS2): [docs.emlid.com](https://docs.emlid.com/reachm-plus/common/tutorials/gps-post-processing/){:target="_blank"}
     
-#### 4.3.2 RTKPOST
+#### RTKPOST
 
 Deux méthodes sont proposées:
 
@@ -87,17 +44,17 @@ La première avec les fichiers récupérés 24 h après la collecte des données
 
 La deuxième avec ces mêmes fichiers + les fichiers de l'IGS récupérés 20 jours après la collecte des données donc un positionnement très précis (Solution combinée finale GNSS pour la solution orbitale combinée du système d'information sur la dynamique de la croûte terrestre (CDDIS)). 
 
-#### 4.3.2.1 Méthode à 24h
+####  Méthode à 24h
 
 ```
 ./rtkpost.exe
 ```
 
-* Charger le fichier *.obs* de la base à corriger (Rover)
-* Charger le fichier *.19o* de la base de référence (Base Station)
-* Charger les fichiers *.nav*, *.hnav*, *.gnav*, *.lnav* de la base à corriger
-* Le fichier résultat aura une extension *.pos*
-* Renseigner le *Time Start* et le *Time End* (la plage horaire de notre période de logging).
+* Charger le fichier *.obs* de votre base (Rover)
+* Charger le fichier *.19o* de la base de référence IGN (Base Station)
+* Charger les fichiers *.nav*, *.hnav*, *.gnav*, *.lnav* de votre base
+* Le fichier résultat aura une extension *.pos* c'est lui qui par traitement statistique donnera la position de la base RTK.
+* Renseigner le *Time Start* et le *Time End* : la date de votre fichier RINEX + l'heure de début **```00:01:00```**, pareil pour le end date + **```23:59:00```**
 * Cliquer sur __options__
   - __Setting1__
        - *Positionning Mode* : Static 
@@ -128,7 +85,7 @@ La deuxième avec ces mêmes fichiers + les fichiers de l'IGS récupérés 20 jo
  
 > Penser à sauvegarder tous ces paramétrages dans un fichier .conf (option Save)
 
-#### 4.3.2.2 Méthode après 20 jours
+#### Méthode après 20 jours
 
 * Récupérer la date GPS de la collecte de données: http://navigationservices.agi.com/GNSSWeb/
 > par exemple le 5 février 2019 correspond au 2039:2
@@ -149,39 +106,46 @@ La deuxième avec ces mêmes fichiers + les fichiers de l'IGS récupérés 20 jo
 * Reprendre la procédure décrite précédemment (2.1 __Méthode à 24h__) au niveau de * Cliquer sur __options__
 
   
-### 4.3.3 RTKPLOT
+### RTKPLOT
+
  
- ```
-./rtkplot.exe
-```
- 
- Pour cartographier le nuage de points obtenu précédemment (fichier avec extension pos).
+ Pour cartographier le nuage de points obtenu précédemment (fichier avec extension pos) vous pouvez cliquer sur l'onglet en as à gauche **```Plot```**
  
  Il est possible à ce stade-là de filtrer les données afin de ne conserver que les points pour lesquels la valeur de Q est égale à 1 (ie. mode FIX).
+
+ Dans l'exemple ci dessous vous pouvez observer un maillage au mm avec **16527 points situés dans 1,5 cm2**. C'est bien mais nous allons maintenant nettoyer ce nuage de point pour ne garder que les meilleures données et calculer la médiane. Le résultat nous donnera la position définitive de la base. 
  
-## 4.4 QGIS
+![rtkplot](image/positionnement/rtkplot.png)
+ 
+## QGIS
  
  Le fichier résultat peut être exploité dans QGIS3.
  
  > Plus d'informations sur l'installation de ce logiciel sur cette [page](https://qgis.org/fr/site/){:target="_blank"}
+
+### Importer le fichier .pos dans Qgis
  
-   - Cliquer sur *couche* > *Ajouter une couche* > *Ajouter une couche de texte délimité*
-   - Choisir le fichier .pos puis cliquer sur *Ouvrir*
+* Cliquer sur *couche* > *Ajouter une couche* > *Ajouter une couche de texte délimité*
+* Choisir le fichier .pos puis cliquer sur *Ouvrir*
         
 ![qgis](image/positionnement/calc_base_qgis_1.png)   
 
-   - Dans *Format de fichier*, sélectionner le délimiteur personalisés *Espace*
-   - Fixer la valeur du *Nombre de lignes à ignorer* à 26
-   - Cocher "Ignorer les champs vides"
-   - Cocher l'option "Entêtes en 1ere ligne", "Déteceter les types de champs" et "Ignorer les champs vides"
-   - Définition de la géométrie: cocher "Point"
-   - Sélectionner le SRC 4326 (WGS 84)
-   - Cliquer sur *OK*
+* Dans *Format de fichier*, sélectionner le délimiteur personalisés *Espace*
+* Fixer la valeur du *Nombre de lignes à ignorer* à 26 ou 27 (en fonction du fichier .pos généré)
+* Cocher "Ignorer les champs vides"
+* Cocher l'option "Entêtes en 1ere ligne", "Déteceter les types de champs" et "Ignorer les champs vides"
+* Définition de la géométrie: cocher "Point"
+* Sélectionner le SRC 4326 (WGS 84)
+* Cliquer sur *OK*
    
 ![qgis](image/positionnement/calc_base_qgis_2.png)
 
-   - Faire un clic droit sur la couche puis *Filtrer...*
-   - Ajouter le filtre suivant :
+### Filtrer les données .pos
+
+On retrouve ici les points affichés dans RTKPLOT, appliqons maintenant des filtres pour ne garder que les meilleures valeurs.
+
+* Faire un clic droit sur la couche puis *Filtrer...*
+* Ajouter le filtre suivant :
 
 ```
  "Q"=1 AND
@@ -190,67 +154,19 @@ La deuxième avec ces mêmes fichiers + les fichiers de l'IGS récupérés 20 jo
 "sdne(m)" = 0
 
   ```
-   - Cliquer sur *OK*
-   
-On retrouve ici les points affichés dans RTKPLOT suite à l'application des mêmes filtres (mode FIX).
+* Cliquer sur *OK*
    
 ![qgis](image/positionnement/calc_base_qgis_3.png)
 
-   - Cliquer sur *vecteur* > *Outils d'analyse* > *Statistiques basiques pour les champs*
-        - *Couche vectorielle en entrée* : choisir le fichier pos
-        - *Champ pour le calcul des statistiques* : latitude
-        - Cliquer sur *Executer*
-        - Récupérer la valeur 'MEDIAN' ex: 46.164793681
-   - Répéter l'opération avec les champs longitude et hauteur.
-   - Voici un exemple de coordonnées récupérés 46.164793681 -0.948418958 63.0686, ceci est la postion précise de votre base RTK
+### Statistiques sur les données filtrés
 
-## 4.5 Insertion des coordonnées corrigées
- 
-### 4.5.1 F9P + Raspberry Pi
+* Cliquer sur *vecteur* > *Outils d'analyse* > *Statistiques basiques pour les champs*
+   * **Couche vectorielle en entrée** : choisir le fichier pos
+   * **Champ pour le calcul des statistiques** : latitude
+   * Cliquer sur **Executer**
+   * Récupérer la valeur **MEDIAN** ex: 46.164793681
+* Répéter l'opération avec les champs longitude et hauteur.
+* Voici un exemple de coordonnées récupérés **```46.164793681 -0.948418958 63.0686```**, ceci est la postion précise de votre base RTK
 
-Insérer la valeur dans settings.conf puis ```F2 > Stop Rtcm3``` & ```F2 > Start Rtcm3``` 
+* Passons à la [finalisation du paramétrage de votre Base RTK et sa déclaration sur le réseau](./Declaration.md)
 
-https://github.com/jancelin/rtkbase/wiki/3.-Param%C3%A9trage#param%C3%A9trage
-
-### 4.5.2 Emlid
-
- Ces valeurs doivent être enregistrées dans la rubrique *Base mode* de l'interface du Reach.
- 
-   Dans l'onglet *Base coordinates* (LLH), mettre le *Coordinates input mode* sur Manual puis enregistrer les valeurs de longitude, latitude et hauteur.
-   
-![reachview](image/positionnement/reach_base_coord.png)
- 
-> Dans nos conditions expérimentales, nous avons obtenu une précision inférieure à 1 centimètre. :+1:
-
-## 4.6 Connexion de la base au caster
-
-Avant de pouvoir utiliser le réseau Centipède il est indispensable de faire une demande de connection au Caster (gratuit et sans obligations). les demandes sont à envoyer à contact@centipede.fr en précisiant:
-
-   - Votre situation géographique (commune)
-   - Nom, prénom
-   - Adresse mail
-   - Type de matériel utilisé pour la base RTK
-   - Proposition de nom de Mout Point ( entre 3 et 5 caractères)
-   
-   
-### 4.6.1 F9P + Raspberry Pi
-
-Rien à faire de plus
-
-### 4.6.2 Emlid
-
-Pour connecter la base au caster, se rendre dans la rubrique *Base mode* de l'interface du reach :
-
-![reachview](image/positionnement/reach_cor_output.png)
-
-Modifier les valeurs suivantes (en se basant sur les paramètres enregistrés dans *ntripcaster.conf*)
-
-   - Choisir l'option *NTRIP*
-   - Indiquer l'URL du caster dans le champ *Address* : caster.centipede.fr
-   - Choisir le port 2101
-   - Indiquer le mot de passe: centipede
-   - Choisir/Indiquer le nom du Mount point
-   
-> Votre base est immédiatement opérationnelle mais n'apparaitra sur la [carte](https://centipede.fr/index.php/view/map/?repository=centipede&project=centipede){:target="_blank"} et bénificiera des options du service (mail d'alerte en cas de déconnection, visibilité de sa position et de son état) seulement après validation par l'administrateur.
-
-------------------------------------------------------------

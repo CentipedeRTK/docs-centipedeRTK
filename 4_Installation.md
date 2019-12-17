@@ -2,17 +2,15 @@
 
 ### Update du firmware de l'antenne
 
+Dans un premier temps il est nécessaire de mettre à jour le [firmware](https://fr.wikipedia.org/wiki/Firmware) de votre module F9P
+
 * [Install U-center](https://www.u-blox.com/en/product/u-center) (Windows seulement)
 
 * [Update F9P firmware](https://drotek.gitbook.io/rtk-f9p-positioning-solutions/tutorials/updating-zed-f9p-firmware)
 
-### Téléchargement et flashage de l'image BaseRTK
-
-Cette étape permet de déployer les programmes dans le Raspberry Pi par flashage de la carte MicroSD.
-
 * Télécharger l'image de Base RTK sur votre ordinateur (680Mo):
 
- [BaseRTK-rpi-V0_4_0.img.zip](https://github.com/jancelin/rtkbase/releases/download/BaseRTK-rpi-V0.4.0/BaseRTK-rpi-V0_4_0.img.zip)
+ [BaseRTK-rpi-V0_4_1.img.zip](https://github.com/jancelin/rtkbase/releases/download/BaseRTK-rpi-V0.4/BaseRTK-rpi-V0_4_1.img.zip)
 
 
 > Ne pas copier directement l'image BaseRTK-rpi-VX_X_X.img.zip sur la carte micro SD !!!
@@ -31,12 +29,12 @@ Cette étape permet de déployer les programmes dans le Raspberry Pi par flashag
 ![etcher](./images/install/etcher.png)
 
 
-### Personaliser son installation et activation du WIFI
+### Personnaliser son installation et activation du WIFI
 
 * Sortir et remettre la carte SD dans l'ordinateur.
-* Dans votre explorateur de fichier, accéder et ouvrir le fichier **```./HypriotOS/user-data```** 
-* Pour Activer le WIFI, dans le cas ou votre base n'est pas en ethernet:
-   * Remplacer **tout** le contenu du fichier par [celui-ci](https://raw.githubusercontent.com/jancelin/rtkbase/0.3.1/install/wifi-user-data.yml) par un copier coller.
+* Dans votre explorateur de fichier, accéder et ouvrir le fichier **```./HypriotOS/user-data```** avec un editeur de texte.
+* Pour activer le WIFI, dans le cas où votre base n'est pas en ethernet:
+   * Remplacer **tout** le contenu du fichier par [celui-ci](https://raw.githubusercontent.com/jancelin/rtkbase/0.3.1/install/wifi-user-data.yml) par un copier/coller.
    * Modifier les lignes 61 et 62 avec vos paramètres
 
 ```
@@ -44,8 +42,8 @@ Cette étape permet de déployer les programmes dans le Raspberry Pi par flashag
       psk="MotDePasseWifi"
 ```
    * Enregistrer
-> attention à bien conserver les **```"```** et ne pas modifier les espaces avant les paramètres (c'est un .yml une erreur de ce type et le fichier ne fonctionnerai pas au premier démarrage).
-* Vous pouvez également personaliser d'autres paramètres ( mot de passe, nom de session, nom de la connexion,...) afin de garantir la sécurité de votre Base RTK.
+> attention à bien conserver les **```"```** et ne pas modifier les espaces avant les paramètres (c'est un .yml : une erreur de ce type et le fichier ne fonctionnerait pas au premier démarrage).
+* Vous pouvez également personnaliser d'autres paramètres ( mot de passe, nom de session, nom de la connexion,...) afin de garantir la sécurité de votre Base RTK.
 * Retirer la carte SD du PC
 
 ### Assemblage et premier démarrage
@@ -61,16 +59,17 @@ Quand l'une d'elles s'éteint définitivement (attention à ne pas confondre ave
 
 * sur un PC connecté au même réseau, ouvrir un navigateur Internet et accéder à l'interface de la base RTK via l'URL :
 
- http://centipede.local:8000
+ **http://centipede.local:8000**
 
 ![cmd_racine](./images/param/cmd_racine.png)
 
-Passons enfin au [paramétrage](https://github.com/jancelin/rtkbase/wiki/3.-Param%C3%A9trage).
+Passons enfin au [paramétrage](./5_Param%C3%A9trage).
 
 ---------------------------------------------------------------------------------------------------
 
-> ### Option : Connexion en ssh pour les développeurs
+> ### Option : Connexion en ssh pour les développeurs ou le débugage
 
 > ssh centipede@centipede.local
 
 > mdp: centipede
+

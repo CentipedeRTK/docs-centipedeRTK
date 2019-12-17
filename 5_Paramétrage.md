@@ -41,6 +41,8 @@ Les commandes permettent d'effectuer des actions sur la Base RTK, comme vérifie
 
 ## Installation initiale
 
+### update logiciel et paramétrage automatique de l'antenne
+
 > [Avant toute chose vérifier que:](https://github.com/jancelin/rtkbase/wiki/2.-Installation)
 > * l'antenne D910 et bien connectée au module F9P
 > * que le [firmware du module F9P ait été updaté](https://github.com/jancelin/rtkbase/wiki/2.-Installation#update-du-firmware-de-lantenne),
@@ -49,13 +51,15 @@ Les commandes permettent d'effectuer des actions sur la Base RTK, comme vérifie
 > * la carte MicroSD à bien été flashée et est bien insérée dans le raspberry Pi
 > * le Rasberry Pi est sous tension
 
-1. Sur un Pc connecté au même réseau que la Base RTK, ouvrir un navigateur web ([firefox](https://www.mozilla.org/fr/firefox/new/)) et rejoindre l'adresse http://centipede.local:8000
-2. Se placer dans le répertoire **```./rtkbase```**
-3. Mettre à jour le système informatique de la base: **```F2 > Update system```** puis **```F2 > Reboot```**, attendre que le rédemarrage s'effectue (env 1min), appuyer ensuite sur la croix pour sortir.
+* Sur un Pc connecté au même réseau que la Base RTK, ouvrir un navigateur web ([firefox](https://www.mozilla.org/fr/firefox/new/)) et rejoindre l'adresse http://centipede.local:8000
+* Se placer dans le répertoire **```./rtkbase```**
+* Mettre à jour le système informatique de la base: **```F2 > Update system```** puis **```F2 > Reboot```**, appuyer ensuite sur la croix pour sortir. Attendre que le rédemarrage s'effectue (env 1-2min) et frafraichir la page web (F5)
 
 ![cmd_updateS](./images/param/cmd_upds.png)
 
-Cliquez sur **```F2 > "update receiver"```**
+* Cliquez sur **```F2 > "update receiver"```** pour lancer le paramétrage automatique de l'antenne
+
+> Il est possible qu'un message s'affiche plusieur fois, c'est un bug connu, **attendre surtout** la procédure s'enclenchera enssuite.
 
 ![cmd_updater](./images/param/cmd_updr1.png)
 
@@ -64,60 +68,59 @@ Attendre jusqu'à la fin de la précédure et sortir.
 ![cmd_updater](./images/param/cmd_updr2.png)
 ![cmd_updater](./images/param/cmd_updr3.png)
 
-5. Modifier les paramètres de position et le nom de la base dans le fichier **```./rtkbase/settings.conf```**. 
+* Cliquer sur **```F2 > Reboot```** pour redémarrer le Raspberry pi , appuyer ensuite sur la croix (en haut à droite) pour sortir. Attendre que le rédemarrage s'effectue (env 1-2min) et frafraichir la page web (F5) pour accéder nde nouveau à l'interface.
+
+### Personalisation de votre base RTK et positionnement approximatif
+
+**Je rappel que la position de la base RTK est l'élément essentiel pour permettre ensuite un positionnement centimétrique et une répétabilité de ce positionnement, sans ça vous aurez une position centimétrique mais pas au bon endroit !!!**
+
+Dans un premier temps nous allons donner une position approximative de l'antenne (en attendant le calcul précis) et définir son nom. Pour information, les paramètres par défaut de la position de la base est située sur le fort boyard ;) et son nom est BASE.
+
+* éterminer une postion approximative
+    * se rendre dans le dossier **```/rtkbase/rover/single/```** (positionnenement seulement le recepteur GNSS)
+    * cliquer sur **```F2 > RTK Receiver ON```**
+    * Taper **```status 1```**
+    * au bout de quelques secondes vous aurrez une position comme ci dessous
+    * cliquer sur **```ctrl c```** pour reprendre la main
+    * taper **```shutdown```** pour arrêter l'aquisition
+
+![cmd_status](./images/param/cmd_status_single.png)
+
+* Copier la valeur du status **```pos llh single (deg,m) rover: 00.00000000,-0.00000000,00.00```**
+
+> ex: **```46.16480274,-0.94840994,59.254```**
+
+* cliquer sur la croix pour sortir
+* revenir à la racine **```./rtkbase```**
+* Modifier les paramètres de position et le nom de la base dans le fichier **```./rtkbase/settings.conf```**. 
     * cliquer avec le bouton droit de la souris sur le fichier **```settings.conf```** **```> Edit```**
-    * changer **```position='45.999381 -1.213787 50'```** par une position approximative de l'antenne ('lat long height') grâce à l'[option rover de la base](https://github.com/jancelin/rtkbase/wiki/4.-Utilisation#utiliser-ce-montage-pour-faire-un-rover), le calcul précis de la position sera effectué ultérieurement.
+    * changer **```position='45.999381 -1.213787 50'```** par la position approximative de l'antenne récupérée précédement en changeant le **,** par un **espace**
+
+> ex: **```46.16480274,-0.94840994,59.254```** vers **```position='46.16480274 -0.94840994 59.254'```**
+
     * changer **```mnt_name```** ex : **```mnt_name=FOOO```** C'est le nom de votre Base RTK, à vous de choisir 4-5 caractères en Majuscule.
     * faire un **```ctrl s```** pour enregistrer ou cliquer sur la **```X```** en haut à droite pour fermer et acceptez les modifications.
 
 ![cmd_set](./images/param/cmd_set1.png)
 ![cmd_set](./images/param/cmd_set2.png)
 
-6. **```F2 > Reboot```**, attendre que le rédemarrage s'effectue (env 1min)
-7. Aller dans le répertoire **```./rtkbase/data```** pour vérifier que les journaux d'actualités sont en cours d'écriture (refresh), vous pouvez supprimer tous les fichiers sauf les 2 plus récents.
+* Activer la nouvelle configuration: **```F2 > RTCM3 stop```** et **```F2 > RTCM3 start```**
 
+### Gestion des logs pour le calcul précis de la position
 
-8. Attendre 24h entières soit 1 journée complète (de 00:01:00 à 23:59:00), tous les jours à 04h du matin une compression des fichiers du jour précédent est effectuée.
-9. Aller dans le répertoire **```./rtkbase/data```** et télécharger sur votre pc le dernier 0000-00-00-0000-GNSS-1-UBX.zip (clic droit > Download ). Conserver ce fichier afin de garantir et justifier votre calcul de postionnement.
+* Aller dans le répertoire **```./rtkbase/data```** supprimer tous les fichiers.
+* cliquer sur **```F2 > stop LOG```** et **```F2 > start LOG```**
+* vérifier que 2 nouveaux fichiers sont de nouveaux disponibles
+
+* Attendre 24h entières soit 1 journée complète (de 00:01:00 à 23:59:00). Par exemple, si vous démarrez vos logs le 18/12/2019 à 15h30 attendez jusqu'au 20/12/2019 matin.
+
+> tous les jours à 04h du matin une compression des fichiers du jour précédent est effectuée ainsi que leurs conversion en fichier [RINEX](http://rgp.ign.fr/DONNEES/format/rinex.php)
+
+* 24 h après, aller dans le répertoire **```./rtkbase/data```** et télécharger sur votre pc le dernier XXX-XX-XX-000000-GNSS-1-RINEX_XXXX-5s-24h.zip (clic droit > Download ). Archiver ce fichier afin de garantir et justifier votre calcul de postionnement si un administrateur du réseau Centipede le demande.
 
 ![cmd_dl](./images/param/cmd_download.png)
 
-10. Créer un répertoire ```./positionBaseRTK``` **sur votre PC** et décompresser le fichier téléchargé (0000-00-00-00-00-0000-GNSS-1-UBX.zip) dedans.
-11. Utiliser cette [**procédure pour calculer la position**](https://github.com/jancelin/centipede/blob/master/docs/4_positionnement.md#43-r%C3%A9cup%C3%A9rer-les-donn%C3%A9es-du-rgp)
-12. Changer **```position='45.999381 -1.213787 50'```** par la position précise calculée précédemment EX:**```position='46.164793681 -0.948418958 63.0686'```**. Vérifier une dernière fois que **```mnt_name=```** comporte bien le nom de votre base RTK. 
+* Créer un répertoire ```./positionBaseRTK``` **sur votre PC** et décompresser le fichier téléchargé ( XXX-XX-XX-000000-GNSS-1-RINEX_XXXX-5s-24h.zip) dedans.
 
-![cmd_set](./images/param/cmd_set3.png)
+* Passer maintenant au [calcul du positionnement](./6_positionnement.md)
 
-13. Cliquer sur **```F2 > Stop RTCM3```** & **```F2 > StartRTCM3```** pour mettre à jour les modifications.
-
-![cmd_rtcm3](./images/param/cmd_stop_rtcm.png)
-![cmd_rtcm3](./images/param/cmd_start_rtcm.png)
-
-14. Vérifier la connexion :
-    * ser rendre dans le dossier **```/rtkbase/rover/Test_Base2caster```**
-    * clic droit sur le fichier `**```rtkrcv.conf```** > **```Edit```**
-    * Modifier > modifier ligne 106 : **```:@caster.centipede.fr:2101/BASE:```** par la vôtre ex : **```@caster.centipede.fr:2101/FOOO:```**
-    * **```ctrl s```** (enregistrer)
-
-![cmd_rtcm3conf](./images/param/cmd_rtkrcvconf.png)
-
-15. Cliquez sur F2 > **```RTK reveiver ON```**
-
-![cmd_rtcm3](./images/param/cmd_rtkrcv1.png)
-
-16. Tapper **```status 1```** Entrer & Vérifier que vous avez des valeurs. 
-
-ex :
-
-![cmd_rtcm3](./images/param/cmd_rtkrcv2.png) 
-
-Vous pouvez taper **```help```** pour accéder à l'ensemble de commandes possibles ( **```satellite```** **```observ```** **```stream```** ...)
-
-17. Si l'étape précédente est OK alors votre base GNSS RTK fonctionne bien avec le [caster Centipede](http://caster.centipede.fr:2101).
-18. Pour sortir taper: **```shutdown```** puis entrée.
-19. Enfin, envoyer un courriel à contact@centipede.fr pour activer votre base sur la [Carte](https://centipede.fr):
-    * Nom Prénom
-    * Profession
-    * Courriel
-    * Nom du point
-    * Matériel utilisé.

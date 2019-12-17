@@ -1,27 +1,4 @@
-# 3 Installation d'une Base RTK 
 
-Cette étape doit vous permettre de bien anticiper quel matériel acheter en fonction de la zone d'installation de l'antenne RTK et de vos possibilité de raccordement à un réseau internet pour diffuser les corrections produites
-
-## 3.1 Matériel
-
-### 3.1.1 Base RTK L1-L2 (F9P + Raspberry Pi)
-
-Voici la liste des éléments nécessaires à la mise en place d'une base RTK L1-L2:
-
-**Toute la procédure de montage et de paramétrage est [ICI](https://github.com/jancelin/rtkbase/wiki)**
-
-|Matériel|Prix HT|
-|--------|----|
-|[F9P](https://store.drotek.com/rtk-zed-f9p-gnss)|200€|
-|[D910 antenna](https://store.drotek.com/da-910-multiband-gnss-antenna)|100€|
-|[Raspberry Pi 3/4](https://www.kubii.fr/les-cartes-raspberry-pi/2119-raspberry-pi-3-modele-b-1-gb-kubii-713179640259.html)|44€|
-|[Micro SD 16Go](https://www.kubii.fr/carte-sd-et-stockage/2359-carte-microsd-16go-classe-10-u1-sandisk-kubii-619659161347.html)|11€|
-|[Alimentation](https://www.kubii.fr/les-officiels-raspberry-pi-kubii/2593-alimentation-officielle-raspberry-pi-3-eu-micro-usb-51v-25a-kubii-3272496297586.html?search_query=SC0136&results=51)|10€| 
-|[dissipateur de chaleur](https://www.kubii.fr/composants-raspberry-pi/1676-heat-sink-aluminium-pour-raspberry-pi-3-kubii-3272496005099.html)|1€|
-|[cable antenne sma mâle tnc mâle 3m](https://www.mhzshop.com/shop/Cables-et-cordons/Sur-mesure/50-ohms-WiFi-4G/Cordon-sur-mesure-en-coax-faible-perte-WLL-240-2-4-5-GHz-6-1mm.html)|19€|
-|[cable ethernet RJ45](https://www.mhzshop.com/shop/Cables-et-cordons/Cordons-reseau/)|6€|
-|[boite étanche je-200](https://www.mhzshop.com/shop/Accessoires-MHz/Boites-etanches/Boite-etanche-avec-fixation-mat-203x203x65mm-GentleBOX-JE-200.html)|16€|
-|TOTAL|407€|
 
 ## 3.1.2 Base RTK L1 (Emlid)
 
@@ -96,4 +73,88 @@ Le Reach M+ est mis sous tension.
 ![reachview](image/montage/reachview1.png)
 
 > Note : il est également possible de faire ces manipulations via l'application [ReachView](https://play.google.com/store/apps/details?id=com.reachview&hl=fr) (disponible sur Android et iOS) sur une tablette ou un smartphone.
+
+### 4.1 Paramétrage de la position des satellites
+
+Paramétrer le recepteur en postionnnement static 
+
+![reachview](image/positionnement/RTK_setting1.png)
+
+La valeur du *Update rate* conditionne le nombre de mesures par seconde. 
+
+### 4.2 Récupération des données nécessaires
+
+Afin d'utiliser le reach en tant que base fixe, il est indispensable de définir ses coordonnées le plus précisément possible.
+Pour ce faire, nous activons l'enregistrement des positions dans la rubrique logging, en activant l'option *Raw data* (position ON). Les options *Position* et *Base correction* ne doivent pas être activées pour l'instant.
+
+![reachview](image/positionnement/reach_log.png)
+
+L'enregistrement se fait pendant une période minimale de 12h00 consécutives. Les positions enregistrées sont ensuite post-traitées en s'appuyant sur la trame de l'antenne RGP la plus proche (IGN - <a href="http://rgp.ign.fr">En savoir plus</a>), enregistrée sur la même période. Plus l'antenne de référence sera proche, meilleure sera la précision de localisation de notre base.
+
+Plusieurs méthodes de post-traitements existent, et ce sont les conditions locales (éloignement de l'antenne de référence, modèle de l'antenne,  visibilité de la constellation ...) qui aident à déterminer la méthode la plus pertinente.
+
+* Télécharger le fichier UBX (Raw_xxx_UBX.zip) en cliquant sur l'icône.
+> Le téléchargement n'est possible qu'en stoppant préalablement les logs (*Raw Data* sur OFF).
+
+#### 4.4.1 RTKCONV
+
+```
+./rtkconv.exe
+```
+
+* Renseigner la date start et end (la même)
+* Renseigner l'heure : start 00:01:00 et end 23:59:00
+* Interval = 5s
+* Unit= 24 h
+* Charger le fichier UBX
+* Sélectionner le format u-blox
+* Cliquer sur options 
+    * changer la version Rinex (2.11 : celle de la base RGP)
+    * cocher ```Scan Obs Types``` ```Half Cyc Corr``` ```Iono Corr``` ```Time Corr``` ```Leap sec```
+    * Satellite systems: ```GPS``` ```GLO``` ```GAL```
+    * Observation types: ``` C L D S ```
+    * Frequencies: ```L1``` ```L2```
+    * Time Torelance (s): ```0```
+* Cliquer sur Convert
+* En sortie, nous récupérons 6 fichiers :
+    - *.nav*, *.qnav*, *.lnav*, *.gnav*, *.hnav*, *.obs*
+
+
+### 4.6.2 Emlid
+
+Pour connecter la base au caster, se rendre dans la rubrique *Base mode* de l'interface du reach :
+
+![reachview](image/positionnement/reach_cor_output.png)
+
+Modifier les valeurs suivantes (en se basant sur les paramètres enregistrés dans *ntripcaster.conf*)
+
+   - Choisir l'option *NTRIP*
+   - Indiquer l'URL du caster dans le champ *Address* : caster.centipede.fr
+   - Choisir le port 2101
+   - Indiquer le mot de passe: centipede
+   - Choisir/Indiquer le nom du Mount point
+   
+> Votre base est immédiatement opérationnelle mais n'apparaitra sur la [carte](https://centipede.fr/index.php/view/map/?repository=centipede&project=centipede){:target="_blank"} et bénificiera des options du service (mail d'alerte en cas de déconnection, visibilité de sa position et de son état) seulement après validation par l'administrateur.
+
+### 4.5.2 Emlid
+
+ Ces valeurs doivent être enregistrées dans la rubrique *Base mode* de l'interface du Reach.
+ 
+   Dans l'onglet *Base coordinates* (LLH), mettre le *Coordinates input mode* sur Manual puis enregistrer les valeurs de longitude, latitude et hauteur.
+   
+![reachview](image/positionnement/reach_base_coord.png)
+ 
+> Dans nos conditions expérimentales, nous avons obtenu une précision inférieure à 1 centimètre. :+1:
+
+## 4.6 Connexion de la base au caster
+
+Avant de pouvoir utiliser le réseau Centipède il est indispensable de faire une demande de connection au Caster (gratuit et sans obligations). les demandes sont à envoyer à contact@centipede.fr en précisiant:
+
+   - Votre situation géographique (commune)
+   - Nom, prénom
+   - Adresse mail
+   - Type de matériel utilisé pour la base RTK
+   - Proposition de nom de Mout Point ( entre 3 et 5 caractères)
+
+------------------------------------------------------------
 
