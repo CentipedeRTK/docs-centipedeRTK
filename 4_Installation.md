@@ -2,7 +2,7 @@
 
 > Installation avec Raspberry Pi [3](https://www.kubii.fr/les-cartes-raspberry-pi/2119-raspberry-pi-3-modele-b-1-gb-kubii-713179640259.html), [4](https://www.kubii.fr/les-cartes-raspberry-pi/2770-nouveau-raspberry-pi-4-modele-b-1gb-kubii-0765756931168.html) ou [Zero W](https://www.kubii.fr/les-cartes-raspberry-pi/1851-raspberry-pi-zero-w-kubii-3272496006997.html)
 
-### Update du firmware de l'antenne
+### 3.1.1 Update du firmware de l'antenne
 
 Dans un premier temps il est nécessaire de mettre à jour le [firmware](https://fr.wikipedia.org/wiki/Firmware) de votre module F9P
 
@@ -31,7 +31,7 @@ Dans un premier temps il est nécessaire de mettre à jour le [firmware](https:/
 ![etcher](./images/install/etcher.png)
 
 
-### Personnaliser son installation et activation du WIFI
+### 3.1.2 Personnaliser son installation et activation du WIFI
 
 * Sortir et remettre la carte SD dans l'ordinateur.
 * Dans votre explorateur de fichier, accéder et ouvrir le fichier **```./HypriotOS/user-data```** avec un editeur de texte.
@@ -48,7 +48,7 @@ Dans un premier temps il est nécessaire de mettre à jour le [firmware](https:/
 * Vous pouvez également personnaliser d'autres paramètres ( mot de passe, nom de session, nom de la connexion,...) afin de garantir la sécurité de votre Base RTK.
 * Retirer la carte SD du PC
 
-### Assemblage et premier démarrage
+### 3.1.3 Assemblage et premier démarrage
 
 * Brancher un câble ethernet sur votre réseau afin que votre base puisse envoyer ses données au caster Centipede. (sauf si la connexion en WIFI)
 * Connecter en USB le recepteur F9P.

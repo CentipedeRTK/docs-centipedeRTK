@@ -9,7 +9,7 @@ Pour remonter d'un niveau dans l'arborescence, double-cliquer sur **```..```** e
 
 ![cmd_rtkbase](./images/param/cmd_rtkbase.png)
 
-## Données
+## 3.2.1 Données
 
 La Base produit par défaut un flux de données RTCM3 vers le caster Centipede et des fichiers de log (.ubx) permettant entre autre de calculer sa position. Les données sont disponibles dans le dossier **```./rtkbase/data```**
 
@@ -17,7 +17,7 @@ La Base produit par défaut un flux de données RTCM3 vers le caster Centipede e
 
 Les fichiers **```*.ubx```** et **```*.ubx.tag```** sont des fichiers de log en cours d'acquisition (24h), ils vont permettre de calculer la position de la base. Toutes les nuits à 4h du matin les logs **```*.ubx```** et **```*.ubx.tag```** sont compressés en **```*-UBX.zip```** mais également convertis en **```*-RINEX_XX-5s-24h.zip```**.
 
-## Commandes
+## 3.2.3 Commandes
 
 Les commandes permettent d'effectuer des actions sur la Base RTK, comme vérifier si elle fonctionne, arrêter ou démarrer des services, mettre à jour, redémarrer...
 
@@ -39,9 +39,9 @@ Les commandes permettent d'effectuer des actions sur la Base RTK, comme vérifie
     - D - Update receiver :  avant d'aller dans /receiver_cfg. Mise à jour des paramètres de l'antenne GNSS[F9P](https://github.com/jancelin/rtkbase/blob/master/receiver_cfg/U-Blox_ZED-F9P_config_info.txt) pour obtenir une station de base RTK
     - E - Reboot : redémarre le raspberry Pi suite à une mise à jour ou un changement de paramètres (settings.conf)
 
-## Installation initiale
+## 3.3 Installation initiale
 
-### update logiciel et paramétrage automatique de l'antenne
+### 3.3.1 update logiciel et paramétrage automatique de l'antenne
 
 > [Avant toute chose vérifier que:](https://github.com/jancelin/rtkbase/wiki/2.-Installation)
 > * l'antenne D910 et bien connectée au module F9P
@@ -52,7 +52,7 @@ Les commandes permettent d'effectuer des actions sur la Base RTK, comme vérifie
 > * le Rasberry Pi est sous tension
 
 * Sur un Pc connecté au même réseau que la Base RTK, ouvrir un navigateur web ([firefox](https://www.mozilla.org/fr/firefox/new/)) et rejoindre l'adresse http://centipede.local:8000
-## Paramétrage
+## 3.3.2 Paramétrage
 
 * Se placer dans le répertoire **```./rtkbase```**
 * Mettre à jour le système informatique de la base: **```F2 > Update system```** puis **```F2 > Reboot```**, appuyer ensuite sur la croix pour sortir. Attendre que le rédemarrage s'effectue (env 1-2min) et frafraichir la page web (F5)
@@ -72,7 +72,7 @@ Attendre jusqu'à la fin de la précédure et sortir.
 
 * Cliquer sur **```F2 > Reboot```** pour redémarrer le Raspberry pi , appuyer ensuite sur la croix (en haut à droite) pour sortir. Attendre que le rédemarrage s'effectue (env 1-2min) et frafraichir la page web (F5) pour accéder nde nouveau à l'interface.
 
-### Personalisation de votre base RTK et positionnement approximatif
+### 3.3.3 Personalisation de votre base RTK et positionnement approximatif
 
 **Je rappel que la position de la base RTK est l'élément essentiel pour permettre ensuite un positionnement centimétrique et une répétabilité de ce positionnement, sans ça vous aurez une position centimétrique mais pas au bon endroit !!!**
 
@@ -108,7 +108,7 @@ Dans un premier temps nous allons donner une position approximative de l'antenne
 
 * Activer la nouvelle configuration: **```F2 > RTCM3 stop```** et **```F2 > RTCM3 start```**
 
-### Gestion des logs pour le calcul précis de la position
+### 3.3.4 Gestion des logs pour le calcul précis de la position
 
 * Aller dans le répertoire **```./rtkbase/data```** supprimer tous les fichiers.
 * cliquer sur **```F2 > stop LOG```** et **```F2 > start LOG```**

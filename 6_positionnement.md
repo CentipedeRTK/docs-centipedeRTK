@@ -4,7 +4,7 @@ Nous allons déterminer la position de la base le plus précisement possible.
 
 Votre base va servir de référentiel pour vous mais aussi pour toute personne se trouvant dans sa zone d'action. il est primordial que sa postion soit juste et très précise afin de pourvoir tous travailler sur un même référentiel géographique.
 
-### Récupérer les données du RGP
+### 4.1.1 Récupérer les données du RGP
 
 * Aller sur le [site IGN](http://rgp.ign.fr/DONNEES/diffusion){:target="_blank"}
 
@@ -32,11 +32,11 @@ ex: **2019-12-10-000000-GNSS-1.19o** et **lroc3440.19o**
 
 > [Pour en savoir plus sur les formats UBX et Rinex](https://en.wikipedia.org/wiki/RINEX){:target="_blank"}
 
-### Calcul de la correction
+### 4.1.2 Calcul de la correction
 
 Télécharger cette version d'RTKLIB fournie (RTKLib for Reach RS2): [docs.emlid.com](https://docs.emlid.com/reachm-plus/common/tutorials/gps-post-processing/){:target="_blank"}
     
-#### RTKPOST
+#### 4.1.2.1 RTKPOST
 
 Deux méthodes sont proposées:
 
