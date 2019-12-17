@@ -8,7 +8,7 @@
 
 * Enregistrer **```ctrl s```** 
 
-* lancer les commandes **```F2 > Stop Rtcm3```** & **```F2 > Start Rtcm3```** redemarrer le service avec la nouvelle configuration.
+* lancer les commandes **```F2 > Stop Rtcm3```** & **```F2 > Start Rtcm3```** pour redemarrer le service avec la nouvelle configuration.
 
 ![cmd_rtcm3](./images/param/cmd_stop_rtcm.png)
 ![cmd_rtcm3](./images/param/cmd_start_rtcm.png)
