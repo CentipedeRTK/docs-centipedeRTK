@@ -34,6 +34,9 @@
 
 * Si l'étape précédente est OK alors votre base GNSS RTK fonctionne bien avec le [caster Centipede](http://caster.centipede.fr:2101).
 * Pour sortir taper: **```shutdown```** 
+
+## Declaration sur le Réseau Centipede
+
 * Enfin, envoyer un courriel à **contact@centipede.fr** pour activer votre base sur la [Carte](https://centipede.fr):
     * Nom Prénom
     * Profession
