@@ -41,12 +41,13 @@
     * Nom Prénom
     * Profession
     * Courriel
-    * Nom du point
+    * Nom du point (de 3 à 5 caractères en Majuscule)
     * Matériel utilisé.
+    * Un rapport de votre calcul de positionnement (si possible)
 
-Une fois que la base sera déclré par un adminstrateur elle sera visible sur la carte.
+Une fois que votre base sera déclaré par un adminstrateur elle sera visible sur la carte.
 
 Un test de fonctionnement est réalisé toutes les 30 minutes sur l'ensemble du Réseau, si votre base RTK ne renvoie pas de signal au caster (panne électrique, coupure réseau, problème matériel,...) un mail vous sera envoyé automatiquement pour prévenir du disfonctionnement.
 
-Si vous recevez des mails alors que tout fonctionne merci de contacter un adminstrateur à à **contact@centipede.fr** en détaillant votre problème.
+Si vous recevez des mails alors que tout fonctionne merci de contacter un adminstrateur à à **contact@centipede.fr** en détaillant ce problème.
 
