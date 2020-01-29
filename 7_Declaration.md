@@ -43,3 +43,10 @@
     * Courriel
     * Nom du point
     * Matériel utilisé.
+
+Une fois que la base sera déclré par un adminstrateur elle sera visible sur la carte.
+
+Un test de fonctionnement est réalisé toutes les 30 minutes sur l'ensemble du Réseau, si votre base RTK ne renvoie pas de signal au caster (panne électrique, coupure réseau, problème matériel,...) un mail vous sera envoyé automatiquement pour prévenir du disfonctionnement.
+
+Si vous recevez des mails alors que tout fonctionne merci de contacter un adminstrateur à à **contact@centipede.fr** en détaillant votre problème.
+
