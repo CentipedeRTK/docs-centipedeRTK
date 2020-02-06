@@ -43,7 +43,7 @@
     * Courriel
     * Nom du point (de 3 à 5 caractères en Majuscule)
     * Matériel utilisé.
-    * Un rapport de votre calcul de positionnement (si possible)
+    * Un rapport de votre calcul de positionnement ou le .pos fabriqué précedement.
 
 Une fois que votre base sera déclaré par un adminstrateur elle sera visible sur la carte.
 
