@@ -50,7 +50,7 @@ Il est necessaire d'installer un virtual port COM sur windows pour récupérer l
 
 ![com](./images/rover_w/2.PNG)
 
-> Reperez bien ces 3 Ports COM, il est indispensable de bien les identifier pour la suite du paramétrage, dans l'exemple:
+> Reperez bien ces 3 Ports COM, il est indispensable de bien les identifier pour la suite du paramétrage en les adaptants à votre configuration, dans l'exemple:
 > * **COM7**: Entrée USB de l'antenne GNSS
 > * **COM9**: Sortie NMEA de RTKlib
 > * **COM10**: Entrée NMEA pour AgOpenGPS ou de tout autre logiciel de géolocalisation
@@ -58,7 +58,6 @@ Il est necessaire d'installer un virtual port COM sur windows pour récupérer l
 #### RTKLIB
 
 > RTKLIB permet de conventir le Signal de postionnement de l'antenne GNSS grace à une correction RTCM3 (Réseau Centipede par exemple) en un signal de geolocalisation pécise au centimètre si les conditions le permettent.
-P
 
 * Télécharger la dernière version de [RTKlib version Rtkexplorer demo5](http://rtkexplorer.com/downloads/rtklib-code/)
 * le décompresser dans le dossier de son choix.
@@ -67,7 +66,7 @@ P
 ![RTKnavi](./images/rover_w/3.PNG)
 
 * Télécharger ce [fichier de paramétrage](https://github.com/jancelin/docs-centipedeRTK/blob/master/param_rtklib/AgOpenGps.conf)
-* cliquer sur **option ... **
+* cliquer sur **option ...**
 * Cick sur **LOAD** et choisir le dernier [fichier téléchargé](https://github.com/jancelin/docs-centipedeRTK/blob/master/param_rtklib/AgOpenGps.conf) et **OK**
 
 > Permet de paramétrer automatiquement certains paramètres de RTkLIb
