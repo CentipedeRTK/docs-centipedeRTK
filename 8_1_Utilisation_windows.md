@@ -1,4 +1,4 @@
-## 5.2 Utilisation pour [AgOpenGps](http://agopengps.gh-ortner.com/doku.php?id=fr:start) ou logiciels Windows
+## 5.2 Utilisation Rover RTK pour [AgOpenGps](http://agopengps.gh-ortner.com/doku.php?id=fr:start) ou logiciels Windows
 
 **Toujours vérifier la disponibilité d'une base [Centipede](https://centipede.fr) avant de l'utiliser**
 
