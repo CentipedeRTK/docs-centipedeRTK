@@ -36,7 +36,7 @@ Le récepteur F9P n'a pas toujours son [firmware](https://fr.wikipedia.org/wiki/
 
 #### Paramétrage des ports COM et branchement de l'antenne GNSS
 
-Il est necessaire d'installer un virtual port COM sur windows pour récupérer la trame NMEA corrigé sur ce dernier.
+Il est necessaire d'installer un virtual port COM sur windows pour récupérer la trame NMEA corrigée sur ce dernier.
 
 * télécharger [Null-modem emulator](https://sourceforge.net/projects/com0com/files/latest/download) et l'installer.
 
