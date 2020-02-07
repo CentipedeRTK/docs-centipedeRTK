@@ -53,8 +53,25 @@ Il est necessaire d'installer un virtual port COM sur windows pour récupérer l
 > Reperez bien ces 3 Ports COM, il est indispensable de bien les identifier pour la suite du paramétrage, dans l'exemple:
 > * **COM7**: Entrée USB de l'antenne GNSS
 > * **COM9**: Sortie NMEA de RTKlib
-> * **COM10**: Entrée de AgOpenGPS ou de tout autre logiciel de géolocalisation
+> * **COM10**: Entrée NMEA pour AgOpenGPS ou de tout autre logiciel de géolocalisation
 
-#### 
+#### RTKLIB
+
+> RTKLIB permet de conventir le Signal de postionnement de l'antenne GNSS grace à une correction RTCM3 (Réseau Centipede par exemple) en un signal de geolocalisation pécise au centimètre si les conditions le permettent.
+
+
+* Télécharger la dernière version de [RTKlib version Rtkexplorer demo5](http://rtkexplorer.com/downloads/rtklib-code/)
+
+* le décompresser dans le dossier de son choix.
+
+* Ouvrir RTKNavi 
+
+![RTKnavi](./images/rover_w/3.PNG)
+
+* cliquer sur **option ... *** 
+
+* Télécharger ce [fichier de paramétrage](
+
+
 
 
