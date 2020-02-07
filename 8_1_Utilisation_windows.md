@@ -1,4 +1,4 @@
-## 5.2 Utilisation du positionnement centimétrique sur PC Windows 10 & y compris pour [AgOpenGps](http://agopengps.gh-ortner.com/doku.php?id=fr:start)
+## 5.2 Utilisation pour [AgOpenGps](http://agopengps.gh-ortner.com/doku.php?id=fr:start) ou logiciels Windows
 
 **Toujours vérifier la disponibilité d'une base [Centipede](https://centipede.fr) avant de l'utiliser**
 
@@ -58,19 +58,73 @@ Il est necessaire d'installer un virtual port COM sur windows pour récupérer l
 #### RTKLIB
 
 > RTKLIB permet de conventir le Signal de postionnement de l'antenne GNSS grace à une correction RTCM3 (Réseau Centipede par exemple) en un signal de geolocalisation pécise au centimètre si les conditions le permettent.
-
+P
 
 * Télécharger la dernière version de [RTKlib version Rtkexplorer demo5](http://rtkexplorer.com/downloads/rtklib-code/)
-
 * le décompresser dans le dossier de son choix.
-
 * Ouvrir RTKNavi 
 
 ![RTKnavi](./images/rover_w/3.PNG)
 
-* cliquer sur **option ... *** 
+* Télécharger ce [fichier de paramétrage](https://github.com/jancelin/docs-centipedeRTK/blob/master/param_rtklib/AgOpenGps.conf)
+* cliquer sur **option ... **
+* Cick sur **LOAD** et choisir le dernier [fichier téléchargé](https://github.com/jancelin/docs-centipedeRTK/blob/master/param_rtklib/AgOpenGps.conf) et **OK**
 
-* Télécharger ce [fichier de paramétrage](
+> Permet de paramétrer automatiquement certains paramètres de RTkLIb
+
+![RTKnavi](./images/rover_w/a1.PNG)
+
+* Cliquer sur le **I** en haut à droite
+* cliquer sur **ROVER** > **Opt**
+
+![RTKnavi](./images/rover_w/4.PNG)
+
+* Modifier si besoin le Port **COM7** (Entrée USB de l'antenne GNSS) en fonction de votre paramétrage.
+* Télécharger ce [fichier de paramétrage](https://github.com/jancelin/docs-centipedeRTK/blob/master/param_rtklib/ZED-F9P_AgOpenGps.cmd)
+* cliquer sur **ROVER** > **Cmd**
+
+![RTKnavi](./images/rover_w/a1.PNG)
+
+* Cick sur **LOAD** et choisir le dernier [fichier téléchargé](https://github.com/jancelin/docs-centipedeRTK/blob/master/param_rtklib/ZED-F9P_AgOpenGps.cmd)
+* Cocher **Commands at starup**
+
+> Permet de charger des paramètres  injectés au module F9P à chaque démarage
+
+* Ciquer sur **Base Staion** > **Opt**
+* Modifier le Mountpoint en fonction sur la base [Centipede](https://centipede.fr) la plus proche de vous. 
+
+> Si vous n'êtes pas couverts par une Base CentipedeRTK vous pouvez en fabriquer une [ici](https://jancelin.github.io/docs-centipedeRTK/3_Materiels.html).
+
+![RTKnavi](./images/rover_w/5.PNG)
+
+* Cliquer sur le **O** en haut à droite
+* cliquer sur **Solution** > **Option**
+* Modifier si besoin le Port **COM9** (Sortie NMEA de RTKlib) en fonction de votre paramétrage.
+
+![RTKnavi](./images/rover_w/6.PNG)
+
+* Faire **EXIT** et ré-ouvrir RTKNavi pour l'enregistrement des paramètres.
+
+#### Premier démarage
+
+* Clicker sur Start et attendre (de 30s à plusieurs minutes) une position **FIX RTK**
+
+> L'antenne de réception doit biensur être en extérieur dans un milieu dégagé
+
+* Si ce premier test apporte une solution passons à la suite.
+
+### 5.2.4 Connexion à AgOpenGPS
+
+* Ouvrir **AgOpenGPS** > **Paramères de configurations**
+
+* Selectionner le Port GPS (Entrée NMEA pour AgOpenGPS dans l'exemple **COM10**) et la vitesse **115200**
+
+* Ciquer sur **Connexion**
+
+![RTKnavi](./images/rover_w/11.PNG)
+
+
+
 
 
 
