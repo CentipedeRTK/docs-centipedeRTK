@@ -105,6 +105,7 @@ P
 
 * Faire **EXIT** et ré-ouvrir RTKNavi pour l'enregistrement des paramètres.
 
+
 #### Premier démarage
 
 * Clicker sur Start et attendre (de 30s à plusieurs minutes) une position **FIX RTK**
@@ -112,6 +113,8 @@ P
 > L'antenne de réception doit biensur être en extérieur dans un milieu dégagé
 
 * Si ce premier test apporte une solution passons à la suite.
+
+![RTKnavi](./images/rover_w/9.PNG)
 
 ### 5.2.4 Connexion à AgOpenGPS
 
