@@ -42,13 +42,13 @@ Il est necessaire d'installer un virtual port COM sur windows pour récupérer l
 
 * Une fois insatller ouvrir le logiciel et vérifier les port ouvert, dans l'exemple **COM9** reçois les messages et **COM 10** diffuse le massage (NMEA)
 
-![COM](./images/rover_w/1.jpg)
+![com](./images/rover_w/1.PNG)
 
 * Brancher l'antenne + recepteur F9P en USB
 
 * Ouvrir ensuite le [gestionnaire de périphériques](https://support.microsoft.com/fr-fr/help/4026149/windows-open-device-manager) et vérifier les ports COM, dans l'exemple **COM9** et **COM10** comme precedemnet expliqué et **COM7** le recepteur F9P en USB.
 
-![COM](./images/rover_w/2.jpg)
+![com](./images/rover_w/2.PNG)
 
 > Reperez bien ces 3 Ports COM, il est indispensable de bien les identifier pour la suite du paramétrage, dans l'exemple:
 > * **COM7**: Entrée USB de l'antenne GNSS
