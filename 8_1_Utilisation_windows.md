@@ -1,4 +1,4 @@
-P## 5.2 Utilisation sur PC Windows 10 & y compris pour [AgOpenGps](http://agopengps.gh-ortner.com/doku.php?id=fr:start)
+## 5.2 Utilisation du positionnement centimétrique sur PC Windows 10 & y compris pour [AgOpenGps](http://agopengps.gh-ortner.com/doku.php?id=fr:start)
 
 **Toujours vérifier la disponibilité d'une base [Centipede](https://centipede.fr) avant de l'utiliser**
 
@@ -6,7 +6,7 @@ Pour l'utilisation sur le terrain, vous devez disposer d'un matériel compatible
 
 ### 5.2.1 Prérequis
 
-#### MatérielsP
+#### Matériels
 
 * Une tablette ou un PC sous windows 10
 
