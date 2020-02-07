@@ -34,7 +34,7 @@ Le récepteur F9P n'a pas toujours son [firmware](https://fr.wikipedia.org/wiki/
 
 ### 5.2.3 Connexion et paramétrage
 
-#### Paramétrage des ports COM et branchelent de l'antenne GNSS
+#### Paramétrage des ports COM et branchement de l'antenne GNSS
 
 Il est necessaire d'installer un virtual port COM sur windows pour récupérer la trame NMEA corrigé sur ce dernier.
 
