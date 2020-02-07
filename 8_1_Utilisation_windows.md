@@ -40,7 +40,7 @@ Il est necessaire d'installer un virtual port COM sur windows pour récupérer l
 
 * télécharger [Null-modem emulator](https://sourceforge.net/projects/com0com/files/latest/download) et l'installer.
 
-* Une fois insatller ouvrir le logiciel et vérifier les port ouvert, dans l'exemple **COM9** reçois les messages et **COM 10** diffuse le massage (NMEA)
+* Une fois insatller ouvrir le logiciel et vérifier les port ouvert, dans l'exemple **COM9** reçois les messages et **COM 10** diffuse le message (NMEA)
 
 ![com](./images/rover_w/1.PNG)
 
@@ -54,6 +54,7 @@ Il est necessaire d'installer un virtual port COM sur windows pour récupérer l
 > * **COM7**: Entrée USB de l'antenne GNSS
 > * **COM9**: Sortie NMEA de RTKlib
 > * **COM10**: Entrée NMEA pour AgOpenGPS ou de tout autre logiciel de géolocalisation
+> Paramètres permanents. Il n'est pas necessaire de réouvrir ce programe dans lors des prochains démarrages du PC.
 
 #### RTKLIB
 
@@ -85,12 +86,12 @@ Il est necessaire d'installer un virtual port COM sur windows pour récupérer l
 ![RTKnavi](./images/rover_w/a1.PNG)
 
 * Cick sur **LOAD** et choisir le dernier [fichier téléchargé](https://github.com/jancelin/docs-centipedeRTK/blob/master/param_rtklib/ZED-F9P_AgOpenGps.cmd)
-* Cocher **Commands at starup**
+* Cocher **Commands at startup**
 
 > Permet de charger des paramètres  injectés au module F9P à chaque démarage
 
 * Ciquer sur **Base Staion** > **Opt**
-* Modifier le Mountpoint en fonction sur la base [Centipede](https://centipede.fr) la plus proche de vous. 
+* Modifier le Mountpoint sur la base [Centipede](https://centipede.fr) la plus proche de vous. 
 
 > Si vous n'êtes pas couverts par une Base CentipedeRTK vous pouvez en fabriquer une [ici](https://jancelin.github.io/docs-centipedeRTK/3_Materiels.html).
 
@@ -111,7 +112,7 @@ Il est necessaire d'installer un virtual port COM sur windows pour récupérer l
 
 > L'antenne de réception doit biensur être en extérieur dans un milieu dégagé
 
-* Si ce premier test apporte une solution passons à la suite.
+* Si ce premier test apporte une solution en **FIX** passons à la suite.
 
 ![RTKnavi](./images/rover_w/9.PNG)
 
