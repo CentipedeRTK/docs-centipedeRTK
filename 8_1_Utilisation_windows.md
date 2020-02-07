@@ -2,7 +2,7 @@
 
 **Toujours vérifier la disponibilité d'une base [Centipede](https://centipede.fr) avant de l'utiliser**
 
-Pour l'utilisation sur le terrain, vous devez disposer d'un matériel compatible (antenne et récepteur) ainsi que d'une connexion Internet mobile (3-4-5G) pour la réception des trames de correction du caster [Centipede)(https://centipede.fr)
+Pour l'utilisation sur le terrain, vous devez disposer d'un matériel compatible (antenne et récepteur) ainsi que d'une connexion Internet mobile (3-4-5G) pour la réception des trames de correction du caster [Centipede](https://centipede.fr)
 
 ### 5.2.1 Prérequis
 
