@@ -1,5 +1,8 @@
 ## 5.2 Utilisation Rover RTK pour [AgOpenGps](http://agopengps.gh-ortner.com/doku.php?id=fr:start) ou logiciels Windows
 
+> Cette méthode est un exemple, il existe d'autres méthodes pour paramétrer un client Ntrip sous windows avec un récepteur F9P.
+> J'intègre les binaires Ublox plutôt que du NMEA, les paramètres du F9P son injectés à chaque lancement pour adapter facilement la conf en fonction du travail (Rate, Mask,...). Le paramétrage est plus fin afin d'avoir un FIX RTK rapide & stable et répétable.
+
 **Toujours vérifier la disponibilité d'une base [Centipede](https://centipede.fr) avant de l'utiliser**
 
 Pour l'utilisation sur le terrain, vous devez disposer d'un matériel compatible (antenne et récepteur) ainsi que d'une connexion Internet mobile (3-4-5G) pour la réception des trames de correction du caster [Centipede](https://centipede.fr)
