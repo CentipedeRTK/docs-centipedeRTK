@@ -1,62 +1,11 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: CentipedeRTK
-email: contact@centipede.fr
-description: Le Real Time Kinematic collaboratif, ouvert et Open Source
-#baseurl: "/just-the-docs" # the subpath of your site, e.g. /blog
-url: "http://docs.centipede.fr" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: complementterre
-github_username:  jancelin
-logo: "/assets/images/index/centipede_petit2.png"
-
-# Enable or disable the site search
-search_enabled: true
-
-# Set the search token separator for hyphenated-word search:
-search_tokenizer_separator: /[\s/]+/
-
-# Enable or disable heading anchors
-heading_anchors: true
-
-# Aux links for the upper right navigation
-aux_links:
-  "CentipedeRTK GitHub":
-    - "//github.com/jancelin/centipede"
-
-# Footer content appears at the bottom of every page's main content
-footer_content: "Copyright &copy; 2019-2020 Julien Ancelin INRAE. Distributed by an <a href=\"https://github.com/jancelin/centipede/blob/master/LICENSE\">AGPL-3.0 license.</a>"
-
-# Color scheme currently only supports "dark" or nil (default)
-color_scheme: nil
-
-# Build settings
-markdown: kramdown
-#theme: just-the-docs
-remote_theme: pmarsceill/just-the-docs
-plugins:
-  - jekyll-feed
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+ github: [metadata]
+ name: Centipede
+ encoding: UTF-8
+ kramdown:
+   input: GFM
+   hard_wrap: false
+ future: true
+ jailed: false
+ #theme: jekyll-theme-leap-day
+ remote_theme: pmarsceill/just-the-docs
+ gfm_quirks: paragraph_end
