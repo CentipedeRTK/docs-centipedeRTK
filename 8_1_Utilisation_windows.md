@@ -1,4 +1,4 @@
-## 5.2 Utilisation Rover RTK pour [AgOpenGps](http://agopengps.gh-ortner.com/doku.php?id=fr:start) ou logiciels Windows
+## 5.2 Utilisation Rover RTK sur PC Windows 
 
 > Cette méthode est un exemple, il existe d'autres méthodes pour paramétrer un client Ntrip sous windows avec un récepteur F9P.
 > L'objectif est d'intégrer les binaires Ublox plutôt que du NMEA, les paramètres du F9P sont quand à eux injectés à chaque lancement pour adapter facilement la configuration en fonction du travail à effectuer (Rate, Mask,DynModel,...). Le paramétrage est également plus fin afin d'avoir un FIX RTK rapide, stable et répétable.
@@ -119,7 +119,7 @@ Il est necessaire d'installer un virtual port COM sur windows pour récupérer l
 
 ![RTKnavi](./images/rover_w/9.PNG)
 
-### 5.2.4 Connexion à AgOpenGPS
+### 5.2.4 Connexion pour [AgOpenGps](https://agopengps.discourse.group/)
 
 * Ouvrir **AgOpenGPS** > **Paramères de configurations**
 
