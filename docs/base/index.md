@@ -19,6 +19,6 @@ les récepteur peuvent autant servir en Rover qu'en Base.
 
 Les prochaines pages vont vous permettrent de fabriquer votre propre base GNSS RTK.
 
-![logo](/assets/images/index/1.jpg)
+![logo](https://jancelin.github.io/docs-centipedeRTK/assets/images/index/1.jpg)
 
 

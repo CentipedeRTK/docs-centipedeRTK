@@ -25,7 +25,7 @@ Par défaut la Base RTK utilise seulement la connexion filaire ethernet.
 
 http://centipede.local:8000/fs/etc/wpa_supplicant/
 
-![wifi](/assets/images/wifi/wifi_1.png)
+![wifi](https://jancelin.github.io/docs-centipedeRTK/assets/images/wifi/wifi_1.png)
 
 * Modifier le nom du point de connexion wifi et le mot de passe
 
@@ -33,14 +33,14 @@ http://centipede.local:8000/fs/etc/wpa_supplicant/
 
 * Enregistrer
 
-![wifi](/assets/images/wifi/wifi_2.png)
+![wifi](https://jancelin.github.io/docs-centipedeRTK/assets/images/wifi/wifi_2.png)
 
 * Redémarrer et attendre environ 1 min
 
-![wifi](/assets/images/wifi/wifi_3.png)
+![wifi](https://jancelin.github.io/docs-centipedeRTK/assets/images/wifi/wifi_3.png)
 
 * Connecter vous au nouveau WIFI et connecter vous à votre base RTK 
 
 http://centipede.local:8000
 
-![cmd_racine](/assets/images/param/cmd_racine.png)
+![cmd_racine](https://jancelin.github.io/docs-centipedeRTK/assets/images/param/cmd_racine.png)

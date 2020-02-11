@@ -35,7 +35,7 @@ Dans un premier temps il est nécessaire de mettre à jour le [firmware](https:/
 
 * Démarrer le programme Etcher, choisir l'image téléchargée, la carte SD (normalement déjà sélectionnée) et flasher la carte
 
-![etcher](/assets/images/install/etcher.png)
+![etcher](https://jancelin.github.io/docs-centipedeRTK/assets/images/install/etcher.png)
 
 
 ### Personnaliser son installation et activation du WIFI
@@ -70,7 +70,7 @@ Quand l'une d'elles s'éteint définitivement (attention à ne pas confondre ave
 
  **http://centipede.local:8000**
 
-![cmd_racine](/assets/images/param/cmd_racine.png)
+![cmd_racine](https://jancelin.github.io/docs-centipedeRTK/assets/images/param/cmd_racine.png)
 
 Passons enfin au paramétrage
 

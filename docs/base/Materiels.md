@@ -16,7 +16,7 @@ Cette étape doit vous permettre de bien anticiper quel matériel acheter en fon
  * Il peut y avoir une certaine distance entre l'antenne et le reste du matériel ; il est important d'anticiper cette distance (au maximum 3 mètres pour éviter une dégradation du signal) et de commander un câble d'antenne à la bonne longueur.
  * La base RTK doit absolument avoir accès à Internet via **un câble ethernet (RJ45) de préférence** ou par **WIFI** (moins stable) afin de partager ses Corrections sur le réseau Centipede, il est donc nécessaire d'avoir un point accès à Internet non loin de la zone d'implantation et d'adapter la longueur du câble ou la connexion WIFI en fonction des besoins. Si vous ne disposez pas d'une connection à proximité, vous pouvez opter pour [2 boitiers CPL](https://www.boitiercpl.fr/) en ethernet et/ou WIFI.
 
-![sky_view](/assets/images/mat/skyview-obstacles_1.png)
+![sky_view](https://jancelin.github.io/docs-centipedeRTK/assets/images/mat/skyview-obstacles_1.png)
 
 ### Liste
 
@@ -40,7 +40,7 @@ Dans le cas ou vous souhaitez fabriquer une base RTK seulement en WIFI, il est p
 
 ### Assemblage
 
-![composant](/assets/images/mat/composant.jpg)
+![composant](https://jancelin.github.io/docs-centipedeRTK/assets/images/mat/composant.jpg)
 
 
 Dans un premier temps faites un premier montage sans la boite:
@@ -52,14 +52,14 @@ Dans un premier temps faites un premier montage sans la boite:
 
 > Exemple de montage avec un Raspberry Pi zero W 
 
-![composant](/assets/images/wifi/pi_zero.jpg)
+![composant](https://jancelin.github.io/docs-centipedeRTK/assets/images/wifi/pi_zero.jpg)
 
 ### Montage
 
-![composant](/assets/images/mat/boite1.jpg)
-![composant](/assets/images/mat/boite2.jpg)
-![composant](/assets/images/mat/boite3.jpg)
-![composant](/assets/images/mat/boite4.jpg)
+![composant](https://jancelin.github.io/docs-centipedeRTK/assets/images/mat/boite1.jpg)
+![composant](https://jancelin.github.io/docs-centipedeRTK/assets/images/mat/boite2.jpg)
+![composant](https://jancelin.github.io/docs-centipedeRTK/assets/images/mat/boite3.jpg)
+![composant](https://jancelin.github.io/docs-centipedeRTK/assets/images/mat/boite4.jpg)
 
 
 ### Next step

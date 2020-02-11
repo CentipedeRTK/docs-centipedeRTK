@@ -9,18 +9,18 @@ nav_order: 3
 
 La connexion initiale sur http://centipede.local:8000 affiche un explorateur de fichiers, à la racine du système : **```./```**
 
-![cmd_racine](/assets/images/param/cmd_racine.png)
+![cmd_racine](https://jancelin.github.io/docs-centipedeRTK/assets/images/param/cmd_racine.png)
 
 Le dossier **```./rtkbase```** regroupe l'ensemble des programmes et fichiers de données liés à la base RTK. En conséquence, toujours se placer dans le dossier **```/rtkbase```** pour exécuter les commmandes.
 Pour remonter d'un niveau dans l'arborescence, double-cliquer sur **```..```** en haut du dossier.
 
-![cmd_rtkbase](/assets/images/param/cmd_rtkbase.png)
+![cmd_rtkbase](https://jancelin.github.io/docs-centipedeRTK/assets/images/param/cmd_rtkbase.png)
 
 ### Données
 
 La Base produit par défaut un flux de données RTCM3 vers le caster Centipede et des fichiers de log (.ubx) permettant entre autre de calculer sa position. Les données sont disponibles dans le dossier **```./rtkbase/data```**
 
-![cmd_data](/assets/images/param/cmd_data.png)
+![cmd_data](https://jancelin.github.io/docs-centipedeRTK/assets/images/param/cmd_data.png)
 
 Les fichiers **```*.ubx```** et **```*.ubx.tag```** sont des fichiers de log en cours d'acquisition (24h), ils vont permettre de calculer la position de la base. Toutes les nuits à 4h du matin les logs **```*.ubx```** et **```*.ubx.tag```** sont compressés en **```*-UBX.zip```** mais également convertis en **```*-RINEX_XX-5s-24h.zip```**.
 
@@ -28,7 +28,7 @@ Les fichiers **```*.ubx```** et **```*.ubx.tag```** sont des fichiers de log en 
 
 Les commandes permettent d'effectuer des actions sur la Base RTK, comme vérifier si elle fonctionne, arrêter ou démarrer des services, mettre à jour, redémarrer...
 
-![cmd_menu](/assets/images/param/cmd_menu.png)
+![cmd_menu](https://jancelin.github.io/docs-centipedeRTK/assets/images/param/cmd_menu.png)
 
 * cliquez sur F2 
 
@@ -71,18 +71,18 @@ nav_order: 3
 * Se placer dans le répertoire **```./rtkbase```**
 * Mettre à jour le système informatique de la base: **```F2 > Update system```** puis **```F2 > Reboot```**, appuyer ensuite sur la croix pour sortir. Attendre que le rédemarrage s'effectue (env 1-2min) et frafraichir la page web (F5)
 
-![cmd_updateS](/assets/images/param/cmd_upds.png)
+![cmd_updateS](https://jancelin.github.io/docs-centipedeRTK/assets/images/param/cmd_upds.png)
 
 * Cliquez sur **```F2 > "update receiver"```** pour lancer le paramétrage automatique de l'antenne
 
 > Il est possible qu'un message s'affiche plusieur fois, c'est un bug connu, **attendre surtout** la procédure s'enclenchera enssuite.
 
-![cmd_updater](/assets/images/param/cmd_updr1.png)
+![cmd_updater](https://jancelin.github.io/docs-centipedeRTK/assets/images/param/cmd_updr1.png)
 
 Attendre jusqu'à la fin de la précédure et sortir. 
 
-![cmd_updater](/assets/images/param/cmd_updr2.png)
-![cmd_updater](/assets/images/param/cmd_updr3.png)
+![cmd_updater](https://jancelin.github.io/docs-centipedeRTK/assets/images/param/cmd_updr2.png)
+![cmd_updater](https://jancelin.github.io/docs-centipedeRTK/assets/images/param/cmd_updr3.png)
 
 * Cliquer sur **```F2 > Reboot```** pour redémarrer le Raspberry pi , appuyer ensuite sur la croix (en haut à droite) pour sortir. Attendre que le rédemarrage s'effectue (env 1-2min) et frafraichir la page web (F5) pour accéder nde nouveau à l'interface.
 
@@ -100,7 +100,7 @@ Dans un premier temps nous allons donner une position approximative de l'antenne
     * cliquer sur **```ctrl c```** pour reprendre la main
     * taper **```shutdown```** pour arrêter l'aquisition
 
-![cmd_status](/assets/images/param/cmd_status_single.png)
+![cmd_status](https://jancelin.github.io/docs-centipedeRTK/assets/images/param/cmd_status_single.png)
 
 * Copier la valeur du status **```pos llh single (deg,m) rover: 00.00000000,-0.00000000,00.00```**
 
@@ -119,8 +119,8 @@ Dans un premier temps nous allons donner une position approximative de l'antenne
     * changer **```mnt_name```** ex : **```mnt_name=FOOO```** C'est le nom de votre Base RTK, à vous de choisir 4-5 caractères en Majuscule.
     * faire un **```ctrl s```** pour enregistrer ou cliquer sur la **```X```** en haut à droite pour fermer et acceptez les modifications.
 
-![cmd_set](/assets/images/param/cmd_set1.png)
-![cmd_set](/assets/images/param/cmd_set2.png)
+![cmd_set](https://jancelin.github.io/docs-centipedeRTK/assets/images/param/cmd_set1.png)
+![cmd_set](https://jancelin.github.io/docs-centipedeRTK/assets/images/param/cmd_set2.png)
 
 * Activer la nouvelle configuration: **```F2 > RTCM3 stop```** et **```F2 > RTCM3 start```**
 
@@ -136,7 +136,7 @@ Dans un premier temps nous allons donner une position approximative de l'antenne
 
 * 24 h après, aller dans le répertoire **```./rtkbase/data```** et télécharger sur votre pc le dernier XXX-XX-XX-000000-GNSS-1-RINEX_XXXX-5s-24h.zip (clic droit > Download ). Archiver ce fichier afin de garantir et justifier votre calcul de postionnement si un administrateur du réseau Centipede le demande.
 
-![cmd_dl](/assets/images/param/cmd_download.png)
+![cmd_dl](https://jancelin.github.io/docs-centipedeRTK/assets/images/param/cmd_download.png)
 
 * Créer un répertoire ```./positionBaseRTK``` **sur votre PC** et décompresser le fichier téléchargé ( XXX-XX-XX-000000-GNSS-1-RINEX_XXXX-5s-24h.zip) dedans.
 
