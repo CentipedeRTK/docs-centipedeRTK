@@ -9,13 +9,7 @@ nav_order: 2
 
 [AgOpenGps](https://agopengps.discourse.group/)
 
-<figure class="map">
-  <iframe src="https://www.youtube.com/watch?v=Rt7MVSYjw1Y" width="100%" height="700" allowfullscreen="true"> </iframe>
-</figure>
 
+[![tracteur](https://img.youtube.com/vi/VID/0.jpg)](https://www.youtube.com/watch?v=Rt7MVSYjw1Y=VID)
 
-<figure class="map">
-  <iframe src="https://www.youtube.com/watch?v=V1wnTgvJwdw" width="100%" height="700" allowfullscreen="true"> </iframe>
-</figure>
-
-
+[![tracteur](https://img.youtube.com/vi/VID/0.jpg)](https://www.youtube.com/watch?v=V1wnTgvJwdw=VID)
