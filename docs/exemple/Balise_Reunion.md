@@ -5,7 +5,7 @@ parent: Exemples d'utilisations
 nav_order: 1
 ---
 
-# 7.1 Une Balise Open Source pour le monitoring des océans
+# Une Balise Open Source pour le monitoring des océans
 
 <p align="left"><img src="https://jancelin.github.io/docs-centipedeRTK/assets/images/balise_reunion/balise.jpeg" ></p>
 <p align="center"><sup><i>Balise Champagne prototype V0.1 dans le lagon de Saint Leu (la Réunion)</i></sup></p>
