@@ -17,7 +17,7 @@ title: CentipedeRTK
 email: contact@centipede.fr
 description: Le Real Time Kinematic collaboratif, ouvert et Open Source
 #baseurl: "/just-the-docs" # the subpath of your site, e.g. /blog
-url: "https://docs.centipede.fr" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://docs.centipede.fr" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: complementterre
 github_username:  jancelin
 logo: "/assets/images/index/centipede_petit2.png"
