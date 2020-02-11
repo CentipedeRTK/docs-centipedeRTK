@@ -37,7 +37,7 @@ Debian, et Kali.
 
 [ConnectBot](https://play.google.com/store/apps/details?id=org.connectbot&hl=fr) > ConnectBot est un puissant client SSH (Secure Shell) à code source ouvert. Il permet de multiples sessions SSH simultanées, de créer des tunnels et de faire des copier/coller avec d'autres applications.
 
-TCPUART](https://play.google.com/store/apps/details?id=com.hardcodedjoy.tcpuart&gl=FR) > Cette application permet de connecter un adaptateur USB UART (Serial) à un socket TCP, pour envoyer et recevoir des données. Cette application est nécessaire car le Userland n'a pas encore accès au point de montage USB Android.
+[TCPUART](https://play.google.com/store/apps/details?id=com.hardcodedjoy.tcpuart&gl=FR) > Cette application permet de connecter un adaptateur USB UART (Serial) à un socket TCP, pour envoyer et recevoir des données. Cette application est nécessaire car le Userland n'a pas encore accès au point de montage USB Android.
 
 **Applications Android en option**
 

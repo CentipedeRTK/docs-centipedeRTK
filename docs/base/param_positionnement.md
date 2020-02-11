@@ -5,9 +5,7 @@ parent: Fabriquer une base RTK
 nav_order: 5
 ---
 
-## 4.2 Déclaration
-
-### mofifier la valeur de la posiotion dans la base RTK
+## Mofifier la valeur de la posiotion dans la base RTK
 
 * Revenir dans votre interface **http://centipede.local:8000**
 
