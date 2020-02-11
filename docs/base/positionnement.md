@@ -31,7 +31,7 @@ Votre base va servir de référentiel pour vous mais aussi pour toute personne s
 
 * Télécharger l'archive au format ZIP une fois celle-ci disponible.
 
-![ign](/assets/images/positionnement/ign.png)
+![ign](https://jancelin.github.io/docs-centipedeRTK/assets/images/positionnement/ign.png)
 
 * décompresser les archives dans un même répertoire sur votre PC, pour le ZIP IGN vous pouvez ne récupérer que le **XXXXX.19o**
 
@@ -123,7 +123,7 @@ La deuxième avec ces mêmes fichiers + les fichiers de l'IGS récupérés 20 jo
 
  Dans l'exemple ci dessous vous pouvez observer un maillage au mm avec **16527 points situés dans 1,5 cm2**. C'est bien mais nous allons maintenant nettoyer ce nuage de point pour ne garder que les meilleures données et calculer la médiane. Le résultat nous donnera la position définitive de la base. 
  
-![rtkplot](/assets/images/positionnement/rtkplot.png)
+![rtkplot](https://jancelin.github.io/docs-centipedeRTK/assets/images/positionnement/rtkplot.png)
  
 ## QGIS
  
@@ -136,7 +136,7 @@ La deuxième avec ces mêmes fichiers + les fichiers de l'IGS récupérés 20 jo
 * Cliquer sur *couche* > *Ajouter une couche* > *Ajouter une couche de texte délimité*
 * Choisir le fichier .pos puis cliquer sur *Ouvrir*
         
-![qgis](/assets/images/positionnement/calc_base_qgis_1.png)   
+![qgis](https://jancelin.github.io/docs-centipedeRTK/assets/images/positionnement/calc_base_qgis_1.png)   
 
 * Dans *Format de fichier*, sélectionner le délimiteur personalisés *Espace*
 * Fixer la valeur du *Nombre de lignes à ignorer* à 26 ou 27 (en fonction du fichier .pos généré)
@@ -146,7 +146,7 @@ La deuxième avec ces mêmes fichiers + les fichiers de l'IGS récupérés 20 jo
 * Sélectionner le SRC 4326 (WGS 84)
 * Cliquer sur *OK*
    
-![qgis](/assets/images/positionnement/calc_base_qgis_2.png)
+![qgis](https://jancelin.github.io/docs-centipedeRTK/assets/images/positionnement/calc_base_qgis_2.png)
 
 ### Filtrer les données .pos
 
@@ -164,7 +164,7 @@ On retrouve ici les points affichés dans RTKPLOT, appliqons maintenant des filt
   ```
 * Cliquer sur *OK*
    
-![qgis](/assets/images/positionnement/calc_base_qgis_3.png)
+![qgis](https://jancelin.github.io/docs-centipedeRTK/assets/images/positionnement/calc_base_qgis_3.png)
 
 ### Statistiques sur les données filtrés
 
