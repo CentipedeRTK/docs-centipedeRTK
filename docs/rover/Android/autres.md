@@ -13,7 +13,7 @@ Diverses applications permettent d'avoir du RTK sur smartphone en utilisant du N
 * Pensez à [updater](https://drotek.gitbook.io/rtk-f9p-positioning-solutions/tutorials/updating-zed-f9p-firmware) votre récepteur avant toute chose
 
 
-* [Ce fichier](assets/param_rtklib/F9P_NMEA.cmd) est à injecter dans le F9P avec cette [méthode](https://drotek.gitbook.io/rtk-f9p-positioning-solutions/how-to-get-started/zed-f9p-rtk-configuration)
+* [Ce fichier](https://github.com/jancelin/docs-centipedeRTK/blob/master/assets/param_rtklib/F9P_NMEA.cmd) est à injecter dans le F9P avec cette [méthode](https://drotek.gitbook.io/rtk-f9p-positioning-solutions/how-to-get-started/zed-f9p-rtk-configuration)
 
 > beaucoup d'autre fichiers de configuration sont disponibles sur le net !!!
 
