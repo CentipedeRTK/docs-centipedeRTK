@@ -8,7 +8,7 @@ nav_order: 5
 ## 5.2 Utilisation Rover RTK sur PC Windows 
 
 > Cette méthode est un exemple, il existe d'autres méthodes pour paramétrer un client Ntrip sous windows avec un récepteur F9P.
-> L'objectif est d'intégrer les binaires Ublox plutôt que du NMEA, les paramètres du F9P sont quand à eux injectés à chaque lancement pour adapter facilement la configuration en fonction du travail à effectuer (Rate, Mask,DynModel,...). Le paramétrage est également plus fin afin d'avoir un FIX RTK rapide, stable et répétable.
+> L'objectif est d'intégrer les binaires Ublox plutôt que du NMEA, les paramètres du F9P sont quant à eux injectés à chaque lancement pour adapter facilement la configuration en fonction du travail à effectuer (Rate, Mask,DynModel,...). Le paramétrage est également plus fin afin d'avoir un FIX RTK rapide, stable et répétable.
 
 **Toujours vérifier la disponibilité d'une base [Centipede](https://centipede.fr) avant de l'utiliser**
 
@@ -24,13 +24,13 @@ Pour l'utilisation sur le terrain, vous devez disposer d'un matériel compatible
 
 * Un [recepteur F9P](https://store.drotek.com/rtk-zed-f9p-gnss) ou bien la même chose chez un autre fournisseur [recepteur F9P](https://www.ardusimple.com/product/survey-gnss-multiband-antenna/), d'autres modèles existent....
 
-* Un [câble antenne sma mâle tnc mâle 3m (longueur à adapter en fonction de votre projet)](https://www.mhzshop.com/shop/Cables-et-cordons/Sur-mesure/50-ohms-WiFi-4G/Cordon-sur-mesure-en-coax-faible-perte-WLL-240-2-4-5-GHz-6-1mm.html) dans le cas ou celui fournis avec l'antenne ne correspond pas à votre besoin.
+* Un [câble antenne sma mâle tnc mâle 3m (longueur à adapter en fonction de votre projet)](https://www.mhzshop.com/shop/Cables-et-cordons/Sur-mesure/50-ohms-WiFi-4G/Cordon-sur-mesure-en-coax-faible-perte-WLL-240-2-4-5-GHz-6-1mm.html) dans le cas où celui fourni avec l'antenne ne correspond pas à votre besoin.
 
 #### Logiciels
 
 * Le logiciel [Null-modem emulator](https://sourceforge.net/projects/com0com/files/latest/download) > création d'un virtual port COM pour utiliser les trames de géolocalisation NMEA corrigées en RTK comme un récepteur externe pour votre logiciel de collecte de donnée ou d'autoguidage.
 
-* La dernière version du logiciel [RTKlib version Rtkexplorer demo5](http://rtkexplorer.com/downloads/rtklib-code/) > Calcul du postionnement en [RTK](https://fr.wikipedia.org/wiki/Cin%C3%A9matique_temps_r%C3%A9el) par [RTKlib](http://www.rtklib.com/) pour une géolocalisation centimétrique.
+* La dernière version du logiciel [RTKlib version Rtkexplorer demo5](http://rtkexplorer.com/downloads/rtklib-code/) > Calcul du positionnement en [RTK](https://fr.wikipedia.org/wiki/Cin%C3%A9matique_temps_r%C3%A9el) par [RTKlib](http://www.rtklib.com/) pour une géolocalisation centimétrique.
 
 ### 5.2.2 Update du récepteur F9P
 
@@ -44,29 +44,29 @@ Le récepteur F9P n'a pas toujours son [firmware](https://fr.wikipedia.org/wiki/
 
 #### Paramétrage des ports COM et branchement de l'antenne GNSS
 
-Il est necessaire d'installer un virtual port COM sur windows pour récupérer la trame NMEA corrigée sur ce dernier.
+Il est nécessaire d'installer un virtual port COM sur windows pour récupérer la trame NMEA corrigée sur ce dernier.
 
 * télécharger [Null-modem emulator](https://sourceforge.net/projects/com0com/files/latest/download) et l'installer.
 
-* Une fois insatller ouvrir le logiciel et vérifier les port ouvert, dans l'exemple **COM9** reçois les messages et **COM 10** diffuse le message (NMEA)
+* Une fois insatllé ouvrir le logiciel et vérifier les ports ouverts, dans l'exemple **COM9** reçois les messages et **COM 10** diffuse le message (NMEA)
 
 ![com](https://jancelin.github.io/docs-centipedeRTK/assets/images/rover_w/1.PNG)
 
-* Brancher l'antenne + recepteur F9P en USB
+* Brancher l'antenne + récepteur F9P en USB
 
-* Ouvrir ensuite le [gestionnaire de périphériques](https://support.microsoft.com/fr-fr/help/4026149/windows-open-device-manager) et vérifier les ports COM, dans l'exemple **COM9** et **COM10** comme precedemnet expliqué et **COM7** le recepteur F9P en USB.
+* Ouvrir ensuite le [gestionnaire de périphériques](https://support.microsoft.com/fr-fr/help/4026149/windows-open-device-manager) et vérifier les ports COM, dans l'exemple **COM9** et **COM10** comme précedemment expliqué et **COM7** le récepteur F9P en USB.
 
 ![com](https://jancelin.github.io/docs-centipedeRTK/assets/images/rover_w/2.PNG)
 
-> Reperez bien ces 3 Ports COM, il est indispensable de bien les identifier pour la suite du paramétrage en les adaptants à votre configuration, dans l'exemple:
+> Repérez bien ces 3 Ports COM, il est indispensable de bien les identifier pour la suite du paramétrage en les adaptant à votre configuration, dans l'exemple:
 > * **COM7**: Entrée USB de l'antenne GNSS
 > * **COM9**: Sortie NMEA de RTKlib
 > * **COM10**: Entrée NMEA pour AgOpenGPS ou de tout autre logiciel de géolocalisation
-> Paramètres permanents. Il n'est pas necessaire de réouvrir ce programe dans lors des prochains démarrages du PC.
+> Paramètres permanents. Il n'est pas nécessaire de réouvrir ce programme dans lors des prochains démarrages du PC.
 
 #### RTKLIB
 
-> RTKLIB permet de conventir le Signal de postionnement de l'antenne GNSS grace à une correction RTCM3 (Réseau Centipede par exemple) en un signal de geolocalisation pécise au centimètre si les conditions le permettent.
+> RTKLIB permet de convertir le Signal de postionnement de l'antenne GNSS grâce à une correction RTCM3 (Réseau Centipede par exemple) en un signal de géolocalisation précise au centimètre si les conditions le permettent.
 
 * Télécharger la dernière version de [RTKlib version Rtkexplorer demo5](http://rtkexplorer.com/downloads/rtklib-code/)
 * le décompresser dans le dossier de son choix.
@@ -96,7 +96,7 @@ Il est necessaire d'installer un virtual port COM sur windows pour récupérer l
 * Cick sur **LOAD** et choisir le dernier [fichier téléchargé](/assets/param_rtklib/ZED-F9P.cmd)
 * Cocher **Commands at startup**
 
-> Permet de charger des paramètres  injectés au module F9P à chaque démarage
+> Permet de charger des paramètres  injectés au module F9P à chaque démarrage
 
 * Ciquer sur **Base Staion** > **Opt**
 * Modifier le Mountpoint sur la base [Centipede](https://centipede.fr) la plus proche de vous. 
@@ -114,11 +114,11 @@ Il est necessaire d'installer un virtual port COM sur windows pour récupérer l
 * Faire **EXIT** et ré-ouvrir RTKNavi pour l'enregistrement des paramètres.
 
 
-#### Premier démarage
+#### Premier démarrage
 
-* Clicker sur Start et attendre (de 30s à plusieurs minutes) une position **FIX RTK**
+* Cliquer sur Start et attendre (de 30s à plusieurs minutes) une position **FIX RTK**
 
-> L'antenne de réception doit biensur être en extérieur dans un milieu dégagé
+> L'antenne de réception doit bien-sûr être en extérieur dans un milieu dégagé
 
 * Si ce premier test apporte une solution en **FIX** passons à la suite.
 
@@ -126,9 +126,9 @@ Il est necessaire d'installer un virtual port COM sur windows pour récupérer l
 
 ### 5.2.4 Connexion pour [AgOpenGps](https://agopengps.discourse.group/)
 
-* Ouvrir **AgOpenGPS** > **Paramères de configurations**
+* Ouvrir **AgOpenGPS** > **Paramètres de configurations**
 
-* Selectionner le Port GPS (Entrée NMEA pour AgOpenGPS dans l'exemple **COM10**) et la vitesse **115200**
+* Sélectionner le Port GPS (Entrée NMEA pour AgOpenGPS dans l'exemple **COM10**) et la vitesse **115200**
 
 * Ciquer sur **Connexion**
 

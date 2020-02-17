@@ -42,12 +42,12 @@ Cette limite garantie la précision de la mesure car le matériel utilisé n'est
 
 ### Test d'acquisition en RTK
 
-Différents tests de validations de la position de la bases ont été effectués via des post-traitements et des mesures par rapport aux stations de référence du RGP. Des tests sur terre ont également été réalisés pour vérifier la fiabilité du signal de correction et sa disponibilité en continu.
+Différents tests de validations de la position de la base ont été effectués via des post-traitements et des mesures par rapport aux stations de référence du RGP. Des tests sur terre ont également été réalisés pour vérifier la fiabilité du signal de correction et sa disponibilité en continu.
 
 <p align="center"><img src="https://jancelin.github.io/docs-centipedeRTK/assets/images/balise_reunion/survey_centipede2.png"></p>
 <p align="center"><sup><i>Test d'acquisition de points en RTK</i></sup></p>
 
-Malgré le positionnement obligatoire de la base RTK nomé "DODO" proche des reliefs du bord de côte de L'île de la Réunion, la disponibilité du signal de correction est rapide, fiable et continu avec une bonne disponibilité satellitaire.
+Malgré le positionnement obligatoire de la base RTK nommé "DODO" proche des reliefs du bord de côte de L'île de la Réunion, la disponibilité du signal de correction est rapide, fiable et continu avec une bonne disponibilité satellitaire.
 
 <p align="center"><img src="https://jancelin.github.io/docs-centipedeRTK/assets/images/balise_reunion/dodo_rtk.jpg" ></p>
 <p align="center"><sup><i>Test haute précision (40cm X 40cm) d'acquisition de points en RTK</i></sup></p>
@@ -87,17 +87,17 @@ Le prototype version 0.1 est nommé "Champagne". Il est composé d'un module [Em
 
 ### Test de la balise
 
-Ce premier test est réalisé dans le [lagon de Saint-Leu](https://www.openstreetmap.org/search?query=saint%20leu#map=13/-21.1817/55.3431) (la Réunion) avant son positionnement permanent au large du lagon. Cette situation à permis de vérifier facilement et régulièrement son bon fonctionnement et d'effectuer d'autres tests à proximité pendant l'acquisition avec d'autres matériels terrestre.
+Ce premier test est réalisé dans le [lagon de Saint-Leu](https://www.openstreetmap.org/search?query=saint%20leu#map=13/-21.1817/55.3431) (la Réunion) avant son positionnement permanent au large du lagon. Cette situation a permis de vérifier facilement et régulièrement son bon fonctionnement et d'effectuer d'autres tests à proximité pendant l'acquisition avec d'autres matériels terrestres.
 
 <p align="center"><img src="https://jancelin.github.io/docs-centipedeRTK/assets/images/balise_reunion/champagne_misealeau.jpeg"></p>
 <p align="center"><sup><i>Mise à l'eau de la balise pour test d'étanchéité</i></sup></p>
 
-Une première phase de test à été effectué pour vérifier la bonne étanchéité de la balise, son effet "bouchon", sa capacité à récupérer la trame RTCM3 de la base Centipede "DODO" et avoir un "fix" RTK (Q=1 et AR ratio=999.99) constant afin de garantir une donnée de qualité (+- 2 cm en altimétrie par rapport à nos estimations en mesures statiques).
+Une première phase de test a été effectué pour vérifier la bonne étanchéité de la balise, son effet "bouchon", sa capacité à récupérer la trame RTCM3 de la base Centipede "DODO" et avoir un "fix" RTK (Q=1 et AR ratio=999.99) constant afin de garantir une donnée de qualité (+- 2 cm en altimétrie par rapport à nos estimations en mesures statiques).
 
 <p align="center"><img src="https://jancelin.github.io/docs-centipedeRTK/assets/images/balise_reunion/champagne_aleau.jpeg" ></p>
 <p align="center"><sup><i>Installation de la balise dans le lagon</i></sup></p>
 
-La balise à été fixée à un poteau délimitant l'une des [réserves marine de la Réunion](http://www.reservemarinereunion.fr/images/reserve/pdf/decrets/carte_rnmr_.pdf) et a acquis des données de longitude, latitude, altimétrie, fix GNSS, variabilité de la position et qualité du signal pendant une durée de quatre heures.
+La balise a été fixée à un poteau délimitant l'une des [réserves marine de la Réunion](http://www.reservemarinereunion.fr/images/reserve/pdf/decrets/carte_rnmr_.pdf) et a acquis des données de longitude, latitude, altimétrie, fix GNSS, variabilité de la position et qualité du signal pendant une durée de quatre heures.
 
 <p align="center"><img src="https://jancelin.github.io/docs-centipedeRTK/assets/images/balise_reunion/champagne_bouchon.jpeg"></p>
 <p align="center"><sup><i>Acquisition continue en RTK de sa position: longitude, latitude et altimétrie</i></sup></p>
@@ -105,12 +105,12 @@ La balise à été fixée à un poteau délimitant l'une des [réserves marine d
 
 ### Premiers résultats
 
-La fréquence d'acquisition des données était de 5 HZ soit 5 données par secondes, cela représente une quantité non négligeable en terme de volume, mais permet de récupérer l’essentiel et le fiable suite au nettoyage des données aberrantes sur cette courte période de mesure. La balise n'a pas montré de perte de données ni de coupure pendant l'acquisition et les composants n'ont pas eux d'effets de surchauffe malgré l'ambiance confinée de la balise étanche et la bulle de protection transparente (effet de serre). Un effet "bouchon" à été observé visuellement lié à la morphologie du matériel, l'effet clapot, le courant et le vent présent dans le lagon. L'analyse des données à montrée une influence de son point d'accroche avec un effet de masque (poteau en métal influençant la réception des données satellitaires) quand la balise se trouvais à proximité. Néanmoins, il semble à première vue que les données collectées concordent et permettent de monitorer les cycles et périodes des mouvements des océans.
+La fréquence d'acquisition des données était de 5 HZ soit 5 données par secondes, cela représente une quantité non négligeable en termes de volume, mais permet de récupérer l’essentiel et le fiable suite au nettoyage des données aberrantes sur cette courte période de mesure. La balise n'a pas montré de perte de données ni de coupure pendant l'acquisition et les composants n'ont pas eu d'effets de surchauffe malgré l'ambiance confinée de la balise étanche et la bulle de protection transparente (effet de serre). Un effet "bouchon" a été observé visuellement lié à la morphologie du matériel, l'effet clapot, le courant et le vent présent dans le lagon. L'analyse des données a montré une influence de son point d'accroche avec un effet de masque (poteau en métal influençant la réception des données satellitaires) quand la balise se trouvait à proximité. Néanmoins, il semble à première vue que les données collectées concordent et permettent de monitorer les cycles et périodes des mouvements des océans.
 
 <p align="center"><img src="https://jancelin.github.io/docs-centipedeRTK/assets/images/balise_reunion/champagne_graph.jpeg"></p>
 <p align="center"><sup><i>Premier Traitement sous Rstat des données collectées</i></sup></p>
 
 ### Enfin...
 
-Il nous reste maintenant à lancer des tests en continue et en autonomie énergétique. Il sera nécessaire également de se comparer aux autres bouées du même type (matériel SONEL par exemple) afin de d'estimer la variabilité de nos mesures, de déterminer si ce mode de collecte de données est fiable et à quelle niveau de précision nos données converges.
+Il nous reste maintenant à lancer des tests en continue et en autonomie énergétique. Il sera nécessaire également de se comparer aux autres bouées du même type (matériel SONEL par exemple) afin d'estimer la variabilité de nos mesures, de déterminer si ce mode de collecte de données est fiable et à quel niveau de précision nos données converges.
 

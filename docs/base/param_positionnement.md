@@ -5,15 +5,15 @@ parent: Fabriquer une base RTK
 nav_order: 5
 ---
 
-## Mofifier la valeur de la posiotion dans la base RTK
+## Modifier la valeur de la position dans la base RTK
 
 * Revenir dans votre interface **http://centipede.local:8000**
 
-* Modifier **```settings.conf```** et changer la position par celle calculée précedement **```position='46.164793681 -0.948418958 63.0686'```**
+* Modifier **```settings.conf```** et changer la position par celle calculée précédemment **```position='46.164793681 -0.948418958 63.0686'```**
 
 * Enregistrer **```ctrl s```** 
 
-* lancer les commandes **```F2 > Stop Rtcm3```** & **```F2 > Start Rtcm3```** pour redemarrer le service avec la nouvelle configuration.
+* lancer les commandes **```F2 > Stop Rtcm3```** & **```F2 > Start Rtcm3```** pour redémarrer le service avec la nouvelle configuration.
 
 ![cmd_rtcm3](https://jancelin.github.io/docs-centipedeRTK/assets/images/cmd_stop_rtcm.png)
 ![cmd_rtcm3](https://jancelin.github.io/docs-centipedeRTK/assets/images/cmd_start_rtcm.png)
@@ -22,7 +22,7 @@ nav_order: 5
 
 * Se rendre dans le dossier **```/rtkbase/rover/Test_Base2caster```**
 * Clic droit sur le fichier `**```rtkrcv.conf```** > **```Edit```**
-* Modifier la ligne 106 : **```:@caster.centipede.fr:2101/BASE:```** en changeant le nom de la base par la votre (attention concerver le **:** à la fin : **```@caster.centipede.fr:2101/FOOO:```**
+* Modifier la ligne 106 : **```:@caster.centipede.fr:2101/BASE:```** en changeant le nom de la base par la vôtre (attention conserver le **:** à la fin : **```@caster.centipede.fr:2101/FOOO:```**
 * Enregistrer **```ctrl s```**
 
 ![cmd_rtcm3conf](https://jancelin.github.io/docs-centipedeRTK/assets/images/cmd_rtkrcvconf.png)

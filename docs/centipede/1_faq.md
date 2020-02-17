@@ -25,7 +25,7 @@ nav_order: 3
 
 > Oui et Non.
 
-> Si l'on investi dans un système dit "propriétaire" il faudra investir entre 2500 et 15000 € par antenne.
+> Si l'on investit dans un système dit "propriétaire" il faudra investir entre 2500 et 15000 € par antenne.
 
 > Dans le cas du projet Centipède, l'idée est d'utiliser des composants génériques et des logiciels open sources, les coûts sont donc divisés par 10, soit environ 250-300 € pour un matériel (sans options), qu'il soit Base ou Rover.
 
@@ -33,9 +33,9 @@ nav_order: 3
 
 * ### Pourquoi avec mon smartphone ou mon récepteur GNSS je n'ai pas cette précision ?
 
-> Parce que les conditions physiques en altitude (ionosphère et troposphère, bref au dessus de notre tête) se modifient en continue ( vent solaire, humidité,...) et "tordent" le signal emis par les satellites, se qui entraine des biais lors des mesures (env 3-5m).
+> Parce que les conditions physiques en altitude (ionosphère et troposphère, bref au-dessus de notre tête) se modifient en continu ( vent solaire, humidité,...) et "tordent" le signal émis par les satellites, ce qui entraîne des biais lors des mesures (env 3-5m).
 
-> Parce que votre smartphone ne permet pas de récolter l'ensemble des données satellites de navigations de corrections différnetiel. Pas assez de précision...
+> Parce que votre smartphone ne permet pas de récolter l'ensemble des données satellites de navigations de corrections différnetielles. Pas assez de précision...
 
 > Vous avez besoin de matériels compatibles avec les trames L1 ou L1-L2 des satellites
 
@@ -49,9 +49,9 @@ nav_order: 3
 
 * ### Ca émet des ondes ?
 
-> Non, nous recevons en permanence les ondes des satellites positionnés autour de la terre, nous ne faisons que les capter.
+> Non, nous recevons en permanence les ondes des satellites positionnées autour de la terre, nous ne faisons que les capter.
 
-> Oui et Non, Les données de correction de la base sont envoyés à un serveur par WIFI ou câble ethernet(via une "box internet personnel" ou un réseau entreprise).
+> Oui et Non, les données de correction de la base sont envoyées à un serveur par WIFI ou câble ethernet (via une "box internet personnel" ou un réseau entreprise).
 
 > Oui, nous utilisons la technologie mobile (3-4G ) pour récupérer cette donnée sur le terrain. Nous consommons donc une émission.
 

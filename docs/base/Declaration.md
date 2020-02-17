@@ -13,13 +13,13 @@ nav_order: 6
     * Courriel
     * Nom du point (de 3 à 5 caractères en Majuscule)
     * Matériels utilisés.
-    * Un rapport de votre calcul de positionnement ou le .pos fabriqué précedement.
+    * Un rapport de votre calcul de positionnement ou le .pos fabriqué précédemment.
 
-Une fois que votre base sera déclaré par un adminstrateur elle sera visible sur la carte.
+Une fois que votre base sera déclarée par un administrateur elle sera visible sur la carte.
 
-Un test de fonctionnement est réalisé toutes les 30 minutes sur l'ensemble du Réseau, si votre base RTK ne renvoie pas de signal au caster (panne électrique, coupure réseau, problème matériel,...) un mail vous sera envoyé automatiquement pour prévenir du disfonctionnement.
+Un test de fonctionnement est réalisé toutes les 30 minutes sur l'ensemble du Réseau, si votre base RTK ne renvoie pas de signal au caster (panne électrique, coupure réseau, problème matériel,...) un mail vous sera envoyé automatiquement pour prévenir du dysfonctionnement.
 
-Si vous recevez des mails alors que tout fonctionne merci de contacter un adminstrateur à à **contact@centipede.fr** en détaillant ce problème.
+Si vous recevez des mails alors que tout fonctionne merci de contacter un administrateur à à **contact@centipede.fr** en détaillant ce problème.
 
 
 <figure class="map">

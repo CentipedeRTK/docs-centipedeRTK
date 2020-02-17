@@ -9,9 +9,9 @@ has_children: true
 
 ## Le Real Time Kinematic collaboratif, ouvert et Open Source  🛰️ 🛰️ 🛰️
 
-Le projet Centipède vise à créer un réseau de bases RTK ouvertes et disponibles pour toute personne se trouvant dans la zone de couverture. Le réseau, est étendu par des institus, des particuliers, des privés comme les agriculteurs ou d'autres partenaires publics.
+Le projet Centipède vise à créer un réseau de bases RTK ouvertes et disponibles pour toute personne se trouvant dans la zone de couverture. Le réseau, est étendu par des instituts, des particuliers, des privés comme les agriculteurs ou d'autres partenaires publics.
 
-Le projet est développé pour offrir à terme une couverture totale du territoire. Il est soutenu financièrement par l'INRAE côté serveur et mutualise dès son démarrage en 2019 les moyens entre des instituts, des structures publiques, des agrculteurs et des entreprises privés. La carte ci-dessous vous permet de voir l'étendu actuel du réseau.
+Le projet est développé pour offrir à terme une couverture totale du territoire. Il est soutenu financièrement par l'INRAE côté serveur et mutualise dès son démarrage en 2019 les moyens entre des instituts, des structures publiques, des agriculteurs et des entreprises privés. La carte ci-dessous vous permet de voir l'étendu actuel du réseau.
 
 <figure class="map">
   <iframe src="https://centipede.fr/index.php/view/map/?repository=centipede&project=centipede" width="100%" height="700" allowfullscreen="true"> </iframe>

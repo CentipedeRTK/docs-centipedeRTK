@@ -7,7 +7,7 @@ nav_order: 6
 
 ### Exemple avec une antenne [Emlid](https://store.emlid.com/) + smartphone android
 
-* connecter votre Emlid Reach en wifi au Hotspot de votre téléphone (partage de copnnection wifi)
+* connecter votre Emlid Reach en wifi au Hotspot de votre téléphone (partage de connection wifi)
 
 ![emlid](https://jancelin.github.io/docs-centipedeRTK/assets/images/utilis/emlid_1.png)
 

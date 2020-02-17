@@ -7,9 +7,9 @@ nav_order: 4
 
 ## Calcul de la position de la base
 
-Nous allons déterminer la position de la base le plus précisement possible.
+Nous allons déterminer la position de la base le plus précisément possible.
 
-Votre base va servir de référentiel pour vous mais aussi pour toute personne se trouvant dans sa zone d'action. il est primordial que sa postion soit juste et très précise afin de pourvoir tous travailler sur un même référentiel géographique.
+Votre base va servir de référentiel pour vous mais aussi pour toute personne se trouvant dans sa zone d'action. Il est primordial que sa position soit juste et très précise afin de pourvoir tous travailler sur un même référentiel géographique.
 
 ### Récupérer les données du RGP
 
@@ -19,9 +19,9 @@ Votre base va servir de référentiel pour vous mais aussi pour toute personne s
 
 * Sélectionner TU (Temps Universel)
 
-* Changer la date de début et de fin en fonction du nom de votre fichier téléchargé précédement, et changer l'heure ```0 à 24h```
+* Changer la date de début et de fin en fonction du nom de votre fichier téléchargé précédemment, et changer l'heure ```0 à 24h```
 
-* Sélectionner GLONASS en plus de GPS (+ GALILEO si la base concernée le propose). Si un système sélectionné (ex : GALILEO) n'est pas disponible sur la base concernée, celle-ci disparait de l'interface cartographique et n'est donc plus sélectionnable. Dans ce cas, décocher le système de positionnement.
+* Sélectionner GLONASS en plus de GPS (+ GALILEO si la base concernée le propose). Si un système sélectionné (ex : GALILEO) n'est pas disponible sur la base concernée, celle-ci disparaît de l'interface cartographique et n'est donc plus sélectionnable. Dans ce cas, décocher le système de positionnement.
 
 * Échantillonnage : 5 sec.
 
@@ -138,10 +138,10 @@ La deuxième avec ces mêmes fichiers + les fichiers de l'IGS récupérés 20 jo
         
 ![qgis](https://jancelin.github.io/docs-centipedeRTK/assets/images/positionnement/calc_base_qgis_1.png)   
 
-* Dans *Format de fichier*, sélectionner le délimiteur personalisés *Espace*
+* Dans *Format de fichier*, sélectionner le délimiteur personnalisé *Espace*
 * Fixer la valeur du *Nombre de lignes à ignorer* à 26 ou 27 (en fonction du fichier .pos généré)
 * Cocher "Ignorer les champs vides"
-* Cocher l'option "Entêtes en 1ere ligne", "Déteceter les types de champs" et "Ignorer les champs vides"
+* Cocher l'option "Entêtes en 1ere ligne", "Détecter les types de champs" et "Ignorer les champs vides"
 * Définition de la géométrie: cocher "Point"
 * Sélectionner le SRC 4326 (WGS 84)
 * Cliquer sur *OK*
@@ -150,7 +150,7 @@ La deuxième avec ces mêmes fichiers + les fichiers de l'IGS récupérés 20 jo
 
 ### Filtrer les données .pos
 
-On retrouve ici les points affichés dans RTKPLOT, appliqons maintenant des filtres pour ne garder que les meilleures valeurs.
+On retrouve ici les points affichés dans RTKPLOT, appliquons maintenant des filtres pour ne garder que les meilleures valeurs.
 
 * Faire un clic droit sur la couche puis *Filtrer...*
 * Ajouter le filtre suivant :
@@ -171,10 +171,10 @@ On retrouve ici les points affichés dans RTKPLOT, appliqons maintenant des filt
 * Cliquer sur *vecteur* > *Outils d'analyse* > *Statistiques basiques pour les champs*
    * **Couche vectorielle en entrée** : choisir le fichier pos
    * **Champ pour le calcul des statistiques** : latitude
-   * Cliquer sur **Executer**
+   * Cliquer sur **Exécuter**
    * Récupérer la valeur **MEDIAN** ex: 46.164793681
 * Répéter l'opération avec les champs longitude et hauteur.
-* Voici un exemple de coordonnées récupérés **```46.164793681 -0.948418958 63.0686```**, ceci est la postion précise de votre base RTK
+* Voici un exemple de coordonnées récupérées **```46.164793681 -0.948418958 63.0686```**, ceci est la position précise de votre base RTK
 
 * Passons à la finalisation du Paramétrage du positionnement  de votre Base RTK
 

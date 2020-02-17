@@ -8,9 +8,9 @@ nav_order: 2
 
 ## Bluetooth
 
-Le Bluetooth est utile en mode Rover comme antenne mobile pour de l'acquision ou du positionnnement sur le terrain. le partage de la trame NMEA via bluetooth permet par exemple d'avoir une précison centimétrique sur votre smartphone et donc sur l'ensemble des applications utilisants la géolocalisation.
+Le Bluetooth est utile en mode Rover comme antenne mobile pour de l'acquisition ou du positionnement sur le terrain. le partage de la trame NMEA via bluetooth permet par exemple d'avoir une précision centimétrique sur votre smartphone et donc sur l'ensemble des applications utilisant la géolocalisation.
 
-**Au préalable, avoir installé et paramètré sur android [cette appli](https://play.google.com/store/apps/details?id=googoo.android.btgps&hl=fr)**
+**Au préalable, avoir installé et paramétré sur android [cette appli](https://play.google.com/store/apps/details?id=googoo.android.btgps&hl=fr)**
 
 * Activer le [mode développeur](https://www.androidpit.fr/comment-activer-options-developpeurs-android) sur votre smartphone ou tablette android
 * Activer la position fictive sur Android (paramètres > system > options pour développeurs) pour l'application installé 
@@ -20,7 +20,7 @@ Le Bluetooth est utile en mode Rover comme antenne mobile pour de l'acquision ou
 * connecter votre smartphone ou un PC sur le point Bluetooth **```centipede```**
 * démarrer l'appli Bluetooth GPS sur votre smartphone, cocher **```Enable Mock GPS Provider```** (partage de position) et **```START```
 * cliquer sur **```F2 > RTK Receiver ON```** sur l'interface de la base RTK.
-> vous pouver taper **```stream```** **```status 1```** ou **```solution 1```** pour verifier la connexion et ou le positionnement son correct
+> vous pouvez taper **```stream```** **```status 1```** ou **```solution 1```** pour vérifier la connexion et ou le positionnement sont corrects.
 
 
 
