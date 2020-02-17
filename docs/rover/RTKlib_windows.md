@@ -74,9 +74,9 @@ Il est nécessaire d'installer un virtual port COM sur windows pour récupérer 
 
 ![RTKnavi](https://jancelin.github.io/docs-centipedeRTK/assets/images/rover_w/3.PNG)
 
-* Télécharger ce [fichier de paramétrage](/assets/param_rtklib/RTKlib_windows.conf)
+* Télécharger ce [fichier de paramétrage](https://github.com/jancelin/docs-centipedeRTK/blob/master/assets/param_rtklib/RTKlib_windows.conf)
 * cliquer sur **option ...**
-* Cick sur **LOAD** et choisir le dernier [fichier téléchargé](/assets/param_rtklib/RTKlib_windows.conf) et **OK**
+* Cick sur **LOAD** et choisir le dernier [fichier téléchargé](https://github.com/jancelin/docs-centipedeRTK/blob/master/assets/param_rtklib/RTKlib_windows.conf) et **OK**
 
 > Permet de paramétrer automatiquement certains paramètres de RTkLIb
 
@@ -88,12 +88,12 @@ Il est nécessaire d'installer un virtual port COM sur windows pour récupérer 
 ![RTKnavi](https://jancelin.github.io/docs-centipedeRTK/assets/images/rover_w/4.PNG)
 
 * Modifier si besoin le Port **COM7** (Entrée USB de l'antenne GNSS) en fonction de votre paramétrage.
-* Télécharger ce [fichier de paramétrage](/assets/param_rtklib/ZED-F9P.cmd)
+* Télécharger ce [fichier de paramétrage](https://github.com/jancelin/docs-centipedeRTK/blob/master/assets/param_rtklib/ZED-F9P.cmd)
 * cliquer sur **ROVER** > **Cmd**
 
 ![RTKnavi](https://jancelin.github.io/docs-centipedeRTK/assets/images/rover_w/a1.PNG)
 
-* Cick sur **LOAD** et choisir le dernier [fichier téléchargé](/assets/param_rtklib/ZED-F9P.cmd)
+* Cick sur **LOAD** et choisir le dernier [fichier téléchargé](https://github.com/jancelin/docs-centipedeRTK/blob/master/assets/param_rtklib/ZED-F9P.cmd)
 * Cocher **Commands at startup**
 
 > Permet de charger des paramètres  injectés au module F9P à chaque démarrage
