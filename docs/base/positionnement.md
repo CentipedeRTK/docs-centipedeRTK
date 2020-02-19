@@ -155,11 +155,11 @@ On retrouve ici les points affichés dans RTKPLOT, appliquons maintenant des fil
 * Faire un clic droit sur la couche puis *Filtrer...*
 * Ajouter le filtre suivant :
 
-```
- "Q"=1 AND
+"Q"=1 AND
 "ratio" >= 50 AND
-"sdeu(m)" = 0 AND
-"sdne(m)" = 0
+"sdn(m)" <= 0.0002 AND
+"sde(m)" <= 0.0002 AND
+"sdu(m)" <= 0.0003
 
   ```
 * Cliquer sur *OK*
