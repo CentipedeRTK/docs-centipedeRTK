@@ -66,7 +66,7 @@ La deuxième avec ces mêmes fichiers + les fichiers de l'IGS récupérés 20 jo
   - __Setting1__
        - *Positionning Mode* : Static 
        - *Fréquencies* : L1 + L2 
-       - *Elevation mask* : valeur configurée pour le reach (15° par défaut) 
+       - *Elevation mask* : 15° par défaut
        - *Ionosphere correction* : Broadcast  
             > Correction de l'effet de l'ionosphère. Il est conseillé d'utiliser le mode Broadcast (modèle utilisé en temps réel et disponible dans le fichier de navigation) ou Dual-Frequancy (si des mesures ou plusieurs fréquences sont disponibles).
             > Source : IGN cf. http://cours-fad-public.ensg.eu/mod/imscp/view.php?id=450 (Analyse GNSS sous RTKLIB, Fenêtre options)
