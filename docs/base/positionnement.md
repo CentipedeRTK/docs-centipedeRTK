@@ -57,8 +57,8 @@ La deuxième avec ces mêmes fichiers + les fichiers de l'IGS récupérés 20 jo
 ./rtkpost.exe
 ```
 
-* Charger le fichier *.obs* de votre base (Rover)
-* Charger le fichier *.19o* de la base de référence IGN (Base Station)
+* Charger le fichier *.19o* de votre base (Rover)
+* Charger le fichier *.20o* de la base de référence IGN (Base Station)
 * Charger les fichiers *.nav*, *.hnav*, *.gnav*, *.lnav* de votre base
 * Le fichier résultat aura une extension *.pos* c'est lui qui par traitement statistique donnera la position de la base RTK.
 * Renseigner le *Time Start* et le *Time End* : la date de votre fichier RINEX + l'heure de début **```00:01:00```**, pareil pour le end date + **```23:59:00```**
