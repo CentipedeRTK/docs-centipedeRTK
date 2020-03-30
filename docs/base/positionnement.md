@@ -41,7 +41,7 @@ ex: **2019-12-10-000000-GNSS-1.19o** et **lroc3440.19o**
 
 ### Calcul de la correction
 
-Télécharger cette version d'RTKLIB fournie (RTKLib for Reach RS2): [docs.emlid.com](https://docs.emlid.com/reachm-plus/common/tutorials/gps-post-processing/){:target="_blank"}
+Télécharger cette version d'RTKLIB fournie par rtkexplorer: [RTKLIB Code: Windows executables](http://rtkexplorer.com/downloads/rtklib-code/){:target="_blank"}
     
 #### RTKPOST
 
@@ -73,7 +73,7 @@ La deuxième avec ces mêmes fichiers + les fichiers de l'IGS récupérés 20 jo
        - *Troposphere correction* : Saastamoinen 
             > Correction de l'effet de la troposphère. Il est conseillé d'utiliser le mode Saastamoinen en positionnement utilisant des mesures de code ou en positionnement relatif avec de courtes lignes de base et de faibles dénivelés ; dans le cas contraire, on peut utiliser les modes Estimate ZTD ou Estimate ZTD+Grad (estimation de paramètres troposphériques).
             > Source : IGN cf. http://cours-fad-public.ensg.eu/mod/imscp/view.php?id=450 (Analyse GNSS sous RTKLIB, Fenêtre options)
-       - Cocher Galileo si votre fichier RGP en contient.
+       - Cocher Galileo si votre fichier RGP en contient, sinon cocher juste GPS et GLONASS.
        - Pour les autres options, laisser les valeurs par défaut 
   - __Setting2__
        - *Integer Ambiguity Res* : Fix and Hold
