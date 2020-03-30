@@ -11,6 +11,10 @@ Nous allons déterminer la position de la base le plus précisément possible.
 
 Votre base va servir de référentiel pour vous mais aussi pour toute personne se trouvant dans sa zone d'action. Il est primordial que sa position soit juste et très précise afin de pourvoir tous travailler sur un même référentiel géographique.
 
+Il est conseillé de refaire ce calcul sur plusieurs jour afin de vérifier que la position est bien bonne.
+
+Il est également indispensable de refaire ce calcul tout les 6 mois afin de vérifier la position de la base.
+
 ### Récupérer les données du RGP
 
 * Aller sur le [site IGN](http://rgp.ign.fr/DONNEES/diffusion){:target="_blank"}
@@ -57,11 +61,11 @@ La deuxième avec ces mêmes fichiers + les fichiers de l'IGS récupérés 20 jo
 ./rtkpost.exe
 ```
 
+* Renseigner le **Time Start** et le **Time End** : la date de votre fichier RINEX + l'heure de début **```00:01:00```**, pareil pour le end date + **```23:59:00```**. Cocher **Interval** et renseigner **5s**. **Unit** reste decoché
 * Charger le fichier *.19o* de votre base (Rover)
 * Charger le fichier *.20o* de la base de référence IGN (Base Station)
-* Charger les fichiers *.nav*, *.hnav*, *.gnav*, *.lnav* de votre base
+* Charger les fichiers *.nav* de votre base
 * Le fichier résultat aura une extension *.pos* c'est lui qui par traitement statistique donnera la position de la base RTK.
-* Renseigner le *Time Start* et le *Time End* : la date de votre fichier RINEX + l'heure de début **```00:01:00```**, pareil pour le end date + **```23:59:00```**
 * Cliquer sur __options__
   - __Setting1__
        - *Positionning Mode* : Static 
