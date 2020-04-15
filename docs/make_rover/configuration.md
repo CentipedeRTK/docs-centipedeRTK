@@ -33,11 +33,11 @@ Le module bluetooth HC-05 est livré avec des configurations d'origine (surtout 
 
 Connecter l'arduino au HC-05 avec les câbles: 
 
-– VCC sur le 5Volt
-– GND au GND
-– RX pin 11
-– TX pin 10
-– EN pin 9
+* VCC sur le 5Volt
+* GND au GND
+* RX pin 11
+* TX pin 10
+* EN pin 9
 
 ![arduino](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/arduino.jpg)
 
