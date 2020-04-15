@@ -76,13 +76,14 @@ void loop()
 ```
 
 * Appuyer sur la fêche en haut à gauche pour téléverser le programme dans l'arduino.
-* Ouvrir le **Moniteur Serie** et régler les 2 menus déroulant sur:
+* Ouvrir le **Moniteur Serie** et régler les 2 menus déroulants sur:
   * **les deux, NL et CR**
   * **9600 baud**
-* Ecrire la commande **AT** et appuyer sur la touche entrée: le moniteur doit renvoyer **OK**, cela veux dire que vous communiquer bien avec le module Bluetooth.
-* Ecrire la commande **AT+UART=38400,1,0** et appuyer sur la touche entrée: le moniteur doit renvoyer **OK**, la vitesse de transmition à été modifié.
-* Ecrire la commande **AT+NAME=CENTIPEDE** et appuyer sur la touche entrée: le moniteur doit renvoyer **OK**, le nom du module à été changé, vous pouvez vérifier sur un smartphone en faisant un scan bluetooth.
-* Le code PIN du bluetooth est par defaut **1234**, vous pouvez le modifier en renrant la commande **AT+PSWD=5678** + entrée par exemple.
+* Ecrire la commande **AT** et appuyer sur **envoyer**: le moniteur doit renvoyer **OK**, cela veux dire que vous communiquer bien avec le module Bluetooth.
+* Ecrire la commande **AT+UART=38400,1,0** et appuyer sur **envoyer**: le moniteur doit renvoyer **OK**, la vitesse de transmition à été modifié.
+* Ecrire la commande **AT+NAME=CENTIPEDE** et appuyer sur **envoyer**: le moniteur doit renvoyer **OK**, le nom du module à été changé, vous pouvez vérifier sur un smartphone en faisant un scan bluetooth.
+
+Le code PIN du bluetooth est par defaut **1234**, vous pouvez le modifier en renrant la commande **AT+PSWD=5678** + **envoyer** par exemple.
 
 > plus d'informations sur les options de paramétrage [ici](https://retroetgeek.com/geek/arduino/configuration-du-module-hc-05-pour-arduino/)
 
