@@ -20,9 +20,25 @@ Dans un premier temps il est nécessaire de mettre à jour le [firmware](https:/
 
 L'injection permet de paramétrer le récepteur F9P pour une utilisation avec RTKlib et plus particulièrement RTKGPS+ sur Android
 
-Utiliser cette procédure mais avec ce [fichier de configuration](https://raw.githubusercontent.com/jancelin/docs-centipedeRTK/master/assets/param_rtklib/F9P_rover_usb_uart1-34500b_5hz.txt)
+* Télécharger ce [fichier de configuration](https://raw.githubusercontent.com/jancelin/docs-centipedeRTK/master/assets/param_rtklib/F9P_rover_usb_uart1-34500b_5hz.txt)
+* Ouvrir U-Center
 
->**Attention les données de sorties sur l'USB et l'UART1 sont du RAWX et SFRBX pas du NMEA**
+![arduino](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/u-center.gif)
+
+* Ouvrir la connection avec le recepteur F9P
+* Aller dans **Tools** > **Receiver Configuration**
+* Selectionner u-blox Generation 9
+* Selectionner le fichier Précédement téléchargé
+* Cliquer sur **Transfert file -> GNSS** et attendre que le transfert se réalise
+
+Par mesure de prudence et s'assurer que le fichier est bien enregistré:
+* Cliquer sur **View** > **Configuration View**
+* Cliquer sur **CFG (Configaration)**
+* Cliquer sur **Send**
+* Cliquer sur **Disconnect**
+* Débrancher le récepteur
+
+>Attention les données sortantes du recepteur sur l'USB et l'UART1 sont au format RAWX et SFRBX, pas en NMEA. 
 
 ## Configuration du module Bluetooth HC-05
 
