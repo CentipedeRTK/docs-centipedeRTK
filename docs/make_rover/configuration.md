@@ -31,7 +31,7 @@ L'injection permet de paramétrer le récepteur F9P pour une utilisation avec RT
 * Selectionner le fichier Précédement téléchargé
 * Cliquer sur **Transfert file -> GNSS** et attendre que le transfert se réalise
 
-Par mesure de prudence et s'assurer que le fichier est bien enregistré:
+Par mesure de prudence et s'assurer que la configuration est bien enregistrée:
 * Cliquer sur **View** > **Configuration View**
 * Cliquer sur **CFG (Configaration)**
 * Cliquer sur **Send**
