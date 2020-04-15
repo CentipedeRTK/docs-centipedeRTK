@@ -2,7 +2,7 @@
 layout: default
 title: Configuration du matériel
 parent: Fabriquer un Rover RTK
-nav_order: 1
+nav_order: 2
 has_children: true
 ---
 
