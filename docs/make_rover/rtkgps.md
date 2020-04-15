@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Assemblage
-parent: Application RTKGPS+ Android
+title: Application RTKGPS+ Android
+parent: Fabriquer un Rover RTK
 nav_order: 4
 has_children: true
 ---
