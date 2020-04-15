@@ -12,7 +12,7 @@ L'application RTKGPS+ est un projet OpenSource initié par [illarionov](https://
 
 Cette application utilise RTKLIB Navi qui permet une géolocalisation en RTK avec un récepteur U-blox et une connexion à une Base RTK Centipede ou autre via le réseau 3-4G.
 
-L'application permet de faire une Localisation fictive, c'est à dire de ne plus utiliser le recepteur interne du smartphone mais celui de l'antenne RTK, et donc d'utiliser tout service de géolocalisation avec une précision centimétrique. Elle à la capacité de s'exécuter en tâche de fond et d'avaoir une interface assez simple.
+L'application permet de faire une Localisation fictive, c'est à dire de ne plus utiliser le recepteur interne du smartphone mais celui de l'antenne RTK, et donc d'utiliser tout service de géolocalisation avec une précision centimétrique. Elle à la capacité de s'exécuter en tâche de fond et d'avoir une interface assez simple.
 
 L'application permet egalement de loguer dans un fichier .pos ([cf doc Qgis](https://jancelin.github.io/docs-centipedeRTK/docs/base/positionnement.html#qgis)) les données de géolocalisation.
 
@@ -24,7 +24,7 @@ L'application permet egalement de loguer dans un fichier .pos ([cf doc Qgis](htt
   * Désactiver le GPS interne
   * Activer le mode développeur: Aller dans Paramètres > À Propos > Cliquer 7 fois d'affilé sur "Numéro de build"
   * Activer le "Mock location" : Aller dans Paramètres > Options développeur (menu apparu suite à l'action précédente) > Selectionner l'application de position fictive > RTKGPS+
-* Desactiver la localisation par wifi pour éviter les saut de localisation.
+* Desactiver la localisation par wifi pour éviter les sauts de localisation.
   * Sécurité et localisation > Localisation > Options avancées > Précision de la localisation > Utiliser que le GPS interne
 
 ## Paramétrage
@@ -32,7 +32,7 @@ L'application permet egalement de loguer dans un fichier .pos ([cf doc Qgis](htt
 * Ouvrir RTKGPS+
 * Autoriser l'appli pour le stockage de données et la localisation
 * Cliquer sur le logo RTKGPS+ pour accéder aux paramètres
-* Cliquer sur Options de traitement
+* Cliquer sur **Options de traitement**
   * Dans **Système GNSS** rajouter **Beidou**
   * Dans **Paramètres de résolution des ambiguités** appliquer cette configuration:
 
@@ -44,7 +44,7 @@ L'application permet egalement de loguer dans un fichier .pos ([cf doc Qgis](htt
 
 * Cliquer sur **Flux d'entrée**
   * Cliquer sur **Entrée Mobile**
-    * Penser à avoir démarré votre antenne GNSS
+    * Penser à avoir alimenté votre antenne GNSS
     * **Type** > **Bluetooth**
     * **Paramètres de flux** > Autoriser l'activation du Bluetooth > Paramètres système bluetooth > Associer nouvel app. > CENTIPEDE > rentrer le code PIN (1234) > revenir sur RTKGPS+
     * Vérifier que votre récépeteur est maintenant écris dans **Périphérique Bluetooth**
