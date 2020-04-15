@@ -48,7 +48,7 @@ L'application permet egalement de loguer dans un fichier .pos ([cf doc Qgis](htt
     * **Type** > **Bluetooth**
     * **Paramètres de flux** > Autoriser l'activation du Bluetooth > Paramètres système bluetooth > Associer nouvel app. > CENTIPEDE > rentrer le code PIN (1234) > revenir sur RTKGPS+
     * Vérifier que votre récépeteur est maintenant écris dans **Périphérique Bluetooth**
-    * **Format** > **u-blox Lea-*T**
+    * **Format** > **u-blox Lea-T**
   * Cliquer sur **Entrée Base** (normalement près paramétré Centipede)
     * **Paramètres de flux...** > **Point de montage NTRIP** > modifier avec la base RTK la plus proche de vous (https://centipede.fr)
 
