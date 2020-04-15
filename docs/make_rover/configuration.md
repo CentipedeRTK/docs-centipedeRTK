@@ -20,10 +20,9 @@ Dans un premier temps il est nécessaire de mettre à jour le [firmware](https:/
 
 L'injection permet de paramétrer le récepteur F9P pour une utilisation avec RTKlib et plus particulièrement RTKGPS+ sur Android
 
-**Attention les données de sorties sur l'USB et l'UART1 sont du RAWX et SFRBX pas du NMEA**
-
 Utiliser cette procédure mais avec ce [fichier de configuration](https://raw.githubusercontent.com/jancelin/docs-centipedeRTK/master/assets/param_rtklib/F9P_rover_usb_uart1-34500b_5hz.txt)
 
+>**Attention les données de sorties sur l'USB et l'UART1 sont du RAWX et SFRBX pas du NMEA**
 
 ## Configuration du module Bluetooth HC-05
 
