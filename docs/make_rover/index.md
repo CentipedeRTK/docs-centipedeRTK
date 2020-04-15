@@ -11,8 +11,8 @@ Les besoins en geolocation centimétrique sont vastes et variés en fonction de 
 
 Dans cette section nous allons voir comment fabriquer son propre rover RTK Bluetooth ou USB en connection à un smartphone/tablette Android.
 
-![RTKnavi](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/rover_1.jpg)
+![RTKrover](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/rover_1.jpg)
 
-![RTKnavi](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/rover_pied_2.jpg)
+![RTKrover](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/rover_pied_2.jpg)
 
 

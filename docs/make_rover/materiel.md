@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Matériels et configuration
+title: Matériels
 parent: Fabriquer un Rover RTK
 nav_order: 1
 has_children: true
@@ -35,25 +35,35 @@ Pour le paramétrage du module bluetooth HC-05 il est necessaire de disposer d'u
 
 **Pour l'utilisation vous aurez besoin d'un smartphone ou d'une tablette Android.**
 
-## Configuration
 
-### F9P
 
-#### Update du firmware de l'antenne
 
-Dans un premier temps il est nécessaire de mettre à jour le [firmware](https://fr.wikipedia.org/wiki/Firmware) de votre module F9P
 
-* [Install U-center](https://www.u-blox.com/en/product/u-center) (Windows seulement)
 
-* [Update F9P firmware](https://drotek.gitbook.io/rtk-f9p-positioning-solutions/tutorials/updating-zed-f9p-firmware)
 
-#### Injection des paramètres
 
-L'injection permet de paramétrer le récepteur F9P pour une utilisation avec RTKlib et plus particulièrement RTKGPS+ sur Android
 
-**Attention les données de sorties sur l'USB et l'UART1 sont du RAWX et SFRBX pas du NMEA**
 
-Utiliser cette procédure mais avec ce [fichier de configuration](https://raw.githubusercontent.com/jancelin/docs-centipedeRTK/master/assets/param_rtklib/F9P_rover_usb_uart1-34500b_5hz.txt)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
