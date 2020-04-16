@@ -8,9 +8,11 @@ has_children: true
 
 ## Application RTKGPS+ Android
 
-L'application RTKGPS+ est un projet OpenSource initié par [illarionov](https://github.com/illarionov/RtkGps) il y a 7 ans, repris par [eltorio](https://github.com/eltorio/RtkGps) il y a 2 ans et que [j'ai patché](https://github.com/jancelin/RtkGps/releases) pour fonctionner avec les modules F9P.
+![rtkgps+](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/rtkgps_logo.png)
 
-Cette application utilise RTKLIB Navi qui permet une géolocalisation en RTK avec un récepteur U-blox et une connexion à une Base RTK Centipede ou autre via le réseau 3-4G.
+L'application RTKGPS+ est un projet OpenSource initié par [illarionov](https://github.com/illarionov/RtkGps) il y a 7 ans, repris par [eltorio](https://github.com/eltorio/RtkGps) il y a 2 ans et que [j'ai modifié](https://github.com/jancelin/RtkGps/releases) pour fonctionner avec les modules F9P.
+
+Cette application utilise RTKLIB Navi qui permet une géolocalisation RTK avec un récepteur U-blox (ou autre) et une connexion à une Base RTK Centipede (ou autre) via le réseau 3-4G.
 
 L'application permet de faire une Localisation fictive, c'est à dire de ne plus utiliser le recepteur interne du smartphone mais celui de l'antenne RTK, et donc d'utiliser tout service de géolocalisation avec une précision centimétrique. Elle à la capacité de s'exécuter en tâche de fond et d'avoir une interface assez simple.
 

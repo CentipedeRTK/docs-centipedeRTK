@@ -15,4 +15,4 @@ Dans cette section nous allons voir comment fabriquer son propre rover RTK Bluet
 
 ![RTKrover](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/rover_pied_2.jpg)
 
-
+![RTKrover](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/rtkgps_input.gif)
