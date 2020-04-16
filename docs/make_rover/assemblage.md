@@ -31,7 +31,7 @@ Vérifier que l'on a bien tout les composants:
 
 ### Assemblage
 
-J'utilise du scratch 3M Dual-lock pour l'assemblage des composants, cela permet un démontage et une adapatation du positionnement en fonction des besoins. 
+J'utilise du scratch 3M Dual-lock pour l'assemblage des composants, cela permet un démontage et une adaptation aisés du positionnement en fonction des besoins. 
 
 >J'espère vous proposer une boite étanche à imprimer prochainement.
 
