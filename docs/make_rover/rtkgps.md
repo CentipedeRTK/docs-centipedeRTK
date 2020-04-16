@@ -68,7 +68,7 @@ L'application permet egalement de loguer dans un fichier .pos ([cf doc Qgis](htt
 
 * Vous pouvez maintenant utiliser vos application habituelle la géolocalisation est effectué par votre antenne externe et RTKGPS+.
 
-
+![RTKrover](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/rtkgps_input.gif)
 
 
 
