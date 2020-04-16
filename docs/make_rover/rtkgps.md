@@ -14,7 +14,7 @@ L'application RTKGPS+ est un projet OpenSource initié par [illarionov](https://
 
 Cette application utilise RTKLIB Navi qui permet une géolocalisation RTK avec un récepteur U-blox (ou autre) et une connexion à une Base RTK Centipede (ou autre) via le réseau 3-4G.
 
-L'application permet de faire une Localisation fictive, c'est à dire de ne plus utiliser le recepteur interne du smartphone mais celui de l'antenne RTK, et donc d'utiliser tout service de géolocalisation avec une précision centimétrique. Elle à la capacité de s'exécuter en tâche de fond et d'avoir une interface assez simple.
+L'application permet de faire une Localisation fictive, c'est à dire de ne plus utiliser le recepteur interne du smartphone mais celui de l'antenne RTK, et donc d'utiliser tout service de géolocalisation avec une précision centimétrique. Elle a la capacité de s'exécuter en tâche de fond et d'avoir une interface assez simple.
 
 L'application permet egalement de loguer dans un fichier .pos ([cf doc Qgis](https://jancelin.github.io/docs-centipedeRTK/docs/base/positionnement.html#qgis)) les données de géolocalisation.
 
