@@ -8,5 +8,5 @@ has_children: true
 
 ## Rover avec Android
 
-Voici plusieurs méthodes pour assembler un recpeteur + antenne GNSS avec une tablette ou un smartphone sous Android
+Voici plusieurs méthodes pour assembler un recepteur + antenne GNSS avec une tablette ou un smartphone sous Android
 
