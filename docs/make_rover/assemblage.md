@@ -20,20 +20,20 @@ Connecter ensuite sur le UART1 du récepteur F9P
 
 ### Préparer son matériel
 
-Vérifier que l'on a bien tout les composants:
+Vérifier que vous diposez de tous les composants:
 
 * Module F9P
 * Module Bluetooth
 * Câble 6 pins préparé et connecté au F9P
-* La batterie
-* Le cable USB renforcé
-* Une antenne GNSS
+* Batterie
+* Câble USB renforcé
+* Antenne GNSS
 
 ### Assemblage
 
 J'utilise du scratch 3M Dual-lock pour l'assemblage des composants, cela permet un démontage et une adaptation aisés du positionnement en fonction des besoins. 
 
->J'espère vous proposer une boite étanche à imprimer prochainement.
+>J'espère vous proposer prochainement une boîte étanche à imprimer.
 
 * Découper des bandes scratch 3M Dual-lock à la bonne taille et les coller.
 
