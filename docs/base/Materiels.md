@@ -50,10 +50,6 @@ Dans un premier temps faites un premier montage sans la boite:
    * Connecter le [câble ethernet RJ45](https://www.mhzshop.com/shop/Cables-et-cordons/Cordons-reseau/) à votre réseau (BOX internet, CPL, prise réseau Rj45) et au [Raspberry Pi 3/4](https://www.kubii.fr/les-cartes-raspberry-pi/2119-raspberry-pi-3-modele-b-1-gb-kubii-713179640259.html)
    * Préparer l'[alimentation](https://www.kubii.fr/les-officiels-raspberry-pi-kubii/2593-alimentation-officielle-raspberry-pi-3-eu-micro-usb-51v-25a-kubii-3272496297586.html?search_query=SC0136&results=51) mais ne pas mettre encore sous tension.
 
-> Exemple de montage avec un Raspberry Pi zero W 
-
-![composant](https://jancelin.github.io/docs-centipedeRTK/assets/images/wifi/pi_zero.jpg)
-
 ### Montage
 
 ![composant](https://jancelin.github.io/docs-centipedeRTK/assets/images/mat/boite1.jpg)
