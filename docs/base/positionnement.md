@@ -18,34 +18,53 @@ Il est également indispensable de refaire ce calcul tout les 6 mois afin de vé
 ### Récupérer les données du RGP
 
 * Aller sur le [site IGN](http://rgp.ign.fr/DONNEES/diffusion){:target="_blank"}
-
 * Zoomer large sur votre zone (50km)
-
 * Sélectionner TU (Temps Universel)
-
 * Changer la date de début et de fin en fonction du nom de votre fichier téléchargé précédemment, et changer l'heure ```0 à 24h```
-
 * Sélectionner GLONASS en plus de GPS (+ GALILEO si la base concernée le propose). Si un système sélectionné (ex : GALILEO) n'est pas disponible sur la base concernée, celle-ci disparaît de l'interface cartographique et n'est donc plus sélectionnable. Dans ce cas, décocher le système de positionnement.
-
 * Échantillonnage : 5 sec.
-
 * Version Rinex : 2.11
-
 * Il faut ensuite sélectionner la base souhaitée sur la carte à l'aide de l'outil de sélection puis l'ajouter au panier.
-
 * Télécharger l'archive au format ZIP une fois celle-ci disponible.
 
 ![ign](https://jancelin.github.io/docs-centipedeRTK/assets/images/positionnement/ign.png)
 
-* décompresser les archives dans un même répertoire sur votre PC, pour le ZIP IGN vous pouvez ne récupérer que le **XXXXX.19o**
+Vous pouvez ne récupérer que le **XXXXX.20o**
 
-ex: **2019-12-10-000000-GNSS-1.19o** et **lroc3440.19o**
+> ex:**lroc3440.20o**
 
 > [Pour en savoir plus sur les formats UBX et Rinex](https://en.wikipedia.org/wiki/RINEX){:target="_blank"}
 
-### Calcul de la correction
+### Conversion RINEX et Calcul de la correction
 
 Télécharger cette version d'RTKLIB fournie par rtkexplorer: [RTKLIB Code: Windows executables](http://rtkexplorer.com/downloads/rtklib-code/){:target="_blank"}
+
+#### Conversion en RINEX
+
+* Créer un dossier et décompresser le .zip de téléchargé dans votre base RTK.
+* Lancer ```rtkconv.exe```
+* Chocher Time start
+	* Renseigner la même date que le .zip
+	* changer le temps en **00:01:00**
+* Chocher Time start
+	* Renseigner la même date que le .zip
+	* changer le temps en **23:59:00**
+* Cocher Interval: **5s**
+* Cocher Unit: **24h**
+* Selectionner votre fichier **.ubx** issue de votre **.zip** dans **RTCM, RCV RAW or RINEX OBS**
+	* le logiciel près ecrire le chemin une serie de fichier (.obs, .nav,...) dans ce même dossier
+![ign](https://jancelin.github.io/docs-centipedeRTK/assets/images/positionnement/rinex1.png)
+* Cliquer sur **Options**
+	* Choisir **Rinex ver 2.11**
+	* Cocher **Scan Obs Types**, **Half Cyc Corr**, **Iono Corr**, **Time Corr**, **Leap Sec**
+	* Cocher **GPS**, **GLO**, **GAL**, **BDS**
+	* Cocher toutes les **Observations types**
+	* Cocher **L1**, **L2/E5b**
+![ign](https://jancelin.github.io/docs-centipedeRTK/assets/images/positionnement/rinex2.png)
+* Cliquer sur **OK**
+* Cliquer su **Convert**
+
+Votre fichier va être convertis en fichiers RINEX
     
 #### RTKPOST
 
@@ -58,11 +77,11 @@ La deuxième avec ces mêmes fichiers + les fichiers de l'IGS récupérés 20 jo
 ####  Méthode à 24h
 
 ```
-./rtkpost.exe
+rtkpost.exe
 ```
 
 * Renseigner le **Time Start** et le **Time End** : la date de votre fichier RINEX + l'heure de début **```00:01:00```**, pareil pour le end date + **```23:59:00```**. Cocher **Interval** et renseigner **5s**. **Unit** reste decoché
-* Charger le fichier *.19o* de votre base (Rover)
+* Charger le fichier *.obs* de votre base (Rover)s
 * Charger le fichier *.20o* de la base de référence IGN (Base Station)
 * Charger les fichiers *.nav* de votre base
 * Le fichier résultat aura une extension *.pos* c'est lui qui par traitement statistique donnera la position de la base RTK.

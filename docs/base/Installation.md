@@ -17,9 +17,11 @@ Dans un premier temps il est nécessaire de mettre à jour le [firmware](https:/
 
 * [Update F9P firmware](https://drotek.gitbook.io/rtk-f9p-positioning-solutions/tutorials/updating-zed-f9p-firmware)
 
-* Télécharger l'image de Base RTK sur votre ordinateur (680Mo):
+* Télécharger l'image de Base RTK sur votre ordinateur (529Mo):
 
- [BaseRTK-rpi-V0_4_1.img.zip](https://github.com/jancelin/rtkbase/releases/download/BaseRTK-rpi-V0.4/BaseRTK-rpi-V0_4_1.img.zip)
+**Une nouvelle version de RTKbase est en cours de finalisation de développement, la version si dessus est une béta, la release arrive très bientôt**
+
+ [1.1.0-beta3-Base_GNSS.zip](https://github.com/jancelin/pi-gen/releases/download/1.1.0-beta3/1.1.0-beta3-Base_GNSS.zip)
 
 
 > Ne pas copier directement l'image BaseRTK-rpi-VX_X_X.img.zip sur la carte micro SD !!!
@@ -37,23 +39,7 @@ Dans un premier temps il est nécessaire de mettre à jour le [firmware](https:/
 
 ![etcher](https://jancelin.github.io/docs-centipedeRTK/assets/images/install/etcher.png)
 
-
-### Personnaliser son installation et activation du WIFI
-
-* Sortir et remettre la carte SD dans l'ordinateur.
-* Dans votre explorateur de fichier, accéder et ouvrir le fichier **```./HypriotOS/user-data```** avec un editeur de texte.
-* Pour activer le WIFI, dans le cas où votre base n'est pas en ethernet:
-   * Remplacer **tout** le contenu du fichier par [celui-ci](https://raw.githubusercontent.com/jancelin/rtkbase/0.3.1/install/wifi-user-data.yml) par un copier/coller.
-   * Modifier les lignes 61 et 62 avec vos paramètres
-
-```
-      ssid="NOM_DU_WIFI"
-      psk="MotDePasseWifi"
-```
-   * Enregistrer
-> attention à bien conserver les **```"```** et ne pas modifier les espaces avant les paramètres (c'est un .yml : une erreur de ce type et le fichier ne fonctionnerait pas au premier démarrage).
-* Vous pouvez également personnaliser d'autres paramètres ( mot de passe, nom de session, nom de la connexion,...) afin de garantir la sécurité de votre Base RTK.
-* Retirer la carte SD du PC
+* Retirer ensuite la carte SD du PC
 
 ### Assemblage et premier démarrage
 
@@ -68,9 +54,13 @@ Quand l'une d'elles s'éteint définitivement (attention à ne pas confondre ave
 
 * sur un PC connecté au même réseau, ouvrir un navigateur Internet et accéder à l'interface de la base RTK via l'URL :
 
- **http://centipede.local:8000**
+ **http://basegnss.local**
 
-![cmd_racine](https://jancelin.github.io/docs-centipedeRTK/assets/images/param/cmd_racine.png)
+> Mot de passe: ```Admin```
+
+![base gnss](https://jancelin.github.io/docs-centipedeRTK/assets/images/basegnss/basegnss.gif)
+
+> Si vous ne voyez pas de position ou de barre sur le graphique c'est que l'initialisation de votre module GNSS s'est mal déroulé, il est conseillé de vérifier les branchement, flasher de nouveau la carte SD et recommencer l'installation.
 
 Passons enfin au paramétrage
 
@@ -78,7 +68,7 @@ Passons enfin au paramétrage
 
 > ### Option : Connexion en ssh pour les développeurs ou le débugage
 
-> ssh centipede@centipede.local
+> ssh basegnss@basegnss.local
 
-> mdp: centipede
+> mdp: basegnss!
 
