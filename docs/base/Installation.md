@@ -24,11 +24,8 @@ Dans un premier temps il est nécessaire de mettre à jour le [firmware](https:/
  [1.1.0-beta3-Base_GNSS.zip](https://github.com/jancelin/pi-gen/releases/download/1.1.0-beta3/1.1.0-beta3-Base_GNSS.zip)
 
 
-> Ne pas copier directement l'image BaseRTK-rpi-VX_X_X.img.zip sur la carte micro SD !!!
+> Ne pas copier directement l'image X.X.X-Base_GNSS.zip sur la carte micro SD !!!
 
-> source:
-> https://github.com/jancelin/rtkbase/releases
-> https://github.com/jancelin/image-builder-rpi/tree/BaseRTK_v0.4.0
 
 * Télécharger et installer ETCHER sur votre ordinateur (windows, linux, mac). Ce programme va permettre d'installer correctement l'image BaseRTK téléchargée dans la carte micro SD: https://etcher.io/
 * Insérer la carte Micro SD dans l'ordinateur 
@@ -62,7 +59,7 @@ Quand l'une d'elles s'éteint définitivement (attention à ne pas confondre ave
 
 > Si vous ne voyez pas de position ou de barre sur le graphique c'est que l'initialisation de votre module GNSS s'est mal déroulé, il est conseillé de vérifier les branchement, flasher de nouveau la carte SD et recommencer l'installation.
 
-Passons enfin au paramétrage
+Passons ensuite au paramétrage
 
 ---------------------------------------------------------------------------------------------------
 

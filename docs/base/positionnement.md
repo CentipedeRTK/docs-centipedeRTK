@@ -52,7 +52,7 @@ Télécharger cette version d'RTKLIB fournie par rtkexplorer: [RTKLIB Code: Wind
 * Cocher Interval: **5s**
 * Cocher Unit: **24h**
 * Selectionner votre fichier **.ubx** issue de votre **.zip** dans **RTCM, RCV RAW or RINEX OBS**
-	* le logiciel près ecrire le chemin une serie de fichier (.obs, .nav,...) dans ce même dossier
+	* le logiciel va ecrire le chemin une serie de fichier (.obs, .nav,...) dans ce même dossier
 ![ign](https://jancelin.github.io/docs-centipedeRTK/assets/images/positionnement/rinex1.png)
 * Cliquer sur **Options**
 	* Choisir **Rinex ver 2.11**
