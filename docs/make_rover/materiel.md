@@ -8,12 +8,12 @@ has_children: true
 
 ## Matériels
 
-Cette étape doit vous permettre de bien anticiper quel matériel acheter pour fabriquer un rover RTK avec connection Bluetooth. 
-Néamoins il est possible de l'utiliser également en USB avec un câble OTG directement sur le smartphone.
+Cette section décrit en détail le matériel nécessaire pour fabriquer un rover RTK avec connexion Bluetooth. 
+Il est également possible de l'utiliser en USB avec un câble OTG directement branché sur le smartphone.
 
 ### Liste du matériel
 
-Voici la liste des éléments nécessaires à la fabrication d'un Rover RTK bifréquences L1-L2 bluetooth:
+Liste des composants d'un Rover RTK bifréquences L1-L2 bluetooth:
 
 |Matériel|Prix HT|
 |--------|----|
@@ -34,7 +34,7 @@ Pour le paramétrage du module bluetooth HC-05 il est necessaire de disposer d'u
 |[câbles jumpers femelles](https://fr.rs-online.com/web/p/kit-de-cables-dupont/7916450/)|3€|
 |[câble USB A > USB mini-B](https://fr.rs-online.com/web/p/cables-usb/1862803/)|2.6€|
 
-**Pour l'utilisation vous aurez besoin d'un smartphone ou d'une tablette Android.**
+**Pour l'utilisation du rover, vous aurez besoin d'un smartphone ou d'une tablette sous Android.**
 
 
 

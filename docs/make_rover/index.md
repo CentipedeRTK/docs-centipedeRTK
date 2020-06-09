@@ -7,9 +7,10 @@ has_children: true
 
 # Fabriquer un Rover RTK
 
-Les besoins en geolocation centimétrique sont vastes et variés en fonction de nos métiers et envies (logs, geoloc, autoguidage, ...), le mode ROVER RTK doit donc répondre à tout ces besoins facilement, être flexible pour un ensemble d'utilisations et surtout être simple pour l'utilisateur de terrain.
+Les besoins de géolocalisation à une précision centimétrique sont nombreux et variés en fonction de nos métiers et besoins (logs, geoloc, autoguidage, etc.).
+Le mode ROVER RTK doit donc répondre à tous ces besoins facilement, s'adapter à tout un panel d'utilisations et surtout être simple à configurer pour l'utilisateur de terrain.
 
-Dans cette section nous allons voir comment fabriquer son propre rover RTK Bluetooth ou USB en connection à un smartphone/tablette Android.
+Dans cette section nous allons voir comment fabriquer un rover RTK Bluetooth ou USB connecté à un(e) smartphone/tablette sous Android.
 
 ![RTKrover](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/rover.jpg)
 
