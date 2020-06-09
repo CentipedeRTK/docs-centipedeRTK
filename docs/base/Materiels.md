@@ -16,7 +16,7 @@ Cette étape doit vous permettre de bien anticiper quel matériel acheter en fon
  * Il peut y avoir une certaine distance entre l'antenne et le reste du matériel ; il est important d'anticiper cette distance (au maximum 3 mètres pour éviter une dégradation du signal) et de commander un câble d'antenne à la bonne longueur.
  * La base RTK doit absolument avoir accès à Internet via **un câble ethernet (RJ45) de préférence** afin de partager ses corrections sur le réseau Centipede ou en TCP, il est donc nécessaire d'avoir un point accès à Internet non loin de la zone d'implantation et d'adapter la longueur du câble en fonction des besoins. Si vous ne disposez pas d'une connexion à proximité, vous pouvez opter pour [2 boitiers CPL](https://www.boitiercpl.fr/) en ethernet.
 
-![lienss](https://jancelin.github.io/docs-centipedeRTK/assets/images/mat/base_lienss.png)
+![lienss](https://jancelin.github.io/docs-centipedeRTK/assets/images/mat/base_lienss.jpg)
 
 ### Liste
 
