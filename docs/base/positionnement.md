@@ -51,7 +51,7 @@ Vous pouvez ne récupérer que le **XXXXX.20o**
 
 Télécharger cette version d'RTKLIB fournie par rtkexplorer: [RTKLIB Code: Windows executables](http://rtkexplorer.com/downloads/rtklib-code/){:target="_blank"}
 
-#### 3. Convertir le fichier .ubx en RINEX
+### 3. Convertir le fichier .ubx en RINEX
 
 
 * Créer un dossier et décompresser le .zip téléchargé dans votre base RTK.
@@ -79,7 +79,7 @@ Télécharger cette version d'RTKLIB fournie par rtkexplorer: [RTKLIB Code: Wind
 
 Votre fichier va être convertis en fichiers RINEX
     
-#### 4. Post traitement: fabrication du fichier .pos
+### 4. Post traitement: fabrication du fichier .pos
 
 Cette étape permet de corriger les données brutes de votre base avec le référentiel du RGP afin d'obtenir un nuage de point (.pos) corrigé.
 
