@@ -11,7 +11,7 @@ Nous allons déterminer la position de la base le plus précisément possible.
 
 La procédure pour calculer la position va se décomposer en 5 étapes:
 
-[1. Télécharger les données de votre base RTK](### 1. Télécharger les données de votre base RTK)
+1. [Télécharger les données de votre base RTK](### 1. Télécharger les données de votre base RTK)
 2. Télécharger les données de référence de la station du [RGP](http://rgp.ign.fr) la plus proche de sa base.
 3. Dézipper un .zip des logs de votre base  et le  convertir le .ubx en RINEX avec ```rtkconv```.
 4. Utiliser ```rtkpost``` (comparaison du RINEX RGP et de son RINEX) pour récupérer un nuage de points corrigés  (.pos) en sortie.
