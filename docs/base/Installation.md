@@ -19,8 +19,6 @@ Dans un premier temps il est nécessaire de mettre à jour le [firmware](https:/
 
 * Télécharger l'image de Base RTK sur votre ordinateur (529Mo):
 
-**Une nouvelle version de RTKbase est en cours de finalisation de développement, la version si dessus est une béta, la release arrive très bientôt**
-
  [BaseGNSS-RPi-1.1.0](https://github.com/jancelin/pi-gen/releases/download/BaseGNSS-RPi-1.1.0/Base_GNSS_1_1_0.zip)
 
 
