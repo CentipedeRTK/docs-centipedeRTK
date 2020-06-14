@@ -11,11 +11,11 @@ Nous allons déterminer la position de la base le plus précisément possible.
 
 La procédure pour calculer la position va se décomposer en 5 étapes:
 
-* Télécharger les données de votre base RTK
-* Télécharger les données de référence de la station du [RGP](http://rgp.ign.fr) la plus proche de sa base.
-* Dézipper un .zip des logs de votre base  et le  convertir le .ubx en RINEX avec ```rtkconv```.
-* Utiliser ```rtkpost``` (comparaison du RINEX RGP et de son RINEX) pour récupérer un nuage de points corrigés  (.pos) en sortie.
-* Utiliser ```Qgis``` pour  filtrer les données du .pos les plus stables et calculer la mediane des points restants afin de déterminer la position précise de la base RTK.
+* 1. Télécharger les données de votre base RTK
+* 2. Télécharger les données de référence de la station du [RGP](http://rgp.ign.fr) la plus proche de sa base.
+* 3. Dézipper un .zip des logs de votre base  et le  convertir le .ubx en RINEX avec ```rtkconv```.
+* 4. Utiliser ```rtkpost``` (comparaison du RINEX RGP et de son RINEX) pour récupérer un nuage de points corrigés  (.pos) en sortie.
+* 5. Utiliser ```Qgis``` pour  filtrer les données du .pos les plus stables et calculer la mediane des points restants afin de déterminer la position précise de la base RTK.
 
 Votre base va servir de référentiel pour vous mais aussi pour toute personne se trouvant dans sa zone d'action. Il est primordial que sa position soit juste et très précise afin de pourvoir tous travailler sur un même référentiel géographique.
 
@@ -23,11 +23,11 @@ Il est conseillé de refaire ce calcul sur plusieurs jour afin de vérifier que 
 
 Il est également indispensable de refaire ce calcul tout les 6 mois afin de vérifier la position de la base.
 
-### Télécharger les données de votre base RTK
+### 1. Télécharger les données de votre base RTK
 
 * Se rendre dans l'onglet **logs** de votre base RTK et télécharger le dernier .zip
 
-### Télécharger les données du RGP
+### 2. Télécharger les données du RGP
 
 * Aller sur le [site IGN](http://rgp.ign.fr/DONNEES/diffusion){:target="_blank"}
 * Zoomer large sur votre zone (50km)
@@ -51,7 +51,7 @@ Vous pouvez ne récupérer que le **XXXXX.20o**
 
 Télécharger cette version d'RTKLIB fournie par rtkexplorer: [RTKLIB Code: Windows executables](http://rtkexplorer.com/downloads/rtklib-code/){:target="_blank"}
 
-#### Convertir le fichier .ubx en RINEX
+#### 3. Convertir le fichier .ubx en RINEX
 
 
 * Créer un dossier et décompresser le .zip téléchargé dans votre base RTK.
@@ -79,7 +79,7 @@ Télécharger cette version d'RTKLIB fournie par rtkexplorer: [RTKLIB Code: Wind
 
 Votre fichier va être convertis en fichiers RINEX
     
-#### Post traitement: fabrication du fichier .pos
+#### 4. Post traitement: fabrication du fichier .pos
 
 Cette étape permet de corriger les données brutes de votre base avec le référentiel du RGP afin d'obtenir un nuage de point (.pos) corrigé.
 
@@ -163,7 +163,7 @@ rtkpost.exe
  
 ![rtkplot](https://jancelin.github.io/docs-centipedeRTK/assets/images/positionnement/rtkplot.png)
  
-## QGIS
+## 5. Filtrer les données et calculer la position mediane.
  
  Le fichier résultat peut être exploité dans QGIS3 pour filtrer les meilleurs données et calculer la position mediane.
  
