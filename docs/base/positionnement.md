@@ -12,10 +12,10 @@ Nous allons déterminer la position de la base le plus précisément possible.
 La procédure pour calculer la position va se décomposer en 5 étapes:
 
 1. [Télécharger les données de votre base RTK](https://github.com/jancelin/docs-centipedeRTK/blob/master/docs/base/positionnement.md#1-t%C3%A9l%C3%A9charger-les-donn%C3%A9es-de-votre-base-rtk)
-2. Télécharger les données de référence de la station du [RGP](http://rgp.ign.fr) la plus proche de sa base.
-3. Dézipper un .zip des logs de votre base  et le  convertir le .ubx en RINEX avec ```rtkconv```.
-4. Utiliser ```rtkpost``` (comparaison du RINEX RGP et de son RINEX) pour récupérer un nuage de points corrigés  (.pos) en sortie.
-5. Utiliser ```Qgis``` pour  filtrer les données du .pos les plus stables et calculer la mediane des points restants afin de déterminer la position précise de la base RTK.
+2. [Télécharger les données de référence de la station du [RGP](http://rgp.ign.fr) la plus proche de sa base](https://github.com/jancelin/docs-centipedeRTK/blob/master/docs/base/positionnement.md#2-t%C3%A9l%C3%A9charger-les-donn%C3%A9es-du-rgp)
+3. [Dézipper un .zip des logs de votre base  et le  convertir le .ubx en RINEX avec ```rtkconv```](https://jancelin.github.io/docs-centipedeRTK/docs/base/positionnement.html#3-convertir-le-fichier-ubx-en-rinex)
+4. [Utiliser ```rtkpost``` (comparaison du RINEX RGP et de son RINEX) pour récupérer un nuage de points corrigés  (.pos) en sortie](https://jancelin.github.io/docs-centipedeRTK/docs/base/positionnement.html#4-post-traitement-fabrication-du-fichier-pos)
+5. [Utiliser ```Qgis``` pour  filtrer les données du .pos les plus stables et calculer la mediane des points restants afin de déterminer la position précise de la base RTK](https://jancelin.github.io/docs-centipedeRTK/docs/base/positionnement.html#5-filtrer-les-donn%C3%A9es-et-calculer-la-position-mediane)
 
 Votre base va servir de référentiel pour vous mais aussi pour toute personne se trouvant dans sa zone d'action. Il est primordial que sa position soit juste et très précise afin de pourvoir tous travailler sur un même référentiel géographique.
 
