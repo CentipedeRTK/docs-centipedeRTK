@@ -39,9 +39,9 @@ Vous pouvez ne récupérer que le **XXXXX.20o**
 
 Télécharger cette version d'RTKLIB fournie par rtkexplorer: [RTKLIB Code: Windows executables](http://rtkexplorer.com/downloads/rtklib-code/){:target="_blank"}
 
-#### Conversion .ubx en RINEX
+#### Convertir le fichier .ubx en RINEX
 
-* Créer un dossier et décompresser le .zip de téléchargé dans votre base RTK.
+* Créer un dossier et décompresser le .zip téléchargé dans votre base RTK.
 * Lancer ```rtkconv.exe```
 * Cocher Time start
 	* Renseigner la même date que le .zip
