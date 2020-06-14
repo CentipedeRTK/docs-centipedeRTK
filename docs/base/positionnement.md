@@ -39,14 +39,14 @@ Vous pouvez ne récupérer que le **XXXXX.20o**
 
 Télécharger cette version d'RTKLIB fournie par rtkexplorer: [RTKLIB Code: Windows executables](http://rtkexplorer.com/downloads/rtklib-code/){:target="_blank"}
 
-#### Conversion en RINEX
+#### Conversion .ubx en RINEX
 
 * Créer un dossier et décompresser le .zip de téléchargé dans votre base RTK.
 * Lancer ```rtkconv.exe```
-* Chocher Time start
+* Cocher Time start
 	* Renseigner la même date que le .zip
 	* changer le temps en **00:01:00**
-* Chocher Time start
+* Cocher Time end
 	* Renseigner la même date que le .zip
 	* changer le temps en **23:59:00**
 * Cocher Interval: **5s**
@@ -66,13 +66,15 @@ Télécharger cette version d'RTKLIB fournie par rtkexplorer: [RTKLIB Code: Wind
 
 Votre fichier va être convertis en fichiers RINEX
     
-#### RTKPOST
+#### Post traitement: fabrication du fichier .pos
+
+Cette étape permet de corriger les données brutes de votre base avec le référentiel du RGP afin d'obtenir un nuage de point (.pos) corrigé.
 
 Deux méthodes sont proposées:
 
-La première avec les fichiers récupérés 24 h après la collecte des données (positionnement précis).
+* La première avec les fichiers récupérés 24 h après la collecte des données (positionnement précis).
 
-La deuxième avec ces mêmes fichiers + les fichiers de l'IGS récupérés 20 jours après la collecte des données donc un positionnement très précis (Solution combinée finale GNSS pour la solution orbitale combinée du système d'information sur la dynamique de la croûte terrestre (CDDIS)). 
+* La deuxième avec ces mêmes fichiers + les fichiers de l'IGS récupérés 20 jours après la collecte des données donc un positionnement très précis (Solution combinée finale GNSS pour la solution orbitale combinée du système d'information sur la dynamique de la croûte terrestre (CDDIS)). 
 
 ####  Méthode à 24h
 
@@ -150,7 +152,7 @@ rtkpost.exe
  
 ## QGIS
  
- Le fichier résultat peut être exploité dans QGIS3.
+ Le fichier résultat peut être exploité dans QGIS3 pour filtrer les meilleurs données et calculer la position mediane.
  
  > Plus d'informations sur l'installation de ce logiciel sur cette [page](https://qgis.org/fr/site/){:target="_blank"}
 
