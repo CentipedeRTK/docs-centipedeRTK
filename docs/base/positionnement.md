@@ -11,11 +11,11 @@ Nous allons déterminer la position de la base le plus précisément possible.
 
 La procédure pour calculer la position va se décomposer en 5 étapes:
 
-* 1. Télécharger les données de votre base RTK
-* 2. Télécharger les données de référence de la station du [RGP](http://rgp.ign.fr) la plus proche de sa base.
-* 3. Dézipper un .zip des logs de votre base  et le  convertir le .ubx en RINEX avec ```rtkconv```.
-* 4. Utiliser ```rtkpost``` (comparaison du RINEX RGP et de son RINEX) pour récupérer un nuage de points corrigés  (.pos) en sortie.
-* 5. Utiliser ```Qgis``` pour  filtrer les données du .pos les plus stables et calculer la mediane des points restants afin de déterminer la position précise de la base RTK.
+1. Télécharger les données de votre base RTK
+2. Télécharger les données de référence de la station du [RGP](http://rgp.ign.fr) la plus proche de sa base.
+3. Dézipper un .zip des logs de votre base  et le  convertir le .ubx en RINEX avec ```rtkconv```.
+4. Utiliser ```rtkpost``` (comparaison du RINEX RGP et de son RINEX) pour récupérer un nuage de points corrigés  (.pos) en sortie.
+5. Utiliser ```Qgis``` pour  filtrer les données du .pos les plus stables et calculer la mediane des points restants afin de déterminer la position précise de la base RTK.
 
 Votre base va servir de référentiel pour vous mais aussi pour toute personne se trouvant dans sa zone d'action. Il est primordial que sa position soit juste et très précise afin de pourvoir tous travailler sur un même référentiel géographique.
 
