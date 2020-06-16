@@ -9,61 +9,53 @@ nav_order: 2
 
 > Installation avec Raspberry Pi [3](https://www.kubii.fr/les-cartes-raspberry-pi/2119-raspberry-pi-3-modele-b-1-gb-kubii-713179640259.html) ou [4](https://www.kubii.fr/les-cartes-raspberry-pi/2770-nouveau-raspberry-pi-4-modele-b-1gb-kubii-0765756931168.html)
 
-### Update du firmware de l'antenne
+### Mise à jour du firmware de l'antenne
 
-Dans un premier temps il est nécessaire de mettre à jour le [firmware](https://fr.wikipedia.org/wiki/Firmware) de votre module F9P
+Dans un premier temps il est nécessaire de mettre à jour le [firmware](https://fr.wikipedia.org/wiki/Firmware) de votre module F9P :
 
-* [Install U-center](https://www.u-blox.com/en/product/u-center) (Windows seulement)
+1. Pour Windows seulement : [installer U-center](https://www.u-blox.com/en/product/u-center)
+2. [Mettre à jour le logiciel F9P](https://drotek.gitbook.io/rtk-f9p-positioning-solutions/tutorials/updating-zed-f9p-firmware)
+3. Télécharger l'image de Base RTK sur votre ordinateur (~ 530 Mo) : [BaseGNSS-RPi-1.1.0](https://github.com/jancelin/pi-gen/releases/download/BaseGNSS-RPi-1.1.0/Base_GNSS_1_1_0.zip). **Attention**, ne pas copier directement l'image Base_GNSS_X.X.X.zip sur la carte micro SD !!!
+4. Télécharger et installer ETCHER sur votre ordinateur (windows, linux, mac). Ce programme va permettre d'installer correctement l'image BaseRTK téléchargée dans la carte micro SD : <https://etcher.io/>.
+5. Insérer la carte Micro SD dans l'ordinateur 
 
-* [Update F9P firmware](https://drotek.gitbook.io/rtk-f9p-positioning-solutions/tutorials/updating-zed-f9p-firmware)
+    ![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrqS8MhQYdjrRmaYZS-RCtgLIrhB8gdLaxUmAfey96t6YpopQr)
 
-* Télécharger l'image de Base RTK sur votre ordinateur (529Mo):
+6 Démarrer Etcher, choisir l'image téléchargée, la carte SD (normalement déjà sélectionnée) et flasher la carte :
 
- [BaseGNSS-RPi-1.1.0](https://github.com/jancelin/pi-gen/releases/download/BaseGNSS-RPi-1.1.0/Base_GNSS_1_1_0.zip)
+   ![etcher](https://jancelin.github.io/docs-centipedeRTK/assets/images/install/etcher.png)
 
+7. Retirer ensuite la carte SD du PC
 
-> Ne pas copier directement l'image Base_GNSS_X.X.X.zip sur la carte micro SD !!!
-
-
-* Télécharger et installer ETCHER sur votre ordinateur (windows, linux, mac). Ce programme va permettre d'installer correctement l'image BaseRTK téléchargée dans la carte micro SD: https://etcher.io/
-* Insérer la carte Micro SD dans l'ordinateur 
-
-![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrqS8MhQYdjrRmaYZS-RCtgLIrhB8gdLaxUmAfey96t6YpopQr)
-
-* Démarrer le programme Etcher, choisir l'image téléchargée, la carte SD (normalement déjà sélectionnée) et flasher la carte
-
-![etcher](https://jancelin.github.io/docs-centipedeRTK/assets/images/install/etcher.png)
-
-* Retirer ensuite la carte SD du PC
+----
 
 ### Assemblage et premier démarrage
 
-* Brancher un câble ethernet sur votre réseau afin que votre base puisse envoyer ses données au caster Centipede. (sauf si la connexion en WIFI)
-* Connecter en USB le recepteur F9P.
-* Insérer la carte micro SD dans le Raspberry Pi et le mettre sous tension. 
-> Il est possible de connecter un écran en HDMI sur le raspberry pour visualiser le déroulement de l'installation. 
-* les leds du raspberry s'allument et/ou clignotent pendant ce premier démarrage (démarrage des services).
-Quand l'une d'elles s'éteint définitivement (attention à ne pas confondre avec certaines petites coupures) l'installation est terminée (env. 3 min ou plus).
+1. Brancher un câble ethernet sur votre réseau afin que votre base puisse envoyer ses données au caster Centipede. (sauf si la connexion en WIFI)
+2. Connecter en USB le récepteur F9P.
+3. Insérer la carte micro SD dans le Raspberry Pi et le mettre sous tension. 
 
-![](https://projects-static.raspberrypi.org/projects/raspberry-pi-setting-up/3addc4ca2ca0b7c999bdb03a46801a729614b235/en/images/pi-plug-in.gif)
+    > Il est possible de connecter un écran en HDMI sur le raspberry pour visualiser le déroulement de l'installation. 
 
-* sur un PC connecté au même réseau, ouvrir un navigateur Internet et accéder à l'interface de la base RTK via l'URL :
+4. Les leds du raspberry s'allument et/ou clignotent pendant ce premier démarrage (démarrage des services). Quand l'une d'elles s'éteint définitivement (attention à ne pas confondre avec certaines petites coupures) l'installation est terminée (~ 3 min ou plus).
 
- **http://basegnss.local**
+    ![](https://projects-static.raspberrypi.org/projects/raspberry-pi-setting-up/3addc4ca2ca0b7c999bdb03a46801a729614b235/en/images/pi-plug-in.gif)
 
-> Mot de passe: ```Admin```
+5. sur un PC connecté au même réseau, ouvrir un navigateur Internet et accéder à l'interface de la base RTK via l'URL : **<http://basegnss.local>**
+
+    > Mot de passe : `Admin`
 
 ![base gnss](https://jancelin.github.io/docs-centipedeRTK/assets/images/basegnss/basegnss.gif)
 
-> Si vous ne voyez pas de position ou de barre sur le graphique c'est que l'initialisation de votre module GNSS s'est mal déroulé, il est conseillé de vérifier les branchement, flasher de nouveau la carte SD et recommencer l'installation.
+En cas de problème
+{: .label .label-yellow }
 
-Passons ensuite au paramétrage
+Si vous ne voyez pas de position ou de barre sur le graphique c'est que l'initialisation de votre module GNSS s'est mal déroulé, il est conseillé de vérifier les branchements, flasher de nouveau la carte SD et recommencer l'installation.
 
----------------------------------------------------------------------------------------------------
+Passons ensuite au [Paramétrage](Parametrage){: .btn }.
 
-> ### Option : Connexion en ssh pour les développeurs ou le débugage
+#### Option : Connexion en ssh pour les développeurs ou le débugage
 
-> ssh basegnss@basegnss.local
-
-> mdp: basegnss!
+* identifiant : `ssh basegnss@basegnss.local`
+* mot de passe : `basegnss!`
 
