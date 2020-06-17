@@ -136,7 +136,7 @@ rtkpost.exe
 > par exemple le 5 février 2019 correspond au 2039:2
 * se rendre sur le site ftp://cddis.nasa.gov/gnss/products/
 * chercher le dossier correspondant à la date GPS et l'ouvrir
-> dans notre exemple 2032
+> dans notre exemple 2039
 * Chercher le Fichier :igs"dategps+jour".sp3.Z , télécharger le et décompressez-le
 > dans l'exemple: Fichier :igs20392.sp3.Z > igs20392.sp3
 * Ouvrir RTKPOST
