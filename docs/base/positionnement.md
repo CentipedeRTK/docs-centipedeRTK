@@ -31,6 +31,7 @@ Télécharger cette version d'RTKLIB fournie par rtkexplorer: [RTKLIB Code: Wind
 	* changer le temps en **23:59:00**
 * Cocher Interval: **30s**
 * Selectionner votre fichier **.ubx** issue de votre **.zip** dans **RTCM, RCV RAW or RINEX OBS**
+* Selectionner le **format u-blox**
 * laisser cocher seulement la première ligne: AAAA-MM-JJ_00-00-00_GNSS-1**.obs**
 * Modifier l'extension du fichier en **.20o** (AAAA-MM-JJ_00-00-00_GNSS-1**.obs** > AAAA-MM-JJ_00-00-00_GNSS-1**.20o**)
 
