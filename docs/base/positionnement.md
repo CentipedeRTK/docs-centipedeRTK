@@ -14,7 +14,7 @@ Votre base va servir de référentiel pour vous mais aussi pour toute personne s
 ### 1. Télécharger les données de votre base RTK
 
 * Créer un dossier **RINEX** sur votre PC 
-* Se rendre dans l'onglet **logs** de votre base RTK et télécharger le dernier **.zip**
+* Se rendre dans l'onglet **logs** de votre base RTK et télécharger un **.zip** complet de 24h.
 * Décompresser le **.zip** dans le dossier **RINEX**
 * C'est le fichier **AAAA-MM-JJ_00-00-00_GNSS-1.ubx** (environ 400 Mo) qui va nous servir pour le calcul de la position
 
