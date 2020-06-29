@@ -12,8 +12,8 @@ nav_order: 6
     * Profession
     * Courriel
     * Nom du point (de 3 à 5 caractères en Majuscule)
-    * Matériels utilisés.
-    * Un rapport de votre calcul de positionnement ou le .pos fabriqué précédemment.
+    * Matériels utilisés: récepteur et antenne.
+    * Le rapport de votre calcul de positionnement IGN
 
 Une fois que votre base sera déclarée par un administrateur elle sera visible sur la carte et votre base sera connecté au caster.
 
