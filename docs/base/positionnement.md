@@ -49,7 +49,7 @@ Télécharger cette version d'RTKLIB fournie par rtkexplorer: [RTKLIB Code: Wind
 ![rinex](https://jancelin.github.io/docs-centipedeRTK/assets/images/positionnement/rinex2.png)
 
 * Cliquer sur **OK**
-* Cliquer su **Convert**
+* Cliquer sur **Convert**
 
 Votre fichier **.ubx** va être convertis en fichiers RINEX
     
@@ -77,7 +77,7 @@ Le rapport de positionnement est transmit après quelques minutes.
 	* une carte au format pdf permettant de visualiser la repartition des stations de reference ainsi que les residus de la mise en reference
 	* le rapport de calcul au format texte 
 * Le rapport est composé de plusieurs parties, la position de votre base se situe à la fin du document dans la zone **====== RGF93 ======**
-* Il est important de regarder la partie **EXACTITUDE ESTIMEE (2*SIGMA)** car elle va vous donner la qualité du calcul, normalement vous ne devez avaoir que quelques mm en E_N, E_E et environ le double en E_H.
+* Il est important de regarder la partie **EXACTITUDE ESTIMEE (2*SIGMA)** car elle va vous donner la qualité du calcul, normalement vous ne devez avoir que quelques mm en E_N, E_E et environ le double en E_H.
 * Noter les coordonnées de votre base dans cet ordre **Latitude Longitude Hell** afin de les copier dans votre base RTK
 
 ![ign](https://jancelin.github.io/docs-centipedeRTK/assets/images/positionnement/rapport_ign.png)
