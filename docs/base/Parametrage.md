@@ -7,11 +7,11 @@ nav_order: 3
 
 ## Paramétrage
 
-Pour la connexion sur [http://basegnss.local](http://basegnss.local) il est necessaire de saisir un mot de passe (``admin```), il est conseillé de le modifier par la suite.
+Pour la connexion sur [http://basegnss.local](http://basegnss.local) il est necessaire de saisir un mot de passe (``admin``), il est conseillé de le modifier par la suite.
 
 ![base gnss](https://jancelin.github.io/docs-centipedeRTK/assets/images/basegnss/basegnss1.gif)
 
-La base dispose de 3 onglets:
+L'interface dispose de 3 onglets :
 
 * **STATUS**: 
 	* Visualisation de la qualité de réception de chaque satellite (graphique)
