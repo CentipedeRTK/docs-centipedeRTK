@@ -11,7 +11,7 @@ has_children: true
 
 Le projet Centipède vise à créer un réseau de bases RTK ouvertes et disponibles pour toute personne se trouvant dans la zone de couverture. Le réseau est étendu par des instituts publics, des particuliers, des acteurs privés comme les agriculteurs ou d'autres partenaires publics.
 
-Le projet est développé pour offrir à terme une couverture totale du territoire. Il est soutenu financièrement par INRAE et a mutualisé dès son démarrage en 2019 les moyens entre des instituts de recherche, des structures publiques, des agriculteurs et des entreprises privées. La carte ci-dessous présente l'étendue actuelle du réseau.
+L'objectif du projet est d'offrir une couverture complète du territoire métropolitain. Il est soutenu financièrement par INRAE et a bénéficié dès son démarrage en 2019 de moyens mutualisés entre des instituts de recherche, des organismes publics, des agriculteurs et des entreprises privées. La carte ci-dessous présente l'étendue actuelle du réseau.
 
 <figure class="map">
   <iframe src="https://centipede.fr/index.php/view/map/?repository=cent&project=centipede" width="100%" height="700" allowfullscreen="true"> </iframe>
