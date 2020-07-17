@@ -51,7 +51,7 @@ Quand l'une d'elles s'éteint définitivement (attention à ne pas confondre ave
 
  **http://basegnss.local**
 
-> Mot de passe: ```Admin```
+> Mot de passe: ```admin```
 
 ![base gnss](https://jancelin.github.io/docs-centipedeRTK/assets/images/basegnss/basegnss.gif)
 
