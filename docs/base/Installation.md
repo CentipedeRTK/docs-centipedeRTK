@@ -19,7 +19,7 @@ Dans un premier temps il est nécessaire de mettre à jour le [firmware](https:/
 
 * Télécharger l'image de Base RTK sur votre ordinateur (529Mo):
 
- [BaseGNSS-RPi-1.1.0](https://github.com/jancelin/pi-gen/releases/download/BaseGNSS-RPi-1.1.0/Base_GNSS_1_1_0.zip)
+ [BaseGNSS-RPi-2.1](https://github.com/jancelin/pi-gen/releases/download/BaseGNSS-RPi-2.1/Base_GNSS_2_1.zip)
 
 
 > Ne pas copier directement l'image Base_GNSS_X.X.X.zip sur la carte micro SD !!!
@@ -49,7 +49,7 @@ Quand l'une d'elles s'éteint définitivement (attention à ne pas confondre ave
 
 * sur un PC connecté au même réseau, ouvrir un navigateur Internet et accéder à l'interface de la base RTK via l'URL :
 
- **http://basegnss.local**
+ **http://basegnss.local** ou avec l'ip du Raspberry Pi si vous êtes sur un réseau.
 
 > Mot de passe: ```admin```
 

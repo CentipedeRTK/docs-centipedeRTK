@@ -9,7 +9,7 @@ nav_order: 5
 
 * Revenir dans votre interface **http://basegnss.local**
 
-* Aller dans l'onglet **Settings** > **Main Service** > **Base Coordinates** et changer la position par celle calculée précédemment. ex: **```46.164793681 -0.948418958 63.0686```**
+* Aller dans l'onglet **Settings** > **Main Service** > **Base Coordinates** et changer la position par celle calculée précédemment. ex: **```46.164827910 -0.948539543 65.2577```**
 
 * Enregistrer **Save** 
 

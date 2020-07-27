@@ -43,10 +43,10 @@ L'interface dispose de 3 onglets :
 	* **Power**: permet de redémarrer(Reboot) et d'éteindre(Shutdown) votre base RTK
 ![base gnss](https://jancelin.github.io/docs-centipedeRTK/assets/images/basegnss/basegnss_settings6.png)
 * **LOGS**: 
-	* La base enregistre si le  **File service** est activé le flux de données des satellites. Ces fichiers peuvent être convertis en RINEX (prochainement un module dans la base RTK le permettra) afin de résaliser le calcul de la position précise.
+	* La base enregistre si le  **File service** est activé le flux de données des satellites. Il est indispensable de lancer l'acquisition de logs pour le calcul du positionnement de la base.
 	* Tous les jours à 04h du matin une compression des fichiers du jour précédent est effectuée en .zip
+	* Ces fichiers peuvent être convertis en RINEX après 24h et compression en .zip avec le bouton edit (crayon) afin de résaliser le calcul de la position précise.
 	* Pour lancer une conversion RINEX attendre 24h entières soit 1 journée complète (de 00:01:00 à 23:59:00). Par exemple, si vous démarrez vos logs le 18/07/2020 à 15h30 attendez jusqu'au 20/07/2020 matin.
-	* Cliquer sur ![download](https://jancelin.github.io/docs-centipedeRTK/assets/images/basegnss/basegnss_logs_download.png) pour télécharger le .zip
 
 Passons maintenant au calcul de la position de la base.
 
