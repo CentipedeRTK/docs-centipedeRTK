@@ -9,7 +9,7 @@ nav_order: 3
 
 Pour la connexion sur `http://basegnss.local` (ou l'IP du Rasperry Pi) il est necessaire de saisir un mot de passe (`admin`), il est conseillé de le modifier par la suite.
 
-    ![base gnss](https://jancelin.github.io/docs-centipedeRTK/assets/images/basegnss/basegnss1.gif)
+![base gnss](https://jancelin.github.io/docs-centipedeRTK/assets/images/basegnss/basegnss1.gif)
 
 La base dispose de 3 onglets.
 
