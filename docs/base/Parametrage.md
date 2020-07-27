@@ -9,7 +9,7 @@ nav_order: 3
 
 Pour la connexion sur `http://basegnss.local` (ou l'IP du Rasperry Pi) il est necessaire de saisir un mot de passe (`admin`), il est conseillé de le modifier par la suite.
 
-![base gnss](https://jancelin.github.io/docs-centipedeRTK/assets/images/basegnss/basegnss1.gif)
+    ![base gnss](https://jancelin.github.io/docs-centipedeRTK/assets/images/basegnss/basegnss1.gif)
 
 La base dispose de 3 onglets.
 
@@ -60,7 +60,9 @@ Il est possible de se connecter directement à sa base RTK pour recevoir la tram
 
 #### File service
 
-Paramétrage des fichiers de logs nécessaires, par exemple, au calcul de la position précise de la base. Il est conseillé de conserver les paramètres par défaut. **Il est indispensable de démarrer ce service à la mise en route de la base afin de pouvoir calculer sa position précise**.
+Paramétrage des fichiers de logs nécessaires, par exemple, au calcul de la position précise de la base. Il est conseillé de conserver les paramètres par défaut. 
+
+**Il est indispensable de démarrer ce service à la mise en route de la base afin de pouvoir calculer sa position précise**.
 
     ![base gnss](https://jancelin.github.io/docs-centipedeRTK/assets/images/basegnss/basegnss_settings4.png)
 
