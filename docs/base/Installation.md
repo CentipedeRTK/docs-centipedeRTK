@@ -15,7 +15,7 @@ Dans un premier temps il est nécessaire de mettre à jour le [firmware](https:/
 
 1. Pour Windows seulement : [installer U-center](https://www.u-blox.com/en/product/u-center)
 2. [Mettre à jour le logiciel F9P](https://drotek.gitbook.io/rtk-f9p-positioning-solutions/tutorials/updating-zed-f9p-firmware)
-3. Télécharger l'image de Base RTK sur votre ordinateur (~ 530 Mo) : [BaseGNSS-RPi-1.1.0](https://github.com/jancelin/pi-gen/releases/download/BaseGNSS-RPi-1.1.0/Base_GNSS_1_1_0.zip). **Attention**, ne pas copier directement l'image Base_GNSS_X.X.X.zip sur la carte micro SD !!!
+3. Télécharger l'image de Base RTK sur votre ordinateur (~ 530 Mo) : [BaseGNSS-RPi-2.1](https://github.com/jancelin/pi-gen/releases/download/BaseGNSS-RPi-2.1/Base_GNSS_2_1.zip). **Attention**, ne pas copier directement l'image Base_GNSS_X.X.X.zip sur la carte micro SD !!!
 4. Télécharger et installer ETCHER sur votre ordinateur (windows, linux, mac). Ce programme va permettre d'installer correctement l'image BaseRTK téléchargée dans la carte micro SD : <https://etcher.io/>.
 5. Insérer la carte Micro SD dans l'ordinateur 
 
@@ -24,6 +24,7 @@ Dans un premier temps il est nécessaire de mettre à jour le [firmware](https:/
 6 Démarrer Etcher, choisir l'image téléchargée, la carte SD (normalement déjà sélectionnée) et flasher la carte :
 
    ![etcher](https://jancelin.github.io/docs-centipedeRTK/assets/images/install/etcher.png)
+
 
 7. Retirer ensuite la carte SD du PC
 
@@ -41,9 +42,9 @@ Dans un premier temps il est nécessaire de mettre à jour le [firmware](https:/
 
     ![](https://projects-static.raspberrypi.org/projects/raspberry-pi-setting-up/3addc4ca2ca0b7c999bdb03a46801a729614b235/en/images/pi-plug-in.gif)
 
-5. sur un PC connecté au même réseau, ouvrir un navigateur Internet et accéder à l'interface de la base RTK via l'URL : **<http://basegnss.local>**
+5. sur un PC connecté au même réseau, ouvrir un navigateur Internet et accéder à l'interface de la base RTK via l'URL : **<http://basegnss.local>** ou avec l'ip du Raspberry Pi si vous êtes sur un réseau.
 
-    > Mot de passe : `Admin`
+> Mot de passe: ```admin```
 
 ![base gnss](https://jancelin.github.io/docs-centipedeRTK/assets/images/basegnss/basegnss.gif)
 

@@ -11,7 +11,7 @@ Cette étape doit vous permettre de bien anticiper quel matériel acheter en fon
 
 ### Choix de la zone d'implantation
 
- * La zone d'implantation de l'antenne de réception ne nécessite pas une position dominante, mais doit proposer une visibilité maximum du ciel ; il est indispensable de ne pas avoir d'obstacles (bâtiments, arbres, murs ...) sous les 10 premiers degrés par rapport à la base de l'antenne.
+ * La zone d'implantation de l'antenne de réception ne nécessite pas une position dominante, mais doit proposer une visibilité maximum du ciel ; il est indispensable de ne pas avoir d'obstacles (bâtiments, arbres, murs ...) au-dessus des 10 premiers degrés par rapport au plan horizontal de l'antenne.
  * Elle doit également être très stable au niveau de sa position, il est donc préférable de la fixer sur un plot en béton ou sur le pignon d'un bâtiment (Attention à la dilatation des bâtiments en acier).
  * Il peut y avoir une certaine distance entre l'antenne et le reste du matériel ; il est important d'anticiper cette distance (au maximum 3 mètres pour éviter une dégradation du signal) et de commander un câble d'antenne à la bonne longueur.
  * La base RTK doit absolument avoir accès à Internet via **un câble ethernet (RJ45) de préférence** afin de partager ses corrections sur le réseau Centipede ou en TCP, il est donc nécessaire d'avoir un point accès à Internet non loin de la zone d'implantation et d'adapter la longueur du câble en fonction des besoins. Si vous ne disposez pas d'une connexion à proximité, vous pouvez opter pour [2 boitiers CPL](https://www.boitiercpl.fr/) en ethernet.
@@ -24,7 +24,7 @@ Voici la liste des éléments nécessaires à la mise en place d'une base RTK L1
 
 |Matériel|Prix HT|
 |--------|----|
-|[F9P](https://store.drotek.com/rtk-zed-f9p-gnss) ou [f9p](https://www.ardusimple.com/product/simplertk2b/)|200€|
+|[F9P](https://store.drotek.com/rtk-zed-f9p-gnss) ou [F9P](https://www.ardusimple.com/product/simplertk2b/)|200€|
 |[D910 antenna](https://store.drotek.com/da-910-multiband-gnss-antenna)|100€|
 |[Raspberry Pi 3/4](https://www.kubii.fr/les-cartes-raspberry-pi/2119-raspberry-pi-3-modele-b-1-gb-kubii-713179640259.html)|44€|
 |[Micro SD 16Go](https://www.kubii.fr/carte-sd-et-stockage/2359-carte-microsd-16go-classe-10-u1-sandisk-kubii-619659161347.html)|11€|
@@ -36,7 +36,7 @@ Voici la liste des éléments nécessaires à la mise en place d'une base RTK L1
 |[boite étanche je-200](https://www.mhzshop.com/shop/Accessoires-MHz/Boites-etanches/Boite-etanche-avec-fixation-mat-203x203x65mm-GentleBOX-JE-200.html)|16€|
 |TOTAL|410€|
 
-Dans le cas ou vous souhaitez fabriquer une base RTK seulement en WIFI, il est possible de remplacer le Raspberry Pi 3/4 par un [Raspberry Pi Zero W](https://www.kubii.fr/les-cartes-raspberry-pi/1851-raspberry-pi-zero-w-kubii-3272496006997.html) à 11€ + un [Câble USB vers Micro USB](https://www.kubii.fr/cables-cordons-raspberry-pi/2275-cable-usb-vers-micro-usb-kubii-3272496011878.html?search_query=otg&results=5) à 3€
+Il est également possible d'utilise un POE pour alimenter la base via le cable ethernet.
 
 ### Assemblage
 
