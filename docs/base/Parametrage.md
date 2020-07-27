@@ -7,17 +7,17 @@ nav_order: 3
 
 ## Paramétrage
 
-Pour la connexion sur [http://basegnss.local](http://basegnss.local) il est necessaire de saisir un mot de passe (``admin``), il est conseillé de le modifier par la suite.
+Pour la connexion sur [http://basegnss.local](http://basegnss.local) (ou l'IP du Rasperry Pi) il est necessaire de saisir un mot de passe: ``admin``, il est conseillé de le modifier par la suite.
 
 ![base gnss](https://jancelin.github.io/docs-centipedeRTK/assets/images/basegnss/basegnss1.gif)
 
 L'interface dispose de 3 onglets :
 
-### **STATUS**: 
+* **STATUS**: 
 	* Visualisation de la qualité de réception de chaque satellite (graphique)
 	* Position approximative de la base.
 	* Carte de situation de la base
-### **SETTINGS**: activation en cliquant sur **ON/OFF** et paramétrage des services en cliquant sur **Options**
+* **SETTINGS**: activation en cliquant sur **ON/OFF** et paramétrage des services en cliquant sur **Options**
 	* **Main service**: C'est le service permettant de récupérer les signaux des satellites et de les distribuer aux autres services (NTRIP,TCP,LOGS)
 		* **Base coordinates**: C'est ici que vous rentrerez la position exacte de votre base RTK après post traitement
 		* **Com port**, **Com port settings**, **Receiver type**, **Receiver format**: sont des paramètres récupérés automatiquement au moment de la première installation, ils correspondent au type de matériel connecté au Raspberry-pi.
@@ -45,7 +45,7 @@ L'interface dispose de 3 onglets :
 	* **Power**: permet de redémarrer(```Reboot```) et d'éteindre(```Shutdown```) votre base RTK
 ![base gnss](https://jancelin.github.io/docs-centipedeRTK/assets/images/basegnss/basegnss_settings5.png)
 	
-### **LOGS**: 
+* **LOGS**: 
 	* La base enregistre si le  **File service** est activé le flux de données des satellites. **Il est indispensable de lancer l'acquisition des logs pour le calcul du positionnement de la base**.
 	* Tous les jours à 04h du matin une compression des fichiers du jour précédent est effectuée en .zip, son poids est d'environ 160 Mo.
 	* Ces fichiers peuvent être convertis en RINEX (après 24h et compression en .zip) avec le bouton edit (crayon) afin de réaliser le calcul de la position précise.
