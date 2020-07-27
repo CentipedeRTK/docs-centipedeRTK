@@ -11,17 +11,19 @@ Nous allons déterminer la position de la base le plus précisément possible.
 
 Votre base va servir de référentiel pour vous mais aussi pour toute personne se trouvant dans sa zone d'action. Il est primordial que sa position soit juste et très précise afin de pourvoir tous travailler sur un même référentiel géographique.
 
-### 1. Convertir les logs en fichier RINEX
+Pour cela nous allons transformer un fichier de log de 24h de données satellitaires reçues par votre récepeteur en un fichier [RINEX](http://rgp.ign.fr/DONNEES/format/rinex.php), puis nous allons le transférer au service [IGN Calculs GNSS réseau en ligne](http://rgp.ign.fr/SERVICES/calcul_online.php) afin d'avoir les coordonées précises en latitude, longitude et élévation de votre base RTK
+
+### 1. Convertir un fichier de log en fichier RINEX
 
 * Se rendre dans l'onglet **logs** de votre base RTK et cliquer sur le crayon (```edit```) d'un **.zip** complet de 24h.
 
 ![log2rinex](https://jancelin.github.io/docs-centipedeRTK/assets/images/positionnement/log2rinex1.png)
 
-* Une fenêtre s'ouvre pour vous proposer de convertir le ficheir de log en fichier RINEX compatible avec les services en ligne d'IGN pour le calcul du positionnement précis. Cliquer sur **CREATE**
+* Une fenêtre s'ouvre pour vous proposer de convertir le fichier de log en fichier RINEX compatible avec les services en ligne d'IGN pour le calcul du positionnement précis. Cliquer sur **CREATE**
 
 ![log2rinex](https://jancelin.github.io/docs-centipedeRTK/assets/images/positionnement/log2rinex2.png)
 
-* Patientez pendant la création du fichier pendant env 1 min
+* Patientez lors de la création du fichier RINEX pendant environ 1 min.
 
 ![log2rinex](https://jancelin.github.io/docs-centipedeRTK/assets/images/positionnement/log2rinex3.png)
 
@@ -41,7 +43,7 @@ Cette étape permet de corriger les données brutes de votre base RTK avec les s
 * Actualiser le code avec les flêches bleu et Entrez les 4 lettres.
 * Cliquer sur envoyer la demande
 
-Le rapport de positionnement est transmit après quelques minutes.
+Le rapport de positionnement est transmit après quelques minutes sur votre boite mail.
 
 ![ign](https://jancelin.github.io/docs-centipedeRTK/assets/images/positionnement/ign_reseau_en_ligne1.png)
 
