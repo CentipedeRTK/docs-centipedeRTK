@@ -23,13 +23,13 @@ L'interface dispose de 3 onglets :
 		* **Com port**, **Com port settings**, **Receiver type**, **Receiver format**: sont des paramètres récupérés automatiquement au moment de la première installation, ils correspondent au type de matériel connecté au Raspberry-pi.
 		* **Tcp port**: le port de communication de ce service
 ![base gnss](https://jancelin.github.io/docs-centipedeRTK/assets/images/basegnss/basegnss_settings1.png)
-	* **Ntrip service**: C'est ici que vous allez paramétrer votre base pour qu'elle soit accessible sur le réseau Centipede
+	* **Ntrip service**: C'est ici que vous allez paramétrer votre base pour qu'elle soit accessible sur le réseau Centipede, il est necessaire en amont de faire le positionnement précis puis d'activer ce service et enfin de déclarer sa base à l'administrateur.
 		* **Caster address**: par defaut **caster.centipede.fr**
 		* **Caster port**: par defaut **2101**
-		* **Caster password**: Le mot de passe pour le caster centipede est **centipede**, il sera necessaire dans le futur de déclarer sa base à l'administrateur avant de pouvoir avoir une connexion au caster, le but est d'effectuer une vérification de la position précise de la base RTK.
+		* **Caster password**: Le mot de passe pour le caster centipede est **centipede**
 		* **Mount name**: C'est le nom de votre Base RTK, à vous de choisir 4-5 caractères en Majuscule.
 		* **Rtcm messages**: Par défaut la base est configurée pour envoyer certains messages mais vous avez la possibilité de les personnaliser et de rajouter une fréquence d'envoie (ex: 1004(15),...). une liste des messages possible est disponible [ici](https://www.use-snip.com/kb/knowledge-base/rtcm-3-message-list/?gclid=EAIaIQobChMI6NC3pcj06QIVg53VCh3T1gG8EAAYASAAEgKGD_D_BwE)
-		* **Receiver options:** avec l'option par defaut ```-TADJ=1``` permet d'avoir des secondes rondes
+		* **Receiver options:** avec l'option par defaut ```-TADJ=1``` permet d'avoir des secondes rondes.
 ![base gnss](https://jancelin.github.io/docs-centipedeRTK/assets/images/basegnss/basegnss_settings2.png)
 	* **Rtcm server service**: il est possible de se connecter directement à sa base RTK pour recevoir la trame de correction RTCM3, cette option peut être activée en plus du Ntrip Service.
 		* **Rtcm server port**: port de sortie du flux de correction
