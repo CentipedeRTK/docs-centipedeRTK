@@ -85,4 +85,4 @@ Paramétrage des fichiers de logs nécessaires, par exemple, au calcul de la pos
   
     ![base gnss](https://jancelin.github.io/docs-centipedeRTK/assets/images/basegnss/basegnss_settings6.png)
 
-Passons maintenant au calcul de la [positionnement de la base](Calcul de la position de la base){: .btn }.
+Passons maintenant au calcul de la [positionnement de la base](positionnement){: .btn }.
