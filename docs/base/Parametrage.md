@@ -46,7 +46,7 @@ C'est ici que vous allez paramétrer votre base pour qu'elle soit accessible sur
 * **Rtcm messages** : Par défaut la base est configurée pour envoyer certains messages mais vous avez la possibilité de les personnaliser et de rajouter une fréquence d'envoie (ex: 1004(15),...). une liste des messages possible est disponible [ici](https://www.use-snip.com/kb/knowledge-base/rtcm-3-message-list/?gclid=EAIaIQobChMI6NC3pcj06QIVg53VCh3T1gG8EAAYASAAEgKGD_D_BwE)
 * **Receiver options:** avec l'option par defaut ```-TADJ=1``` permet d'avoir des secondes rondes.
 
-    ![base gnss](https://jancelin.github.io/docs-centipedeRTK/assets/images/basegnss/basegnss_settings2.png)
+![base gnss](https://jancelin.github.io/docs-centipedeRTK/assets/images/basegnss/basegnss_settings2.png)
 
 #### Rtcm server service 
 
@@ -64,7 +64,7 @@ Paramétrage des fichiers de logs nécessaires, par exemple, au calcul de la pos
 
 **Il est indispensable de démarrer ce service à la mise en route de la base afin de pouvoir calculer sa position précise**.
 
-    ![base gnss](https://jancelin.github.io/docs-centipedeRTK/assets/images/basegnss/basegnss_settings4.png)
+![base gnss](https://jancelin.github.io/docs-centipedeRTK/assets/images/basegnss/basegnss_settings4.png)
 
 #### System Settings
 
@@ -85,4 +85,4 @@ Paramétrage des fichiers de logs nécessaires, par exemple, au calcul de la pos
   
     ![base gnss](https://jancelin.github.io/docs-centipedeRTK/assets/images/basegnss/basegnss_settings6.png)
 
-Passons maintenant au calcul de la [positionnement de la base](positionnement){: .btn }.
+Passons maintenant au calcul de la [positionnement de la base](positionnement){: .btn }

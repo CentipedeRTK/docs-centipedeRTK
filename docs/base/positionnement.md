@@ -62,5 +62,5 @@ Le rapport de positionnement est transmit après quelques minutes sur votre boit
 ![ign](https://jancelin.github.io/docs-centipedeRTK/assets/images/positionnement/rapport_ign1.png)
 
 
-* Passons à la finalisation du [Paramétrage du positionnement de votre Base RTK](param_positionnement){: .btn }.
+* Passons à la finalisation du [Paramétrage du positionnement de votre Base RTK](param_positionnement){: .btn }
 
