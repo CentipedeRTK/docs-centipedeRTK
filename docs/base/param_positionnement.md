@@ -15,4 +15,4 @@ nav_order: 5
 
 ![base gnss](https://jancelin.github.io/docs-centipedeRTK/assets/images/basegnss/basegnss_position.png)
 
-* Déclarer maintenant votre Base sur le Réseau Centipède pour quelle soit visible de tous et bénéficier d'un alerte mail en cas de défaillance.
+* [Déclarer maintenant votre Base sur le Réseau Centipède](Déclaration sur le Réseau Centipede){: .btn }..

@@ -21,7 +21,7 @@ Dans un premier temps il est nécessaire de mettre à jour le [firmware](https:/
 
     ![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrqS8MhQYdjrRmaYZS-RCtgLIrhB8gdLaxUmAfey96t6YpopQr)
 
-6 Démarrer Etcher, choisir l'image téléchargée, la carte SD (normalement déjà sélectionnée) et flasher la carte :
+6. Démarrer Etcher, choisir l'image téléchargée, la carte SD (normalement déjà sélectionnée) et flasher la carte :
 
    ![etcher](https://jancelin.github.io/docs-centipedeRTK/assets/images/install/etcher.png)
 

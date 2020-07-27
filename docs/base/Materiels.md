@@ -59,4 +59,5 @@ Dans un premier temps faites un premier montage sans la boite:
 
 
 ### Next step
-   * Prendre la [Micro SD 16Go](https://www.kubii.fr/carte-sd-et-stockage/2359-carte-microsd-16go-classe-10-u1-sandisk-kubii-619659161347.html) et passons maintenant à l'étape suivante, l'installation logicielle.
+   * Prendre la [Micro SD 16Go](https://www.kubii.fr/carte-sd-et-stockage/2359-carte-microsd-16go-classe-10-u1-sandisk-kubii-619659161347.html) et passons maintenant à l'étape suivante: [Installation logiciel](Installation logiciel){: .btn }.
+
