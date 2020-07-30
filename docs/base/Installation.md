@@ -15,7 +15,7 @@ Dans un premier temps il est nécessaire de mettre à jour le [firmware](https:/
 
 1. Pour Windows seulement : [installer U-center](https://www.u-blox.com/en/product/u-center)
 2. [Mettre à jour le logiciel F9P](https://drotek.gitbook.io/rtk-f9p-positioning-solutions/tutorials/updating-zed-f9p-firmware)
-3. Télécharger l'image de Base RTK sur votre ordinateur (~ 530 Mo) : [BaseGNSS-RPi-2.1](https://github.com/jancelin/pi-gen/releases/download/BaseGNSS-RPi-2.1/Base_GNSS_2_1.zip). **Attention**, ne pas copier directement l'image Base_GNSS_X.X.X.zip sur la carte micro SD !!!
+3. Télécharger l'image de Base RTK sur votre ordinateur (~ 530 Mo) : [BaseGNSS-RPi-2.1.1](https://github.com/jancelin/pi-gen/releases/download/BaseGNSS-RPi-2.1.1/Base_GNSS_2_1_1.zip). **Attention**, ne pas copier directement l'image Base_GNSS_X.X.X.zip sur la carte micro SD !!!
 4. Télécharger et installer ETCHER sur votre ordinateur (windows, linux, mac). Ce programme va permettre d'installer correctement l'image BaseRTK téléchargée dans la carte micro SD : <https://etcher.io/>.
 5. Insérer la carte Micro SD dans l'ordinateur 
 
