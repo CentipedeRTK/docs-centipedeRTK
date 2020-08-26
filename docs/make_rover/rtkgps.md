@@ -21,7 +21,7 @@ L'application permet également d'enregistrer l'historique des positions dans un
 ## Installation
 
 * Sur votre système Android, autoriser l'utilisation de sources inconnues : Dérouler la barre de notifications, sélectionner Paramètres → onglet Général → Sécurité puis cocher "Sources inconnues".
-* Télécharger l'[Application RTKGPS+](https://github.com/jancelin/RtkGps/releases/download/alpha2/RtkGps-debug_0_2.apk) et l'installer.
+* Télécharger l'[Application RTKGPS+ 1.1 Alpha 2](https://github.com/jancelin/RtkGps/releases/download/1.1-Alpha2/RtkGps-1_1alpha2.apk) et l'installer.
 * Activer les "Options pour développeurs" afin de bénéficier de la position fictive :
   * Désactiver le GPS interne
   * Activer le mode développeur : Aller dans Paramètres > À Propos > Cliquer 7 fois d'affilé sur "Numéro de build"
@@ -29,7 +29,14 @@ L'application permet également d'enregistrer l'historique des positions dans un
 * Désactiver la localisation par wifi pour éviter les sauts de localisation :
   * Sécurité et localisation > Localisation > Options avancées > Précision de la localisation > N'utiliser que le GPS interne
 
-## Paramétrage
+## Paramétrage automatique
+
+* Télécharger [settings.zip](https://github.com/jancelin/RtkGps/releases/download/1.1-Alpha2/settings.zip) et le déposer dans le dossier **RtkGPS** de votre appareil android.
+* Démarrer l'application RtkGPS+
+* Dans le menu de gauche, faire défiler vers le bas et appuyer sur **Charger les paramètres**
+* Une fois que la fenêtre de message disparait, fermer et réouvrir l'application pour la prise en compte des nuveaux paramètres.
+
+## Paramétrage Manuel
 
 * Ouvrir RTKGPS+
 * Autoriser l'appli pour le stockage de données et la localisation
