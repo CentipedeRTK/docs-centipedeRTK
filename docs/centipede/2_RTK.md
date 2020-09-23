@@ -9,14 +9,23 @@ nav_order: 2
 
 ![sketch](https://jancelin.github.io/docs-centipedeRTK/assets/images/index/1.jpg)
 
-<figure class="map">
-  <iframe src="https://fr.wikipedia.org/wiki/Cin%C3%A9matique_temps_r%C3%A9el" width="100%" height="900" allowfullscreen="true"> </iframe>
-</figure>
+> La Cinématique temps réel (Real Time Kinematic, en anglais ou RTK) est une technique de positionnement par satellite basée sur l'utilisation de mesures de la phase des ondes porteuses des signaux émis par les systèmes GPS, GLONASS ou Galileo. Une station de référence fournit des corrections en temps réel permettant d'atteindre une précision de l'ordre du centimètre.
 
+> En pratique, les systèmes RTK utilisent un récepteur fixe (station de base dont la position est connue précisément) et un certain nombre de récepteurs mobiles. La station de base compare la position calculée à partir du signal GPS et la position réelle, puis réémet les corrections à apporter vers les récepteurs mobiles. Cela permet aux unités mobiles de calculer leur position relative avec une précision de quelques millimètres, bien que leur position absolue soit aussi précise que la position de la station de base. La précision nominale typique pour ces systèmes est de 1 cm horizontalement et 2 cm verticalement.
+
+> Bien que cela limite l'utilité de la technique RTK en termes de navigation générale, elle est parfaitement adaptée à des applications telles que la surveillance ou le guidage de précision. Dans ce cas, la station de base est située à un emplacement connu qui est le point de référence, et les unités mobiles peuvent produire une carte très précise en prenant des mesures relativement à ce point. Le RTK a aussi des applications pour les systèmes de pilotage automatique, pour les travaux publics, en agriculture de précision et autres applications similaires.
+
+> La fiabilité opérationnelle et les précisions possibles dépendent de la densité et des capacités du réseau de stations de référence. 
 
 [wikipedia](https://fr.wikipedia.org/wiki/Cin%C3%A9matique_temps_r%C3%A9el){:target="_blank"}
 
+
 [agriculturedeprecision](https://agriculturedeprecision.wordpress.com/rtk/){:target="_blank"}
 
-
 [GNSS Precise Positioning and RTKLIB](https://jancelin.github.io/docs-centipedeRTK/assets/images/index/15a_PPP_RTKLIB.pdf)
+
+[RTCM-3 Message Types](https://igs.bkg.bund.de/ntrip/rtcmmessagetypes)
+
+[NtripCaster Version 2.0.x Operations Manual](https://igs.bkg.bund.de/root_ftp/NTRIP/documentation/ntripcaster_manual.html)
+
+[Cost Effective Precise Positioning with GNSS](https://www.fig.net/resources/publications/figpub/pub74/Figpub74.pdf)
