@@ -19,4 +19,4 @@ nav_order: 2
 [agriculturedeprecision](https://agriculturedeprecision.wordpress.com/rtk/){:target="_blank"}
 
 
-[GNSS](https://jancelin.github.io/docs-centipedeRTK/assets/images/index/15a_PPP_RTKLIB.pdf)
+[GNSS Precise Positioning and RTKLIB](https://jancelin.github.io/docs-centipedeRTK/assets/images/index/15a_PPP_RTKLIB.pdf)
