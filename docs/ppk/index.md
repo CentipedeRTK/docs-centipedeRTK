@@ -5,9 +5,9 @@ nav_order: 7
 has_children: true
 ---
 
-## Post Traitement d'un fichier de log
+## Post Traitement d'un fichier de log Rover
 
-Nous allons post traiter un fichier de log (rover ou base) afin d'optenir une position corrigée
+Nous allons post traiter un fichier de log (rover ou base) afin de fabriquer une position corrigée
 
 ### 1. Télécharger les données de votre base RTK ou du RGP et de votre Rover
 
