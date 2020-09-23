@@ -66,10 +66,12 @@ Télécharger cette version d'RTKLIB fournie par rtkexplorer: [RTKLIB Code: Wind
 * Cliquer su **Convert**
 
 Votre fichier va être convertis en fichiers RINEX
+
+* Répéter l'opération pour les logs du rover. Vous pouvez ajuster **interval** en fonction de votre frequence d'aquisition.
     
 ### 4. Post traitement: fabrication du fichier .pos
 
-Cette étape permet de corriger les données brutes de votre base avec le référentiel du RGP afin d'obtenir un nuage de point (.pos) corrigé.
+Cette étape permet de corriger les données brutes de votre rover avec un référentiel (votre base ou RGP) afin d'obtenir un nuage de point (.pos) corrigé.
 
 Deux méthodes sont proposées:
 
