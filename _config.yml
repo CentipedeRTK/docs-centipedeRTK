@@ -30,3 +30,5 @@
    "CentipedeRTK GitHub":
      - "//github.com/jancelin/centipede"
 
+
+theme: jekyll-theme-midnight
