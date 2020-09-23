@@ -20,24 +20,21 @@ nav_order: 2
 > [wikipedia](https://fr.wikipedia.org/wiki/Cin%C3%A9matique_temps_r%C3%A9el){:target="_blank"}
 
 
-[Video- Localisation par satellitesPrincipes de fonctionnement et performances](https://www.youtube.com/watch?v=XFZrOSKAXH4&pbjreload=101)
+[VIDEO- Localisation par satellites Principes de fonctionnement et performances](https://www.youtube.com/watch?v=XFZrOSKAXH4&pbjreload=101)
 
-[Localisation par satellitesPrincipes de fonctionnement et performances](https://www.agrotic.org/wp-content/uploads/2019/02/2019-04-23-AgroTic-Geolocalisation-CNES-VP.pdf)
+[PDF-   Localisation par satellites Principes de fonctionnement et performances](https://www.agrotic.org/wp-content/uploads/2019/02/2019-04-23-AgroTic-Geolocalisation-CNES-VP.pdf)
 
-[Le réseau GNSS en temps réel Teria](https://www.agrotic.org/wp-content/uploads/2019/02/190423_SeminaireAgroTIC_Teria.pdf)
+[VIDEO- Le réseau GNSS en temps réel Teria](https://www.youtube.com/watch?v=dcWotLV3rF8&pbjreload=101)
 
-[Video- Le réseau GNSS en temps réel Teria](https://www.youtube.com/watch?v=dcWotLV3rF8&pbjreload=101)
+[PDF-   Le réseau GNSS en temps réel Teria](https://www.agrotic.org/wp-content/uploads/2019/02/190423_SeminaireAgroTIC_Teria.pdf)
 
-[Quels sont les usages actuels de la géolocalisationpour l’agriculture française?](https://www.agrotic.org/wp-content/uploads/2019/02/7_190423_SeminaireAgroTIC_Observatoire.pdf)
+[PDF-   Quels sont les usages actuels de la géolocalisation pour l’agriculture française?](https://www.agrotic.org/wp-content/uploads/2019/02/7_190423_SeminaireAgroTIC_Observatoire.pdf)
 
+[PDF-   GNSS Precise Positioning and RTKLIB](https://jancelin.github.io/docs-centipedeRTK/assets/images/index/15a_PPP_RTKLIB.pdf)
 
+[PDF-   Cost Effective Precise Positioning with GNSS](https://www.fig.net/resources/publications/figpub/pub74/Figpub74.pdf)
 
+[WEB-   RTCM-3 Message Types](https://igs.bkg.bund.de/ntrip/rtcmmessagetypes)
 
-[GNSS Precise Positioning and RTKLIB](https://jancelin.github.io/docs-centipedeRTK/assets/images/index/15a_PPP_RTKLIB.pdf)
-
-[RTCM-3 Message Types](https://igs.bkg.bund.de/ntrip/rtcmmessagetypes)
-
-[NtripCaster Version 2.0.x Operations Manual](https://igs.bkg.bund.de/root_ftp/NTRIP/documentation/ntripcaster_manual.html)
-
-[Cost Effective Precise Positioning with GNSS](https://www.fig.net/resources/publications/figpub/pub74/Figpub74.pdf)
+[WEB-   NtripCaster Version 2.0.x Operations Manual](https://igs.bkg.bund.de/root_ftp/NTRIP/documentation/ntripcaster_manual.html)
 
