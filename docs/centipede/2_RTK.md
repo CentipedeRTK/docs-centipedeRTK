@@ -17,3 +17,6 @@ nav_order: 2
 [wikipedia](https://fr.wikipedia.org/wiki/Cin%C3%A9matique_temps_r%C3%A9el){:target="_blank"}
 
 [agriculturedeprecision](https://agriculturedeprecision.wordpress.com/rtk/){:target="_blank"}
+
+
+[GNSS](https://jancelin.github.io/docs-centipedeRTK/assets/images/index/15a_PPP_RTKLIB.pdf)
