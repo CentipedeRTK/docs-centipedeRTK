@@ -9,25 +9,13 @@ nav_order: 1
 
 ### Matériels
 
-* Une tablette ou un PC sous windows 10
-
-* Une [antenne GNSS bi-fréquence](https://store.drotek.com/da-910-multiband-gnss-antenna) ou bien la même chose chez un autre fournisseur [antenne GNSS bi-fréquence](https://www.ardusimple.com/product/simplertk2b/), d'autres modèles existent....
-
-* Un [recepteur F9P](https://store.drotek.com/rtk-zed-f9p-gnss) ou bien la même chose chez un autre fournisseur [recepteur F9P](https://www.ardusimple.com/product/survey-gnss-multiband-antenna/), d'autres modèles existent....
-
-* Un [câble antenne sma mâle tnc mâle 3m (longueur à adapter en fonction de votre projet)](https://www.mhzshop.com/shop/Cables-et-cordons/Sur-mesure/50-ohms-WiFi-4G/Cordon-sur-mesure-en-coax-faible-perte-WLL-240-2-4-5-GHz-6-1mm.html) dans le cas où celui fourni avec l'antenne ne correspond pas à votre besoin.
+* Une tablette ou un PC sous windows 10 ou Linux
+* Une antenne GNSS bi-fréquence
+* Un recepteur F9P
 
 ### Logiciels
 
 * La dernière version du logiciel [RTKlib version Rtkexplorer demo5](http://rtkexplorer.com/downloads/rtklib-code/) > Calcul du positionnement en [RTK](https://fr.wikipedia.org/wiki/Cin%C3%A9matique_temps_r%C3%A9el) par [RTKlib](http://www.rtklib.com/) pour une géolocalisation centimétrique.
-
-## Update du récepteur F9P
-
-Le récepteur F9P n'a pas toujours son [firmware](https://fr.wikipedia.org/wiki/Firmware) à jour quand on le reçois, il est important de suivre cette procédure pour la suite:
-
-* [Install U-center](https://www.u-blox.com/en/product/u-center) (Windows seulement)
-
-* [Update F9P firmware](https://drotek.gitbook.io/rtk-f9p-positioning-solutions/tutorials/updating-zed-f9p-firmware)
 
 ## Connexion et paramétrage
 
@@ -35,9 +23,8 @@ Le récepteur F9P n'a pas toujours son [firmware](https://fr.wikipedia.org/wiki/
 
 * Brancher l'antenne + récepteur F9P en USB
 
-* Ouvrir ensuite le [gestionnaire de périphériques](https://support.microsoft.com/fr-fr/help/4026149/windows-open-device-manager) et vérifier les ports COM, dans l'exemple **COM7** est le récepteur F9P en USB.
+* Ouvrir ensuite le [gestionnaire de périphériques](https://support.microsoft.com/fr-fr/help/4026149/windows-open-device-manager) et vérifier le port COM créé sous Windows ou le point de montage /dev/ttyXXX pour Linux
 
-![com](https://jancelin.github.io/docs-centipedeRTK/assets/images/rover_w/2.PNG)
 
 ### RTKLIB
 

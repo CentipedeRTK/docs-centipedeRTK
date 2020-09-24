@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Matériels Agricoles
-parent: Centipède sur matériels propriétaires
+parent: Centipède & Matériels propriétaires
 nav_order: 1
 ---
 

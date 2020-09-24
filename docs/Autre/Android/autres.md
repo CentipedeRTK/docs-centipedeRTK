@@ -3,7 +3,7 @@ layout: default
 title: APK
 parent: Rover avec Android
 grand_parent: Utiliser un Rover RTK
-nav_order: 3
+nav_order: 2
 ---
 
 ## Prérequis

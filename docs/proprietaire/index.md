@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Centipède sur Matériels propriétaires
+title: Centipède & Matériels propriétaires
 nav_order: 8
 has_children: true
 ---
