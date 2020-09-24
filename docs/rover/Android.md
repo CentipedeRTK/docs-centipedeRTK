@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Rover avec Android
-parent: Utiliser un Rover RTK
+parent: Autres Rover RTK
 nav_order: 1
 has_children: true
 ---

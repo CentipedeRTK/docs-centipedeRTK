@@ -52,9 +52,11 @@ Par mesure de prudence, s'assurer que la configuration est bien enregistrée :
 * Cliquer sur **Disconnect**
 * Débrancher le récepteur
 
->Attention ! Les données en sortie du récepteur sur l'USB et l'UART1 sont au format RAWX et SFRBX, pas en NMEA. 
+>Attention ! Les données en sortie du récepteur sur l'USB et l'UART1 sont au format RAWX et SFRBX, pas en NMEA.
 
-## Configuration du module bluetooth HC-05
+**A partir d'ici votre récepteur est entièrement fonctionnel en USB**
+
+## Option: Ajouter un module Bluetooth
 
 Le module bluetooth HC-05 est livré avec les configurations d'origine qu'il est nécessaire de modifier (notamment la vitesse de transmission de données). Pour cela nous allons avoir besoin de câbles jumpers pour connecter le HC-05 à l'arduino, d'un câble USB pour le relier au PC et enfin du programme Arduino installé sur le PC afin de "discuter" avec le module bluetooth HC-05.
 

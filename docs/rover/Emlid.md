@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Rover Emlid
-parent: Utiliser un Rover RTK
+parent: Autres Rover RTK
 nav_order: 6
 ---
 

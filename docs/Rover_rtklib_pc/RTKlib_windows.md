@@ -1,22 +1,13 @@
 ---
 layout: default
-title: Rover Windows
-parent: Autres Rover RTK
-nav_order: 5
+title: Rover RTKLIB avec Interface
+parent: Rover sur PC windows ou Linux
+nav_order: 1
 ---
 
-## 5.2 Utilisation Rover RTK sur PC Windows 
+## Prérequis
 
-> Cette méthode est un exemple, il existe d'autres méthodes pour paramétrer un client Ntrip sous windows avec un récepteur F9P.
-> L'objectif est d'intégrer les binaires Ublox plutôt que du NMEA, les paramètres du F9P sont quant à eux injectés à chaque lancement pour adapter facilement la configuration en fonction du travail à effectuer (Rate, Mask,DynModel,...). Le paramétrage est également plus fin afin d'avoir un FIX RTK rapide, stable et répétable.
-
-**Toujours vérifier la disponibilité d'une base [Centipede](https://centipede.fr) avant de l'utiliser**
-
-Pour l'utilisation sur le terrain, vous devez disposer d'un matériel compatible (antenne et récepteur) ainsi que d'une connexion Internet mobile (3-4-5G) pour la réception des trames de correction du caster [Centipede](https://centipede.fr)
-
-### 5.2.1 Prérequis
-
-#### Matériels
+### Matériels
 
 * Une tablette ou un PC sous windows 10
 
@@ -26,13 +17,11 @@ Pour l'utilisation sur le terrain, vous devez disposer d'un matériel compatible
 
 * Un [câble antenne sma mâle tnc mâle 3m (longueur à adapter en fonction de votre projet)](https://www.mhzshop.com/shop/Cables-et-cordons/Sur-mesure/50-ohms-WiFi-4G/Cordon-sur-mesure-en-coax-faible-perte-WLL-240-2-4-5-GHz-6-1mm.html) dans le cas où celui fourni avec l'antenne ne correspond pas à votre besoin.
 
-#### Logiciels
-
-* Le logiciel [Null-modem emulator](https://sourceforge.net/projects/com0com/files/latest/download) > création d'un virtual port COM pour utiliser les trames de géolocalisation NMEA corrigées en RTK comme un récepteur externe pour votre logiciel de collecte de donnée ou d'autoguidage.
+### Logiciels
 
 * La dernière version du logiciel [RTKlib version Rtkexplorer demo5](http://rtkexplorer.com/downloads/rtklib-code/) > Calcul du positionnement en [RTK](https://fr.wikipedia.org/wiki/Cin%C3%A9matique_temps_r%C3%A9el) par [RTKlib](http://www.rtklib.com/) pour une géolocalisation centimétrique.
 
-### 5.2.2 Update du récepteur F9P
+## Update du récepteur F9P
 
 Le récepteur F9P n'a pas toujours son [firmware](https://fr.wikipedia.org/wiki/Firmware) à jour quand on le reçois, il est important de suivre cette procédure pour la suite:
 
@@ -40,31 +29,17 @@ Le récepteur F9P n'a pas toujours son [firmware](https://fr.wikipedia.org/wiki/
 
 * [Update F9P firmware](https://drotek.gitbook.io/rtk-f9p-positioning-solutions/tutorials/updating-zed-f9p-firmware)
 
-### 5.2.3 Connexion et paramétrage
+## Connexion et paramétrage
 
-#### Paramétrage des ports COM et branchement de l'antenne GNSS
-
-Il est nécessaire d'installer un virtual port COM sur windows pour récupérer la trame NMEA corrigée sur ce dernier.
-
-* télécharger [Null-modem emulator](https://sourceforge.net/projects/com0com/files/latest/download) et l'installer.
-
-* Une fois insatllé ouvrir le logiciel et vérifier les ports ouverts, dans l'exemple **COM9** reçois les messages et **COM 10** diffuse le message (NMEA)
-
-![com](https://jancelin.github.io/docs-centipedeRTK/assets/images/rover_w/1.PNG)
+### Branchement de l'antenne GNSS
 
 * Brancher l'antenne + récepteur F9P en USB
 
-* Ouvrir ensuite le [gestionnaire de périphériques](https://support.microsoft.com/fr-fr/help/4026149/windows-open-device-manager) et vérifier les ports COM, dans l'exemple **COM9** et **COM10** comme précedemment expliqué et **COM7** le récepteur F9P en USB.
+* Ouvrir ensuite le [gestionnaire de périphériques](https://support.microsoft.com/fr-fr/help/4026149/windows-open-device-manager) et vérifier les ports COM, dans l'exemple **COM7** est le récepteur F9P en USB.
 
 ![com](https://jancelin.github.io/docs-centipedeRTK/assets/images/rover_w/2.PNG)
 
-> Repérez bien ces 3 Ports COM, il est indispensable de bien les identifier pour la suite du paramétrage en les adaptant à votre configuration, dans l'exemple:
-> * **COM7**: Entrée USB de l'antenne GNSS
-> * **COM9**: Sortie NMEA de RTKlib
-> * **COM10**: Entrée NMEA pour AgOpenGPS ou de tout autre logiciel de géolocalisation
-> Paramètres permanents. Il n'est pas nécessaire de réouvrir ce programme dans lors des prochains démarrages du PC.
-
-#### RTKLIB
+### RTKLIB
 
 > RTKLIB permet de convertir le Signal de postionnement de l'antenne GNSS grâce à une correction RTCM3 (Réseau Centipede par exemple) en un signal de géolocalisation précise au centimètre si les conditions le permettent.
 
@@ -114,29 +89,13 @@ Il est nécessaire d'installer un virtual port COM sur windows pour récupérer 
 * Faire **EXIT** et ré-ouvrir RTKNavi pour l'enregistrement des paramètres.
 
 
-#### Premier démarrage
+### Premier démarrage
 
 * Cliquer sur Start et attendre (de 30s à plusieurs minutes) une position **FIX RTK**
 
 > L'antenne de réception doit bien-sûr être en extérieur dans un milieu dégagé
 
-* Si ce premier test apporte une solution en **FIX** passons à la suite.
-
 ![RTKnavi](https://jancelin.github.io/docs-centipedeRTK/assets/images/rover_w/9.PNG)
-
-### 5.2.4 Connexion pour [AgOpenGps](https://agopengps.discourse.group/)
-
-* Ouvrir **AgOpenGPS** > **Paramètres de configurations**
-
-* Sélectionner le Port GPS (Entrée NMEA pour AgOpenGPS dans l'exemple **COM10**) et la vitesse **115200**
-
-* Ciquer sur **Connexion**
-
-![RTKnavi](https://jancelin.github.io/docs-centipedeRTK/assets/images/rover_w/11.PNG)
-
-
-
-
 
 
 
