@@ -8,7 +8,19 @@ has_children: true
 
 ## Assemblage du Rover
 
-### Adaptation du câble 6-pins
+### Préparer son matériel
+
+Vérifier que vous diposez de tous les composants:
+
+* Module F9P
+* Antenne GNSS
+* Batterie
+* Câble USB renforcé
+* option Bluetooth:
+    * Module Bluetooth
+    * Câble 6 pins préparé et connecté au F9P
+
+### Adaptation du câble 6-pins si Bluetooth
 
 Tout d'abord il faut bien repérer l'ordre des brins du câble pour la  connexion entre le récepteur F9P et le module bluetooth HC-05. 
 
@@ -18,16 +30,6 @@ Tout d'abord il faut bien repérer l'ordre des brins du câble pour la  connexio
 
 Connecter ensuite sur le UART1 du récepteur F9P
 
-### Préparer son matériel
-
-Vérifier que vous diposez de tous les composants:
-
-* Module F9P
-* Module Bluetooth
-* Câble 6 pins préparé et connecté au F9P
-* Batterie
-* Câble USB renforcé
-* Antenne GNSS
 
 ### Assemblage
 

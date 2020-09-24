@@ -2,7 +2,7 @@
 layout: default
 title: RTKlibDroid
 parent: Rover avec Android
-grand_parent: Utiliser un Rover RTK
+grand_parent: Autres Rover RTK
 nav_order: 1
 ---
 

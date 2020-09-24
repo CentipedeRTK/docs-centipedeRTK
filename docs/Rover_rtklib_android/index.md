@@ -9,6 +9,8 @@ has_children: true
 
 ![rtkgps+](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/rtkgps_logo.png)
 
+![rtkgps+](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/rtkgps.png)
+
 L'application RTKGPS+ est un projet OpenSource initié par [illarionov](https://github.com/illarionov/RtkGps) il y a 7 ans, repris par [eltorio](https://github.com/eltorio/RtkGps) il y a 2 ans et [mis à jour](https://github.com/jancelin/RtkGps/releases) pour permettre le fonctionnement avec les modules F9P.
 
 Cette application utilise RTKLIB Navi, qui permet une géolocalisation RTK avec un récepteur U-blox (ou autre) et une connexion à une Base RTK Centipede (ou autre) via le réseau 3-4G.
