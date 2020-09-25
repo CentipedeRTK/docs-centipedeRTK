@@ -14,7 +14,7 @@
  email: contact@centipede.fr
  description: Le Real Time Kinematic collaboratif, ouvert et Open Source
  logo: "/assets/images/index/centipede_petit2.png"
- footer_content: "Distributed by an <a href=\"https://creativecommons.org/licenses/by-nc-sa/3.0/fr/legalcode">CC BY-NC-SA 3.0 FR license</a> 2019-2020 Julien Ancelin INRAE."
+ footer_content: "2019-2020 INRAE/ Julien Ancelin. Distributed by an <a href=\"https://creativecommons.org/licenses/by-nc-sa/3.0/fr/legalcode\">CC BY-NC-SA 3.0 FR license.</a>"
 
 # Enable or disable the site search
  search_enabled: true
@@ -28,7 +28,7 @@
 # Aux links for the upper right navigation
  aux_links:
    "CentipedeRTK GitHub":
-     - "//github.com/jancelin/docs-centipedeRTK"
+     - "//github.com/jancelin/centipede"
 
 
 theme: jekyll-theme-midnight
