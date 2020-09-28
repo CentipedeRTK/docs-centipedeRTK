@@ -9,12 +9,14 @@ has_children: true
 
 ## Matériel Propriétaire
 
-- [] Comment adapter les systèmes d'autoguidage de marque propriétaire avec des outils libres pour utiliser le réseau Centipède ?
-- [] Est-il possible de rendre compatible des équipements existants d'agriculteur (Trimble, Raven ...) avec la correction Centipède ?
+- [x] Comment adapter les systèmes d'autoguidage de marque propriétaire avec des outils libres pour utiliser le réseau Centipède ?
+- [x] Est-il possible de rendre compatible des équipements existants d'agriculteur (Trimble, Raven ...) avec la correction Centipède ?
+
+[Centipède sur Matériels propriétaires](../proprietaire)
+
 - [] Utilisation/configuration de Rover pour piqueter des essais avec nos smartphones. (A ce jour nous avons un R2 de chez trimble , peut-on le rendre compatible Centipède ? )
 - [] Quels seraient les différents points de blocage à l'utilisation de Centipède avec du matériel propriétaire et comment les lever ?
 
-[Centipède sur Matériels propriétaires](../proprietaire)
 
 ## Autoguidage Agri
 
@@ -45,7 +47,7 @@ has_children: true
 
 ## Qualité
 
-- [] Quels protocoles peut-on suivre pour évaluer la précision du signal RTK fourni par le réseau Centipède ?
+- [x] Quels protocoles peut-on suivre pour évaluer la précision du signal RTK fourni par le réseau Centipède ?
 - [] Peut-on utiliser le réseau Centipède comme gold standard pour évaluer la précision d'autres systèmes gps (drone, robot...) ?
 
 ![quality](https://jancelin.github.io/docs-centipedeRTK/assets/images/autre/qualityxzy.png)
