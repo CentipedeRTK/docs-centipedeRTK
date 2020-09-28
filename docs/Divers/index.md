@@ -50,13 +50,9 @@ has_children: true
 
 ![quality](https://jancelin.github.io/docs-centipedeRTK/assets/images/autre/qualityxzy.png)
 
-<figure class="map">
-<iframe width="600" height="450" frameborder="0" style="border:0" src="http://centipede.fr/index.php/view/embed/?repository=centtest&project=track&layers=B000000TTTTT&bbox=-159446.878983%2C5773299.034967%2C-87213.887264%2C5813199.163726&crs=EPSG%3A3857&layerStyles=llh_view%3Ad%C3%A9faut" allowfullscreen></iframe>
-</figure>
+[Centipede tracking](http://centipede.fr/index.php/view/embed/?repository=centtest&project=track&layers=B000000TTTTT&bbox=-159446.878983%2C5773299.034967%2C-87213.887264%2C5813199.163726&crs=EPSG%3A3857&layerStyles=llh_view%3Ad%C3%A9faut)
 
-<figure class="map">
-<iframe width="600" height="450" frameborder="0" style="border:0" src="http://centipede.fr/index.php/view/embed/?repository=centtest&project=z&layers=B00000FFTTT&bbox=-110198.133641%2C5802606.663514%2C-101169.009676%2C5807594.179609&crs=EPSG%3A3857&layerStyles=pointz_stat_group_z%3Adefault" allowfullscreen></iframe>
-</figure>
+[Centipede Z](http://centipede.fr/index.php/view/embed/?repository=centtest&project=z&layers=B00000FFTTT&bbox=-110198.133641%2C5802606.663514%2C-101169.009676%2C5807594.179609&crs=EPSG%3A3857&layerStyles=pointz_stat_group_z%3Adefault" allowfullscreen)
 
 
 
