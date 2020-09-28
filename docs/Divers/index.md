@@ -14,7 +14,7 @@ has_children: true
 - [] Utilisation/configuration de Rover pour piqueter des essais avec nos smartphones. (A ce jour nous avons un R2 de chez trimble , peut-on le rendre compatible Centipède ? )
 - [] Quels seraient les différents points de blocage à l'utilisation de Centipède avec du matériel propriétaire et comment les lever ?
 
-[Centipède sur Matériels propriétaires](proprietaire)
+[Centipède sur Matériels propriétaires](../proprietaire)
 
 ## Autoguidage Agri
 
@@ -28,7 +28,7 @@ has_children: true
 - [] Comment pourrait-on utiliser le réseau Centipède pour traiter des images provenant de capteur embarqué par drone ?
 - [] Aujourd'hui nous faisons de la photogrammétrie avec des drones DJI (non RTK), est il possible de rendre nos drônes compatibles Centipède ou de corriger les coordonnées des photos en post traitement ?
 
-[Post Traitement d’un fichier de log Rover](ppk)
+[Post Traitement d’un fichier de log Rover](../ppk)
 
 
 ## Radio
@@ -50,10 +50,13 @@ has_children: true
 
 ![quality](https://jancelin.github.io/docs-centipedeRTK/assets/images/autre/qualityxzy.png)
 
+<figure class="map">
 <iframe width="600" height="450" frameborder="0" style="border:0" src="http://centipede.fr/index.php/view/embed/?repository=centtest&project=track&layers=B000000TTTTT&bbox=-159446.878983%2C5773299.034967%2C-87213.887264%2C5813199.163726&crs=EPSG%3A3857&layerStyles=llh_view%3Ad%C3%A9faut" allowfullscreen></iframe>
+</figure>
 
+<figure class="map">
 <iframe width="600" height="450" frameborder="0" style="border:0" src="http://centipede.fr/index.php/view/embed/?repository=centtest&project=z&layers=B00000FFTTT&bbox=-110198.133641%2C5802606.663514%2C-101169.009676%2C5807594.179609&crs=EPSG%3A3857&layerStyles=pointz_stat_group_z%3Adefault" allowfullscreen></iframe>
-
+</figure>
 
 
 
