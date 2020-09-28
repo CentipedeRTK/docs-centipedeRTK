@@ -27,6 +27,7 @@ has_children: true
 
 ## Drone volant
 
+- [ ] Drones RTK ou non, leur fonctionnement propriétaire et la possible utilisation avec le réseau Centipède.
 - [ ] Comment pourrait-on utiliser le réseau Centipède pour traiter des images provenant de capteur embarqué par drone ?
 - [ ] Aujourd'hui nous faisons de la photogrammétrie avec des drones DJI (non RTK), est il possible de rendre nos drônes compatibles Centipède ou de corriger les coordonnées des photos en post traitement ?
 
