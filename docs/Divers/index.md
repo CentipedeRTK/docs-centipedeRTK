@@ -15,6 +15,9 @@ has_children: true
 [Centipède sur Matériels propriétaires](../proprietaire)
 
 - [ ] Utilisation/configuration de Rover pour piqueter des essais avec nos smartphones. (A ce jour nous avons un R2 de chez trimble , peut-on le rendre compatible Centipède ? )
+
+**Avoir le R2 pendant la formation pour essayer**
+
 - [ ] Quels seraient les différents points de blocage à l'utilisation de Centipède avec du matériel propriétaire et comment les lever ?
 
 
@@ -46,9 +49,12 @@ has_children: true
 
 - [ ] Paramétrage d'un rover. En résumé : Il y a beaucoup de paramètres à régler dans RTKGPS+ (ou dans d'autres App proprio) J'aimerai bien ne plus bidouiller sans comprendre ce que je fais !
 
+[rtknavi.conf](https://github.com/jancelin/docs-centipedeRTK/blob/master/assets/param_rtklib/RTKlib_windows.conf)
+
 ## Qualité
 
 - [x] Quels protocoles peut-on suivre pour évaluer la précision du signal RTK fourni par le réseau Centipède ?
+- [ ] Peut-on utiliser le réseau Centipède comme gold standard pour évaluer la précision d'autres systèmes gps (drone, robot...) ?
 
 ![quality](https://jancelin.github.io/docs-centipedeRTK/assets/images/autre/qualityxzy.png)
 
@@ -56,7 +62,7 @@ has_children: true
 
 <iframe width="100%" height="600" frameborder="0" style="border:0" src="https://centipede.fr/index.php/view/embed/?repository=centtest&project=z&layers=B00000FFTTT&bbox=-110198.133641%2C5802606.663514%2C-101169.009676%2C5807594.179609&crs=EPSG%3A3857&layerStyles=pointz_stat_group_z%3Adefault" allowfullscreen></iframe> 
 
-- [ ] Peut-on utiliser le réseau Centipède comme gold standard pour évaluer la précision d'autres systèmes gps (drone, robot...) ?
+
 
 
 
