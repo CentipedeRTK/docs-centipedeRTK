@@ -15,7 +15,7 @@ L'objectif du projet est d'offrir une couverture complète du territoire métrop
 
 
 
-<iframe width="100%" height="600" frameborder="0" style="border:0" src="http://centipede.fr/index.php/view/embed/?repository=cent&project=centipede&layers=000B0TTTTT&bbox=-4458553.867933%2C3262336.078584%2C4787269.072154%2C8369552.559775&crs=EPSG%3A3857&layerStyles=buffer%3Ad%C3%A9faut%3Bbasesrtk%3Ad%C3%A9faut" allowfullscreen></iframe>
+<iframe width="100%" height="600" frameborder="0" style="border:0" src="http://centipede.fr/index.php/view/embed/?repository=cent&project=centipede&layers=000B0TTTTT&bbox=-4458553.867933%2C3262336.078584%2C4787269.072154%2C8369552.559775&crs=EPSG%3A3857&layerStyles=buffer%3Ad%C3%A9faut%3Bbasesrtk%3Ad%C3%A9faut" allowfullscreen="true"></iframe>
 
 Les instituts de recherche comme [INRAE](https://www.inrae.fr/) ou le [CNRS](http://www.cnrs.fr/fr/page-daccueil) utilisent la géolocalisation pour référencer leurs données environnementales, mais la précision des systèmes de navigation par satellite, qui dépend des conditions atmosphériques, n’est que de quelques mètres. Des systèmes de correction différentiels peuvent compenser ce manque de précision : la cinématique en temps réel (Real Time Kinematic) permet ainsi d’approcher la précision centimétrique. Mais ce système nécessite une base de référence à proximité du lieu de collecte, l’accessibilité de son signal ainsi qu'un matériel extrêmement coûteux pour le  traiter. Depuis quelques années, des développeurs travaillent activement avec des logiciels et des composants open-source/open-hardware pour créer des solutions peu coûteuses, fiables, légères et faciles d’utilisation.
 
