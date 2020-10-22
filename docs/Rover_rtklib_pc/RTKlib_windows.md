@@ -42,7 +42,7 @@ nav_order: 1
 
 > Permet de paramétrer automatiquement certains paramètres de RTkLIb
 
-![RTKnavi](https://jancelin.github.io/docs-centipedeRTK/assets/images/rover_w/a1.PNG)
+![RTKnavi](https://jancelin.github.io/docs-centipedeRTK/assets/images/rover_w/a2.PNG)
 
 * Cliquer sur le **I** en haut à droite
 * cliquer sur **ROVER** > **Opt**
