@@ -30,6 +30,8 @@ Contact: contact@centipede.fr
 
 [http://caster.centipede.fr:2101](http://caster.centipede.fr:2101){:target="_blank"}
 
+[fil de discussion Telegram](https://t.me/Centipede_RTK)
+
 
 -------------------------------------------------------
 
