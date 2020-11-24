@@ -37,25 +37,15 @@ L'application permet également d'enregistrer l'historique des positions dans un
 * Dans le menu de gauche, faire défiler vers le bas et appuyer sur **Charger les paramètres**
 * Une fois que la fenêtre de messages disparait, fermer et réouvrir l'application pour la prise en compte des nouveaux paramètres.
 
-## Paramétrage Manuel
+## Configuration
 
 * Ouvrir RTKGPS+
 * Autoriser l'appli pour le stockage de données et la localisation
 * Cliquer sur le logo RTKGPS+ pour accéder aux paramètres
-* Cliquer sur **Options de traitement**
-  * Dans **Système GNSS** rajouter **Beidou**
-  * Dans **Paramètres de résolution des ambiguités** appliquer cette configuration :
-
-![rtkgps+](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/settings_RTK.png)
-
-* Cliquer sur **Options de Solutions**
-  * Cocher **Générer des positions GPS fictives**
-  * Décocher **Activer le mode test**
-
 * Cliquer sur **Flux d'entrée**
   * Cliquer sur **Entrée Mobile**
     * Penser à l'alimentation de l'antenne GNSS
-    * **Type** > **Bluetooth**
+    * **Type** > **Bluetooth** (ou USB)
     * **Paramètres de flux** > Autoriser l'activation du Bluetooth > Paramètres système bluetooth > Associer nouvel app. > CENTIPEDE > rentrer le code PIN (1234) > revenir sur RTKGPS+
     * Vérifier que votre récepteur apparait maintenant dans **Périphérique Bluetooth**
     * **Format** > **u-blox Lea-T**
