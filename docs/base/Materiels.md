@@ -38,7 +38,14 @@ Voici la liste des éléments nécessaires à la mise en place d'une base RTK L1
 |[boite étanche je-200](https://www.mhzshop.com/shop/Accessoires-MHz/Boites-etanches/Boite-etanche-avec-fixation-mat-203x203x65mm-GentleBOX-JE-200.html)|16€|
 |TOTAL|410€|
 
-Il est également possible d'utilise un POE pour alimenter la base via le cable ethernet.
+Il est également possible d'utilise un POE pour alimenter la base via le cable ethernet: 
+
+[Injecteur](https://www.trendnet.com/langfr/products/poe-splitters-injectors-extenders/tpe-104GS)
+
+[Séparateur](https://www.trendnet.com/langfr/products/PoE/Gigabit-PoE-Splitter-TPE-104GS-v2)
+
+
+![POE](https://raw.githubusercontent.com/Stefal/rtkbase/master/images/base_f9p_raspberry_pi.jpg)
 
 ### Assemblage
 
