@@ -46,6 +46,7 @@ Il est également possible d'utilise un POE pour alimenter la base via le cable 
 
 
 ![POE](https://raw.githubusercontent.com/Stefal/rtkbase/master/images/base_f9p_raspberry_pi.jpg)
+<p align="center"><sup><i>crédit Stéphane Péneau</i></sup></p>
 
 ### Assemblage
 
