@@ -46,7 +46,7 @@ nav_order: 2
 
 ### Assemblage et premier démarrage
 
-1. Brancher un câble ethernet sur votre réseau afin que votre base puisse envoyer ses données au caster Centipede. (sauf si la connexion en WIFI)
+1. Brancher un câble ethernet sur votre réseau afin que votre base puisse envoyer ses données au caster Centipede.
 2. Connecter en USB le récepteur F9P.
 3. Insérer la carte micro SD dans le Raspberry Pi et le mettre sous tension. 
 
