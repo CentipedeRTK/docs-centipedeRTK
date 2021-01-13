@@ -26,6 +26,8 @@ nav_order: 2
 
 ### Spectra et Nomad avec Survey Pro
 
+* Besoin de la trame 1008 sur la base (MAJ rtkbase 2.2.0)
+* Carte SIM M2M débloquée, soit établir une connexion en WiFi avec son Smartphone en Hotspot
 
 ![spectra_surveypro](https://jancelin.github.io/docs-centipedeRTK/assets/images/consoles_rtk/spectra_surveypro1.jpg)
 
