@@ -24,7 +24,25 @@ nav_order: 2
 ![trimbleR4](https://jancelin.github.io/docs-centipedeRTK/assets/images/consoles_rtk/trimble3.jpg)
 
 
+### Spectra et Nomad avec Survey Pro
 
 
+![spectra_surveypro](https://jancelin.github.io/docs-centipedeRTK/assets/images/spectra_surveypro1.jpg)
 
+![spectra_surveypro](https://jancelin.github.io/docs-centipedeRTK/assets/images/spectra_surveypro2.jpg)
 
+![spectra_surveypro](https://jancelin.github.io/docs-centipedeRTK/assets/images/spectra_surveypro3.jpg)
+
+![spectra_surveypro](https://jancelin.github.io/docs-centipedeRTK/assets/images/spectra_surveypro4.jpg)
+
+![spectra_surveypro](https://jancelin.github.io/docs-centipedeRTK/assets/images/spectra_surveypro5.jpg)
+
+![spectra_surveypro](https://jancelin.github.io/docs-centipedeRTK/assets/images/spectra_surveypro6.jpg)
+
+![spectra_surveypro](https://jancelin.github.io/docs-centipedeRTK/assets/images/spectra_surveypro7.jpg)
+
+![spectra_surveypro](https://jancelin.github.io/docs-centipedeRTK/assets/images/spectra_surveypro8.jpg)
+
+![spectra_surveypro](https://jancelin.github.io/docs-centipedeRTK/assets/images/spectra_surveypro9.jpg)
+
+![spectra_surveypro](https://jancelin.github.io/docs-centipedeRTK/assets/images/spectra_surveypro10.jpg)
