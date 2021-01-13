@@ -30,8 +30,13 @@ Tout d'abord il faut bien repérer l'ordre des brins du câble pour la  connexio
 
 Connecter ensuite sur le UART1 du récepteur F9P
 
+### Assemblage impression 3D
 
-### Assemblage
+[source](https://www.prusaprinters.org/fr/prints/47974-gnss-rtk-f9p-drotek-bt-hc-05)
+
+<iframe width="100%" height="1000" frameborder="0" style="border:0" src="https://www.prusaprinters.org/fr/prints/47974-gnss-rtk-f9p-drotek-bt-hc-05" allowfullscreen></iframe>
+
+### Assemblage scratch
 
 J'utilise du scratch 3M Dual-lock pour l'assemblage des composants, cela permet un démontage et une adaptation aisés du positionnement en fonction des besoins. 
 
