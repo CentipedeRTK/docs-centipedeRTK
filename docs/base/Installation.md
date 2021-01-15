@@ -33,6 +33,7 @@ nav_order: 2
 2. Télécharger l'image de Base RTK sur votre ordinateur (~ 560 Mo) : [BaseGNSS-RPi-2.1.1](https://github.com/jancelin/pi-gen/releases/download/BaseGNSS-RPi-2.1.1/Base_GNSS_2_1_1.zip). **Attention**, ne pas copier directement l'image Base_GNSS_X.X.X.zip sur la carte micro SD !!!
 
 **Après l'installation pensez à mettre à jour rtkbase en 2.2.0** 
+
 3. Télécharger et installer ETCHER sur votre ordinateur (windows, linux, mac). Ce programme va permettre d'installer correctement l'image BaseRTK téléchargée dans la carte micro SD : <https://etcher.io/>.
 4. Insérer la carte Micro SD dans l'ordinateur 
 
