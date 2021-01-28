@@ -16,8 +16,8 @@ La base dispose de 3 onglets.
 ### STATUS
 
 * Visualisation de la qualité de réception de chaque satellite (graphique)
-* Position approximative de la base.
-* Carte de situation de la base
+* Position approximative de la base et la possibilité de copier les coordonnées
+* Carte de situation de la base, le pictogramme bleu donne la position approximative instantanée, la cible la position exacte de la base renseignée dans SETTINGS >Main service > Base coordinates
 
 ### SETTINGS
 
@@ -25,11 +25,13 @@ Activation en cliquant sur **ON/OFF** et paramétrage des services en cliquant s
 
 #### Main service
 
-C'est le service permettant de récupérer les signaux des satellites et de les distribuer aux autres services (NTRIP,TCP,LOGS)
+C'est le service permettant de récupérer les signaux des satellites et de les distribuer aux autres services (NTRIP,TCP,LOGS), **l'activation de ce service est indispensable pour le fonctionnement des suivants**
 
-* **Base coordinates** : C'est ici que vous rentrerez la position exacte de votre base RTK après post traitement
+* **Base coordinates** : C'est ici que vous rentrerez la position exacte de votre base RTK après réception du rapport IGN ou post traitement
 
 * **Com port**, **Com port settings**, **Receiver type**, **Receiver format** : sont des paramètres récupérés automatiquement au moment de la première installation, ils correspondent au type de matériel connecté au Raspberry-pi.
+
+* **Antenna info** : Renseigner le type d'antenne que vous utilisez pour la réception. La plupart des antennes utilisées sont les suivantes: u-blox_ANN-MB-00, drotek_D910, ardusimple_AS-ANT2B-SUR, ardusimple_AS-ANT2B-CAL, BEITAN_BT-160, BT-47N, HX-CSX601A, Mini_Survey_Antenna_GPS500, mais il e existe d'autre. Pour certaines utilisation avec des récepteurs propriétaire il peux être necessaire de renseigner ADVNULLANTENNA.
 
 * **Tcp port** : le port de communication de ce service
 
@@ -57,12 +59,24 @@ Il est possible de se connecter directement à sa base RTK pour recevoir la tram
 * **Receiver options:** avec l'option par defaut ```-TADJ=1``` permet d'avoir des secondes rondes.
 
     ![base gnss](https://jancelin.github.io/docs-centipedeRTK/assets/images/basegnss/basegnss_settings3.png)
+    
+#### Rtcm serial service 
+
+Il est possible de connecter un emmeteur radio pour recevoir la trame de correction RTCM3, cette option peut être activée en plus du Ntrip Service.
+
+* **Rtcm server port** : port de sortie du flux de correction, il est necessaire de modifier 2 fichiers dans la partition /boot pour activer le port serie du Raspberry Pi, la méthode est expliqué dans la section [wifi et port serie](wifi_port_serie){: .btn }
+* **Rtcm server messages** : explication identique au Ntrip Service
+* **Receiver options:** avec l'option par defaut ```-TADJ=1``` permet d'avoir des secondes rondes.
+
+    ![base gnss](https://jancelin.github.io/docs-centipedeRTK/assets/images/basegnss/basegnss_settings7.png)
 
 #### File service
 
 Paramétrage des fichiers de logs nécessaires, par exemple, au calcul de la position précise de la base. Il est conseillé de conserver les paramètres par défaut. 
 
-**Il est indispensable de démarrer ce service à la mise en route de la base afin de pouvoir calculer sa position précise**.
+**Il est indispensable de démarrer ce service à la mise en route de la base afin de pouvoir calculer sa position précise**
+
+**Ensuite, si vous n'avez pas l'utilité de faire du post traiment, il est recommandé, afin d'améliorer la durée de vie de la carte SD, de couper le service**.
 
 ![base gnss](https://jancelin.github.io/docs-centipedeRTK/assets/images/basegnss/basegnss_settings4.png)
 
