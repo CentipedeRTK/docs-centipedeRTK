@@ -12,7 +12,7 @@ Pour activer les ports série RaspberryPi et avoir le point de montage ```/dev/t
 * Avoir flashé la carte SD avec l'image rtkbase.
 * Enlever puis remettre la carte SD dans le PC pour monter et afficher les partitions dans un explorateur de fichier.
 
-* Editez 2 fichiers dans la partition ```/boot``.
+* Editez 2 fichiers dans la partition ```/boot```.
   * Editez ```/boot/cmdline.txt``` et supprimez ```console=serial0, 115200```
   * Éditez ```/boot/config.txt``` et ajoutez à la fin :
 
@@ -26,5 +26,5 @@ dtoverlay=pi3-miniuart-bt
 
 voici un exemple de branchement sur le port serie du raspberry Pi.
 
-![serial](https://jancelin.github.io/docs-centipedeRTK/assets/images/basegnss/radio_serial.jpg)
+   ![serial](https://jancelin.github.io/docs-centipedeRTK/assets/images/basegnss/radio_serial.jpg)
 
