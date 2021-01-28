@@ -39,8 +39,6 @@ Télécharger l'image pour Raspberry Pi de Base RTK sur votre ordinateur (~ 560 
 
 **Attention**, ne pas copier directement l'image Base_GNSS_X.X.X.zip sur la carte micro SD !!!
 
-**Après l'installation pensez à vérifier les mises à jour avec le bouton "check update" dans l'interface après l'installation** 
-
 ### 3. Télécharger et installer ETCHER 
 
 Télécharger et installer ETCHER sur votre ordinateur (windows, linux, mac). Ce programme va permettre d'installer correctement l'image BaseRTK téléchargée dans la carte micro SD : <https://etcher.io/>.
