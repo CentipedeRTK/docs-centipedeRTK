@@ -22,5 +22,5 @@ dtoverlay=pi3-miniuart-bt
 ```
 
 * Démonter la carte SD > l'insérer dans le RaspberryPi > et mettre sous tension
-* Connectez-vous aux paramètres de la Rtkbase et ajoutez "ttyAMA0" dans **Rtcm server port**.
+* Connectez-vous aux paramètres de la Rtkbase et ajoutez ```ttyAMA0``` dans **Rtcm server port**.
 
