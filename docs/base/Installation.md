@@ -9,7 +9,9 @@ nav_order: 2
 
 > Installation avec Raspberry Pi [3](https://www.kubii.fr/les-cartes-raspberry-pi/2119-raspberry-pi-3-modele-b-1-gb-kubii-713179640259.html) ou [4](https://www.kubii.fr/les-cartes-raspberry-pi/2770-nouveau-raspberry-pi-4-modele-b-1gb-kubii-0765756931168.html)
 
-### 1. Dans un premier temps il est nécessaire de mettre à jour le [firmware](https://fr.wikipedia.org/wiki/Firmware) de votre module GNSS F9P :
+### 1. mettre à jour le firmware de votre module GNSS F9P
+
+Dans un premier temps il est nécessaire de mettre à jour le [firmware](https://fr.wikipedia.org/wiki/Firmware) de votre module GNSS F9P :
 
 * [Install U-center](https://www.u-blox.com/en/product/u-center) (Windows seulement)
 
@@ -54,9 +56,17 @@ Démarrer Etcher, choisir l'image téléchargée, la carte SD (normalement déj�
 
 ### 6. Retirer ensuite la carte SD du PC
 
+Vous pouvez retirer la carte SD du PC et l'insérer maintenant dans le Raspberry Pi.
+
+En option, il est possible d'activer une connexion WIFI si vous n'avez pas de réseau filaire (déconseillé!) ainsi que le Port Serie pour connecter par exemple un emetteur radio. Pour ce faire, ré-insérer la carte SD dans votre PC puis suivez la procédure de modification des fichiers de configurations du premier démarrage:
+
+[WIFI](wifi){: .btn }
+
+[port serie](port_serie){: .btn }
+
 ----
 
-## Assemblage et premier démarrage
+### 7. Assemblage et premier démarrage
 
 1. Brancher un câble ethernet sur votre réseau afin que votre base puisse envoyer ses données au caster Centipede.
 2. Connecter en USB le récepteur F9P.
@@ -81,7 +91,7 @@ Si vous ne voyez pas de position ou de barre sur le graphique c'est que l'initia
 
 Passons ensuite au [Paramétrage](Parametrage){: .btn }
 
-#### Option : Connexion en ssh pour les développeurs ou le débugage
+#### Connexion en ssh pour les développeurs ou le débugage
 
 * identifiant : `ssh basegnss@basegnss.local`
 * mot de passe : `basegnss!`
