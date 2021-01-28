@@ -2,6 +2,7 @@
 layout: default
 title: Installation logiciel
 parent: Fabriquer une base RTK
+has_children: true
 nav_order: 2
 ---
 
