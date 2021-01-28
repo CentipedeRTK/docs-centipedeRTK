@@ -64,7 +64,7 @@ Il est possible de se connecter directement à sa base RTK pour recevoir la tram
 
 Il est possible de connecter un emmeteur radio pour recevoir la trame de correction RTCM3, cette option peut être activée en plus du Ntrip Service.
 
-* **Rtcm server port** : port de sortie du flux de correction, il est necessaire de modifier 2 fichiers dans la partition /boot pour activer le port serie du Raspberry Pi, la méthode est expliqué dans la section [wifi et port serie](wifi_port_serie){: .btn }
+* **Rtcm server port** : port de sortie du flux de correction, il est necessaire de modifier 2 fichiers dans la partition /boot pour activer le port serie du Raspberry Pi, la méthode est expliquée dans la section [port serie](port_serie){: .btn }
 * **Rtcm server messages** : explication identique au Ntrip Service
 * **Receiver options:** avec l'option par defaut ```-TADJ=1``` permet d'avoir des secondes rondes.
 
@@ -99,4 +99,4 @@ Paramétrage des fichiers de logs nécessaires, par exemple, au calcul de la pos
   
     ![base gnss](https://jancelin.github.io/docs-centipedeRTK/assets/images/basegnss/basegnss_settings6.png)
 
-Passons maintenant au calcul de la [positionnement de la base](positionnement){: .btn }
+Passons maintenant au calcul du [positionnement de la base](positionnement){: .btn }
