@@ -38,13 +38,17 @@ Télécharger l'image pour Raspberry Pi de Base RTK sur votre ordinateur (~ 560 
 
 **Après l'installation pensez à vérifier les mises à jour avec le bouton "check update" dans l'interface après l'installation** 
 
-### 3. Télécharger et installer ETCHER sur votre ordinateur (windows, linux, mac). Ce programme va permettre d'installer correctement l'image BaseRTK téléchargée dans la carte micro SD : <https://etcher.io/>.
+### 3. Télécharger et installer ETCHER 
+
+Télécharger et installer ETCHER sur votre ordinateur (windows, linux, mac). Ce programme va permettre d'installer correctement l'image BaseRTK téléchargée dans la carte micro SD : <https://etcher.io/>.
 
 ### 4. Insérer la carte Micro SD dans l'ordinateur 
 
    ![SD](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrqS8MhQYdjrRmaYZS-RCtgLIrhB8gdLaxUmAfey96t6YpopQr)
 
-### 5. Démarrer Etcher, choisir l'image téléchargée, la carte SD (normalement déjà sélectionnée) et flasher la carte :
+### 5. Flasher la carte SD avec l'image
+
+Démarrer Etcher, choisir l'image téléchargée, la carte SD (normalement déjà sélectionnée) et flasher la carte :
 
    ![etcher](https://jancelin.github.io/docs-centipedeRTK/assets/images/install/etcher.png)
 
