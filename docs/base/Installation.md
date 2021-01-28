@@ -9,7 +9,7 @@ nav_order: 2
 
 > Installation avec Raspberry Pi [3](https://www.kubii.fr/les-cartes-raspberry-pi/2119-raspberry-pi-3-modele-b-1-gb-kubii-713179640259.html) ou [4](https://www.kubii.fr/les-cartes-raspberry-pi/2770-nouveau-raspberry-pi-4-modele-b-1gb-kubii-0765756931168.html)
 
-1. Dans un premier temps il est nécessaire de mettre à jour le [firmware](https://fr.wikipedia.org/wiki/Firmware) de votre module GNSS F9P :
+### 1. Dans un premier temps il est nécessaire de mettre à jour le [firmware](https://fr.wikipedia.org/wiki/Firmware) de votre module GNSS F9P :
 
 * [Install U-center](https://www.u-blox.com/en/product/u-center) (Windows seulement)
 
@@ -30,24 +30,25 @@ nav_order: 2
   * Attendre la fin de la procédure de mise à jour
 ![firware](https://gblobscdn.gitbook.com/assets%2F-LYSZeu4HjB-NrVI4riL%2F-LZ52KPCRzypMK4cqtQW%2F-LZ52Z_bl9GHQP8dz7By%2Fstep6.png?alt=media&token=f8f7240b-79b4-4856-87ea-26e12c1aac36)
 
-2. Télécharger l'image de Base RTK sur votre ordinateur (~ 560 Mo) : [BaseGNSS-RPi-2.2.0](https://github.com/jancelin/pi-gen/releases/download/BaseGNSS-RPi-2.2.0/Base_GNSS_2_2_0.zip). **Attention**, ne pas copier directement l'image Base_GNSS_X.X.X.zip sur la carte micro SD !!!
+### 2. Télécharger l'image de Base RTK sur votre ordinateur (~ 560 Mo) : [BaseGNSS-RPi-2.2.0](https://github.com/jancelin/pi-gen/releases/download/BaseGNSS-RPi-2.2.0/Base_GNSS_2_2_0.zip). **Attention**, ne pas copier directement l'image Base_GNSS_X.X.X.zip sur la carte micro SD !!!
 
-**Après l'installation pensez àles mises à jour avec le bouton "check update" dans l'interface** 
+**Après l'installation pensez à vérifier les mises à jour avec le bouton "check update" dans l'interface après l'installation** 
 
-3. Télécharger et installer ETCHER sur votre ordinateur (windows, linux, mac). Ce programme va permettre d'installer correctement l'image BaseRTK téléchargée dans la carte micro SD : <https://etcher.io/>.
-4. Insérer la carte Micro SD dans l'ordinateur 
+### 3. Télécharger et installer ETCHER sur votre ordinateur (windows, linux, mac). Ce programme va permettre d'installer correctement l'image BaseRTK téléchargée dans la carte micro SD : <https://etcher.io/>.
+
+### 4. Insérer la carte Micro SD dans l'ordinateur 
 
     ![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrqS8MhQYdjrRmaYZS-RCtgLIrhB8gdLaxUmAfey96t6YpopQr)
 
-5. Démarrer Etcher, choisir l'image téléchargée, la carte SD (normalement déjà sélectionnée) et flasher la carte :
+### 5. Démarrer Etcher, choisir l'image téléchargée, la carte SD (normalement déjà sélectionnée) et flasher la carte :
 
    ![etcher](https://jancelin.github.io/docs-centipedeRTK/assets/images/install/etcher.png)
 
-6. Retirer ensuite la carte SD du PC
+### 6. Retirer ensuite la carte SD du PC
 
 ----
 
-### Assemblage et premier démarrage
+## Assemblage et premier démarrage
 
 1. Brancher un câble ethernet sur votre réseau afin que votre base puisse envoyer ses données au caster Centipede.
 2. Connecter en USB le récepteur F9P.
