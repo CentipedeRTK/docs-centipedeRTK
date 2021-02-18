@@ -32,6 +32,7 @@ L'application permet également d'enregistrer l'historique des positions dans un
 
 ## Paramétrage automatique
 
+* Il est necessaire d'avoir démarré une fois à blanc le serveur pour que le dossier **RtkGps**, sur votre smartphone, soit créé.
 * Télécharger [settings.zip](https://github.com/jancelin/RtkGps/releases/download/1.1-Alpha2/settings.zip) et le déposer dans le dossier **RtkGPS** de votre appareil android.
 * Démarrer l'application RtkGPS+
 * Dans le menu de gauche, faire défiler vers le bas et appuyer sur **Charger les paramètres**
