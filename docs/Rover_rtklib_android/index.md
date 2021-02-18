@@ -37,6 +37,7 @@ L'application permet également d'enregistrer l'historique des positions dans un
 * Démarrer l'application RtkGPS+
 * Dans le menu de gauche, faire défiler vers le bas et appuyer sur **Charger les paramètres**
 * Une fois que la fenêtre de messages disparait, fermer et réouvrir l'application pour la prise en compte des nouveaux paramètres.
+* tester l'application avec les flux d'entrée mobile tcp et base par defaut afin de vérifier que la solution RTK soit fix.
 
 ## Configuration
 
