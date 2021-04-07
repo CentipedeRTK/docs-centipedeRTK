@@ -36,7 +36,7 @@ Dans un premier temps il est nécessaire de mettre à jour le [firmware](https:/
 
 L'injection permet de paramétrer le récepteur F9P pour une utilisation avec RTKlib et plus particulièrement RTKGPS+ sur Android
 
-* Télécharger le [fichier de configuration](https://raw.githubusercontent.com/jancelin/docs-centipedeRTK/master/assets/param_rtklib/F9P_rover_usb_uart1-38400b_5hz_firm1_13.conf)
+* Télécharger/créer le fichier de configuration: [F9P_Rover_UART1-115200Bd_FREQ-800ms_GPS-GLO-GAL-BEI_Lefebure-SWMaps-RTKGP+.txt](https://raw.githubusercontent.com/jancelin/docs-centipedeRTK/master/assets/param_rtklib/F9P_Rover_UART1-115200Bd_FREQ-800ms_GPS-GLO-GAL-BEI_Lefebure-SWMaps-RTKGP%2B.txt)
 
 ![arduino](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/u-center.gif)
 
@@ -112,7 +112,7 @@ void loop()
   * **les deux, NL et CR**
   * **9600 baud**
 * Écrire la commande **AT** et appuyer sur **envoyer** : le moniteur doit renvoyer **OK**, cela veut dire que vous communiquez bien avec le module Bluetooth.
-* Écrire la commande **AT+UART=38400,1,0** et appuyer sur **envoyer** : le moniteur doit renvoyer **OK**, la vitesse de transmition a été modifiée.
+* Écrire la commande **AT+UART=115200,1,0** et appuyer sur **envoyer** : le moniteur doit renvoyer **OK**, la vitesse de transmition a été modifiée.
 * Écrire la commande **AT+NAME=CENTIPEDE** et appuyer sur **envoyer** : le moniteur doit renvoyer **OK**, le nom du module a été changé ( vous pouvez vérifier sur un smartphone en faisant un scan bluetooth).
 
 Le code PIN du bluetooth est **1234** par défaut, vous pouvez le modifier en entrant la commande **AT+PSWD=5678** + **envoyer** (dans cet exemple le code sera 5678).
