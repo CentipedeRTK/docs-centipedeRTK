@@ -52,7 +52,7 @@ Par mesure de prudence, s'assurer que la configuration est bien enregistrée :
 * Cliquer sur **Disconnect**
 * Débrancher le récepteur
 
->Attention ! Les données en sortie du récepteur sur l'USB et l'UART1 sont au format RAWX et SFRBX, pas en NMEA.
+>Attention ! Les données en sortie du récepteur sur l'USB et l'UART1 sont au format RAWX, SFRBX (UBX) et en NMEA. Il est possible d'injecter du RTCM3 sur ces ports pour utiliser le moteur interne RTK de la F9P ou bien utiliser RTKlib grâce à la sortie de données UBX
 
 **A partir d'ici votre récepteur est entièrement fonctionnel en USB**
 
