@@ -26,7 +26,7 @@ Voici la liste des éléments nécessaires à la mise en place d'une base RTK L1
 
 |Matériel|Prix HT|
 |--------|----|
-|[F9P](https://store.drotek.com/rtk-zed-f9p-gnss) ou [F9P](https://www.ardusimple.com/product/simplertk2b/)|200€|
+|[F9P drotek: 5% ristourne code CENTIPEDERTK](https://store.drotek.com/rtk-zed-f9p-gnss) ou [F9P ardusimple](https://www.ardusimple.com/product/simplertk2b/)|180€|
 |[D910 antenna](https://store.drotek.com/da-910-multiband-gnss-antenna)|100€|
 |[Raspberry Pi 3/4](https://www.kubii.fr/les-cartes-raspberry-pi/2119-raspberry-pi-3-modele-b-1-gb-kubii-713179640259.html)|44€|
 |[Micro SD 16Go](https://www.kubii.fr/carte-sd-et-stockage/2359-carte-microsd-16go-classe-10-u1-sandisk-kubii-619659161347.html)|11€|
