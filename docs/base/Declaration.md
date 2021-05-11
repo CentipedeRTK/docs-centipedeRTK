@@ -13,8 +13,9 @@ Enfin, envoyer un courriel à [**contact@centipede.fr**](contact@centipede.fr) p
 * Profession
 * Courriel
 * Nom du point (de 3 à 5 caractères en MAJUSCULES)
-* Matériels utilisés.
-* Un rapport de votre calcul de positionnement ou le .pos fabriqué précédemment.
+* Matériels utilisés: modèle de votre antenne et de votre récepeteur.
+* Un rapport de votre calcul de positionnement envoyé par IGN.
+* Plusieurs photos (minimum 2) de l'installation de votre antenne (proche et vue d'ensemeble).
 
 Une fois que votre base sera déclarée par un administrateur elle sera visible sur la carte au bout de 30 minutes.
 
