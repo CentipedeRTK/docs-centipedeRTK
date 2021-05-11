@@ -12,7 +12,7 @@ Enfin, envoyer un courriel à [**contact@centipede.fr**](contact@centipede.fr) p
 * Nom Prénom
 * Profession
 * Courriel
-* Nom du point (de 3 à 5 caractères en MAJUSCULES)
+* Nom du point de montage de votre base GNSS RTK (de 3 à 5 caractères en MAJUSCULES)
 * Matériels utilisés: modèle de votre antenne et de votre récepeteur.
 * Un rapport de votre calcul de positionnement envoyé par IGN.
 * Plusieurs photos (minimum 2) de l'installation de votre antenne (proche et vue d'ensemeble).
