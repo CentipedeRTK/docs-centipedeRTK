@@ -14,7 +14,7 @@ Enfin, envoyer un courriel à [**contact@centipede.fr**](contact@centipede.fr) p
 * Courriel
 * Nom du point de montage de votre base GNSS RTK (de 3 à 5 caractères en MAJUSCULES)
 * Matériels utilisés: modèle de votre antenne et de votre récepeteur.
-* Un rapport de votre calcul de positionnement envoyé par IGN.
+* le rapport du calcul de positionnement envoyé par IGN (fichier.tar.gz)
 * Plusieurs photos (minimum 2) de l'installation de votre antenne (proche et vue d'ensemeble).
 
 Une fois que votre base sera déclarée par un administrateur elle sera visible sur la carte au bout de 30 minutes.
