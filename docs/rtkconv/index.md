@@ -54,6 +54,12 @@ has_children: true
 
 ![skyplot](https://jancelin.github.io/docs-centipedeRTK/assets/images/rtkconv/skyplot.jpg)
 
+* Exemple d'interprétation sur la base MNE1:
+  * Sur MNE1, on voit un décrochement du signal à certains angles : les satellites sont masqués mais les signaux sont réfléchis (et atténués) sur les montagnes en face.
+  * Par contre, le multipath reste bon. Pas de réflexion sur une surface proche.
+
+![rtplot](https://jancelin.github.io/docs-centipedeRTK/assets/images/rtkconv/rtkplot_MNE1.jpg)
+
 
 
 
