@@ -35,7 +35,7 @@ Dans un premier temps il est nécessaire de mettre à jour le [firmware](https:/
 
 ### 2. Télécharger l'image pour Raspberry Pi
 
-Télécharger l'image pour Raspberry Pi de Base RTK sur votre ordinateur (~ 560 Mo) : [BaseGNSS-RPi-2.3.1](https://github.com/jancelin/pi-gen_RTKbase/releases/tag/BaseGNSS-RPi-2.3.1). 
+Télécharger l'image pour Raspberry Pi de Base RTK sur votre ordinateur (~ 560 Mo) : [BaseGNSS-RPi-2.3.1](https://github.com/jancelin/pi-gen_RTKbase/releases/download/BaseGNSS-RPi-2.3.1/RTKBaseGNSS_2_3_1.zip). 
 
 **Attention**, ne pas copier directement l'image Base_GNSS_X.X.X.zip sur la carte micro SD !!!
 
