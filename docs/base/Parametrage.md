@@ -31,7 +31,7 @@ C'est le service permettant de récupérer les signaux des satellites et de les 
 
 * **Com port**, **Com port settings**, **Receiver type**, **Receiver format** : sont des paramètres récupérés automatiquement au moment de la première installation, ils correspondent au type de matériel connecté au Raspberry Pi.
 
-* **Antenna info** : Renseigner le type d'antenne que vous utilisez pour la réception. La plupart des antennes utilisées sont les suivantes: u-blox_ANN-MB-00, drotek_D910, ardusimple_AS-ANT2B-SUR, ardusimple_AS-ANT2B-CAL, BEITAN_BT-160, BT-47N, HX-CSX601A, Mini_Survey_Antenna_GPS500, mais il e existe d'autre. Pour certaines utilisations avec des récepteurs propriétaires, il peut être nécessaire de renseigner ADVNULLANTENNA.
+* **Antenna info** : Renseigner le type d'antenne sans qualibration **ADVNULLANTENNA**.
 
 * **Tcp port** : le port de communication de ce service.
 
