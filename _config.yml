@@ -28,7 +28,7 @@
 # Aux links for the upper right navigation
  aux_links:
    "CentipedeRTK GitHub":
-     - "https://github.com/jancelin/docs-centipedeRTK"
+     - "https://github.com/jancelin/centipede"
 
 
 theme: jekyll-theme-midnight
