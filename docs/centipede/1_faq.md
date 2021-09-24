@@ -19,7 +19,7 @@ nav_order: 4
 
 * ### C'est simple le RTK?
 
-> Non ! Ça demande un peu de matériel (donc un peu d'argent), un peu de connections Internet (3-4g mobile et env. 10 Mb/heure) et de compréhension de la technologie pour en profiter pleinement.
+> Non ! Ça demande un peu de matériel (donc un peu d'argent), un peu de connections Internet (3-4g mobile et env. 5 Mb/heure) et de compréhension de la technologie pour en profiter pleinement.
 
 * ### Donc c'est très cher ?
 
@@ -33,7 +33,7 @@ nav_order: 4
 
 * ### Pourquoi avec mon smartphone ou mon récepteur GNSS je n'ai pas cette précision ?
 
-> Parce que les conditions physiques en altitude (ionosphère et troposphère, bref au-dessus de notre tête) se modifient en continu ( vent solaire, humidité,...) et "tordent" le signal émis par les satellites, ce qui entraîne des biais lors des mesures (env 3-5m).
+> Parce que les conditions physiques en altitude (ionosphère et troposphère, bref au-dessus de notre tête) se modifient en continu ( vent solaire, humidité,...) et retarde le signal émis par les satellites, ce qui entraîne des biais lors des mesures (env 3-5m).
 
 > Parce que votre smartphone ne permet pas de récolter l'ensemble des données satellites de navigations de corrections différnetielles. Pas assez de précision...
 
@@ -79,7 +79,7 @@ nav_order: 4
 
 > Pas de login et de mot de passe (ou 1 espace en fonction des systèmes)
 
-> choisir le point de montage dans la liste ou stipuler le point de montage (Mount Point, ex: CT)
+> choisir le point de montage dans la liste ou stipuler le point de montage (Mount Point, ex: CT2)
 
 > définir le format (si besoin); RTCM3
 
