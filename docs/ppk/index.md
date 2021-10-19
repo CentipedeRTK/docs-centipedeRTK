@@ -61,6 +61,7 @@ Télécharger cette version d'RTKLIB fournie par rtkexplorer: [RTKLIB Code: Wind
 	* Cocher **GPS**, **GLO**, **GAL**, **BDS**
 	* Cocher toutes les **Observations types**
 	* Cocher **L1**, **L2/E5b**
+	* **Receiver Options**: ```-TADJ=1```
 ![ign](https://jancelin.github.io/docs-centipedeRTK/assets/images/positionnement/rinex2.png)
 * Cliquer sur **OK**
 * Cliquer su **Convert**
