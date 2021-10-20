@@ -7,7 +7,8 @@ nav_order: 4
 
 ## EPSG France Métropôle
 
-* EPSG:4965 / [coordonnées géographique RGF93](https://epsg.io/4965) en m, ellipsoïdal 3D
+* EPSG:4171 / [coordonnées géographique RGF93](https://epsg.io/4171) en degrée, ellipsoïdal 2D
+* EPSG:4965 / [coordonnées géographique RGF93](https://epsg.io/4965) en mètre, ellipsoïdal 3D
 * EPSG:2154 / [coordonnées projetées RGF93 / Lambert-93](https://epsg.io/2154) en mètre
 * EPSG:5698 / [coordonnées projetées RGF93 / Lambert-93 + NGF-IGN69 height](https://epsg.io/5698) altimétrie geoid
 
