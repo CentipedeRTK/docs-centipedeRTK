@@ -5,7 +5,9 @@ parent: Le Reseau Centipede RTK
 nav_order: 4
 ---
 
-## Pense-bête EPSG France métropolitaine et reprojection
+## Pense-bête
+
+###  EPSG France métropolitaine
 
 * **EPSG:4171** / [coordonnées géographique RGF93](https://epsg.io/4171) ellipsoïdal en degrés décimaux, 2D
   * à utiliser pour les relevés GNSS
@@ -15,12 +17,22 @@ nav_order: 4
 * **EPSG:5698** / [coordonnées projetées RGF93 / Lambert-93 + NGF-IGN69 height](https://epsg.io/5698) plane en mètre + altimétrie 
   * à utiliser pour la conception de cartes et permet une lecture altimétrique de la donnée collectée
 
-Exmple de reprojection coordonnées géographique RGF93 vers coordonnées projetées RGF93 / Lambert-93 + NGF-IGN69 height:
+### Transformation d’un point d’un système de coordonnées de référence à un autre
+
+Exmple de transformation de coordonnées géographique RGF93 vers coordonnées projetées RGF93 / Lambert-93 + NGF-IGN69 height:
 
 * avec [Proj version >7](https://proj.org/usage/quickstart.html):
   * echo "45.988773737 -1.024687261 49.81495" | cs2cs EPSG:4171 +to EPSG:5698
 * avec Postgresql/postgis embarquant [Proj version >7](https://proj.org/usage/quickstart.html):
   * st_transform(st_setsrid(st_makepoint(45.988773737,-1.024687261,49.81495), 4171),5698);
+
+[RAF18b pour la France continentale Géotiff Proj](https://cdn.proj.org/fr_ign_RAF18b.tif)
+
+[Proj](https://cdn.proj.org/)
+
+[Proj et paramétrage des datagrid pour l'altimétrie](https://proj.org/usage/network.html?highlight=geotiff)
+
+
 
 ## Systèmes de références
 
@@ -96,15 +108,6 @@ Pour la France continentale, la surface de conversion altimétrique RAF20 a ét�
 
 [Ensemble des grilles de conversions altimétrique IGN](https://geodesie.ign.fr/index.php?page=grilles)
 
-#### Utilisation de proj avec les Datumgrid
-
-[RAF18b pour la France continentale Géotiff Proj](https://cdn.proj.org/fr_ign_RAF18b.tif)
-
-[Exemple de conversion avec Proj7 et Postgresql](https://github.com/jancelin/centipede/blob/master/swmap/pg_backup/setup-db.sql)
-
-https://cdn.proj.org/
-
-https://proj.org/usage/network.html?highlight=geotiff
 
 
 
