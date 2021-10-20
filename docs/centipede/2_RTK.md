@@ -19,8 +19,20 @@ nav_order: 2
 
 > [wikipedia](https://fr.wikipedia.org/wiki/Cin%C3%A9matique_temps_r%C3%A9el){:target="_blank"}
 
-<embed src="http://cours-fad-public.ensg.eu/pluginfile.php/1501/mod_resource/content/1/gnss.pdf" type="application/pdf">
+## Cours ENSG
 
+[PDF-ENSG GNSS - Systèmes Globaux de Positionnement](http://cours-fad-public.ensg.eu/pluginfile.php/1501/mod_resource/content/1/gnss.pdf)
+
+[VIDEO-ENSG Système géodesique](https://streaming.ensg.eu/geodesie/13069.002-SB-Geodesie_Systeme_geodesique.webm)
+
+[PDF-ENSG Géométrie de l'Ellipsoïde](cours-fad-public.ensg.eu/pluginfile.php/1507/mod_resource/content/1/geoell.pdf)
+
+[VIDEO-ENSG Coordonnées planes](https://streaming.ensg.eu/geodesie/13069.003-SB-Geodesie_Coordonnees_planes.webm)
+
+[PDF-ENSG Les projections et référentiels cartographiques](cours-fad-public.ensg.eu/pluginfile.php/1327/mod_resource/content/2/projections.pdf)
+
+
+## Références
 
 [VIDEO- Localisation par satellites Principes de fonctionnement et performances](https://www.youtube.com/watch?v=XFZrOSKAXH4&pbjreload=101)
 
