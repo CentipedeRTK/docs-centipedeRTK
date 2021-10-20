@@ -7,10 +7,10 @@ nav_order: 4
 
 ## EPSG France métropolitaine
 
-* EPSG:4171 / [coordonnées géographique RGF93](https://epsg.io/4171) ellipsoïdal en degrés décimaux, 2D > **à utiliser pour les relevés GNSS**
-* EPSG:4965 / [coordonnées géographique RGF93](https://epsg.io/4965) ellipsoïdal en mètre, 3D
-* EPSG:2154 / [coordonnées projetées RGF93 / Lambert-93](https://epsg.io/2154) plane en mètre > **à utiliser pour la conception de cartes**
-* EPSG:5698 / [coordonnées projetées RGF93 / Lambert-93 + NGF-IGN69 height](https://epsg.io/5698) plane en mètre + altimétrie **à utiliser pour la conception de cartes et permet une lecture altimétrique de la donnée collectée**
+* **EPSG:4171** / [coordonnées géographique RGF93](https://epsg.io/4171) ellipsoïdal en degrés décimaux, 2D > **à utiliser pour les relevés GNSS**
+* **EPSG:4965** / [coordonnées géographique RGF93](https://epsg.io/4965) ellipsoïdal en mètre, 3D
+* **EPSG:2154** / [coordonnées projetées RGF93 / Lambert-93](https://epsg.io/2154) plane en mètre > **à utiliser pour la conception de cartes**
+* **EPSG:5698** / [coordonnées projetées RGF93 / Lambert-93 + NGF-IGN69 height](https://epsg.io/5698) plane en mètre + altimétrie > **à utiliser pour la conception de cartes et permet une lecture altimétrique de la donnée collectée**
 
 ## Systèmes de références
 
