@@ -27,9 +27,9 @@ Les différents systèmes de coordonnées utilisées en géographie sont étroit
 
 ## EPSG
 
-EPSG:7019 / [Ellipsoîde GRS 1980](https://epsg.io/7019-ellipsoid)
-EPSG:4171 / [coordonnées géographique RGF93](https://epsg.io/4171) en degrée
-EPSG:2154 / [coordonnées projetées RGF93 / Lambert-93 -- France](https://epsg.io/2154)
-EPSG:5698 / [RGF93 / Lambert-93 + NGF-IGN69 height](https://epsg.io/5698)
+* EPSG:7019 / [Ellipsoîde GRS 1980](https://epsg.io/7019-ellipsoid)
+* EPSG:4171 / [coordonnées géographique RGF93](https://epsg.io/4171) en degrée
+* EPSG:2154 / [coordonnées projetées RGF93 / Lambert-93 -- France](https://epsg.io/2154)
+* EPSG:5698 / [RGF93 / Lambert-93 + NGF-IGN69 height](https://epsg.io/5698)
 
 [Projection systèmes legaux](https://geodesie.ign.fr/contenu/fichiers/documentation/pedagogiques/TransformationsCoordonneesGeodesiques.pdf
