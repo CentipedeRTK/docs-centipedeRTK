@@ -5,12 +5,12 @@ parent: Le Reseau Centipede RTK
 nav_order: 4
 ---
 
-## EPSG France Métropôle
+## EPSG France métropolitaine
 
-* EPSG:4171 / [coordonnées géographique RGF93](https://epsg.io/4171) en degrée, ellipsoïdal 2D
-* EPSG:4965 / [coordonnées géographique RGF93](https://epsg.io/4965) en mètre, ellipsoïdal 3D
-* EPSG:2154 / [coordonnées projetées RGF93 / Lambert-93](https://epsg.io/2154) en mètre
-* EPSG:5698 / [coordonnées projetées RGF93 / Lambert-93 + NGF-IGN69 height](https://epsg.io/5698) altimétrie geoid
+* EPSG:4171 / [coordonnées géographique RGF93](https://epsg.io/4171) ellipsoïdal en degrés décimaux,  2D > **à utiliser pour les relevés GNSS!**
+* EPSG:4965 / [coordonnées géographique RGF93](https://epsg.io/4965) ellipsoïdal en mètre, ellipsoïdal 3D
+* EPSG:2154 / [coordonnées projetées RGF93 / Lambert-93](https://epsg.io/2154) plane en mètre
+* EPSG:5698 / [coordonnées projetées RGF93 / Lambert-93 + NGF-IGN69 height](https://epsg.io/5698) plane en mètre + altimétrie
 
 ## Systèmes de références
 
@@ -18,13 +18,11 @@ nav_order: 4
 
 Pour se localiser sur la Terre, il est nécessaire d'utiliser un système géodésique duquel découlent les coordonnées géographiques figurant sur les cartes. Celles-ci peuvent être exprimées soit sous la forme de longitude et latitude (coordonnées dites géographiques), soit en représentation cartographique plane (coordonnées dites en projection).
 
-![geocentrique](https://geodesie.ign.fr/contenu/images/srtXYZ.jpg)
+![geocentrique_geographique](https://lh3.googleusercontent.com/proxy/3LxBeSQRBI3vYHiICGPpVeeCsf1u0PpbBJIh_A0uMbZuQSXS_42Nect8F7-yxqkKgS_W2BTV-k9cR0A9kB_oWTBBn1QGVc5CPolYdx3xdSS-yMpA79wc-oVJiZ-74g)
 
-![geocentrique_geographique](https://geodesie.ign.fr/contenu/images/srtgeographiques.jpg)
+[Ellipsoïde](https://geodesie.ign.fr/contenu/fichiers/ellipsoide_geodesique.pdf)
 
-[Ellipsoïde géodésique](https://geodesie.ign.fr/contenu/fichiers/ellipsoide_geodesique.pdf)
-
-Les coordonnées géographiques sont exprimées en degrés sexagésimaux (Degrés Minutes Secondes), degrés décimaux, grades ou radians et donnent la latitude et la longitude d'un lieu par rapport à un méridien.
+Les coordonnées géographiques sont exprimées en degrés exagésimaux (Degrés Minutes Secondes), degrés décimaux, grades ou radians et donnent la latitude et la longitude d'un lieu par rapport à un méridien.
 
 Attention, des coordonnées géographiques n'ont aucun sens si on ne les accompagne pas des informations sur le système géodésique dans lequel elles sont exprimées.
 
@@ -73,8 +71,9 @@ En plus de l'ellipsoïde, qui est un modèle mathématique de la Terre, la géod
 
 Le géoïde est la surface du potentiel de pesanteur terrestre qui coïncide au mieux avec le niveau moyen de la mer.
 
-![geoid](https://geodesie.ign.fr/contenu/images/quasigeoidecroquis1.jpg)
+![geoid](https://tool-online.com/cours/topographie/images/image4.jpg)
 
+![geoid](http://geoconfluences.ens-lyon.fr/images/glossaire/geoide.jpg)
 
 ![quasi-geoid](https://geodesie.ign.fr/contenu/images/quasigeoidecarte3.jpg)
 
