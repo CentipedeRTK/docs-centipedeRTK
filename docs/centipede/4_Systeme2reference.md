@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Système de référence
+title: Systèmes de référence
 parent: Le Reseau Centipede RTK
-nav_order: 4
+nav_order: 2
 ---
 
 ## Pense-bête
