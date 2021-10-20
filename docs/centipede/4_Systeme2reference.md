@@ -5,13 +5,25 @@ parent: Le Reseau Centipede RTK
 nav_order: 4
 ---
 
+## EPSG France Métropôle
+
+* EPSG:7019 / [Ellipsoîde GRS 1980](https://epsg.io/7019-ellipsoid)
+* EPSG:4965 / [coordonnées géographique RGF93](https://epsg.io/4965) en m, ellipsoïdal 3D
+* EPSG:4171 / [coordonnées géographique RGF93](https://epsg.io/4171) en degrée, ellipsoïdal 2D
+* EPSG:2154 / [coordonnées projetées RGF93 / Lambert-93](https://epsg.io/2154) en mètre
+* EPSG:5698 / [coordonnées projetées RGF93 / Lambert-93 + NGF-IGN69 height](https://epsg.io/5698) altimétrie geoid
+
 ## Systèmes de références
 
-https://fr.wikipedia.org/wiki/Syst%C3%A8me_de_coordonn%C3%A9es_(cartographie)
+[wikipedia: Système de coordonnées (cartographie)](https://fr.wikipedia.org/wiki/Syst%C3%A8me_de_coordonn%C3%A9es_(cartographie))
 
 Pour se localiser sur la Terre, il est nécessaire d'utiliser un système géodésique duquel découlent les coordonnées géographiques figurant sur les cartes. Celles-ci peuvent être exprimées soit sous la forme de longitude et latitude (coordonnées dites géographiques), soit en représentation cartographique plane (coordonnées dites en projection).
 
-![geocentrique_geographique](https://jancelin.github.io/docs-centipedeRTK/assets/images/rtkconv/systemetellipsoide.png)
+![geocentrique](https://geodesie.ign.fr/contenu/images/srtXYZ.jpg)
+
+![geocentrique_geographique](https://geodesie.ign.fr/contenu/images/srtgeographiques.jpg)
+
+[Ellipsoïde géodésique](https://geodesie.ign.fr/contenu/fichiers/ellipsoide_geodesique.pdf)
 
 Les coordonnées géographiques sont exprimées en degrés sexagésimaux (Degrés Minutes Secondes), degrés décimaux, grades ou radians et donnent la latitude et la longitude d'un lieu par rapport à un méridien.
 
@@ -25,11 +37,66 @@ Les différents systèmes de coordonnées utilisées en géographie sont étroit
 |géographiques (Latitude : ɸ, Longitude : ʎ, Hauteur ellipsoïdale : h)|+ Système de référence + ellipsoïde|
 |planes (E, N)|+ Système de référence + ellipsoïde+ projection |
 
-## EPSG
+## [Réseau Géodésique Français 1993 (RGF93)](https://geodesie.ign.fr/index.php?page=rgf93)
 
-* EPSG:7019 / [Ellipsoîde GRS 1980](https://epsg.io/7019-ellipsoid)
-* EPSG:4171 / [coordonnées géographique RGF93](https://epsg.io/4171) en degrée
-* EPSG:2154 / [coordonnées projetées RGF93 / Lambert-93 -- France](https://epsg.io/2154)
-* EPSG:5698 / [RGF93 / Lambert-93 + NGF-IGN69 height](https://epsg.io/5698)
+Le Référentiel Géodésique Français 93 est le repère de référence tridimensionnel géocentrique de précision centimétrique, adapté aux techniques modernes de positionnement pour la France métropolitaine. Les liens suivants mènent à des informations destinés à l'accompagnement des utilisateurs dans la migration de leurs données vers le repère de référence défini par le nouveau décret n°2019-165 du 5 mars 2019 relatif au système national de référence de coordonnées. 
 
-[Projection systèmes legaux](https://geodesie.ign.fr/contenu/fichiers/documentation/pedagogiques/TransformationsCoordonneesGeodesiques.pdf
+ Il matérialise sur le territoire métropolitain un repère de référence précis, adapté aux technologies modernes, et compatible avec les références mondiales. Il est tridimensionnel et géocentrique et correspond à la réalisation française de l'ETRS89 (European Terrestrial Reference System 1989). Il convient de rappeler que l'ETRS89 :
+
+- a été adopté en 1990 par la commission EUREF de l'AIG pour l'Europe, comme système géodésique pan-européen de référence pour la collecte, l'analyse et l'archivage des données géographiques.
+
+- coïncide avec le système mondial ITRS à l'époque 1989.0 et est fixe par rapport à la partie stable de la plaque Eurasie.
+
+Le RGF93 est donc compatible avec le systèmes mondial ITRS et à fortiori le système usuel WGS 84.
+
+En application des décrets 2000-1276 du 26 décembre 2000, 2006-272 du 3 avril 2006 et 2019-165 du 5 mars 2019 (et son arrêté), le RGF93 constitue la référence géographique légale. 
+
+### Caractéristiques
+
+Le RGF93 est un repère de référence :
+
+* tridimensionnel géocentrique
+* lié au système de référence mondial ITRS
+* associé à l'ellipsoïde IAG GRS 1980
+* ayant pour méridien origine le méridien international (ou méridien de Greenwich)
+* ayant pour projections associées la projection Lambert-93 et les projections CC 9 Zones
+* d'exactitude horizontale comprise entre 1 et 2 cm (par rapport aux systèmes mondiaux)
+* d'exactitude verticale comprise entre 2 et 5 cm (par rapport aux systèmes mondiaux)
+* adapté aux techniques modernes de positionnement
+
+[Projection systèmes legaux](https://geodesie.ign.fr/contenu/fichiers/documentation/pedagogiques/TransformationsCoordonneesGeodesiques.pdf)
+
+### [hauteurs ellipsoïdales en altitudes](https://geodesie.ign.fr/index.php?page=grilles)
+
+Le développement rapide de l'utilisation du GNSS a suscité de nouveaux besoins en matière de systèmes de référence et de conversions de coordonnées, en particulier dans le domaine de l'altimétrie. Alors qu'en géodésie traditionnelle on sépare les déterminations planimétriques et altimétriques, le GNSS permet d'intégrer ces opérations. Il devient dès lors nécessaire de convertir les hauteurs ellipsoïdales en altitudes.
+
+En plus de l'ellipsoïde, qui est un modèle mathématique de la Terre, la géodésie traite de surfaces de référence liées au champ de pesanteur : le géoïde, le quasi-géoïde et leurs différentes réalisations. 
+
+Le géoïde est la surface du potentiel de pesanteur terrestre qui coïncide au mieux avec le niveau moyen de la mer.
+
+![geoid](https://geodesie.ign.fr/contenu/images/quasigeoidecroquis1.jpg)
+
+
+![quasi-geoid](https://geodesie.ign.fr/contenu/images/quasigeoidecarte3.jpg)
+
+
+Le Service de Géodésie et de Métrologie diffuse des grilles de quasi-géoïde résultant des travaux de développement et de recherche ainsi que des surfaces de conversion d'altitudes directement utilisables pour une estimation de l'altimétrie par GNSS :
+
+Pour la France continentale, la surface de conversion altimétrique RAF20 a été actualisée fin 2021 pour tenir compte des opérations de maintenance du repère de référence RGF93.
+
+[RAF20 pour la France continentale (RGF93 v2b NGF-IGN69)](https://geodesie.ign.fr/contenu/fichiers/documentation/grilles/metropole/RAF20.tac)
+
+[RAF18b pour la France continentale Géotiff Proj](https://cdn.proj.org/fr_ign_RAF18b.tif)
+
+[Ensemble des grilles de conversions altimétrique IGN](https://geodesie.ign.fr/index.php?page=grilles)
+
+
+
+
+### Utilisation de proj avec les Datumgrid
+
+https://cdn.proj.org/
+
+
+
+
