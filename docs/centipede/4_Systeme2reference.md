@@ -28,9 +28,9 @@ Exmple de transformation de coordonnées géographique RGF93 (EPSG:4171) vers co
 
 [RAF18b pour la France continentale Géotiff Proj](https://cdn.proj.org/fr_ign_RAF18b.tif)
 
-[Proj](https://cdn.proj.org/)
+[PROJ Datumgrid CDN](https://cdn.proj.org/)
 
-[Proj et paramétrage des datagrid pour l'altimétrie](https://proj.org/usage/network.html?highlight=geotiff)
+[PROJ et paramétrage des datumgrid pour l'altimétrie](https://proj.org/usage/network.html?highlight=geotiff)
 
 
 
