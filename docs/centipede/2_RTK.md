@@ -19,13 +19,7 @@ nav_order: 2
 
 > [wikipedia](https://fr.wikipedia.org/wiki/Cin%C3%A9matique_temps_r%C3%A9el){:target="_blank"}
 
-
-<object data="cours-fad-public.ensg.eu/pluginfile.php/1501/mod_resource/content/1/gnss.pdf" type="application/pdf" width="700px" height="700px">
-    <embed src="cours-fad-public.ensg.eu/pluginfile.php/1501/mod_resource/content/1/gnss.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="cours-fad-public.ensg.eu/pluginfile.php/1501/mod_resource/content/1/gnss.pdf">Download PDF</a>.</p>
-    </embed>
-</object>
-
+<embed src="http://cours-fad-public.ensg.eu/pluginfile.php/1501/mod_resource/content/1/gnss.pdf" type="application/pdf">
 
 
 [VIDEO- Localisation par satellites Principes de fonctionnement et performances](https://www.youtube.com/watch?v=XFZrOSKAXH4&pbjreload=101)
