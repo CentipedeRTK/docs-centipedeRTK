@@ -22,7 +22,8 @@ nav_order: 2
 Exmple de transformation de coordonnées géographique RGF93 (EPSG:4171) vers coordonnées projetées RGF93 / Lambert-93 + NGF-IGN69 height (EPSG:5698):
 
 * avec [Proj version >7](https://proj.org/usage/quickstart.html):
-  * echo "45.988773737 -1.024687261 49.81495" | cs2cs EPSG:4171 +to EPSG:5698
+  * ```echo "45.988773737 -1.024687261 49.81495" | cs2cs EPSG:4171 +to EPSG:5698```
+  * ```388588.92 6551165.15 3.04```
 * avec Postgresql/postgis embarquant [Proj version >7](https://proj.org/usage/quickstart.html):
   * st_transform(st_setsrid(st_makepoint(45.988773737,-1.024687261,49.81495), 4171),5698);
 
