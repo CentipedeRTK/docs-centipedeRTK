@@ -5,12 +5,22 @@ parent: Le Reseau Centipede RTK
 nav_order: 4
 ---
 
-## EPSG France métropolitaine
+## Pense-bête EPSG France métropolitaine et reprojection
 
-* **EPSG:4171** / [coordonnées géographique RGF93](https://epsg.io/4171) ellipsoïdal en degrés décimaux, 2D > **à utiliser pour les relevés GNSS**
+* **EPSG:4171** / [coordonnées géographique RGF93](https://epsg.io/4171) ellipsoïdal en degrés décimaux, 2D
+  * à utiliser pour les relevés GNSS
 * **EPSG:4965** / [coordonnées géographique RGF93](https://epsg.io/4965) ellipsoïdal en mètre, 3D
-* **EPSG:2154** / [coordonnées projetées RGF93 / Lambert-93](https://epsg.io/2154) plane en mètre > **à utiliser pour la conception de cartes**
-* **EPSG:5698** / [coordonnées projetées RGF93 / Lambert-93 + NGF-IGN69 height](https://epsg.io/5698) plane en mètre + altimétrie > **à utiliser pour la conception de cartes et permet une lecture altimétrique de la donnée collectée**
+* **EPSG:2154** / [coordonnées projetées RGF93 / Lambert-93](https://epsg.io/2154) plane en mètre
+  * à utiliser pour la conception de cartes
+* **EPSG:5698** / [coordonnées projetées RGF93 / Lambert-93 + NGF-IGN69 height](https://epsg.io/5698) plane en mètre + altimétrie 
+  * à utiliser pour la conception de cartes et permet une lecture altimétrique de la donnée collectée
+
+Exmple de reprojection coordonnées géographique RGF93 vers coordonnées projetées RGF93 / Lambert-93 + NGF-IGN69 height:
+
+* avec [Proj version >7](https://proj.org/usage/quickstart.html):
+  * echo "45.988773737 -1.024687261 49.81495" | cs2cs EPSG:4171 +to EPSG:5698
+* avec Postgresql/postgis embarquant [Proj version >7](https://proj.org/usage/quickstart.html):
+  * st_transform(st_setsrid(st_makepoint(45.988773737,-1.024687261,49.81495), 4171),5698);
 
 ## Systèmes de références
 
