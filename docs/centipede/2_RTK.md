@@ -21,7 +21,7 @@ nav_order: 2
 
 ## Cours ENSG
 
-http://cours-fad-public.ensg.eu/
+[Cours ENSG](http://cours-fad-public.ensg.eu/)
 
 [PDF-ENSG GNSS - Systèmes Globaux de Positionnement](http://cours-fad-public.ensg.eu/pluginfile.php/1501/mod_resource/content/1/gnss.pdf)
 
