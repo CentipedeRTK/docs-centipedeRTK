@@ -86,16 +86,17 @@ Pour la France continentale, la surface de conversion altimétrique RAF20 a ét�
 
 [RAF20 pour la France continentale (RGF93 v2b NGF-IGN69)](https://geodesie.ign.fr/contenu/fichiers/documentation/grilles/metropole/RAF20.tac)
 
-[RAF18b pour la France continentale Géotiff Proj](https://cdn.proj.org/fr_ign_RAF18b.tif)
-
 [Ensemble des grilles de conversions altimétrique IGN](https://geodesie.ign.fr/index.php?page=grilles)
 
+#### Utilisation de proj avec les Datumgrid
 
+[RAF18b pour la France continentale Géotiff Proj](https://cdn.proj.org/fr_ign_RAF18b.tif)
 
-
-### Utilisation de proj avec les Datumgrid
+[Exemple de conversion avec Proj7 et Postgresql](https://github.com/jancelin/centipede/blob/master/swmap/pg_backup/setup-db.sql)
 
 https://cdn.proj.org/
+
+https://proj.org/usage/network.html?highlight=geotiff
 
 
 
