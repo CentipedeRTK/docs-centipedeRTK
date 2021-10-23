@@ -41,9 +41,7 @@ Exmple de transformation de coordonnées géographique RGF93 (EPSG:4171) vers co
 
 Pour se localiser sur la Terre, il est nécessaire d'utiliser un système géodésique duquel découlent les coordonnées géographiques figurant sur les cartes. Celles-ci peuvent être exprimées soit sous la forme de longitude et latitude (coordonnées dites géographiques), soit en représentation cartographique plane (coordonnées dites en projection).
 
-![geocentrique_geographique](https://lh3.googleusercontent.com/proxy/3LxBeSQRBI3vYHiICGPpVeeCsf1u0PpbBJIh_A0uMbZuQSXS_42Nect8F7-yxqkKgS_W2BTV-k9cR0A9kB_oWTBBn1QGVc5CPolYdx3xdSS-yMpA79wc-oVJiZ-74g)
-
-[Ellipsoïde](https://geodesie.ign.fr/contenu/fichiers/ellipsoide_geodesique.pdf)
+![geocentrique_geographique](http://margaux.ipt.univ-paris8.fr/vgodard/enseigne/carto2/memocart/imemcart/cfm21f15.jpg)
 
 Les coordonnées géographiques sont exprimées en degrés exagésimaux (Degrés Minutes Secondes), degrés décimaux, grades ou radians et donnent la latitude et la longitude d'un lieu par rapport à un méridien.
 
