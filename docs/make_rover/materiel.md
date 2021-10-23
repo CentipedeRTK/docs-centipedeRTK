@@ -41,7 +41,7 @@ Pour le paramétrage du module bluetooth HC-05 il est necessaire de disposer d'u
 
 |Matériel|Prix HT|
 |--------|----|
-|[arduino nano](https://fr.rs-online.com/web/p/kits-de-developpement-pour-processeurs-et-microcontroleurs/1927590/)|13€|
+|[arduino nano](https://fr.rs-online.com/web/p/arduino/6961667)|13€|
 |[câbles jumpers femelles](https://fr.rs-online.com/web/p/kit-de-cables-dupont/7916450/)|3€|
 |[câble USB A > USB mini-B](https://fr.rs-online.com/web/p/cables-usb/1862803/)|2.6€|
 
