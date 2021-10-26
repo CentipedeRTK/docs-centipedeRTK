@@ -48,6 +48,8 @@ Il est également possible d'utilise un POE pour alimenter la base via le cable 
 ![POE](https://raw.githubusercontent.com/Stefal/rtkbase/master/images/base_f9p_raspberry_pi.jpg)
 <p align="center"><sup><i>crédit Stéphane Péneau</i></sup></p>
 
+[VIDEO Assemblage RTKbase](http://rtkbase.eu/assemblage_base_gnss_brut.mp4)
+
 ### Assemblage
 
 ![composant](https://jancelin.github.io/docs-centipedeRTK/assets/images/mat/composant.jpg)
