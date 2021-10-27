@@ -43,11 +43,11 @@ Pour se localiser sur la Terre, il est nécessaire d'utiliser un système géod�
 
 ![geocentrique_geographique](http://sgcaf.free.fr/dessins/globe3.gif)
 
-Les coordonnées géographiques sont exprimées en degrés exagésimaux (Degrés Minutes Secondes), degrés décimaux, grades ou radians et donnent la latitude et la longitude d'un lieu par rapport à un méridien.
+Les coordonnées géographiques sont exprimées en degrés hexagésimaux (Degrés Minutes Secondes), degrés décimaux, grades ou radians et donnent la latitude et la longitude d'un lieu par rapport à un méridien.
 
 Attention, des coordonnées géographiques n'ont aucun sens si on ne les accompagne pas des informations sur le système géodésique dans lequel elles sont exprimées.
 
-Les différents systèmes de coordonnées utilisées en géographie sont étroitement liés aux différents systèmes de référence : 
+Les différents systèmes de coordonnées utilisés en géographie sont étroitement liés aux différents systèmes de référence : 
 
 |Systèmes de coordonnées|Systèmes de référence|
 |---|---|
@@ -57,7 +57,7 @@ Les différents systèmes de coordonnées utilisées en géographie sont étroit
 
 ## [Réseau Géodésique Français 1993 (RGF93)](https://geodesie.ign.fr/index.php?page=rgf93)
 
-Le Référentiel Géodésique Français 93 est le repère de référence tridimensionnel géocentrique de précision centimétrique, adapté aux techniques modernes de positionnement pour la France métropolitaine. Les liens suivants mènent à des informations destinés à l'accompagnement des utilisateurs dans la migration de leurs données vers le repère de référence défini par le nouveau décret n°2019-165 du 5 mars 2019 relatif au système national de référence de coordonnées. 
+Le Référentiel Géodésique Français 93 est le repère de référence tridimensionnel géocentrique de précision centimétrique, adapté aux techniques modernes de positionnement pour la France métropolitaine. Les liens suivants mènent à des informations destinées à l'accompagnement des utilisateurs dans la migration de leurs données vers le repère de référence défini par le nouveau décret n°2019-165 du 5 mars 2019 relatif au système national de référence de coordonnées. 
 
  Il matérialise sur le territoire métropolitain un repère de référence précis, adapté aux technologies modernes, et compatible avec les références mondiales. Il est tridimensionnel et géocentrique et correspond à la réalisation française de l'ETRS89 (European Terrestrial Reference System 1989). Il convient de rappeler que l'ETRS89 :
 
