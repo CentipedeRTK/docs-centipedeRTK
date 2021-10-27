@@ -43,7 +43,7 @@ Pour se localiser sur la Terre, il est nécessaire d'utiliser un système géod�
 
 ![geocentrique_geographique](http://sgcaf.free.fr/dessins/globe3.gif)
 
-Les coordonnées géographiques sont exprimées en degrés hexagésimaux (Degrés Minutes Secondes), degrés décimaux, grades ou radians et donnent la latitude et la longitude d'un lieu par rapport à un méridien.
+Les coordonnées géographiques sont exprimées en degrés sexagésimaux (Degrés Minutes Secondes), degrés décimaux, grades ou radians et donnent la latitude et la longitude d'un lieu par rapport à un méridien.
 
 Attention, des coordonnées géographiques n'ont aucun sens si on ne les accompagne pas des informations sur le système géodésique dans lequel elles sont exprimées.
 
