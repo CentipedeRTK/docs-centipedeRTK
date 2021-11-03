@@ -9,7 +9,7 @@ nav_order: 4
 
 Nous allons déterminer la position de la base le plus précisément possible.
 
-Votre base va servir de référentiel pour vous mais aussi pour toute personne se trouvant dans sa zone d'action. Il est primordial que sa position soit juste et très précise afin de pourvoir tous travailler sur un même référentiel géographique.
+Votre base va servir de référentiel pour vous mais aussi pour toute personne se trouvant dans sa zone d'action. Il est primordial que sa position soit juste et très précise afin de pouvoir tous travailler sur un même référentiel géographique.
 
 Pour cela nous allons transformer un fichier de log de 24h de données satellitaires reçues par votre récepeteur en un fichier [RINEX](http://rgp.ign.fr/DONNEES/format/rinex.php), puis nous allons le transférer au service [IGN Calculs GNSS réseau en ligne](http://rgp.ign.fr/SERVICES/calcul_online.php) afin d'avoir les coordonées précises en latitude, longitude et élévation de votre base RTK
 
@@ -56,7 +56,7 @@ Le rapport de positionnement est transmit après quelques minutes sur votre boit
 	* une carte au format pdf permettant de visualiser la repartition des stations de reference ainsi que les residus de la mise en reference
 	* le rapport de calcul au format texte 
 * Le rapport est composé de plusieurs parties, la position de votre base se situe à la fin du document dans la zone **====== RGF93 ======**
-* Il est important de regarder la partie **EXACTITUDE ESTIMEE (2*SIGMA)** car elle va vous donner la qualité du calcul, normalement vous ne devez avoir que quelques mm en E_N, E_E et environ le double en E_H.
+* Il est important de regarder la partie **EXACTITUDE ESTIMEE (2*SIGMA)** car elle va vous donner la qualité du calcul, normalement vous ne devez être inférieur à 8mm en E_N, E_E et inférieur à 16mm en E_H.
 * Noter les coordonnées de votre base dans cet ordre **Latitude Longitude Hell** afin de les copier dans votre base RTK.
 
 ![ign](https://jancelin.github.io/docs-centipedeRTK/assets/images/positionnement/rapport_ign1.png)
