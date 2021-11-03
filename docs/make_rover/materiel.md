@@ -9,9 +9,34 @@ has_children: true
 ## Matériels
 
 Cette section décrit en détail le matériel nécessaire pour fabriquer un rover RTK avec connexion Bluetooth. 
-Il est également possible de l'utiliser en USB avec un câble OTG directement branché sur le smartphone ou un PC.
+Pour la V1, il est également possible de l'utiliser en USB avec un câble OTG directement branché sur le smartphone ou un PC.
 
-### Liste du matériel
+### Liste du matériel V5
+
+|matériel|ref|prix|
+|---|---|---|
+|[Batterie Lithium Ion Polymere - 3.7v 2000mAh](https://boutique.semageek.com/fr/533-batterie-lithium-ion-polymere-37v-2000mah-3002958281613.html)|ADA 2011|18€|
+|[PowerBoost 1000 Charger - Rechargeable 5V Lipo USB Boost - 1A](https://boutique.semageek.com/fr/1405-powerboost-1000-charger-rechargeable-5v-lipo-usb-boost-1a-3009227033751.html?search_query=PowerBoost+1000+Charger+-+Rechargeable+5V+Lipo+USB+Boost&results=113)|ADA 2465|24€|
+|[Switch double SPDT](https://boutique.semageek.com/fr/468-switch-double-spdt-3006504205436.html?search_query=SPDT&results=7)|ADA 805|1,5€|
+|[DA233 multi-band GNSS Antenna](https://store-drotek.com/925-da233.html)|0925|70€|
+|[DP0601 RTK GNSS (XL F9P)](https://store-drotek.com/891-rtk-zed-f9p-gnss.html)| 0891B08A| 180€|
+|[Adaptateur USB C vers USB Micro B](https://www.amazon.fr/GeekerChip-Pi%C3%A8ces-Adaptateur-Femelle-Galaxy/dp/B08F9S9H4K/ref=psdc_2908498031_t3_B08WM1ZFZR)||1€|
+|[Bluetooth HC-05](https://www.amazon.fr/gp/product/B07BHRG9KB/ref=ppx_yo_dt_b_asin_title_o04_s01?ie=UTF8&psc=1)||5,6€|
+|[SMA Mâle vers SMA Femelle Coude 135 Degrés 45 Degrés](https://www.amazon.fr/WE-WHLL-connecteur-Adaptateur-biseaut%C3%A9-Lunettes/dp/B08QCDL774/ref=sr_1_10?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=OM175088RFS6&keywords=SMA+M%C3%A2le+SMA+Femelle+45%C2%B0&qid=1635941613&sprefix=sma+m%C3%A2le+sma+femelle+45+%2Caps%2C74&sr=8-10)||3,5€|
+| | | |
+|Total environ| |310€|
+
+[Modèle impression 3D](https://www.prusaprinters.org/fr/prints/78333-gnss-rtk-v5/files)
+
+![rover_v5](https://media.prusaprinters.org/media/prints/78333/images/844706_a1eaa5d7-6c43-4eea-8bbd-5c72d136e122/thumbs/cover/160x160/jpg/img_20211008_1606442.jpg)
+![rover_v5](https://media.prusaprinters.org/media/prints/78333/images/844495_3b71e004-d47f-4a46-9169-7bb8acefa792/thumbs/cover/160x160/jpg/img_20211007_132032.jpg)
+![rover_v5](https://media.prusaprinters.org/media/prints/78333/images/844705_df06383c-caaa-4460-8bba-4a0da0c9b05c/thumbs/cover/160x160/jpg/img_20211008_1233082.jpg)
+
+![rover_v5](https://media.prusaprinters.org/media/prints/78333/images/844709_70a6e86b-eadb-4452-804f-433ddbd72c96/thumbs/cover/160x160/jpg/img_20211008_1214213.jpg)
+![rover_v5](https://media.prusaprinters.org/media/prints/78333/images/844704_7a80b7d6-f36b-4af6-9c04-335af8d361b5/thumbs/cover/160x160/jpg/img_20211008_1232032.jpg)
+![rover_v5](https://media.prusaprinters.org/media/prints/78333/images/844495_3b71e004-d47f-4a46-9169-7bb8acefa792/thumbs/cover/160x160/jpg/img_20211007_121744.jpg)
+
+### Liste du matériel V1
 
 Liste des composants d'un Rover RTK bifréquences L1-L2:
 
@@ -30,7 +55,11 @@ Pour la modbilité:
 |[Cable USB > USB microB renforcé](https://www.amazon.fr/gp/product/B01LXCA1GJ/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1)|9€|
 |[fixation 3M Dual Lock](https://www.amazon.fr/3M-Syst%C3%A8me-fixation-pliable-transparent/dp/B00LZRLYYI/ref=psdc_1854612031_t2_B081FF3BM6)|16€|
 
-Option Bluetooth: 
+![rover_v1](https://media.prusaprinters.org/media/prints/47974/images/478167_de7536d7-3302-4f26-847e-72f3065b7113/thumbs/cover/160x160/jpg/img_20201202_124011.jpg)
+![rover_v1](https://media.prusaprinters.org/media/prints/47974/images/478171_e2e97adf-dabc-4881-81d7-b335c65ac2db/thumbs/cover/160x160/jpg/img_20201202_124917.jpg)
+![rover_v1](https://media.prusaprinters.org/media/prints/47974/images/478179_d74c9516-950c-4d3e-82f2-4cf2c9d587ba/thumbs/cover/160x160/jpg/img_20201202_125714.jpg)
+
+### Paramétrage Bluetooth: 
 
 |Matériel|Prix HT|
 |--------|----|
