@@ -22,7 +22,7 @@ Vérifier que vous diposez de tous les composants:
 * Antenne GNSS
 * [Boite imprimée](https://www.prusaprinters.org/fr/prints/78333-gnss-rtk-v5)
 
-### Adaptation des câble 6-pins
+### Adaptation des câbles 6-pins
 
 * Prendre un des cables plats noirs fournis avec le récepteur GNSS F9P DP0601 et coupez le en deux et préparer les connexions et les étamer:
 
