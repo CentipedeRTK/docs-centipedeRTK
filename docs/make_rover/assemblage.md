@@ -47,7 +47,7 @@ Vérifier que vous diposez de tous les composants:
 * Connecter enfin sur le UART1 du récepteur DP0601 F9p
 
 ### Power boost
-
+* Bien repérer l'ordre des brins du câble pour la  connexion entre le récepteur F9P et le module bluetooth HC-05. **Attention le fil avec une bande blanche n'est pas toujours du même côté, il peut être le + ou le -**. Utiliser ce document: [DP0601 1.3 Pin description](https://raw.githubusercontent.com/drotek/datasheets/master/DrotekDoc_0891B08A%20-%20DP0601%20GNSS%20RTK%20(F9P).pdf)
 * Faire correspondre les branchements entre le DP0601 F9p > Powerboost 1000c:
    * **5V IN > +**
    * UART1 RX > rien
