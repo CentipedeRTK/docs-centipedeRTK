@@ -23,7 +23,7 @@ Vérifier que vous diposez de tous les composants:
 ### Adaptation du câble 6-pins si Bluetooth
 
 * Prendre un cable plat noir fourni avec le récepteur GNSS F9P DP0601 et coupez le en deux.
-* Bien repérer l'ordre des brins du câble pour la  connexion entre le récepteur F9P et le module bluetooth HC-05. [Pinout DP0601 F9p configuration](https://raw.githubusercontent.com/drotek/datasheets/master/DrotekDoc_0891B08A%20-%20DP0601%20GNSS%20RTK%20(F9P).pdf)
+* Bien repérer l'ordre des brins du câble pour la  connexion entre le récepteur F9P et le module bluetooth HC-05. [DP0601 F9p: 1.3 Pin description](https://raw.githubusercontent.com/drotek/datasheets/master/DrotekDoc_0891B08A%20-%20DP0601%20GNSS%20RTK%20(F9P).pdf)
 * Faire correspondre entre le DP0601 F9p > BT Hc-05:
    * 5V IN > VCC
    * UART1 RX > TXD
