@@ -41,13 +41,13 @@ Vérifier que vous diposez de tous les composants:
    * GND  > GND
 * Souder
 
-![montage cable](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/soldering_hc05.jpg)
+![montage cable](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/solder_hc05.jpg)
 
 * Connecter enfin sur le UART1 du récepteur F9P
 
 ### Power boost
 
-![montage cable](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/soldering_1000c.jpg)
+![montage cable](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/solder_1000c.jpg)
 
 ## Assemblage du Rover V1
 
