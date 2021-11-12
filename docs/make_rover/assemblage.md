@@ -22,13 +22,16 @@ Vérifier que vous diposez de tous les composants:
 
 ### Adaptation du câble 6-pins si Bluetooth
 
-Tout d'abord il faut bien repérer l'ordre des brins du câble pour la  connexion entre le récepteur F9P et le module bluetooth HC-05. 
-
->Il est préférable, pour simplifier le branchement, d'utiliser un connecteur 6 broches.
-
-![cable](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/branchement.jpg)
-
-Connecter ensuite sur le UART1 du récepteur F9P
+* Prendre un cable plat noir fourni avec le récepteur GNSS F9P DP0601 et coupez le en deux.
+* Bien repérer l'ordre des brins du câble pour la  connexion entre le récepteur F9P et le module bluetooth HC-05. [Pinout DP0601 F9p configuration](https://raw.githubusercontent.com/drotek/datasheets/master/DrotekDoc_0891B08A%20-%20DP0601%20GNSS%20RTK%20(F9P).pdf)
+* Faire correspondre entre le DP0601 F9p > BT Hc-05:
+   * 5V IN > VCC
+   * UART1 RX > TXD
+   * UART1 TX > RXD
+   * I2C SCL > rien
+   * I2C SDA > rien
+   * GND  > GND
+* Connecter enfin sur le UART1 du récepteur F9P
 
 ### Assemblage impression 3D
 
