@@ -44,7 +44,7 @@ Vérifier que vous diposez de tous les composants:
 
 ![montage cable](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/solder_hc05.jpg)
 
-* Connecter enfin sur le UART1 du récepteur F9P
+* Connecter enfin sur le UART1 du récepteur DP0601 F9p
 
 ### Power boost
 
@@ -58,6 +58,8 @@ Vérifier que vous diposez de tous les composants:
 * Souder
 
 ![montage cable](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/solder_1000c.jpg)
+
+* Connecter enfin sur le UART2 du récepteur DP0601 F9p
 
 ## Assemblage du Rover V1
 
