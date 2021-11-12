@@ -25,6 +25,9 @@ Vérifier que vous diposez de tous les composants:
 ### Adaptation des câble 6-pins
 
 * Prendre un des cables plats noirs fournis avec le récepteur GNSS F9P DP0601 et coupez le en deux et préparer les connexions et les étamer:
+
+> Attention au sens du connecteur du câble!
+
 ![montage cable](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/cut_pin.jpg)
 
 ### Bluetooth
