@@ -6,7 +6,50 @@ nav_order: 3
 has_children: true
 ---
 
-## Assemblage du Rover
+## Assemblage du Rover V5
+
+### Préparer son matériel
+
+Vérifier que vous diposez de tous les composants:
+
+* Module F9P DP0601
+* Câble 6 pins fourni avec le F9P DP0601
+* Câble USB renforcé
+* Module Bluetooth
+* Batterie
+* Module Power boost 1000c
+* interupteur
+* Antenne GNSS
+* [Boite imprimée](https://www.prusaprinters.org/fr/prints/78333-gnss-rtk-v5)
+
+### Adaptation des câble 6-pins
+
+> il est possible d'utiliser un cable 
+
+* Prendre un cable plat noir fourni avec le récepteur GNSS F9P DP0601 et coupez le en deux et préparer les connexions et les étamer:
+![montage cable](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/cut_pin.jpg)
+
+### Bluetooth
+
+* Bien repérer l'ordre des brins du câble pour la  connexion entre le récepteur F9P et le module bluetooth HC-05. **Attention le fil avec une bande blanche n'est pas toujours du même côté, il peut être le + ou le -**. Utiliser ce document: [DP0601 1.3 Pin description](https://raw.githubusercontent.com/drotek/datasheets/master/DrotekDoc_0891B08A%20-%20DP0601%20GNSS%20RTK%20(F9P).pdf)
+* Faire correspondre les branchements entre le DP0601 F9p > BT Hc-05:
+   * 5V IN > VCC
+   * UART1 RX > TXD
+   * UART1 TX > RXD
+   * I2C SCL > rien
+   * I2C SDA > rien
+   * GND  > GND
+* Souder
+
+![montage cable](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/soldering_hc05.jpg)
+
+* Connecter enfin sur le UART1 du récepteur F9P
+
+### Power boost
+
+![montage cable](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/soldering_1000c.jpg)
+
+## Assemblage du Rover V1
 
 ### Préparer son matériel
 
@@ -19,19 +62,6 @@ Vérifier que vous diposez de tous les composants:
 * option Bluetooth:
     * Module Bluetooth
     * Câble 6 pins préparé et connecté au F9P
-
-### Adaptation du câble 6-pins si Bluetooth
-
-* Prendre un cable plat noir fourni avec le récepteur GNSS F9P DP0601 et coupez le en deux.
-* Bien repérer l'ordre des brins du câble pour la  connexion entre le récepteur F9P et le module bluetooth HC-05. [DP0601 F9p: 1.3 Pin description](https://raw.githubusercontent.com/drotek/datasheets/master/DrotekDoc_0891B08A%20-%20DP0601%20GNSS%20RTK%20(F9P).pdf)
-* Faire correspondre entre le DP0601 F9p > BT Hc-05:
-   * 5V IN > VCC
-   * UART1 RX > TXD
-   * UART1 TX > RXD
-   * I2C SCL > rien
-   * I2C SDA > rien
-   * GND  > GND
-* Connecter enfin sur le UART1 du récepteur F9P
 
 ### Assemblage impression 3D
 
