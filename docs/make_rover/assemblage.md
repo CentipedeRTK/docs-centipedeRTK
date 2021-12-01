@@ -59,7 +59,29 @@ Vérifier que vous diposez de tous les composants:
 
 ![montage cable](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/solder_1000c.jpg)
 
-* Connecter enfin sur le UART2 du récepteur DP0601 F9p
+![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/1-rover_v5-1.jpg)
+![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/2-rover_v5-1.jpg)
+![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/3-rover_v5-1.jpg)
+![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/4-rover_v5-1.jpg)
+![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/5-rover_v5-1.jpg)
+![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/7-rover_v5-1.jpg)
+![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/8-rover_v5-1.jpg)
+![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/9-rover_v5-1.jpg)
+![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/10-rover_v5-1.jpg)
+![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/12-rover_v5-1.jpg)
+![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/14-rover_v5-1.jpg)
+![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/15-rover_v5-1.jpg)
+![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/16-rover_v5-1.jpg)
+![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/17-rover_v5-1.jpg)
+![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/18-rover_v5-1.jpg)
+![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/19-rover_v5-1.jpg)
+![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/20-rover_v5-1.jpg)
+![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/21-rover_v5-1.jpg)
+![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/22-rover_v5-1.jpg)
+![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/23-rover_v5-1.jpg)
+![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/24-rover_v5-1.jpg)
+
+
 
 ## Assemblage du Rover V1
 
