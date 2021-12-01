@@ -30,7 +30,6 @@ Pour la V1, il est également possible de l'utiliser en USB avec un câble OTG d
 
 [Modèle impression 3D](https://www.prusaprinters.org/fr/prints/90252-gnss-rtk-v51)
 
-![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/19-rover_v5-1.jpg)
 ![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/20-rover_v5-1.jpg)
 ![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/21-rover_v5-1.jpg)
 ![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/22-rover_v5-1.jpg)
