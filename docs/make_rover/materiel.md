@@ -26,15 +26,16 @@ Pour la V1, il est également possible de l'utiliser en USB avec un câble OTG d
 | | | |
 |Total environ| |310€|
 
-[Modèle impression 3D](https://www.prusaprinters.org/fr/prints/78333-gnss-rtk-v5/files)
++ 8 vis et 4 boulons/ecrous
 
-![rover_v5](https://media.prusaprinters.org/media/prints/78333/images/844706_a1eaa5d7-6c43-4eea-8bbd-5c72d136e122/thumbs/cover/160x160/jpg/img_20211008_1606442.jpg)
-![rover_v5](https://media.prusaprinters.org/media/prints/78333/images/844495_3b71e004-d47f-4a46-9169-7bb8acefa792/thumbs/cover/160x160/jpg/img_20211007_132032.jpg)
-![rover_v5](https://media.prusaprinters.org/media/prints/78333/images/844705_df06383c-caaa-4460-8bba-4a0da0c9b05c/thumbs/cover/160x160/jpg/img_20211008_1233082.jpg)
+[Modèle impression 3D](https://www.prusaprinters.org/fr/prints/90252-gnss-rtk-v51)
 
-![rover_v5](https://media.prusaprinters.org/media/prints/78333/images/844709_70a6e86b-eadb-4452-804f-433ddbd72c96/thumbs/cover/160x160/jpg/img_20211008_1214213.jpg)
-![rover_v5](https://media.prusaprinters.org/media/prints/78333/images/844704_7a80b7d6-f36b-4af6-9c04-335af8d361b5/thumbs/cover/160x160/jpg/img_20211008_1232032.jpg)
-![rover_v5](https://media.prusaprinters.org/media/prints/78333/images/844495_3b71e004-d47f-4a46-9169-7bb8acefa792/thumbs/cover/160x160/jpg/img_20211007_121744.jpg)
+![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/19-rover_v5-1.jpg)
+![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/20-rover_v5-1.jpg)
+![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/21-rover_v5-1.jpg)
+![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/22-rover_v5-1.jpg)
+![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/23-rover_v5-1.jpg)
+![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/24-rover_v5-1.jpg)
 
 ### Liste du matériel V1
 

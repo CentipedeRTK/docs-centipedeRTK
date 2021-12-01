@@ -6,7 +6,7 @@ nav_order: 3
 has_children: true
 ---
 
-## Assemblage du Rover V5
+## Assemblage du Rover V5.1
 
 ### Préparer son matériel
 
@@ -24,7 +24,7 @@ Vérifier que vous diposez de tous les composants:
 * 4 boulons
 * 4 ecrous
 * Antenne GNSS
-* [Boite imprimée](https://www.prusaprinters.org/fr/prints/78333-gnss-rtk-v5)
+* [Boite imprimée](https://www.prusaprinters.org/fr/prints/90252-gnss-rtk-v51)
 
 ### Adaptation des câbles 6-pins
 
