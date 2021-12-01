@@ -63,7 +63,9 @@ Vérifier que vous diposez de tous les composants:
 
 ![montage cable](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/solder_1000c.jpg)
 
-* souder maintenant l'interrupteur
+* souder maintenant l'interrupteur sans courber les 3-pin
+
+https://learn.adafruit.com/adafruit-powerboost-1000c-load-share-usb-charge-boost/assembly#on-slash-off-switch-1833577-5
 
 ![montage interrupteur]()
 
