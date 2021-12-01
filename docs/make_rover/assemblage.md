@@ -14,11 +14,15 @@ Vérifier que vous diposez de tous les composants:
 
 * Module F9P DP0601
 * Câble 6 pins fourni avec le F9P DP0601
-* Câble USB renforcé
-* Module Bluetooth
-* Batterie
-* Module Power boost 1000c
+* Module Bluetooth Hc-05
+* rallonge 45° SMA
+* Batterie 2000 mAh
+* Module adafruit Power boost 1000c
 * interupteur
+* Adaptateur micro usb > usbC
+* 8 vis
+* 4 boulons
+* 4 ecrous
 * Antenne GNSS
 * [Boite imprimée](https://www.prusaprinters.org/fr/prints/78333-gnss-rtk-v5)
 
@@ -58,6 +62,12 @@ Vérifier que vous diposez de tous les composants:
 * Souder
 
 ![montage cable](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/solder_1000c.jpg)
+
+* souder maintenant l'interrupteur
+
+![montage interrupteur]()
+
+* Preparer l'ensemble des pièces et procéder au montage.
 
 ![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/1-rover_v5-1.jpg)
 ![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/2-rover_v5-1.jpg)
