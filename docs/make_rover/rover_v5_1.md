@@ -17,10 +17,14 @@ Le Rover V5.1 necessite une impression 3D du boitier ainsi que du matériel de s
 
 ## Boitier:
 
-Il est necessaire d'utiliser ce [modèle impression 3D](https://www.prusaprinters.org/fr/prints/90252-gnss-rtk-v51) afin de réaliser la boite. Vous pouvez demander à votre [fablab local](https://cartographie.francetierslieux.fr/#?tags=Fablab%20/%20Atelier%20de%20Fabrication%20Num%C3%A9rique) ou [chercher directement une imprimante pas loin de chez vous.](https://www.prusaprinters.org/fr/world).
+Il est necessaire d'utiliser ce [**modèle impression 3D**](https://www.prusaprinters.org/fr/prints/90252-gnss-rtk-v51) afin de réaliser la boite. Vous pouvez demander à votre [fablab local](https://cartographie.francetierslieux.fr/#?tags=Fablab%20/%20Atelier%20de%20Fabrication%20Num%C3%A9rique) ou [chercher directement une imprimante pas loin de chez vous.](https://www.prusaprinters.org/fr/world)
 
-![partie 1  GNSS](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/v5_1_1_3-GNSS.stl)
-![partie 2  alimentation](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/v5_1_1_3-alim.stl)
+* Imprimer le fichier [v5_1_3-alim+gnss_petg_0.2mm_PETG_MK3S_5h27m.gcode](https://media.prusaprinters.org/media/prints/90252/gcodes/948649_a60b3e49-185d-42cb-9288-f2798bc8b229/v5_1_3-alimgnss_petg_02mm_petg_mk3s_5h27m.gcode)
+
+> Les 2 parties sont également disponibles en visualisation ici:
+
+[partie 1  GNSS](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/v5_1_1_3-GNSS.stl)
+[partie 2  alimentation](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/v5_1_1_3-alim.stl)
 
 ## Composants
 
@@ -34,16 +38,17 @@ Il est necessaire d'utiliser ce [modèle impression 3D](https://www.prusaprinter
 |[Adaptateur USB C vers USB Micro B](https://www.amazon.fr/GeekerChip-Pi%C3%A8ces-Adaptateur-Femelle-Galaxy/dp/B08F9S9H4K/ref=psdc_2908498031_t3_B08WM1ZFZR)||1€|
 |[Bluetooth HC-05](https://www.amazon.fr/gp/product/B07BHRG9KB/ref=ppx_yo_dt_b_asin_title_o04_s01?ie=UTF8&psc=1)||5,6€|
 |[SMA Mâle vers SMA Femelle Coude 135 Degrés 45 Degrés](https://www.amazon.fr/WE-WHLL-connecteur-Adaptateur-biseaut%C3%A9-Lunettes/dp/B08QCDL774/ref=sr_1_10?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=OM175088RFS6&keywords=SMA+M%C3%A2le+SMA+Femelle+45%C2%B0&qid=1635941613&sprefix=sma+m%C3%A2le+sma+femelle+45+%2Caps%2C74&sr=8-10)||3,5€|
+|[8 Vis à métaux M2 à tête Cylindrique Pozidriv en Acier Inoxydable, 6mm](https://fr.rs-online.com/web/p/vis-a-metaux/0528693) (paquet de 100)|528-693| 6.7€|
+|[4 Écrou hexagonal M3, Acier Inoxydable](https://fr.rs-online.com/web/p/ecrous-hexagonaux/189563) (paquet de 100)|189-563 |7.8€ |
+|[4 Vis à métaux M3 à tête Cylindrique fendue en Acier Inoxydable, 20mm](https://fr.rs-online.com/web/p/vis-a-metaux/0526984)) (paquet de 100) |526-984|7€ |
 | | | |
 |Total environ| |310€|
-
-+ 8 vis et 4 boulons/ecrous
 
 ![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/2-rover_v5-1.jpg)
 
 ## Paramétrage du recepteur GNSS et du bluetooth
 
-Ouvrir dans un nouvel onglet la page de[Configuration du recepteur GNSS et du bluetooth](configuration){: .btn }
+Ouvrir dans un nouvel onglet la page de[Configuration du recepteur GNSS et du bluetooth](configuration){: .btn } et suivre les instructions.
 
 ## Assemblage du Rover V5.1
 
