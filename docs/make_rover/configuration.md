@@ -30,8 +30,8 @@ Dans un premier temps il est nécessaire de mettre à jour le [firmware](https:/
 ![firware](https://gblobscdn.gitbook.com/assets%2F-LYSZeu4HjB-NrVI4riL%2F-LZ5-tu1J0X8sog9Xvkf%2F-LZ527USiWMS3Pjo5SXY%2Fstep4.png?alt=media&token=2e76981e-8874-4151-9c48-f5fa07cdcd69)
   * Attendre la fin de la procédure de mise à jour
 ![firware](https://gblobscdn.gitbook.com/assets%2F-LYSZeu4HjB-NrVI4riL%2F-LZ52KPCRzypMK4cqtQW%2F-LZ52Z_bl9GHQP8dz7By%2Fstep6.png?alt=media&token=f8f7240b-79b4-4856-87ea-26e12c1aac36)
-  
-  
+
+
 #### Injection des paramètres
 
 L'injection permet de paramétrer le récepteur F9P pour une utilisation avec RTKlib et plus particulièrement RTKGPS+ sur Android
@@ -56,13 +56,19 @@ Par mesure de prudence, s'assurer que la configuration est bien enregistrée :
 
 **A partir d'ici votre récepteur est entièrement fonctionnel en USB**
 
-## Option: Ajouter un module Bluetooth
+## Ajouter un module Bluetooth
 
 Le module bluetooth HC-05 est livré avec les configurations d'origine qu'il est nécessaire de modifier (notamment la vitesse de transmission de données). Pour cela nous allons avoir besoin de câbles jumpers pour connecter le HC-05 à l'arduino, d'un câble USB pour le relier au PC et enfin du programme Arduino installé sur le PC afin de "discuter" avec le module bluetooth HC-05.
 
+|Matériel|Prix HT|
+|--------|----|
+|[arduino nano](https://fr.rs-online.com/web/p/arduino/6961667)|13€|
+|[câbles jumpers femelles](https://fr.rs-online.com/web/p/kit-de-cables-dupont/7916450/)|3€|
+|[câble USB A > USB mini-B](https://fr.rs-online.com/web/p/cables-usb/1862803/)|2.6€|
+
 ### Connexion de l'arduino au module bluetooth HC-05
 
-Connecter l'arduino au HC-05 avec les câbles: 
+Connecter l'arduino au HC-05 avec les câbles:
 
 * VCC sur le 5Volt
 * GND au GND
@@ -101,7 +107,7 @@ void loop()
 {
   if (mySerial.available())  
   Serial.write(mySerial.read());
-  
+
   if (Serial.available())  
   mySerial.write(Serial.read());
 }
@@ -120,5 +126,3 @@ Le code PIN du bluetooth est **1234** par défaut, vous pouvez le modifier en en
 > Plus d'informations sur les options de paramétrage [ici](https://retroetgeek.com/geek/arduino/configuration-du-module-hc-05-pour-arduino/)
 
 Une fois cette étape terminée, vous pouvez débrancher le module et passer à l'assemblage.
-
-

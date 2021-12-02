@@ -1,10 +1,43 @@
 ---
 layout: default
-title: Assemblage
+title: Rover RTK V5.1
 parent: Fabriquer un Rover RTK
-nav_order: 3
+nav_order: 1
 has_children: true
 ---
+
+## Matériels
+
+Cette section décrit en détail le matériel nécessaire et la méthode d'assemblage pour fabriquer un rover RTK avec connexion Bluetooth pour smartphone.
+Le Rover V5.1 necessite une impression 3D du boitier ainsi que du matériel de soudure précis à l'étain, pensez aux fablabs à côté de chez vous!!!
+
+### Liste du matériel V5.1
+
+|matériel|ref|prix|
+|---|---|---|
+|[Batterie Lithium Ion Polymere - 3.7v 2000mAh](https://boutique.semageek.com/fr/533-batterie-lithium-ion-polymere-37v-2000mah-3002958281613.html)|ADA 2011|18€|
+|[PowerBoost 1000 Charger - Rechargeable 5V Lipo USB Boost - 1A](https://boutique.semageek.com/fr/1405-powerboost-1000-charger-rechargeable-5v-lipo-usb-boost-1a-3009227033751.html?search_query=PowerBoost+1000+Charger+-+Rechargeable+5V+Lipo+USB+Boost&results=113)|ADA 2465|24€|
+|[Switch double SPDT](https://boutique.semageek.com/fr/468-switch-double-spdt-3006504205436.html?search_query=SPDT&results=7)|ADA 805|1,5€|
+|[DA233 multi-band GNSS Antenna](https://store-drotek.com/925-da233.html)|0925|70€|
+|[DP0601 RTK GNSS (XL F9P)](https://store-drotek.com/891-rtk-zed-f9p-gnss.html)| 0891B08A| 180€|
+|[Adaptateur USB C vers USB Micro B](https://www.amazon.fr/GeekerChip-Pi%C3%A8ces-Adaptateur-Femelle-Galaxy/dp/B08F9S9H4K/ref=psdc_2908498031_t3_B08WM1ZFZR)||1€|
+|[Bluetooth HC-05](https://www.amazon.fr/gp/product/B07BHRG9KB/ref=ppx_yo_dt_b_asin_title_o04_s01?ie=UTF8&psc=1)||5,6€|
+|[SMA Mâle vers SMA Femelle Coude 135 Degrés 45 Degrés](https://www.amazon.fr/WE-WHLL-connecteur-Adaptateur-biseaut%C3%A9-Lunettes/dp/B08QCDL774/ref=sr_1_10?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=OM175088RFS6&keywords=SMA+M%C3%A2le+SMA+Femelle+45%C2%B0&qid=1635941613&sprefix=sma+m%C3%A2le+sma+femelle+45+%2Caps%2C74&sr=8-10)||3,5€|
+| | | |
+|Total environ| |310€|
+
++ 8 vis et 4 boulons/ecrous
+
+[Modèle impression 3D](https://www.prusaprinters.org/fr/prints/90252-gnss-rtk-v51)
+
+<iframe width="100%" height="1000" frameborder="0" style="border:0" src="https://www.prusaprinters.org/fr/prints/90252-gnss-rtk-v51/files#preview" allowfullscreen></iframe>
+
+![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/2-rover_v5-1.jpg)
+![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/16-rover_v5-1.jpg)
+
+## Paramétrage du recepteur GNSS et du bluetooth
+
+[configuration]{: .btn }
 
 ## Assemblage du Rover V5.1
 
@@ -115,45 +148,3 @@ Vérifier que vous diposez de tous les composants:
 ![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/16-rover_v5-1.jpg)
 ![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/17-rover_v5-1.jpg)
 ![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/18-rover_v5-1.jpg)
-
-
-
-## Assemblage du Rover V1
-
-### Préparer son matériel
-
-Vérifier que vous diposez de tous les composants:
-
-* Module F9P
-* Antenne GNSS
-* Batterie
-* Câble USB renforcé
-* option Bluetooth:
-    * Module Bluetooth
-    * Câble 6 pins préparé et connecté au F9P
-
-### Assemblage impression 3D
-
-[source](https://www.prusaprinters.org/fr/prints/47974-gnss-rtk-f9p-drotek-bt-hc-05)
-
-<iframe width="100%" height="1000" frameborder="0" style="border:0" src="https://www.prusaprinters.org/fr/prints/47974-gnss-rtk-f9p-drotek-bt-hc-05" allowfullscreen></iframe>
-
-### Assemblage scratch
-
-J'utilise du scratch 3M Dual-lock pour l'assemblage des composants, cela permet un démontage et une adaptation aisés du positionnement en fonction des besoins.
-
->J'espère vous proposer prochainement une boîte étanche à imprimer.
-
-* Découper des bandes scratch 3M Dual-lock à la bonne taille et les coller.
-
-![assemblage](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/assemblage1.jpg)
-
-* Assembler les modules
-
-![assemblage](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/assemblage2.jpg)
-
-* Connecter une antenne
-
-![RTKrover](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/rover_1.jpg)
-
-![RTKrover](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/rover_pied_2.jpg)
