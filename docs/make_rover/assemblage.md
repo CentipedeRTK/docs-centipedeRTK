@@ -18,7 +18,7 @@ Vérifier que vous diposez de tous les composants:
 * rallonge 45° SMA
 * Batterie 2000 mAh
 * Module adafruit Power boost 1000c
-* interupteur
+* interrupteur
 * Adaptateur micro usb > usbC
 * 8 vis
 * 4 boulons
@@ -65,9 +65,10 @@ Vérifier que vous diposez de tous les composants:
 
 * souder maintenant l'interrupteur sans courber les 3-pin
 
-https://learn.adafruit.com/adafruit-powerboost-1000c-load-share-usb-charge-boost/assembly#on-slash-off-switch-1833577-5
+![montage interrupteur](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/inter1.jpg)
+![montage interrupteur](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/inter2.jpg)
 
-![montage interrupteur]()
+[Doc adafruit interrupteur](https://learn.adafruit.com/adafruit-powerboost-1000c-load-share-usb-charge-boost/assembly#on-slash-off-switch-1833577-5)
 
 * Preparer l'ensemble des pièces et procéder au montage.
 
