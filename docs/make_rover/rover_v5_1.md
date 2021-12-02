@@ -133,7 +133,7 @@ Vérifier que vous diposez de tous les composants:
 * Assembler les composants d'alimentation.
 ![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/7-rover_v5-1.jpg)
 
-* Il est des fois necessaire de poncer légèrement le trou sur le côté pour l'adaptateur USB en fonction des modèles.
+* Il est parfois necessaire de poncer légèrement le trou sur le côté pour l'adaptateur USB en fonction des modèles.
 ![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/8-rover_v5-1.jpg)
 
 * Fixer la nappe avec un scotch et tester l'alimentation
@@ -142,7 +142,7 @@ Vérifier que vous diposez de tous les composants:
 * Assembler les composants GNSS et Bluetooth
 ![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/10-rover_v5-1.jpg)
 
-* Commencer par le Bluetooth, engager les broches en premier et pousser le module pour qu'il s'insère dans son emplacement.
+* Commencer par le Bluetooth ([vous l'avez bien paramétré avant?](https://docs.centipede.fr/docs/make_rover/configuration.html#ajouter-un-module-bluetooth)) engager les broches en premier et pousser le module pour qu'il s'insère dans son emplacement.
 ![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/11-rover_v5-1.jpg)
 
 * Connecter les composants au recepteur GNSS pour procéder à un test de fonctionnement
