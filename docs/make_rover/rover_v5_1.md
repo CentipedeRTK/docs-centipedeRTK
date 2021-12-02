@@ -154,8 +154,10 @@ Vérifier que vous diposez de tous les composants:
 * Finaliser le serrage et fixer le cable.
 ![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/14-rover_v5-1.jpg)
 
-* Refermer délicatement le boitier en vérifiant de de pas ecraser un cable, tester de nouveau puis finaliser l'assemblage avec les boulons.
+* Refermer délicatement le boitier en vérifiant de ne pas ecraser un cable, tester de nouveau puis finaliser l'assemblage avec les boulons.
 ![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/15-rover_v5-1.jpg)
 ![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/16-rover_v5-1.jpg)
 ![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/17-rover_v5-1.jpg)
 ![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/18-rover_v5-1.jpg)
+
+* Votre Rover GNSS RTK est enfin prêt, il vous reste  maintenant à [paramétrer votre smartphone)(https://docs.centipede.fr/docs/Rover_rtklib_android/){: .btn }
