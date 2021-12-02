@@ -70,6 +70,8 @@ Vérifier que vous diposez de tous les composants:
 
 [Doc adafruit interrupteur](https://learn.adafruit.com/adafruit-powerboost-1000c-load-share-usb-charge-boost/assembly#on-slash-off-switch-1833577-5)
 
+### Assemblage
+
 * Preparer vos outils pour l'assemblage
 ![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/1-rover_v5-1.jpg)
 

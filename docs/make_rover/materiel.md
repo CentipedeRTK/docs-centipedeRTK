@@ -8,10 +8,11 @@ has_children: true
 
 ## Matériels
 
-Cette section décrit en détail le matériel nécessaire pour fabriquer un rover RTK avec connexion Bluetooth. 
-Pour la V1, il est également possible de l'utiliser en USB avec un câble OTG directement branché sur le smartphone ou un PC.
+Cette section décrit en détail le matériel nécessaire pour fabriquer un rover RTK avec connexion Bluetooth.
+La V5.1 demande une impression 3D ainsi que du matériel de soudure à l'étain, pensez aux fablabs à côté de chez vous!!!
+La V1 est un assemblage de composant sans soudure, il est également possible de l'utiliser en USB avec un câble OTG directement branché sur le smartphone ou un PC.
 
-### Liste du matériel V5
+### Liste du matériel V5.1
 
 |matériel|ref|prix|
 |---|---|---|
@@ -30,11 +31,9 @@ Pour la V1, il est également possible de l'utiliser en USB avec un câble OTG d
 
 [Modèle impression 3D](https://www.prusaprinters.org/fr/prints/90252-gnss-rtk-v51)
 
-![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/20-rover_v5-1.jpg)
-![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/21-rover_v5-1.jpg)
-![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/22-rover_v5-1.jpg)
-![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/23-rover_v5-1.jpg)
-![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/24-rover_v5-1.jpg)
+![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/2-rover_v5-1.jpg)
+![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/16-rover_v5-1.jpg)
+
 
 ### Liste du matériel V1
 
@@ -59,11 +58,11 @@ Pour la modbilité:
 ![rover_v1](https://media.prusaprinters.org/media/prints/47974/images/478171_e2e97adf-dabc-4881-81d7-b335c65ac2db/thumbs/cover/160x160/jpg/img_20201202_124917.jpg)
 ![rover_v1](https://media.prusaprinters.org/media/prints/47974/images/478179_d74c9516-950c-4d3e-82f2-4cf2c9d587ba/thumbs/cover/160x160/jpg/img_20201202_125714.jpg)
 
-### Paramétrage Bluetooth: 
+### Paramétrage Bluetooth:
 
 |Matériel|Prix HT|
 |--------|----|
-|[bluetooth Hc-05](https://www.amazon.fr/DSD-TECH-HC-05-Pass-through-Communication/dp/B01G9KSAF6/ref=sr_1_1_sspa?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=hc-05&qid=1586875187&s=computers&sr=1-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFTNVVYWUlSTThRMjgmZW5jcnlwdGVkSWQ9QTAzNzQ3MzMzUU5UWkZWSzdYRFJRJmVuY3J5cHRlZEFkSWQ9QTA5MDQwNTE0UElCRFlMNTQ1MDMmd2lkZ2V0TmFtZT1zcF9hdGYmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl)|10€| 
+|[bluetooth Hc-05](https://www.amazon.fr/DSD-TECH-HC-05-Pass-through-Communication/dp/B01G9KSAF6/ref=sr_1_1_sspa?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=hc-05&qid=1586875187&s=computers&sr=1-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFTNVVYWUlSTThRMjgmZW5jcnlwdGVkSWQ9QTAzNzQ3MzMzUU5UWkZWSzdYRFJRJmVuY3J5cHRlZEFkSWQ9QTA5MDQwNTE0UElCRFlMNTQ1MDMmd2lkZ2V0TmFtZT1zcF9hdGYmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl)|10€|
 |[JST-GH to JWT 28AWG 6-pins Silicone cable](https://store-drotek.com/831-jst-gh-to-jwt-28awg-6pins-cable.html)|3€|
 
 Pour le paramétrage du module bluetooth HC-05 il est necessaire de disposer d'un arduino, de jumpers femelles et d'un câble USB mini-B
@@ -75,37 +74,3 @@ Pour le paramétrage du module bluetooth HC-05 il est necessaire de disposer d'u
 |[câble USB A > USB mini-B](https://fr.rs-online.com/web/p/cables-usb/1862803/)|2.6€|
 
 **Pour l'utilisation du rover, vous aurez besoin d'un PC windows ou linux, ou bien un smartphone ou tablette sous Android.**
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
