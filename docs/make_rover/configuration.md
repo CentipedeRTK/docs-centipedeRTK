@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Configuration des matériel GNSS et BT
+title: Configuration des matériels GNSS et BT
 parent: Fabriquer un Rover RTK
 nav_order: 3
 has_children: true

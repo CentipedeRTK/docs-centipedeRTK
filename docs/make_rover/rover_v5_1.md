@@ -21,10 +21,10 @@ Il est necessaire d'utiliser ce [**modèle impression 3D**](https://www.prusapri
 
 * Imprimer le fichier [v5_1_3-alim+gnss_petg_0.2mm_PETG_MK3S_5h27m.gcode](https://media.prusaprinters.org/media/prints/90252/gcodes/948649_a60b3e49-185d-42cb-9288-f2798bc8b229/v5_1_3-alimgnss_petg_02mm_petg_mk3s_5h27m.gcode)
 
-> Les 2 parties sont également disponibles en visualisation ici:
+![gcode](https://media.prusaprinters.org/media/prints/90252/gcodes/948649_a60b3e49-185d-42cb-9288-f2798bc8b229/thumbs/cover/320x240/png/v5_1_3-alimgnss_petg_02mm_petg_mk3s_5h27m_preview.png)
 
-[partie 1  GNSS](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/v5_1_1_3-GNSS.stl)
-[partie 2  alimentation](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/v5_1_1_3-alim.stl)
+![3d alim](https://media.prusaprinters.org/media/prints/90252/stls/948650_10df3525-daf6-4823-b093-f8d498a4a2be/thumbs/cover/640x480/png/v5_1_1_3-alim_preview.png)
+![3d GNSS](https://media.prusaprinters.org/media/prints/90252/stls/948651_f379b93e-6dd7-4ba0-95ec-b495d4d879ce/thumbs/cover/320x240/png/v5_1_1_3-gnss_preview.png)
 
 ## Composants
 
