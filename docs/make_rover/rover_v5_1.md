@@ -11,7 +11,18 @@ has_children: true
 Cette section décrit en détail le matériel nécessaire et la méthode d'assemblage pour fabriquer un rover RTK avec connexion Bluetooth pour smartphone.
 Le Rover V5.1 necessite une impression 3D du boitier ainsi que du matériel de soudure précis à l'étain, pensez aux fablabs à côté de chez vous!!!
 
+![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/16-rover_v5-1.jpg)
+
 ### Liste du matériel V5.1
+
+## Boitier:
+
+Il est necessaire d'utiliser ce [modèle impression 3D](https://www.prusaprinters.org/fr/prints/90252-gnss-rtk-v51) afin de réaliser la boite. Vous pouvez demander à votre [fablab local](https://cartographie.francetierslieux.fr/#?tags=Fablab%20/%20Atelier%20de%20Fabrication%20Num%C3%A9rique) ou [chercher directement une imprimante pas loin de chez vous.](https://www.prusaprinters.org/fr/world).
+
+![partie 1  GNSS](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/v5_1_1_3-GNSS.stl)
+![partie 2  alimentation](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/v5_1_1_3-alim.stl)
+
+## Composants
 
 |matériel|ref|prix|
 |---|---|---|
@@ -28,16 +39,11 @@ Le Rover V5.1 necessite une impression 3D du boitier ainsi que du matériel de s
 
 + 8 vis et 4 boulons/ecrous
 
-[Modèle impression 3D](https://www.prusaprinters.org/fr/prints/90252-gnss-rtk-v51)
-
-<iframe width="100%" height="1000" frameborder="0" style="border:0" src="https://www.prusaprinters.org/fr/prints/90252-gnss-rtk-v51/files#preview" allowfullscreen></iframe>
-
 ![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/2-rover_v5-1.jpg)
-![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/16-rover_v5-1.jpg)
 
 ## Paramétrage du recepteur GNSS et du bluetooth
 
-[configuration]{: .btn }
+Ouvrir dans un nouvel onglet la page de[Configuration du recepteur GNSS et du bluetooth](configuration){: .btn }
 
 ## Assemblage du Rover V5.1
 
