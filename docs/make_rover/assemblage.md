@@ -77,22 +77,19 @@ Vérifier que vous diposez de tous les composants:
 ![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/3-rover_v5-1.jpg)
 ![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/4-rover_v5-1.jpg)
 ![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/5-rover_v5-1.jpg)
+![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/6-rover_v5-1.jpg)
 ![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/7-rover_v5-1.jpg)
 ![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/8-rover_v5-1.jpg)
 ![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/9-rover_v5-1.jpg)
 ![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/10-rover_v5-1.jpg)
+![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/11-rover_v5-1.jpg)
 ![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/12-rover_v5-1.jpg)
+![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/13-rover_v5-1.jpg)
 ![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/14-rover_v5-1.jpg)
 ![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/15-rover_v5-1.jpg)
 ![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/16-rover_v5-1.jpg)
 ![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/17-rover_v5-1.jpg)
 ![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/18-rover_v5-1.jpg)
-![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/19-rover_v5-1.jpg)
-![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/20-rover_v5-1.jpg)
-![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/21-rover_v5-1.jpg)
-![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/22-rover_v5-1.jpg)
-![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/23-rover_v5-1.jpg)
-![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/24-rover_v5-1.jpg)
 
 
 
@@ -118,7 +115,7 @@ Vérifier que vous diposez de tous les composants:
 
 ### Assemblage scratch
 
-J'utilise du scratch 3M Dual-lock pour l'assemblage des composants, cela permet un démontage et une adaptation aisés du positionnement en fonction des besoins. 
+J'utilise du scratch 3M Dual-lock pour l'assemblage des composants, cela permet un démontage et une adaptation aisés du positionnement en fonction des besoins.
 
 >J'espère vous proposer prochainement une boîte étanche à imprimer.
 
@@ -135,4 +132,3 @@ J'utilise du scratch 3M Dual-lock pour l'assemblage des composants, cela permet 
 ![RTKrover](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/rover_1.jpg)
 
 ![RTKrover](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/rover_pied_2.jpg)
-
