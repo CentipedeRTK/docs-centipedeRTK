@@ -142,10 +142,10 @@ Vérifier que vous diposez de tous les composants:
 * Assembler les composants GNSS et Bluetooth
 ![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/10-rover_v5-1.jpg)
 
-* Commencer par le Bluetooth ([vous l'avez bien paramétré avant?](https://docs.centipede.fr/docs/make_rover/configuration.html#ajouter-un-module-bluetooth)) engager les broches en premier et pousser le module pour qu'il s'insère dans son emplacement.
+* Commencer par le Bluetooth ([a t'il bien été paramétré avant?](https://docs.centipede.fr/docs/make_rover/configuration.html#ajouter-un-module-bluetooth)) engager les broches en premier et pousser le module pour qu'il s'insère dans son emplacement.
 ![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/11-rover_v5-1.jpg)
 
-* Connecter les composants au recepteur GNSS pour procéder à un test de fonctionnement
+* Connecter les composants au recepteur GNSS ([a t'il bien été paramétré avant?](https://docs.centipede.fr/docs/make_rover/configuration.html#configuration-du-r%C3%A9cepteur-gnss-f9p)) pour procéder à un test de fonctionnement
 ![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/12-rover_v5-1.jpg)
 
 * Attention a partir de maintenant tout les composant sont connectés, faire très attention à ne pas tirer sur les cables!!! Installer le recepteur GNSS et ne serrez pas entierement les vis. Assembler le raccord SMA avec une pince
