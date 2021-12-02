@@ -70,22 +70,45 @@ Vérifier que vous diposez de tous les composants:
 
 [Doc adafruit interrupteur](https://learn.adafruit.com/adafruit-powerboost-1000c-load-share-usb-charge-boost/assembly#on-slash-off-switch-1833577-5)
 
-* Preparer l'ensemble des pièces et procéder au montage.
-
+* Preparer vos outils pour l'assemblage
 ![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/1-rover_v5-1.jpg)
+
+* Preparer l'ensemble des pièces et procéder au montage, il peut être necessaire de déboucher les trous des vis sur le boitier imprimeé. Utiliser un forêt adapté à la taille de vos vis et une visseuse.
 ![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/2-rover_v5-1.jpg)
+
+* Commencer par l'insertion des écrous
 ![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/3-rover_v5-1.jpg)
+
+* Utiliser un briquet pour chauffer l'ecrou puis l'insérer dans le boitier, attention à ne pas trop chauffer et surtout à ne pas trop appuyer au moment de l'insertion au risque de déformer le boitier
 ![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/4-rover_v5-1.jpg)
 ![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/5-rover_v5-1.jpg)
 ![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/6-rover_v5-1.jpg)
+
+* Assembler les composants d'alimentation.
 ![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/7-rover_v5-1.jpg)
+
+* Il est des fois necessaire de poncer légèrement le trou sur le côté pour l'adaptateur USB en fonction des modèles.
 ![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/8-rover_v5-1.jpg)
+
+* Fixer la nappe avec un scotch et tester l'alimentation
 ![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/9-rover_v5-1.jpg)
+
+* Assembler les composants GNSS et Bluetooth
 ![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/10-rover_v5-1.jpg)
+
+* Commencer par le Bluetooth, engager les broches en premier et pousser le module pour qu'il s'insère dans son emplacement.
 ![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/11-rover_v5-1.jpg)
+
+* Connecter les composants au recepteur GNSS pour procéder à un test de fonctionnement
 ![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/12-rover_v5-1.jpg)
+
+* Attention a partir de maintenant tout les composant sont connectés, faire très attention à ne pas tirer sur les cables!!! Installer le recepteur GNSS et ne serrez pas entierement les vis. Assembler le raccord SMA avec une pince
 ![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/13-rover_v5-1.jpg)
+
+* Finaliser le serrage et fixer le cable.
 ![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/14-rover_v5-1.jpg)
+
+* Refermer délicatement le boitier en vérifiant de de pas ecraser un cable, tester de nouveau puis finaliser l'assemblage avec les boulons.
 ![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/15-rover_v5-1.jpg)
 ![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/16-rover_v5-1.jpg)
 ![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/17-rover_v5-1.jpg)
