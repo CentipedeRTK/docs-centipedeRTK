@@ -73,7 +73,7 @@ Vérifier que vous diposez de tous les composants:
 * Preparer vos outils pour l'assemblage
 ![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/1-rover_v5-1.jpg)
 
-* Preparer l'ensemble des pièces et procéder au montage, il peut être necessaire de déboucher les trous des vis sur le boitier imprimeé. Utiliser un forêt adapté à la taille de vos vis et une visseuse.
+* Preparer l'ensemble des pièces et procéder au montage, il peut être necessaire de déboucher les trous des vis sur le boitier imprimé. Utiliser un foré adapté à la taille de vos vis et une visseuse.
 ![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/2-rover_v5-1.jpg)
 
 * Commencer par l'insertion des écrous
