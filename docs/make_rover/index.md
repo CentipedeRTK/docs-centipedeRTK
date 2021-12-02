@@ -13,9 +13,9 @@ Le mode ROVER RTK doit donc répondre à tous ces besoins facilement, s'adapter 
 Dans cette section nous allons voir comment fabriquer des rover GNSS RTK Bluetooth connectable à un smartphone.
 Les rovers GNSS RTK Bluetooth sont assemblés dans un boitier imprimé 3D, ils s'utilisent avec un smartphone android.
 
-## [V5.1](https://docs.centipede.fr/docs/make_rover/rover_v5_1.html)
+## [V5.1](rover_v5_1)
 ![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/16-rover_v5-1.jpg)
 ![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/17-rover_v5-1.jpg)
 
-## [V1](https://docs.centipede.fr/docs/make_rover/rover_v1.html)
+## [V1](rover_v1)
 ![RTKrover](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/rover.jpg)
