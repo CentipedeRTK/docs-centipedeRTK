@@ -28,6 +28,8 @@ Il est necessaire d'utiliser ce [**modèle impression 3D**](https://www.prusapri
 
 ## Composants
 
+La disponibilité des fournisseurs (hors recepteur GNSS et alimentation) peux évoluer, Assurez vous juste d'avoir les mêmes dimensions si vous trouvez ailleurs.
+
 |matériel|ref|prix|
 |---|---|---|
 |[Batterie Lithium Ion Polymere - 3.7v 2000mAh](https://boutique.semageek.com/fr/533-batterie-lithium-ion-polymere-37v-2000mah-3002958281613.html)|ADA 2011|18€|
@@ -64,11 +66,11 @@ Vérifier que vous diposez de tous les composants:
 * Module adafruit Power boost 1000c
 * interrupteur
 * Adaptateur micro usb > usbC
-* 8 vis
-* 4 boulons
-* 4 ecrous
+* 8 vis M2
+* 4 vis M3
+* 4 ecrous M3
 * Antenne GNSS
-* [Boite imprimée](https://www.prusaprinters.org/fr/prints/90252-gnss-rtk-v51)
+* La boite imprimée
 
 ### Adaptation des câbles 6-pins
 
@@ -119,7 +121,7 @@ Vérifier que vous diposez de tous les composants:
 * Preparer vos outils pour l'assemblage
 ![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/1-rover_v5-1.jpg)
 
-* Preparer l'ensemble des pièces et procéder au montage, il peut être necessaire de déboucher les trous des vis sur le boitier imprimé. Utiliser un foré adapté à la taille de vos vis et une visseuse.
+* Preparer l'ensemble des pièces et procéder au montage, il peut être necessaire de déboucher les trous des vis de fixation du recepteur GNSS et du module d'alimentation sur le boitier imprimé. Utiliser un foré adapté à la taille de vos vis et une visseuse.
 ![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/2-rover_v5-1.jpg)
 
 * Commencer par l'insertion des écrous
