@@ -12,5 +12,7 @@ Le mode ROVER RTK doit donc répondre à tous ces besoins facilement, s'adapter 
 
 Dans cette section nous allons voir comment fabriquer un rover RTK Bluetooth ou USB
 
-![RTKrover](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/rover.jpg)
+[montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/16-rover_v5-1.jpg)
+[montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/17-rover_v5-1.jpg)
 
+[RTKrover](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/rover.jpg)
