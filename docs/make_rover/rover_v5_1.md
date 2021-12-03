@@ -17,7 +17,7 @@ Le Rover V5.1 necessite une impression 3D du boitier ainsi que du matériel de s
 
 ## Boitier:
 
-Il est necessaire d'utiliser ce [**modèle impression 3D**](https://www.prusaprinters.org/fr/prints/90252-gnss-rtk-v51) afin de réaliser la boite. Vous pouvez demander à votre [fablab local](https://cartographie.francetierslieux.fr/#?tags=Fablab%20/%20Atelier%20de%20Fabrication%20Num%C3%A9rique) ou [chercher directement une imprimante pas loin de chez vous.](https://www.prusaprinters.org/fr/world)
+Il est necessaire d'utiliser ce [**modèle impression 3D**](https://www.prusaprinters.org/fr/prints/90252-gnss-rtk-v51) afin de réaliser la boite. Vous pouvez demander à votre [fablab local](https://cartographie.francetierslieux.fr/#?tags=Fablab%20/%20Atelier%20de%20Fabrication%20Num%C3%A9rique) ou chercher directement [une imprimante pas loin de chez vous.](https://www.prusaprinters.org/fr/world)
 
 * Imprimer le fichier [v5_1_3-alim+gnss_petg_0.2mm_PETG_MK3S_5h27m.gcode](https://media.prusaprinters.org/media/prints/90252/gcodes/948649_a60b3e49-185d-42cb-9288-f2798bc8b229/v5_1_3-alimgnss_petg_02mm_petg_mk3s_5h27m.gcode)
 
@@ -160,4 +160,4 @@ Vérifier que vous diposez de tous les composants:
 ![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/17-rover_v5-1.jpg)
 ![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/18-rover_v5-1.jpg)
 
-* Votre Rover GNSS RTK est enfin prêt, il vous reste  maintenant à [paramétrer votre smartphone)(https://docs.centipede.fr/docs/Rover_rtklib_android/){: .btn }
+* Votre Rover GNSS RTK est enfin prêt, il vous reste  maintenant à [paramétrer votre smartphone](https://docs.centipede.fr/docs/Rover_rtklib_android/){: .btn }
