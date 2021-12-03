@@ -17,7 +17,7 @@ Il est possible d'enregistrer plusieurs profil d'utilisation en fonction de vos 
 
 [Lefebure NtripClient sur le playstore](https://play.google.com/store/apps/details?id=com.lefebure.ntripclient&hl=fr&gl=fr)
 
-http://lefebure.com/software/android-ntripclient/
+[Lefebure NtripClient documentation](http://lefebure.com/software/android-ntripclient/)
 
 ![Lefebure ntrip client](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/lefebure.gif)
 
