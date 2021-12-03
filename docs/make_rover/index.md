@@ -10,7 +10,7 @@ has_children: true
 Les besoins en géolocalisation avec une précision centimétrique sont nombreux et variés en fonction de nos métiers et besoins.
 Le mode ROVER RTK doit donc répondre à tous ces besoins facilement, s'adapter à tout un panel d'utilisations et surtout être simple à configurer pour l'utilisateur de terrain.
 
-![architecture rover](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/mm_rover_small.png)
+![architecture rover](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/mm_rover_small.jpg)
 
 Dans cette section nous allons voir comment fabriquer des rover GNSS RTK Bluetooth connectables à un smartphone.
 Les rovers GNSS RTK Bluetooth sont assemblés dans un boitier imprimé 3D, ils s'utilisent avec un smartphone.
