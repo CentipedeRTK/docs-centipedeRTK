@@ -58,7 +58,11 @@ Par mesure de prudence, s'assurer que la configuration est bien enregistrée :
 
 ## Ajouter un module Bluetooth
 
-Le module bluetooth HC-05 est livré avec les configurations d'origine qu'il est nécessaire de modifier (notamment la vitesse de transmission de données). Pour cela nous allons avoir besoin de câbles jumpers pour connecter le HC-05 à l'arduino, d'un câble USB pour le relier au PC et enfin du programme Arduino installé sur le PC afin de "discuter" avec le module bluetooth HC-05.
+Le module bluetooth HC-05 est livré avec les configurations d'origine qu'il est nécessaire de modifier (notamment la vitesse de transmission de données).
+
+Il est possible de le configurer directement avec un cable série, la procédure sera bientôt disponible....
+
+Pour le moment, nous allons avoir besoin de câbles jumpers pour connecter le HC-05 à l'arduino, d'un câble USB pour le relier au PC et enfin du programme Arduino installé sur le PC afin de "discuter" avec le module bluetooth HC-05.
 
 |Matériel|Prix HT|
 |--------|----|
