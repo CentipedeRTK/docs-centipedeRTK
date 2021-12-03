@@ -162,7 +162,7 @@ Vérifier que vous diposez de tous les composants:
 * Finaliser le serrage et fixer le cable.
 ![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/14-rover_v5-1.jpg)
 
-* Refermer délicatement le boitier en vérifiant de ne pas ecraser un cable, tester de nouveau puis finaliser l'assemblage avec les boulons.
+* Refermer délicatement le boitier en vérifiant de ne pas ecraser un cable, tester de nouveau puis finaliser l'assemblage avec les boulons. Il est possible d'utiliser du joint silicone sur les zones de contact et les trous des composants afin d'assurer une certaine étanchéïté.
 ![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/15-rover_v5-1.jpg)
 ![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/16-rover_v5-1.jpg)
 ![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/17-rover_v5-1.jpg)
