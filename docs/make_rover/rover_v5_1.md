@@ -14,9 +14,9 @@ Le Rover V5.1 necessite une impression 3D du boitier ainsi que du matériel de s
 ![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/16-rover_v5-1.jpg)
 ![architecture rover](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/mm_rover_small.jpg)
 
-### Liste du matériel V5.1
+## Liste du matériel V5.1
 
-## Boitier:
+### Boitier:
 
 Le modèle impression 3D pour réaliser la boite est disponible sur la plateforme de partage[PrusaPrinter](https://www.prusaprinters.org/fr/prints/90252-gnss-rtk-v51), elle permet aussi de trouver [une imprimante pas loin de chez vous](https://www.prusaprinters.org/fr/world) pour réaliser l'impression.
 Vous pouvez demander également votre [fablab local](https://cartographie.francetierslieux.fr/#?tags=Fablab%20/%20Atelier%20de%20Fabrication%20Num%C3%A9rique).
@@ -28,7 +28,7 @@ Vous pouvez demander également votre [fablab local](https://cartographie.france
 ![3d alim](https://media.prusaprinters.org/media/prints/90252/stls/948650_10df3525-daf6-4823-b093-f8d498a4a2be/thumbs/cover/640x250/png/v5_1_1_3-alim_preview.png)
 ![3d GNSS](https://media.prusaprinters.org/media/prints/90252/stls/948651_f379b93e-6dd7-4ba0-95ec-b495d4d879ce/thumbs/cover/640x250/png/v5_1_1_3-gnss_preview.png)
 
-## Composants
+### Composants
 
 La disponibilité des composants chez les fournisseurs peux évoluer voir disparaître mais ils ont des dimensions assez standards. Assurez d'avoir les mêmes dimensions si vous en trouvez ailleurs, sinon modifier le modèle d'impression 3D.
 
