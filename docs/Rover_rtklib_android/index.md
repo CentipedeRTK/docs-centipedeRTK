@@ -19,6 +19,8 @@ Il est possible d'enregistrer plusieurs profil d'utilisation en fonction de vos 
 
 http://lefebure.com/software/android-ntripclient/
 
+![Lefebure ntrip client](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/lefebure.gif)
+
 ## Bluetooth GNSS (Open-Source)
 
 ![Bluetooth gnss](https://play-lh.googleusercontent.com/dLnImcx6IPTAN2pCbtBtoh5QDTuENf7hOsImlCxTlAAlmmR6OplAwOfcyeHaXaPoVaU=s180)
