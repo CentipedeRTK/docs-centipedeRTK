@@ -21,6 +21,10 @@ Le Rover V5.1 necessite une impression 3D du boitier ainsi que du matériel de s
 Le modèle impression 3D pour réaliser la boite est disponible sur la plateforme de partage[PrusaPrinter](https://www.prusaprinters.org/fr/prints/90252-gnss-rtk-v51), elle permet aussi de trouver [une imprimante pas loin de chez vous](https://www.prusaprinters.org/fr/world) pour réaliser l'impression.
 Vous pouvez demander également votre [fablab local](https://cartographie.francetierslieux.fr/#?tags=Fablab%20/%20Atelier%20de%20Fabrication%20Num%C3%A9rique).
 
+Il est conseillé d'utiliser du filament en [PETG](https://prusament.com/fr/materials/prusament-petg/). C’est un excellent choix pour l’impression de pièces mécaniquement stressées. Comparé au PLA, il est plus résistant à la chaleur, plus souple et moins cassant.
+
+![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/petg.png)
+
 * Télécharger et imprimer le fichier [v5_1_3-alim+gnss_petg_0.2mm_PETG_MK3S_5h27m.gcode](https://media.prusaprinters.org/media/prints/90252/gcodes/948649_a60b3e49-185d-42cb-9288-f2798bc8b229/v5_1_3-alimgnss_petg_02mm_petg_mk3s_5h27m.gcode)
 
 > [fichiers source impression 3D](https://www.prusaprinters.org/fr/prints/90252-gnss-rtk-v51)
