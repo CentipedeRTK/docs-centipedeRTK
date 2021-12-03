@@ -12,7 +12,7 @@ has_children: true
 
 Dans un premier temps il est nécessaire de mettre à jour le [firmware](https://fr.wikipedia.org/wiki/Firmware) de votre module F9P.
 
-* [Install U-center](https://www.u-blox.com/en/product/u-center) (Windows seulement)
+* [Install U-center](https://www.u-blox.com/sites/default/files/u-centersetup_v21.09.zip) (Windows seulement)
 
 * Update F9P firmware 1.13:
   * [Télécharger le fichier de mise à jour](https://www.u-blox.com/en/ubx-viewer/view/UBX_F9_100_HPG_113_ZED_F9P.7e6e899c5597acddf2f5f2f70fdf5fbe.bin?url=https%3A%2F%2Fwww.u-blox.com%2Fsites%2Fdefault%2Ffiles%2FUBX_F9_100_HPG_113_ZED_F9P.7e6e899c5597acddf2f5f2f70fdf5fbe.bin)
