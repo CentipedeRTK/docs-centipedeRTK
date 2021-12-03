@@ -1,9 +1,11 @@
 ---
 layout: default
-title: Rover Android
+title: Applications pour smartphone
 nav_order: 5
 has_children: true
 ---
+
+![architecture rover](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/mm_rover_small.jpg)
 
 ## Application Lefebure (propriétaire)
 
@@ -105,8 +107,8 @@ L'application permet également d'enregistrer l'historique des positions dans un
 * Cliquer sur **Flux de sortie**
   * Cocher **Activer la solution1** pour activer les logs.
 
-* Enfin cliquer sur **Server** pour lancer le service RTK. 
-  * Le graphique du haut montre les données des satellites du récepteur tandis que le graphique du bas montre les données des satallites de la base (ce qui permet la correction RTK). 
+* Enfin cliquer sur **Server** pour lancer le service RTK.
+  * Le graphique du haut montre les données des satellites du récepteur tandis que le graphique du bas montre les données des satallites de la base (ce qui permet la correction RTK).
   * La ligne **Solution** est soit vide (pas de position), soit **float**, soit **FIXE**.
   * Le **HRMS** donne la précision XY et **VRMS** la précision Z.
   * L'**Age** indique la dernière correction reçue de la base RTK.
@@ -117,5 +119,3 @@ L'application permet également d'enregistrer l'historique des positions dans un
 * Vous pouvez maintenant utiliser vos applications habituelles nécessitant la géolocalisation. Celle-ci est désormais effectuée par votre antenne externe et RTKGPS+.
 
 ![RTKrover](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/rtkgps_input.gif)
-
-
