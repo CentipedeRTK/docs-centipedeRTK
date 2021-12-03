@@ -9,9 +9,10 @@ has_children: true
 ## Matériels
 
 Cette section décrit en détail le matériel nécessaire et la méthode d'assemblage pour fabriquer un rover RTK avec connexion Bluetooth pour smartphone.
-Le Rover V5.1 necessite une impression 3D du boitier ainsi que du matériel de soudure précis à l'étain, pensez aux fablabs à côté de chez vous!!!
+Le Rover V5.1 necessite une impression 3D du boitier ainsi que du matériel de soudure précis à l'étain, si vous n'avez pas d'équipements pensez aux [fablabs](https://cartographie.francetierslieux.fr/#?tags=Fablab%20/%20Atelier%20de%20Fabrication%20Num%C3%A9rique) à côté de chez vous!!!
 
 ![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/16-rover_v5-1.jpg)
+![architecture rover](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/mm_rover_small.jpg)
 
 ### Liste du matériel V5.1
 
