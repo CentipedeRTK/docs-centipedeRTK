@@ -26,7 +26,7 @@ Voici la liste des éléments nécessaires à la mise en place d'une base RTK L1
 
 |Matériel|Prix HT|
 |--------|----|
-|[F9P drotek: 5% ristourne code CENTIPEDERTK](https://store.drotek.com/rtk-zed-f9p-gnss) ou [F9P ardusimple](https://www.ardusimple.com/product/simplertk2b/)|180€|
+|[F9P drotek: 5% ristourne code CENTIPEDERTK](https://store-drotek.com/891-rtk-zed-f9p-gnss.html) ou [F9P ardusimple](https://www.ardusimple.com/product/simplertk2b/)|180€|
 |[D910 antenna](https://store.drotek.com/da-910-multiband-gnss-antenna)|100€|
 |[Raspberry Pi 3/4](https://www.kubii.fr/les-cartes-raspberry-pi/2119-raspberry-pi-3-modele-b-1-gb-kubii-713179640259.html)|44€|
 |[Micro SD 16Go](https://www.kubii.fr/carte-sd-et-stockage/2359-carte-microsd-16go-classe-10-u1-sandisk-kubii-619659161347.html)|11€|
@@ -57,7 +57,7 @@ Il est également possible d'utilise un POE pour alimenter la base via le cable 
 
 Dans un premier temps faites un premier montage sans la boite:
    * Assembler l'antenne [D910](https://store.drotek.com/da-910-multiband-gnss-antenna) sur son support
-   * Connecter le câble d'antenne au récepteur [F9P](https://store.drotek.com/rtk-zed-f9p-gnss)
+   * Connecter le câble d'antenne au récepteur [F9P](https://store-drotek.com/891-rtk-zed-f9p-gnss.html)
    * Connecter le cordon USB entre le [F9P](https://store.drotek.com/rtk-zed-f9p-gnss) et le [Raspberry Pi 3/4](https://www.kubii.fr/les-cartes-raspberry-pi/2119-raspberry-pi-3-modele-b-1-gb-kubii-713179640259.html)
    * Connecter le [câble ethernet RJ45](https://www.mhzshop.com/shop/Cables-et-cordons/Cordons-reseau/) à votre réseau (BOX internet, CPL, prise réseau Rj45) et au [Raspberry Pi 3/4](https://www.kubii.fr/les-cartes-raspberry-pi/2119-raspberry-pi-3-modele-b-1-gb-kubii-713179640259.html)
    * Préparer l'[alimentation](https://www.kubii.fr/les-officiels-raspberry-pi-kubii/2593-alimentation-officielle-raspberry-pi-3-eu-micro-usb-51v-25a-kubii-3272496297586.html?search_query=SC0136&results=51) mais ne pas mettre encore sous tension.
