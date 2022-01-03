@@ -9,6 +9,8 @@ has_children: true
 
 ## Le Real Time Kinematic collaboratif, ouvert et Open Source  🛰️ 🛰️ 🛰️
 
+[![DOI](https://zenodo.org/badge/228579577.svg)](https://zenodo.org/badge/latestdoi/228579577)
+
 Le projet Centipède vise à créer un réseau de bases RTK ouvertes et disponibles pour toute personne se trouvant dans la zone de couverture. Le réseau est étendu par des instituts publics, des particuliers, des acteurs privés comme les agriculteurs ou d'autres partenaires publics.
 
 L'objectif du projet est d'offrir une couverture complète du territoire métropolitain. Il est soutenu financièrement par INRAE et a bénéficié dès son démarrage en 2019 de moyens mutualisés entre des instituts de recherche, des organismes publics, des agriculteurs et des entreprises privées. La carte ci-dessous présente l'étendue actuelle du réseau.
