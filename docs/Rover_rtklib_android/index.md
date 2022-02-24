@@ -54,7 +54,7 @@ Partagez les données collectées avec d'autres utilisateurs sous forme de Geopa
 
 [SWMAPS sur le playstore](https://play.google.com/store/apps/details?id=np.com.softwel.swmaps&hl=fr&gl=fr)
 
-[Tuto utilisation avec un RTK Surveyor et Centipede](https://www-iuem.univ-brest.fr/pops/attachments/2452/Protocole_GPS_Centipede-RTKsurveyor.pdf)
+[Tuto utilisation avec un RTK Surveyor et Centipede](https://www-iuem.univ-brest.fr/pops/attachments/2589)
 
 
 ## Application RTKGPS+ Android (Open-source)
