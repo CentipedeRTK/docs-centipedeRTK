@@ -29,6 +29,8 @@ C'est le service permettant de récupérer les signaux des satellites et de les 
 
 * **Base coordinates** : C'est ici que vous rentrerez la position exacte de votre base RTK après réception du rapport IGN ou post-traitement. Cette position doit être entrée sous la forme "Latitude Longitude Élevation". Lorsque vous aurez enregistré ce paramètre, la position exacte sera représentée par la cible visible sur la carte (Onglet "Status").
 
+    ![base gnss](https://jancelin.github.io/docs-centipedeRTK/assets/images/basegnss/base_coordinates.png)
+
 * **Com port**, **Com port settings**, **Receiver type**, **Receiver format** : sont des paramètres récupérés automatiquement au moment de la première installation, ils correspondent au type de matériel connecté au Raspberry Pi.
 
 * **Antenna info** : Renseigner le type d'antenne sans qualibration **ADVNULLANTENNA**.
