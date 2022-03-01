@@ -27,7 +27,15 @@ Activation en cliquant sur **ON/OFF** et paramétrage des services en cliquant s
 
 C'est le service permettant de récupérer les signaux des satellites et de les distribuer aux autres services (NTRIP,TCP,LOGS), **l'activation de ce service est indispensable pour le fonctionnement des suivants**.
 
-* **Base coordinates** : C'est ici que vous rentrerez la position exacte de votre base RTK après réception du rapport IGN ou post-traitement.
+* **Base coordinates** : C'est ici que vous rentrerez la position exacte de votre base RTK après réception du rapport IGN ou post-traitement. Cette position doit être entrée sous la forme "Latitude Longitude Élevation".
+
+    ![base gnss](https://jancelin.github.io/docs-centipedeRTK/assets/images/basegnss/base_coordinates.png)
+    
+    Lorsque vous aurez enregistré ce paramètre, la position exacte sera représentée par la cible visible sur la carte (Onglet 'Status')
+
+    ![base gnss](https://jancelin.github.io/docs-centipedeRTK/assets/images/basegnss/basegnss_coord_check.png)
+    
+    Si vous constatez que la position de la cible n'est pas du tout au bon endroit, alors vérifiez que vous n'avez pas inversé la latitude et la longitude, ou bien laissé un '-' devant une des coordonnées.
 
 * **Com port**, **Com port settings**, **Receiver type**, **Receiver format** : sont des paramètres récupérés automatiquement au moment de la première installation, ils correspondent au type de matériel connecté au Raspberry Pi.
 
