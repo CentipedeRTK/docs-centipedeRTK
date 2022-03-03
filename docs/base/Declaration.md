@@ -17,7 +17,7 @@ Enfin, envoyer un courriel à [**contact@centipede.fr**](contact@centipede.fr) p
 * le rapport du calcul de positionnement envoyé par IGN (fichier.tar.gz)
 * Plusieurs photos (minimum 2) de l'installation de votre antenne (proche et vue d'ensemeble).
 
-Une fois que votre base sera déclarée par un administrateur elle sera visible sur la carte au bout de 30 minutes.
+Une fois que votre base sera déclarée par un administrateur elle sera visible sur la carte au bout de 30 minutes. En fonction de la disponibilité des administrateurs, le traitement de votre courriel peut prendre plusieurs jours, mais votre base est utilisable tout de suite.
 
 Un test de fonctionnement est réalisé toutes les 15 secondes sur l'ensemble du Réseau, si votre base RTK ne renvoie pas de signal au caster (panne électrique, coupure réseau, problème matériel,...) un mail vous sera envoyé automatiquement pour prévenir du dysfonctionnement et elle apparaitra en rouge sur la carte. Vous recevrez un nouveau mail lors de sa reconnexion au caster.
 
