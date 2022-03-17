@@ -77,7 +77,7 @@ nav_order: 5
 
 > Port: 2101
 
-> Pas de login et de mot de passe (ou 1 espace en fonction des systèmes)
+> Pas de login et de mot de passe (ou "centipede" pour le login et le mot de passe en fonction des systèmes)
 
 > choisir le point de montage dans la liste ou stipuler le point de montage (Mount Point, ex: CT2)
 
