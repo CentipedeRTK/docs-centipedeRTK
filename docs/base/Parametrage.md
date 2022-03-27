@@ -52,7 +52,7 @@ C'est ici que vous allez paramétrer votre base pour qu'elle soit accessible sur
 * **Caster address** : par défaut **caster.centipede.fr**
 * **Caster port** : par défaut **2101**
 * **Caster password** : Le mot de passe pour le caster centipède est **centipede**, il sera nécessaire dans le futur de déclarer sa base à l'administrateur avant de pouvoir avoir une connexion au caster, le but est d'effectuer une vérification de la position précise de la base RTK.
-* **Mount name** : C'est le nom de votre Base RTK, à vous de choisir 4-5 caractères en majuscule.
+* **Mount name** : C'est le nom de votre Base RTK, à vous de choisir **4 caractères en majuscule**.
 * **Rtcm messages** : Par défaut la base est configurée pour envoyer certains messages, mais vous avez la possibilité de les personnaliser et de rajouter une fréquence d'envoie (ex: 1004(15),...). une liste des messages possible est disponible [ici](https://www.use-snip.com/kb/knowledge-base/rtcm-3-message-list/?gclid=EAIaIQobChMI6NC3pcj06QIVg53VCh3T1gG8EAAYASAAEgKGD_D_BwE)
 * **Receiver options:** avec l'option par défaut ```-TADJ=1``` permet d'avoir des secondes rondes.
 
