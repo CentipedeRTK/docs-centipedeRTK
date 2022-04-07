@@ -12,10 +12,10 @@ has_children: true
 
 Dans un premier temps il est nécessaire de mettre à jour le [firmware](https://fr.wikipedia.org/wiki/Firmware) de votre module F9P.
 
-* [Install U-center](https://www.u-blox.com/sites/default/files/u-centersetup_v21.09.zip) (Windows seulement)
+* [Install U-center](https://content.u-blox.com/sites/default/files/2022-04/u-center-v22.02_0.zip) (Windows seulement)
 
 * Update F9P firmware 1.13:
-  * [Télécharger le fichier de mise à jour](https://www.u-blox.com/en/ubx-viewer/view/UBX_F9_100_HPG_113_ZED_F9P.7e6e899c5597acddf2f5f2f70fdf5fbe.bin?url=https%3A%2F%2Fwww.u-blox.com%2Fsites%2Fdefault%2Ffiles%2FUBX_F9_100_HPG_113_ZED_F9P.7e6e899c5597acddf2f5f2f70fdf5fbe.bin)
+  * [Télécharger le fichier de mise à jour](https://www.u-blox.com/en/ubx-viewer/view/UBX_F9_100_HPG_113_ZED_F9P.7e6e899c5597acddf2f5f2f70fdf5fbe.bin?url=https%3A%2F%2Fwww.u-blox.com%2Fsites%2Fdefault%2Ffiles%2FUBX_F9_100_HPG_113_ZED_F9P.7e6e899c5597acddf2f5f2f70fdf5fbe.bin). Sur les ordinateurs où les accès d'administration sont limité, il est préférable de déplacer ce fichier dans le dossier où est installé U-Center (généralement, le chemin est C://Program Files (x86)/ublox )
   * Connecter en USB le récepteur F9P au PC
   * Ouvrir U-center en mode administrateur (click droit **Executer en mode administrateur**)
   * Connecter le recepteur (bouton en haut à gauche) au bon port COM
