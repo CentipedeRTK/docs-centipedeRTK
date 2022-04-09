@@ -39,7 +39,7 @@ C'est le service permettant de récupérer les signaux des satellites et de les 
 
 * **Com port**, **Com port settings**, **Receiver type**, **Receiver format** : sont des paramètres récupérés automatiquement au moment de la première installation, ils correspondent au type de matériel connecté au Raspberry Pi.
 
-* **Antenna info** : Renseigner le type d'antenne sans qualibration **ADVNULLANTENNA**.
+* **Antenna info** : Renseigner le type d'antenne sans calibration **ADVNULLANTENNA**.
 
 * **Tcp port** : le port de communication de ce service.
 

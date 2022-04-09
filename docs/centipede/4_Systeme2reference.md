@@ -9,9 +9,9 @@ nav_order: 2
 
 ###  EPSG France métropolitaine
 
-* **EPSG:4171** / [coordonnées géographique RGF93](https://epsg.io/4171) ellipsoïdal en degrés décimaux, 2D
+* **EPSG:4171** / [coordonnées géographiques RGF93](https://epsg.io/4171) ellipsoïdales en degrés décimaux, 2D
   * à utiliser pour les relevés GNSS
-* **EPSG:4965** / [coordonnées géographique RGF93](https://epsg.io/4965) ellipsoïdal en mètre, 3D
+* **EPSG:4965** / [coordonnées géographiques RGF93](https://epsg.io/4965) ellipsoïdales en mètre, 3D
 * **EPSG:2154** / [coordonnées projetées RGF93 / Lambert-93](https://epsg.io/2154) plane en mètre
   * à utiliser pour la conception de cartes
 * **EPSG:5698** / [coordonnées projetées RGF93 / Lambert-93 + NGF-IGN69 height](https://epsg.io/5698) plane en mètre + altimétrie 
@@ -19,7 +19,7 @@ nav_order: 2
 
 ### Transformation d’un point d’un système de coordonnées de référence à un autre
 
-Exmple de transformation de coordonnées géographique RGF93 (EPSG:4171) vers coordonnées projetées RGF93 / Lambert-93 + NGF-IGN69 height (EPSG:5698):
+Exemple de transformation de coordonnées géographiques RGF93 (EPSG:4171) vers coordonnées projetées RGF93 / Lambert-93 + NGF-IGN69 height (EPSG:5698):
 
 * avec [Proj version >7](https://proj.org/usage/quickstart.html):
   * ```echo "45.988773737 -1.024687261 49.81495" | cs2cs EPSG:4171 +to EPSG:5698```
@@ -35,7 +35,7 @@ Exmple de transformation de coordonnées géographique RGF93 (EPSG:4171) vers co
 
 
 
-## Systèmes de références
+## Systèmes de référence
 
 [wikipedia: Système de coordonnées (cartographie)](https://fr.wikipedia.org/wiki/Syst%C3%A8me_de_coordonn%C3%A9es_(cartographie))
 
@@ -52,7 +52,7 @@ Les différents systèmes de coordonnées utilisés en géographie sont étroite
 |Systèmes de coordonnées|Systèmes de référence|
 |---|---|
 |cartésiennes (X, Y, Z) 	|+ Système de référence|
-|géographiques (Latitude : ɸ, Longitude : ʎ, Hauteur ellipsoïdale : h)|+ Système de référence + ellipsoïde|
+|géographique (Latitude : ɸ, Longitude : ʎ, Hauteur ellipsoïdale : h)|+ Système de référence + ellipsoïde|
 |planes (E, N)|+ Système de référence + ellipsoïde+ projection |
 
 ## [Réseau Géodésique Français 1993 (RGF93)](https://geodesie.ign.fr/index.php?page=rgf93)
@@ -65,7 +65,7 @@ Le Référentiel Géodésique Français 93 est le repère de référence tridime
 
 - coïncide avec le système mondial ITRS à l'époque 1989.0 et est fixe par rapport à la partie stable de la plaque Eurasie.
 
-Le RGF93 est donc compatible avec le systèmes mondial ITRS et à fortiori le système usuel WGS 84.
+Le RGF93 est donc compatible avec le système mondial ITRS et à fortiori le système usuel WGS 84.
 
 En application des décrets 2000-1276 du 26 décembre 2000, 2006-272 du 3 avril 2006 et 2019-165 du 5 mars 2019 (et son arrêté), le RGF93 constitue la référence géographique légale. 
 
@@ -82,7 +82,7 @@ Le RGF93 est un repère de référence :
 * d'exactitude verticale comprise entre 2 et 5 cm (par rapport aux systèmes mondiaux)
 * adapté aux techniques modernes de positionnement
 
-[Projection systèmes legaux](https://geodesie.ign.fr/contenu/fichiers/documentation/pedagogiques/TransformationsCoordonneesGeodesiques.pdf)
+[Projection systèmes légaux](https://geodesie.ign.fr/contenu/fichiers/documentation/pedagogiques/TransformationsCoordonneesGeodesiques.pdf)
 
 ### [hauteurs ellipsoïdales en altitudes](https://geodesie.ign.fr/index.php?page=grilles)
 

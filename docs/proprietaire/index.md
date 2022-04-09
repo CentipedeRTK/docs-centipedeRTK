@@ -8,7 +8,7 @@ has_children: true
 ## Centipède sur Matériels propriétaires
 
 Le réseau Centipede utilise des formats de correction RTK standards (RTCM3), il donc est possible d'utiliser cette correction sur du matériel propriétaire.
-Certains matériels demandes d'avoir des trames rtcm3 supplémentaires comme le 1008, vous pouvez les rajouter facilement dans la configuration de votre base RTK en fonction de vos besoins.
+Certains matériels demandent d'avoir des trames rtcm3 supplémentaires comme le 1008, vous pouvez les rajouter facilement dans la configuration de votre base RTK en fonction de vos besoins.
 
 En plus de la configuration de base, il vous sera surement demandé de rentrer un utilisateur et un mot de passe, voici les identifiants de connexion:
 
@@ -19,4 +19,4 @@ En plus de la configuration de base, il vous sera surement demandé de rentrer u
 * Mot de passe: centipede
 * Format: RTCM3
 
-Vous trouverer ci-après des exemples de connexions sur différents matériels.
+Vous trouverez ci-après des exemples de connexions sur différents matériels.

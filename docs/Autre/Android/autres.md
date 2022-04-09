@@ -15,7 +15,7 @@ Diverses applications permettent d'avoir du RTK sur smartphone en utilisant du N
 
 * [Ce fichier](https://github.com/jancelin/docs-centipedeRTK/blob/master/assets/param_rtklib/F9P_NMEA.cmd) est à injecter dans le F9P avec cette [méthode](https://drotek.gitbook.io/rtk-f9p-positioning-solutions/how-to-get-started/zed-f9p-rtk-configuration)
 
-> beaucoup d'autre fichiers de configuration sont disponibles sur le net !!!
+> beaucoup d'autres fichiers de configuration sont disponibles sur le net !!!
 
 
 ### APK gratuit

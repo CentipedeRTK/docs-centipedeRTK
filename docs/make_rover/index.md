@@ -7,7 +7,7 @@ has_children: true
 
 # Fabriquer un Rover RTK
 
-Les besoins en géolocalisation avec une précision centimétrique sont nombreux et variés en fonction de nos métiers et nos envies.
+Les besoins en géolocalisation avec une précision centimétrique sont nombreux et variés en fonction de nos métiers et de nos envies.
 Un ROVER RTK doit s'adapter à tout un panel d'utilisations et surtout être simple à configurer pour l'utilisateur de terrain.
 
 ![architecture rover](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/mm_rover_small.jpg)

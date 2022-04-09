@@ -11,7 +11,7 @@ nav_order: 2
 
 
 * Il n'y a pas besoin de la trame 1008 sur la base.
-* Soit ajouter une carte SIM M2M débloquée, soit établir une connexion en WiFi avec son Smartphone en Hotspot. Il n'a pas été possible dans notre cas d'utiliser la carte SIM M2M intégrée à l'antenne car elle est bloquée pour l'utilisation d'Orpheon
+* Soit ajouter une carte SIM M2M débloquée, soit établir une connexion en WiFi avec son Smartphone en Hotspot. Il n'a pas été possible dans notre cas d'utiliser la carte SIM M2M intégrée à l'antenne, car elle est bloquée pour l'utilisation d'Orpheon
 * type de levé – votre type de levé - options du mobile, il faut utiliser le format de diffusion : RTCM RTK
 
 ![trimbleR4](https://jancelin.github.io/docs-centipedeRTK/assets/images/consoles_rtk/trimble1.jpg)
@@ -33,7 +33,7 @@ Il faudra que le smartphone (connecté en bluetooth à l'antenne) soit connecté
 
 ![image](https://user-images.githubusercontent.com/74925959/99996346-e2139300-2dbb-11eb-8d60-474ce95f1e92.png)
 
-* Puis appuyez sur Edit et définissez les accés à centipede , il vous faudra choisir la base de référence dans "NTRIP SOURCE" puis indiquer les identifiants centipede Username : centipede / Password : centipede, enfin cliquez sur "save" en haut !  (veillez à noter la configuration du départ si vous souhaitez effectuer des tests comparatifs.
+* Puis appuyez sur Edit et définissez les accès à centipede , il vous faudra choisir la base de référence dans "NTRIP SOURCE" puis indiquer les identifiants centipede Username : centipede / Password : centipede, enfin cliquez sur "save" en haut !  (veillez à noter la configuration du départ si vous souhaitez effectuer des tests comparatifs.
 
 ![image](https://user-images.githubusercontent.com/74925959/99996675-5bab8100-2dbc-11eb-820e-50a2f5b5a2e0.png)
 

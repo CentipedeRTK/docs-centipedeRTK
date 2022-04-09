@@ -11,7 +11,7 @@ nav_order: 1
 
 * Une tablette ou un PC sous windows 10 ou Linux
 * Une antenne GNSS bi-fréquence
-* Un recepteur F9P
+* Un récepteur F9P
 
 ### Logiciels
 
@@ -28,7 +28,7 @@ nav_order: 1
 
 ### RTKLIB
 
-> RTKLIB permet de convertir le Signal de postionnement de l'antenne GNSS grâce à une correction RTCM3 (Réseau Centipede par exemple) en un signal de géolocalisation précise au centimètre si les conditions le permettent.
+> RTKLIB permet de convertir le Signal de positionnement de l'antenne GNSS grâce à une correction RTCM3 (Réseau Centipede par exemple) en un signal de géolocalisation précise au centimètre si les conditions le permettent.
 
 * Télécharger la dernière version de [RTKlib version Rtkexplorer demo5](http://rtkexplorer.com/downloads/rtklib-code/)
 * le décompresser dans le dossier de son choix.
@@ -55,12 +55,12 @@ nav_order: 1
 
 ![RTKnavi](https://jancelin.github.io/docs-centipedeRTK/assets/images/rover_w/a1.PNG)
 
-* Cick sur **LOAD** et choisir le dernier [fichier téléchargé](https://raw.githubusercontent.com/jancelin/docs-centipedeRTK/master/assets/param_rtklib/ZED-F9P.cmd)
+* Cliquer sur **LOAD** et choisir le dernier [fichier téléchargé](https://raw.githubusercontent.com/jancelin/docs-centipedeRTK/master/assets/param_rtklib/ZED-F9P.cmd)
 * Cocher **Commands at startup**
 
 > Permet de charger des paramètres  injectés au module F9P à chaque démarrage
 
-* Ciquer sur **Base Staion** > **Opt**
+* Cliquer sur **Base Staion** > **Opt**
 * Modifier le Mountpoint sur la base [Centipede](https://centipede.fr) la plus proche de vous. 
 
 > Si vous n'êtes pas couverts par une Base CentipedeRTK vous pouvez en fabriquer une [ici](https://jancelin.github.io/docs-centipedeRTK/3_Materiels.html).
@@ -80,7 +80,7 @@ nav_order: 1
 
 * Cliquer sur Start et attendre (de 30s à plusieurs minutes) une position **FIX RTK**
 
-> L'antenne de réception doit bien-sûr être en extérieur dans un milieu dégagé
+> L'antenne de réception doit bien sûr être en extérieur dans un milieu dégagé
 
 ![RTKnavi](https://jancelin.github.io/docs-centipedeRTK/assets/images/rover_w/9.PNG)
 

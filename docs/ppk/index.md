@@ -67,9 +67,9 @@ Télécharger cette version d'RTKLIB fournie par rtkexplorer: [RTKLIB Code: Wind
 * Cliquer sur **OK**
 * Cliquer su **Convert**
 
-Votre fichier va être convertis en fichiers RINEX
+Votre fichier va être converti en fichiers RINEX
 
-* Répéter l'opération pour les logs du rover. Vous pouvez ajuster **interval** en fonction de votre frequence d'aquisition.
+* Répéter l'opération pour les logs du rover. Vous pouvez ajuster **interval** en fonction de votre fréquence d'acquisition.
     
 ### 4. Post traitement: fabrication du fichier .pos
 
@@ -87,7 +87,7 @@ Deux méthodes sont proposées:
 rtkpost.exe
 ```
 
-* Renseigner le **Time Start** et le **Time End** : la date de votre fichier RINEX + l'heure de début **```00:01:00```**, pareil pour le end date + **```23:59:00```**. Cocher **Interval** et renseigner **1s** ou moins. **Unit** reste decoché
+* Renseigner le **Time Start** et le **Time End** : la date de votre fichier RINEX + l'heure de début **```00:01:00```**, pareil pour le end date + **```23:59:00```**. Cocher **Interval** et renseigner **1s** ou moins. **Unit** reste décoché
 * Charger le fichier *.obs* de votre base (Rover)s
 * Charger le fichier *.20o* de la base de référence IGN (Base Station)
 * Charger les fichiers *.nav* de votre base
@@ -151,13 +151,13 @@ rtkpost.exe
  
  Il est possible à ce stade-là de filtrer les données afin de ne conserver que les points pour lesquels la valeur de Q est égale à 1 (ie. mode FIX).
 
- Dans l'exemple ci dessous vous pouvez observer un maillage au mm avec **16527 points situés dans 1,5 cm2**. C'est bien mais nous allons maintenant nettoyer ce nuage de point pour ne garder que les meilleures données.
+ Dans l'exemple ci-dessous, vous pouvez observer un maillage au mm avec **16527 points situés dans 1,5 cm2**. C'est bien mais nous allons maintenant nettoyer ce nuage de point pour ne garder que les meilleures données.
  
 ![rtkplot](https://jancelin.github.io/docs-centipedeRTK/assets/images/positionnement/rtkplot.png)
  
-## 5. Filtrer les données et calculer la position mediane.
+## 5. Filtrer les données et calculer la position médiane.
  
- Le fichier résultat peut être exploité dans QGIS3 pour filtrer les meilleurs données et calculer la position mediane.
+ Le fichier résultat peut être exploité dans QGIS3 pour filtrer les meilleures données et calculer la position médiane.
  
  > Plus d'informations sur l'installation de ce logiciel sur cette [page](https://qgis.org/fr/site/){:target="_blank"}
 

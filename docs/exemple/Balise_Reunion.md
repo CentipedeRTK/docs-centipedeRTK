@@ -8,7 +8,7 @@ nav_order: 1
 # Une Balise Open Source pour le monitoring des océans
 
 <p align="left"><img src="https://jancelin.github.io/docs-centipedeRTK/assets/images/balise_reunion/balise.jpeg" ></p>
-<p align="center"><sup><i>Balise Champagne prototype V0.1 dans le lagon de Saint Leu (la Réunion)</i></sup></p>
+<p align="center"><sup><i>Balise Champagne prototype V0.1 dans le lagon de Saint-Leu (la Réunion)</i></sup></p>
 
 #### Mission conjointe: IFREMER / INRAE
 
@@ -20,7 +20,7 @@ Licence: [AGPL-3.0](https://github.com/jancelin/centipede/blob/master/LICENSE)
 
 L’acquisition de données dans le milieu marin pour des problématiques climatiques est un enjeu majeur à l’échelle internationale. Cependant, les instruments d’acquisition sont généralement très onéreux, spécialisés pour certains champs disciplinaires et dont les spécifications techniques et logicielles sont protégées par les éditeurs. La démocratisation de l’électronique libre, des projets open-source / open-data et des objets connectés offrant des solutions de communications à bas coût ont le potentiel de modifier complètement le panorama de l’observation en sciences marines.
 
-Les défis à relever sont la capacité à collecter et transmettre des données fiables et de manière autonome en termes d’énergie.
+Les défis à relever sont la capacité à collecter et transmettre des données fiables et de manière autonome en terme d’énergie.
 
 Ce projet est consacré au développement de balises capables de collecter des données (hauteur de l’eau, houle, marée) grâce à un capteur [GNSS RTK](https://fr.wikipedia.org/wiki/Cin%C3%A9matique_temps_r%C3%A9el) . Cette première mission à la Réunion (mars 2019) est ainsi l’occasion de tester les développements concernant le système de transmission et la capacité de récupérer des volumes de données permettant le monitoring de données océanographiques.
 
@@ -47,7 +47,7 @@ Différents tests de validations de la position de la base ont été effectués 
 <p align="center"><img src="https://jancelin.github.io/docs-centipedeRTK/assets/images/balise_reunion/survey_centipede2.png"></p>
 <p align="center"><sup><i>Test d'acquisition de points en RTK</i></sup></p>
 
-Malgré le positionnement obligatoire de la base RTK nommé "DODO" proche des reliefs du bord de côte de L'île de la Réunion, la disponibilité du signal de correction est rapide, fiable et continu avec une bonne disponibilité satellitaire.
+Malgré le positionnement obligatoire de la base RTK nommé "DODO" proche des reliefs du bord de côte de L'île de la Réunion, la disponibilité du signal de correction est rapide, fiable et continue avec une bonne disponibilité satellitaire.
 
 <p align="center"><img src="https://jancelin.github.io/docs-centipedeRTK/assets/images/balise_reunion/dodo_rtk.jpg" ></p>
 <p align="center"><sup><i>Test haute précision (40cm X 40cm) d'acquisition de points en RTK</i></sup></p>
@@ -59,15 +59,15 @@ Ce premier prototype s'inspire des expériences de l'équipe de [SONEL](https://
 
 Les mesures de ces bouées GPS ont été réalisées en mode GNSS single puis post-traitées en mode cinématique en utilisant une station du réseau GNSS permanent de l’IGN. Ce processus nécessite de récupérer manuellement et de manière régulière les données des récepteurs, puis d'effectuer un traitement informatique assez complexe. Les résultats ne sont disponibles qu'a posteriori. L'idée de la mise en place de ce nouveau prototype est d'utiliser la technologie RTK afin de disposer de données fiables, instantanées et de pouvoir ainsi monitorer les océans en temps réel.
 
-De plus, SONEL utilise des récepteur GPS propriétaire coûteux et dont l'acquisition n'est pas à la portée de tous les laboratoires de recherche. Ce prototype devra donc être le moins cher possible, open-source et facilement reproductible.
+De plus, SONEL utilise des récepteurs GPS propriétaire coûteux et dont l'acquisition n'est pas à la portée de tous les laboratoires de recherche. Ce prototype devra donc être le moins cher possible, open-source et facilement reproductible.
 
 <p align="center"><img src="https://jancelin.github.io/docs-centipedeRTK/assets/images/balise_reunion/champagne.jpeg" ></p>
 <p align="center"><sup><i>Finalisation du montage de la balise avant mise à l'eau</i></sup></p>
 
-Le prototype version 0.1 est nommé "Champagne". Il est composé d'un module [Emlid Reach M+](https://emlid.com/reach/) embarquant une puce [Ublox NEO-M8T](https://www.u-blox.com/en/product/neolea-m8t-series) mono fréquence, un Opérating système Linux, le logiciel [RTKLib](http://www.rtklib.com/) et enfin [ReachView](https://docs.emlid.com/reachm-plus/common/reachview/), une web interface permettant le paramétrage simplifié de RTKlib. L'ensemble des codes du M+ sont disponibles [ici](https://github.com/emlid). Une antenne de réception multi-GNSS Tallysman est montée sur un ground Plane de 12 cm en aluminium. Afin de recevoir le signal RTM3 de correction RTK et renvoyer les données dans une base de données centrale, un smartphone avec un forfait 4G est utilisé, il sera remplacé par une clé USB 4G compatible prochainement. Le tout est alimenté avec une batterie externe USB en attendant un montage autonome en électricité via des panneaux solaires.
+Le prototype version 0.1 est nommé "Champagne". Il est composé d'un module [Emlid Reach M+](https://emlid.com/reach/) embarquant une puce [Ublox NEO-M8T](https://www.u-blox.com/en/product/neolea-m8t-series) mono fréquence, un Opérating système Linux, le logiciel [RTKLib](http://www.rtklib.com/) et enfin [ReachView](https://docs.emlid.com/reachm-plus/common/reachview/), une interface web permettant le paramétrage simplifié de RTKlib. L'ensemble des codes du M+ sont disponibles [ici](https://github.com/emlid). Une antenne de réception multi-GNSS Tallysman est montée sur un ground Plane de 12 cm en aluminium. Afin de recevoir le signal RTM3 de correction RTK et renvoyer les données dans une base de données centrale, un smartphone avec un forfait 4G est utilisé, il sera remplacé par une clé USB 4G compatible prochainement. Le tout est alimenté avec une batterie externe USB en attendant un montage autonome en électricité via des panneaux solaires.
 
 <p align="center"><img src="https://jancelin.github.io/docs-centipedeRTK/assets/images/balise_reunion/reach_bouee.jpg" ></p>
-<p align="center"><sup><i>Balise montée et test de positionnnement RTK</i></sup></p>
+<p align="center"><sup><i>Balise montée et test de positionnement RTK</i></sup></p>
 
 ### Prix du matériel
 
@@ -92,7 +92,7 @@ Ce premier test est réalisé dans le [lagon de Saint-Leu](https://www.openstree
 <p align="center"><img src="https://jancelin.github.io/docs-centipedeRTK/assets/images/balise_reunion/champagne_misealeau.jpeg"></p>
 <p align="center"><sup><i>Mise à l'eau de la balise pour test d'étanchéité</i></sup></p>
 
-Une première phase de test a été effectué pour vérifier la bonne étanchéité de la balise, son effet "bouchon", sa capacité à récupérer la trame RTCM3 de la base Centipede "DODO" et avoir un "fix" RTK (Q=1 et AR ratio=999.99) constant afin de garantir une donnée de qualité (+- 2 cm en altimétrie par rapport à nos estimations en mesures statiques).
+Une première phase de test a été effectuée pour vérifier la bonne étanchéité de la balise, son effet "bouchon", sa capacité à récupérer la trame RTCM3 de la base Centipede "DODO" et avoir un "fix" RTK (Q=1 et AR ratio=999.99) constant afin de garantir une donnée de qualité (+- 2 cm en altimétrie par rapport à nos estimations en mesures statiques).
 
 <p align="center"><img src="https://jancelin.github.io/docs-centipedeRTK/assets/images/balise_reunion/champagne_aleau.jpeg" ></p>
 <p align="center"><sup><i>Installation de la balise dans le lagon</i></sup></p>
@@ -112,5 +112,5 @@ La fréquence d'acquisition des données était de 5 HZ soit 5 données par seco
 
 ### Enfin...
 
-Il nous reste maintenant à lancer des tests en continue et en autonomie énergétique. Il sera nécessaire également de se comparer aux autres bouées du même type (matériel SONEL par exemple) afin d'estimer la variabilité de nos mesures, de déterminer si ce mode de collecte de données est fiable et à quel niveau de précision nos données converges.
+Il nous reste maintenant à lancer des tests en continu et en autonomie énergétique. Il sera nécessaire également de se comparer aux autres bouées du même type (matériel SONEL par exemple) afin d'estimer la variabilité de nos mesures, de déterminer si ce mode de collecte de données est fiable et à quel niveau de précision nos données convergent.
 

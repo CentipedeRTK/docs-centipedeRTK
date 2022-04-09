@@ -20,7 +20,7 @@ Dans un premier temps il est nécessaire de mettre à jour le [firmware](https:/
   * [Télécharger le fichier de mise à jour](https://www.u-blox.com/en/ubx-viewer/view/UBX_F9_100_HPG_113_ZED_F9P.7e6e899c5597acddf2f5f2f70fdf5fbe.bin?url=https%3A%2F%2Fwww.u-blox.com%2Fsites%2Fdefault%2Ffiles%2FUBX_F9_100_HPG_113_ZED_F9P.7e6e899c5597acddf2f5f2f70fdf5fbe.bin)
   * Connecter en USB le récepteur F9P au PC
   * Ouvrir U-center en mode administrateur (click droit **Executer en mode administrateur**)
-  * Connecter le recepteur (bouton en haut à gauche) au bon port COM
+  * Connecter le récepteur (bouton en haut à gauche) au bon port COM
 ![firware](https://gblobscdn.gitbook.com/assets%2F-LYSZeu4HjB-NrVI4riL%2F-LYbICDde_PqBQRMcCsl%2F-LYbIddBqnC-aXKJ1bxh%2FSans-titre-1.png?alt=media&token=240244db-09d5-40e8-9735-869651b9198e)
   * Vérifier que le récepteur est bien connecté
 ![firware](https://gblobscdn.gitbook.com/assets%2F-LYSZeu4HjB-NrVI4riL%2F-LYbGvHfj8nIN6gywxBz%2F-LYbHSKTiJZ0j0qAf-5e%2Ficon_blink.png?alt=media&token=0f35cbc4-ce5a-4d3b-90f4-ecadc5a36821)
@@ -57,11 +57,11 @@ Démarrer Etcher, choisir l'image téléchargée, la carte SD (normalement déj�
 
 Vous pouvez retirer la carte SD du PC et l'insérer maintenant dans le Raspberry Pi.
 
-En option, il est possible d'activer une connexion WIFI si vous n'avez pas de réseau filaire (déconseillé!) ainsi que le Port Serie pour connecter par exemple un emetteur radio. Pour ce faire, ré-insérer la carte SD dans votre PC puis suivez la procédure de modification des fichiers de configurations du premier démarrage:
+En option, il est possible d'activer une connexion WIFI si vous n'avez pas de réseau filaire (déconseillé!) ainsi que le port série pour connecter par exemple un émetteur radio. Pour ce faire, ré-insérez la carte SD dans votre PC puis suivez la procédure de modification des fichiers de configurations du premier démarrage:
 
 [WIFI](wifi){: .btn }
 
-[port serie](port_serie){: .btn }
+[port série](port_serie){: .btn }
 
 ----
 
@@ -77,7 +77,7 @@ En option, il est possible d'activer une connexion WIFI si vous n'avez pas de r�
 
     ![](https://projects-static.raspberrypi.org/projects/raspberry-pi-setting-up/3addc4ca2ca0b7c999bdb03a46801a729614b235/en/images/pi-plug-in.gif)
 
-5. sur un PC connecté au même réseau, ouvrir un navigateur Internet et accéder à l'interface de la base RTK via l'URL : **<http://basegnss.local>** ou avec l'ip du Raspberry Pi si vous êtes sur un réseau.
+5. Sur un PC connecté au même réseau, ouvrir un navigateur Internet et accéder à l'interface de la base RTK via l'URL : **<http://basegnss.local>** ou avec l'ip du Raspberry Pi si vous êtes sur un réseau.
 
 > Mot de passe: ```admin```
 
@@ -86,7 +86,7 @@ En option, il est possible d'activer une connexion WIFI si vous n'avez pas de r�
 En cas de problème
 {: .label .label-yellow }
 
-Si vous ne voyez pas de position ou de barre sur le graphique c'est que l'initialisation de votre module GNSS s'est mal déroulé, il est conseillé de vérifier les branchements, flasher de nouveau la carte SD et recommencer l'installation.
+Si vous ne voyez pas de position ou de barre sur le graphique c'est que l'initialisation de votre module GNSS s'est mal déroulée, il est conseillé de vérifier les branchements, flasher de nouveau la carte SD et recommencer l'installation.
 
 Passons ensuite au [Paramétrage](Parametrage){: .btn }
 

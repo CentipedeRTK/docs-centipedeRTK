@@ -7,7 +7,7 @@ has_children: true
 
 ## Conversion log .ubx vers Rinex et Analyse qualité réception GNSS
 
-* Répurer un fichier ```.ubx```. Pour les utilisateurs de RTKbase ils sont situés dans l'onglet **logs**, choisir un des ```*.zip```, le télécharger et le décompresser.
+* Récupérer un fichier ```.ubx```. Pour les utilisateurs de RTKbase ils sont situés dans l'onglet **logs**, choisir un des ```*.zip```, le télécharger et le décompresser.
 * Télécharger [RTKLIB](http://rtkexplorer.com/downloads/rtklib-code/)
 * Décompresser le zip
 * Double-clique sur **rtklaunch.exe**
@@ -25,7 +25,7 @@ has_children: true
 	* Cocher **GPS**, **GLO**, **GAL**, **BDS**
 	* Cocher toutes les **Observations types**
 	* Cocher **L1**, **L2/E5b**
-	* Rajouter dans **Receiver Options** ```-TADJ=1``` pour avoir un rinex en seconde ronde.
+	* Ajouter dans **Receiver Options** ```-TADJ=1``` pour avoir un rinex en seconde ronde.
   * Cliquer sur **OK**
  
 ![rtkconv_option](https://jancelin.github.io/docs-centipedeRTK/assets/images/rtkconv/rtkconv_option.png) 

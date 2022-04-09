@@ -50,13 +50,13 @@ Le rapport de positionnement est transmis après quelques minutes sur votre boit
 
 ### 4. Interprétation du rapport 
 
-* Le rapport (xxxxxx.tar.gz) est à décompresser, il sera également nécesssaire de le fournir au moment de la déclaration de votre base sur le réseau Centipede.
+* Le rapport (xxxxxx.tar.gz) est à décompresser, il sera également nécessaire de le fournir au moment de la déclaration de votre base sur le réseau Centipede.
 * Le rapport contient 3 documents:
 	* une aide (readme.txt) vous expliquant la structure du rapport.
 	* une carte au format pdf permettant de visualiser la répartition des stations de référence ainsi que les résidus de la mise en référence
 	* le rapport de calcul au format texte 
 * Le rapport est composé de plusieurs parties, la position de votre base se situe à la fin du document dans la zone **====== RGF93 ======**
-* Il est important de regarder la partie **EXACTITUDE ESTIMEE (2*SIGMA)** car elle va vous donner la qualité du calcul. **Vos valeurs doivent être inférieures à 8mm en E_N, E_E et inférieures à 16mm en E_H.**
+* Il est important de regarder la partie **EXACTITUDE ESTIMÉE (2*SIGMA)** car elle va vous donner la qualité du calcul. **Vos valeurs doivent être inférieures à 8mm en E_N, E_E et inférieures à 16mm en E_H.**
 * Noter les coordonnées de votre base dans cet ordre **Latitude Longitude Hell** afin de les copier dans votre base RTK.
 
 ![ign](https://jancelin.github.io/docs-centipedeRTK/assets/images/positionnement/rapport_ign1.png)

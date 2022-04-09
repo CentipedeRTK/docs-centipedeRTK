@@ -12,8 +12,8 @@ nav_order: 7
 
 * Avoir flashé la carte SD avec l'image rtkbase.
 * Enlever puis remettre la carte SD dans le PC pour monter et afficher les partitions dans un explorateur de fichier.
-* Éditez ```/boot/wpa_supplicant.conf``` avec un editeur de texte.
-* modifier cette section en modifiant **MY_WIFI_HOTSPOT** avec le nom de votre connexion wifi et les ******** avec votre mot de passe wifi.
+* Éditez ```/boot/wpa_supplicant.conf``` avec un éditeur de texte.
+* Modifier cette section en modifiant **MY_WIFI_HOTSPOT** avec le nom de votre connexion wifi et les ******** avec votre mot de passe wifi.
 
 ```
 

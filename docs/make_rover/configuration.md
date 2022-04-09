@@ -15,16 +15,16 @@ Dans un premier temps il est nécessaire de mettre à jour le [firmware](https:/
 * [Install U-center](https://content.u-blox.com/sites/default/files/2022-04/u-center-v22.02_0.zip) (Windows seulement)
 
 * Update F9P firmware 1.13:
-  * [Télécharger le fichier de mise à jour](https://www.u-blox.com/en/ubx-viewer/view/UBX_F9_100_HPG_113_ZED_F9P.7e6e899c5597acddf2f5f2f70fdf5fbe.bin?url=https%3A%2F%2Fwww.u-blox.com%2Fsites%2Fdefault%2Ffiles%2FUBX_F9_100_HPG_113_ZED_F9P.7e6e899c5597acddf2f5f2f70fdf5fbe.bin). Sur les ordinateurs où les accès d'administration sont limité, il est préférable de déplacer ce fichier dans le dossier où est installé U-Center (généralement, le chemin est C://Program Files (x86)/ublox )
+  * [Télécharger le fichier de mise à jour](https://www.u-blox.com/en/ubx-viewer/view/UBX_F9_100_HPG_113_ZED_F9P.7e6e899c5597acddf2f5f2f70fdf5fbe.bin?url=https%3A%2F%2Fwww.u-blox.com%2Fsites%2Fdefault%2Ffiles%2FUBX_F9_100_HPG_113_ZED_F9P.7e6e899c5597acddf2f5f2f70fdf5fbe.bin). Sur les ordinateurs où les accès d'administration sont limités, il est préférable de déplacer ce fichier dans le dossier où est installé U-Center (généralement, le chemin est C://Program Files (x86)/ublox )
   * Connecter en USB le récepteur F9P au PC
   * Ouvrir U-center en mode administrateur (click droit **Executer en mode administrateur**)
-  * Connecter le recepteur (bouton en haut à gauche) au bon port COM
+  * Connecter le récepteur (bouton en haut à gauche) au bon port COM
 ![firware](https://gblobscdn.gitbook.com/assets%2F-LYSZeu4HjB-NrVI4riL%2F-LYbICDde_PqBQRMcCsl%2F-LYbIddBqnC-aXKJ1bxh%2FSans-titre-1.png?alt=media&token=240244db-09d5-40e8-9735-869651b9198e)
   * Vérifier que le récepteur est bien connecté
 ![firware](https://gblobscdn.gitbook.com/assets%2F-LYSZeu4HjB-NrVI4riL%2F-LYbGvHfj8nIN6gywxBz%2F-LYbHSKTiJZ0j0qAf-5e%2Ficon_blink.png?alt=media&token=0f35cbc4-ce5a-4d3b-90f4-ecadc5a36821)
   * Cliquer sur **Tools** > **Firmware upade...**
-    * Choisir le .bin précédement téléchargé dans **Firmware image**
-    * cocher **Use this baudrate for update** et choisir 9600
+    * Choisir le .bin précédemment téléchargé dans **Firmware image**
+    * Cocher **Use this baudrate for update** et choisir 9600
     * Décocher les 4 autres ( Enter safeboot, ...)
   * Cliquer sur **GO** (en bas à gauche de la fenêtre)
 ![firware](https://gblobscdn.gitbook.com/assets%2F-LYSZeu4HjB-NrVI4riL%2F-LZ5-tu1J0X8sog9Xvkf%2F-LZ527USiWMS3Pjo5SXY%2Fstep4.png?alt=media&token=2e76981e-8874-4151-9c48-f5fa07cdcd69)
@@ -42,7 +42,7 @@ L'injection permet de paramétrer le récepteur F9P pour une utilisation avec RT
 
 * Aller dans **Tools** > **Receiver Configuration**
 * Sélectionner u-blox Generation 9
-* Sélectionner le fichier précédement téléchargé
+* Sélectionner le fichier précédemment téléchargé
 * Cliquer sur **Transfert file -> GNSS** et attendre que le transfert se réalise
 
 Par mesure de prudence, s'assurer que la configuration est bien enregistrée :
@@ -54,13 +54,13 @@ Par mesure de prudence, s'assurer que la configuration est bien enregistrée :
 
 >Attention ! Les données en sortie du récepteur sur l'USB et l'UART1 sont au format RAWX, SFRBX (UBX) et en NMEA. Il est possible d'injecter du RTCM3 sur ces ports pour utiliser le moteur interne RTK de la F9P ou bien utiliser RTKlib grâce à la sortie de données UBX
 
-**A partir d'ici votre récepteur est entièrement fonctionnel en USB**
+**À partir d'ici votre récepteur est entièrement fonctionnel en USB**
 
 ## Ajouter un module Bluetooth
 
 Le module bluetooth HC-05 est livré avec les configurations d'origine qu'il est nécessaire de modifier (notamment la vitesse de transmission de données).
 
-Il est possible de le configurer directement avec un cable série, la procédure sera bientôt disponible....
+Il est possible de le configurer directement avec un câble série, la procédure sera bientôt disponible....
 
 Pour le moment, nous allons avoir besoin de câbles jumpers pour connecter le HC-05 à l'arduino, d'un câble USB pour le relier au PC et enfin du programme Arduino installé sur le PC afin de "discuter" avec le module bluetooth HC-05.
 
@@ -74,7 +74,7 @@ Pour le moment, nous allons avoir besoin de câbles jumpers pour connecter le HC
 
 Connecter l'arduino au HC-05 avec les câbles:
 
-* VCC sur le 5Volt
+* VCC sur le 5 Volts
 * GND au GND
 * RX pin 11
 * TX pin 10
@@ -118,11 +118,11 @@ void loop()
 ```
 
 * Appuyer sur la flèche en haut à gauche pour téléverser le programme dans l'arduino.
-* Ouvrir le **Moniteur Serie** et régler les 2 menus déroulants sur :
+* Ouvrir le **Moniteur Série** et régler les 2 menus déroulants sur :
   * **les deux, NL et CR**
-  * **9600 baud**
+  * **9600 bauds**
 * Écrire la commande **AT** et appuyer sur **envoyer** : le moniteur doit renvoyer **OK**, cela veut dire que vous communiquez bien avec le module Bluetooth.
-* Écrire la commande **AT+UART=115200,1,0** et appuyer sur **envoyer** : le moniteur doit renvoyer **OK**, la vitesse de transmition a été modifiée.
+* Écrire la commande **AT+UART=115200,1,0** et appuyer sur **envoyer** : le moniteur doit renvoyer **OK**, la vitesse de transmission a été modifiée.
 * Écrire la commande **AT+NAME=CENTIPEDE** et appuyer sur **envoyer** : le moniteur doit renvoyer **OK**, le nom du module a été changé ( vous pouvez vérifier sur un smartphone en faisant un scan bluetooth).
 
 Le code PIN du bluetooth est **1234** par défaut, vous pouvez le modifier en entrant la commande **AT+PSWD=5678** + **envoyer** (dans cet exemple le code sera 5678).

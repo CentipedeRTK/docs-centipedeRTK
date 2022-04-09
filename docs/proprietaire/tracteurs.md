@@ -9,7 +9,7 @@ nav_order: 1
 
 ### Case IH
 
-* Console Afs 700 pro débloqué RTK
+* Console Afs 700 pro débloquée RTK
 * Antenne Trimble AG_372 
 * Modem Sierra GX450
 

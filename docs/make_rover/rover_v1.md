@@ -19,7 +19,7 @@ Le Rover V1 est un assemblage de composant sans soudure, il est également possi
 |[ou: Helix Antenna DA233](https://store-drotek.com/925-da233.html)|70€|
 |[ou: U-blox ANN-MB](https://store-drotek.com/909-u-blox-ann-mb-multi-band-antenna.html)|50€|
 
-Pour la modbilité:
+Pour la mobilité:
 
 |Matériel|Prix HT|
 |--------|----|
@@ -38,21 +38,21 @@ Pour la modbilité:
 |[bluetooth Hc-05](https://www.amazon.fr/DSD-TECH-HC-05-Pass-through-Communication/dp/B01G9KSAF6/ref=sr_1_1_sspa?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=hc-05&qid=1586875187&s=computers&sr=1-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFTNVVYWUlSTThRMjgmZW5jcnlwdGVkSWQ9QTAzNzQ3MzMzUU5UWkZWSzdYRFJRJmVuY3J5cHRlZEFkSWQ9QTA5MDQwNTE0UElCRFlMNTQ1MDMmd2lkZ2V0TmFtZT1zcF9hdGYmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl)|10€|
 |[JST-GH to JWT 28AWG 6-pins Silicone cable](https://store-drotek.com/831-jst-gh-to-jwt-28awg-6pins-cable.html)|3€|
 
-## Paramétrage du recepteur GNSS et du bluetooth
+## Paramétrage du récepteur GNSS et du bluetooth
 
-[Configuration du recepteur GNSS et du bluetooth](configuration){: .btn }
+[Configuration du récepteur GNSS et du bluetooth](configuration){: .btn }
 
 ## Assemblage du Rover V1
 
 ### Préparer son matériel
 
-Vérifier que vous diposez de tous les composants:
+Vérifier que vous disposez de tous les composants:
 
 * Module F9P
 * Antenne GNSS
 * Batterie
 * Câble USB renforcé
-* option Bluetooth:
+* Option Bluetooth:
     * Module Bluetooth
     * Câble 6 pins préparé et connecté au F9P
 

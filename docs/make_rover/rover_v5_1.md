@@ -9,7 +9,7 @@ has_children: true
 ## Matériels
 
 Cette section décrit en détail le matériel nécessaire et la méthode d'assemblage pour fabriquer un rover RTK avec connexion Bluetooth pour smartphone.
-Le Rover V5.1 necessite une impression 3D du boitier ainsi que du matériel de soudure précis à l'étain, si vous n'avez pas d'équipements pensez aux [fablabs](https://cartographie.francetierslieux.fr/#?tags=Fablab%20/%20Atelier%20de%20Fabrication%20Num%C3%A9rique) à côté de chez vous!!!
+Le Rover V5.1 nécessite une impression 3D du boitier ainsi que du matériel de soudure précis à l'étain, si vous n'avez pas d'équipements pensez aux [fablabs](https://cartographie.francetierslieux.fr/#?tags=Fablab%20/%20Atelier%20de%20Fabrication%20Num%C3%A9rique) à côté de chez vous!!!
 
 ![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/16-rover_v5-1.jpg)
 ![architecture rover](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/mm_rover_small.jpg)
@@ -34,7 +34,7 @@ Il est conseillé d'utiliser du filament en [PETG](https://prusament.com/fr/mate
 
 ### Composants
 
-La disponibilité des composants chez les fournisseurs peux évoluer voir disparaître mais ils ont des dimensions assez standards. Assurez d'avoir les mêmes dimensions si vous en trouvez ailleurs, sinon modifier le modèle d'impression 3D.
+La disponibilité des composants chez les fournisseurs peut évoluer voir disparaître mais ils ont des dimensions assez standards. Assurez d'avoir les mêmes dimensions si vous en trouvez ailleurs, sinon modifier le modèle d'impression 3D.
 
 |matériel|ref|prix|
 |---|---|---|
@@ -47,44 +47,44 @@ La disponibilité des composants chez les fournisseurs peux évoluer voir dispar
 |[Bluetooth HC-05](https://www.amazon.fr/gp/product/B07BHRG9KB/ref=ppx_yo_dt_b_asin_title_o04_s01?ie=UTF8&psc=1)||5,6€|
 |[SMA Mâle vers SMA Femelle Coude 135° 45°](https://www.amazon.fr/WE-WHLL-connecteur-Adaptateur-biseaut%C3%A9-Lunettes/dp/B08QCDL774/ref=sr_1_10?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=OM175088RFS6&keywords=SMA+M%C3%A2le+SMA+Femelle+45%C2%B0&qid=1635941613&sprefix=sma+m%C3%A2le+sma+femelle+45+%2Caps%2C74&sr=8-10)||3,5€|
 |[8 Vis à métaux M2 tête Cylindrique Pozidriv inox 6mm](https://fr.rs-online.com/web/p/vis-a-metaux/0528693) (paquet de 100)|528-693| 6.7€|
-|[4 Écrou hexagonal M3, Acier Inoxydable](https://fr.rs-online.com/web/p/ecrous-hexagonaux/189563) (paquet de 100)|189-563 |7.8€ |
+|[4 Écrous hexagonal M3, Acier Inoxydable](https://fr.rs-online.com/web/p/ecrous-hexagonaux/189563) (paquet de 100)|189-563 |7.8€ |
 |[4 Vis à métaux M3 tête Cylindrique fendue inox 20mm](https://fr.rs-online.com/web/p/vis-a-metaux/0526984)) (paquet de 100) |526-984|7€ |
 | | | |
 |Total environ| |310€|
 
 ![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/2-rover_v5-1.jpg)
 
-## Paramétrage du recepteur GNSS et du bluetooth
+## Paramétrage du récepteur GNSS et du bluetooth
 
-Ouvrir dans un nouvel onglet la page de[Configuration du recepteur GNSS et du bluetooth](configuration){: .btn } et suivre les instructions.
+Ouvrir dans un nouvel onglet la page de[Configuration du récepteur GNSS et du bluetooth](configuration){: .btn } et suivre les instructions.
 
 ## Assemblage du Rover V5.1
 
 ### Préparer son matériel
 
-Vérifier que vous diposez de tous les composants:
+Vérifier que vous disposez de tous les composants:
 
 * Module F9P DP0601
-* Câble 6 pins fourni avec le F9P DP0601
+* Câble 6 pins fournis avec le F9P DP0601
 * Module Bluetooth Hc-05
 * rallonge 45° SMA
 * Batterie 2000 mAh
 * Module adafruit Power boost 1000c
 * interrupteur
-* Adaptateur micro usb > usbC
+* Adaptateur micro usb > usb type-C
 * 8 vis M2
 * 4 vis M3
-* 4 ecrous M3
+* 4 écrous M3
 * Antenne GNSS
 * La boite imprimée
 
 ### Adaptation des câbles 6-pins
 
-* Prendre un des cables plats noirs fournis avec le récepteur GNSS F9P DP0601 et coupez le en deux et préparer les connexions et les étamer:
+* Prendre un des câbles plats noirs fournis avec le récepteur GNSS F9P DP0601 et coupez le en deux et préparer les connexions et les étamer:
 
 > Attention au sens du connecteur du câble!
 
-![montage cable](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/cut_pin.jpg)
+![montage câble](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/cut_pin.jpg)
 
 ### Bluetooth
 
@@ -98,7 +98,7 @@ Vérifier que vous diposez de tous les composants:
    * **GND  > GND**
 * Souder
 
-![montage cable](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/solder_hc05.jpg)
+![montage câble](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/solder_hc05.jpg)
 
 * Connecter enfin sur le UART1 du récepteur DP0601 F9p
 
@@ -113,7 +113,7 @@ Vérifier que vous diposez de tous les composants:
    * **GND  > -**
 * Souder
 
-![montage cable](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/solder_1000c.jpg)
+![montage câble](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/solder_1000c.jpg)
 
 * souder maintenant l'interrupteur sans courber les 3-pin
 
@@ -124,16 +124,16 @@ Vérifier que vous diposez de tous les composants:
 
 ### Assemblage
 
-* Preparer vos outils pour l'assemblage
+* Préparer vos outils pour l'assemblage
 ![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/1-rover_v5-1.jpg)
 
-* Preparer l'ensemble des pièces et procéder au montage, il peut être necessaire de déboucher les trous des vis de fixation du recepteur GNSS et du module d'alimentation sur le boitier imprimé. Utiliser un foré adapté à la taille de vos vis et une visseuse.
+* Préparer l'ensemble des pièces et procéder au montage, il peut être nécessaire de déboucher les trous des vis de fixation du récepteur GNSS et du module d'alimentation sur le boitier imprimé. Utiliser un foré adapté à la taille de vos vis et une visseuse.
 ![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/2-rover_v5-1.jpg)
 
 * Commencer par l'insertion des écrous
 ![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/3-rover_v5-1.jpg)
 
-* Utiliser un briquet pour chauffer l'ecrou puis l'insérer dans le boitier, attention à ne pas trop chauffer et surtout à ne pas trop appuyer au moment de l'insertion au risque de déformer le boitier
+* Utiliser un briquet pour chauffer l'écrou puis l'insérer dans le boitier, attention à ne pas trop chauffer et surtout à ne pas trop appuyer au moment de l'insertion au risque de déformer le boitier
 ![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/4-rover_v5-1.jpg)
 ![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/5-rover_v5-1.jpg)
 ![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/6-rover_v5-1.jpg)
@@ -141,7 +141,7 @@ Vérifier que vous diposez de tous les composants:
 * Assembler les composants d'alimentation.
 ![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/7-rover_v5-1.jpg)
 
-* Il est parfois necessaire de poncer légèrement le trou sur le côté pour l'adaptateur USB en fonction des modèles.
+* Il est parfois nécessaire de poncer légèrement le trou sur le côté pour l'adaptateur USB en fonction des modèles.
 ![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/8-rover_v5-1.jpg)
 
 * Fixer la nappe avec un scotch et tester l'alimentation
@@ -150,19 +150,19 @@ Vérifier que vous diposez de tous les composants:
 * Assembler les composants GNSS et Bluetooth
 ![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/10-rover_v5-1.jpg)
 
-* Commencer par le Bluetooth ([a t'il bien été paramétré avant?](https://docs.centipede.fr/docs/make_rover/configuration.html#ajouter-un-module-bluetooth)) engager les broches en premier et pousser le module pour qu'il s'insère dans son emplacement.
+* Commencer par le Bluetooth ([a-t-il bien été paramétré avant?](https://docs.centipede.fr/docs/make_rover/configuration.html#ajouter-un-module-bluetooth)) engager les broches en premier et pousser le module pour qu'il s'insère dans son emplacement.
 ![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/11-rover_v5-1.jpg)
 
-* Connecter les composants au recepteur GNSS ([a t'il bien été paramétré avant?](https://docs.centipede.fr/docs/make_rover/configuration.html#configuration-du-r%C3%A9cepteur-gnss-f9p)) pour procéder à un test de fonctionnement
+* Connecter les composants au récepteur GNSS ([a-t-il bien été paramétré avant?](https://docs.centipede.fr/docs/make_rover/configuration.html#configuration-du-r%C3%A9cepteur-gnss-f9p)) pour procéder à un test de fonctionnement
 ![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/12-rover_v5-1.jpg)
 
-* Attention a partir de maintenant tout les composant sont connectés, faire très attention à ne pas tirer sur les cables!!! Installer le recepteur GNSS et ne serrez pas entierement les vis. Assembler le raccord SMA avec une pince
+* Attention à partir de maintenant tous les composants sont connectés, faire très attention à ne pas tirer sur les câbles!!! Installer le récepteur GNSS et ne serrez pas entièrement les vis. Assembler le raccord SMA avec une pince
 ![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/13-rover_v5-1.jpg)
 
-* Finaliser le serrage et fixer le cable.
+* Finaliser le serrage et fixer le câble.
 ![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/14-rover_v5-1.jpg)
 
-* Refermer délicatement le boitier en vérifiant de ne pas ecraser un cable, tester de nouveau puis finaliser l'assemblage avec les boulons. Il est possible d'utiliser du joint silicone sur les zones de contact et les trous des composants afin d'assurer une certaine étanchéïté.
+* Refermer délicatement le boitier en vérifiant de ne pas écraser un câble, tester de nouveau puis finaliser l'assemblage avec les boulons. Il est possible d'utiliser du joint silicone sur les zones de contact et les trous des composants afin d'assurer une certaine étanchéité.
 ![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/15-rover_v5-1.jpg)
 ![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/16-rover_v5-1.jpg)
 ![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/17-rover_v5-1.jpg)

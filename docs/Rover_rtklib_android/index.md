@@ -11,9 +11,9 @@ has_children: true
 
 ![Lefebure](https://user-images.githubusercontent.com/6421175/131640187-087e385e-c2d6-4130-8bdc-1316ca53c0d0.png)
 
-L'application Lefebure NTRIP client pour Android permet d'envoyer au récepteur GNSS (ublox-F9P) la correction d'un mount point du réseau Centipede et de recevoir une trame NMEA corrigée, l'option activer la position fictive permet quand à elle de considérer que votre récepteur GNSS RTK est utilisé pour la géolocalisation pour toutes les applications de votre smartphone/tablette android comme par exemple les outils SIG [Input](https://play.google.com/store/apps/details?id=uk.co.lutraconsulting&hl=fr&gl=fr) ,[Qfield](https://play.google.com/store/apps/details?id=ch.opengis.qfield&hl=fr&gl=fr), [OsmAnd](https://play.google.com/store/apps/details?id=net.osmand&hl=fr&gl=US).
+L'application Lefebure NTRIP client pour Android permet d'envoyer au récepteur GNSS (ublox-F9P) la correction d'un mount point du réseau Centipede et de recevoir une trame NMEA corrigée, l'option activer la position fictive permet quant à elle de considérer que votre récepteur GNSS RTK est utilisé pour la géolocalisation pour toutes les applications de votre smartphone/tablette android comme par exemple les outils SIG [Input](https://play.google.com/store/apps/details?id=uk.co.lutraconsulting&hl=fr&gl=fr) ,[Qfield](https://play.google.com/store/apps/details?id=ch.opengis.qfield&hl=fr&gl=fr), [OsmAnd](https://play.google.com/store/apps/details?id=net.osmand&hl=fr&gl=US).
 
-Il est possible d'enregistrer plusieurs profil d'utilisation en fonction de vos déplacement entre point de montage du réseau Centipede.
+Il est possible d'enregistrer plusieurs profils d'utilisation en fonction de vos déplacements entre points de montage du réseau Centipede.
 
 [Lefebure NtripClient sur le playstore](https://play.google.com/store/apps/details?id=com.lefebure.ntripclient&hl=fr&gl=fr)
 
@@ -40,7 +40,7 @@ Cette application prend en charge l'affichage des estimations de précision à p
 
 SW Maps est une application gratuite de SIG et de cartographie mobile pour la collecte, la présentation et le partage d'informations géographiques.
 
-Que vous meniez une enquête GNSS à grande échelle avec des instruments de haute précision, que vous deviez collecter une grande quantité de données de localisation en utilisant uniquement votre téléphone, ou que vous ayez simplement besoin d'afficher quelques fichiers de formes avec des étiquettes sur une carte d'arrière-plan lors de vos déplacements, SW Maps a tout a couvert.
+Que vous meniez une enquête GNSS à grande échelle avec des instruments de haute précision, que vous deviez collecter une grande quantité de données de localisation en utilisant uniquement votre téléphone, ou que vous ayez simplement besoin d'afficher quelques fichiers de formes avec des étiquettes sur une carte d'arrière-plan lors de vos déplacements, SW Maps couvre tous ces usages.
 
 Enregistrez des points, des lignes, des polygones et même des photos et affichez-les sur la carte d'arrière-plan de votre choix, et attachez des données d'attributs personnalisés à n'importe quelle entité. Les types d'attributs incluent le texte, les nombres, une option parmi un ensemble prédéfini de choix, des photos, des clips audio et des vidéos.
 
@@ -67,7 +67,7 @@ L'application RTKGPS+ est un projet OpenSource initié par [illarionov](https://
 
 Cette application utilise RTKLIB Navi, qui permet une géolocalisation RTK avec un récepteur U-blox (ou autre) et une connexion à une Base RTK Centipede (ou autre) via le réseau 3-4G.
 
-L'application permet de faire une localisation fictive, c'est à dire de ne plus utiliser le récepteur interne du smartphone mais celui de l'antenne RTK, et donc d'utiliser un service de géolocalisation avec une précision centimétrique. Elle a la capacité de s'exécuter en tâche de fond et propose une interface relativement simple.
+L'application permet de faire une localisation fictive, c'est-à-dire de ne plus utiliser le récepteur interne du smartphone mais celui de l'antenne RTK, et donc d'utiliser un service de géolocalisation avec une précision centimétrique. Elle a la capacité de s'exécuter en tâche de fond et propose une interface relativement simple.
 
 L'application permet également d'enregistrer l'historique des positions dans un fichier .pos ([cf doc Qgis](https://jancelin.github.io/docs-centipedeRTK/docs/base/positionnement.html#qgis)), devenir serveur de données ou client d'un serveur de tracking.
 
@@ -77,19 +77,19 @@ L'application permet également d'enregistrer l'historique des positions dans un
 * Télécharger l'[Application RTKGPS+ 1.1 Alpha 2](https://github.com/jancelin/RtkGps/releases/download/1.1-Alpha2/RtkGps-1_1alpha2.apk) et l'installer.
 * Activer les "Options pour développeurs" afin de bénéficier de la position fictive :
   * Désactiver le GPS interne
-  * Activer le mode développeur : Aller dans Paramètres > À Propos > Cliquer 7 fois d'affilé sur "Numéro de build"
+  * Activer le mode développeur : Aller dans Paramètres > À Propos > Cliquer 7 fois d'affilées sur "Numéro de build"
   * Activer le "Mock location" : Aller dans Paramètres > Options développeur (menu apparu suite à l'action précédente) > Sélectionner l'application de position fictive > RTKGPS+
 * Désactiver la localisation par wifi pour éviter les sauts de localisation :
   * Sécurité et localisation > Localisation > Options avancées > Précision de la localisation > N'utiliser que le GPS interne
 
 ## Paramétrage automatique
 
-* Il est necessaire d'avoir démarré une fois à blanc le serveur pour que le dossier **RtkGps**, sur votre smartphone, soit créé.
+* Il est nécessaire d'avoir démarré une fois à blanc le serveur pour que le dossier **RtkGps**, sur votre smartphone, soit créé.
 * Télécharger [settings.zip](https://github.com/jancelin/RtkGps/releases/download/1.1-Alpha2/settings.zip) et le déposer dans le dossier **RtkGPS** de votre appareil android.
 * Démarrer l'application RtkGPS+
 * Dans le menu de gauche, faire défiler vers le bas et appuyer sur **Charger les paramètres**
 * Une fois que la fenêtre de messages disparait, fermer et réouvrir l'application pour la prise en compte des nouveaux paramètres.
-* tester l'application avec les flux d'entrée mobile tcp et base par defaut afin de vérifier que la solution RTK soit fix.
+* Tester l'application avec les flux d'entrée mobile tcp et base par défaut afin de vérifier que la solution RTK soit fix.
 
 ## Configuration
 
@@ -103,14 +103,14 @@ L'application permet également d'enregistrer l'historique des positions dans un
     * **Paramètres de flux** > Autoriser l'activation du Bluetooth > Paramètres système bluetooth > Associer nouvel app. > CENTIPEDE > rentrer le code PIN (1234) > revenir sur RTKGPS+
     * Vérifier que votre récepteur apparait maintenant dans **Périphérique Bluetooth**
     * **Format** > **u-blox Lea-T**
-  * Cliquer sur **Entrée Base** (normalement pré-paramétré Centipede)
+  * Cliquer sur **Entrée Base** (normalement pré-paramétrée Centipede)
     * **Paramètres de flux...** > **Point de montage NTRIP** > modifier avec la base RTK la plus proche de vous (https://centipede.fr)
 
 * Cliquer sur **Flux de sortie**
   * Cocher **Activer la solution1** pour activer les logs.
 
 * Enfin cliquer sur **Server** pour lancer le service RTK.
-  * Le graphique du haut montre les données des satellites du récepteur tandis que le graphique du bas montre les données des satallites de la base (ce qui permet la correction RTK).
+  * Le graphique du haut montre les données des satellites du récepteur tandis que le graphique du bas montre les données des satellites de la base (ce qui permet la correction RTK).
   * La ligne **Solution** est soit vide (pas de position), soit **float**, soit **FIXE**.
   * Le **HRMS** donne la précision XY et **VRMS** la précision Z.
   * L'**Age** indique la dernière correction reçue de la base RTK.

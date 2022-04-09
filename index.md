@@ -19,7 +19,7 @@ L'objectif du projet est d'offrir une couverture complète du territoire métrop
 
 Les instituts de recherche comme [INRAE](https://www.inrae.fr/) ou le [CNRS](http://www.cnrs.fr/fr/page-daccueil) utilisent la géolocalisation pour référencer leurs données environnementales, mais la précision des systèmes de navigation par satellite, qui dépend des conditions atmosphériques, n’est que de quelques mètres. Des systèmes de correction différentiels peuvent compenser ce manque de précision : la cinématique en temps réel (Real Time Kinematic) permet ainsi d’approcher la précision centimétrique. Mais ce système nécessite une base de référence à proximité du lieu de collecte, l’accessibilité de son signal ainsi qu'un matériel extrêmement coûteux pour le  traiter. Depuis quelques années, des développeurs travaillent activement avec des logiciels et des composants open-source/open-hardware pour créer des solutions peu coûteuses, fiables, légères et faciles d’utilisation.
 
-Cette technologie permet par exemple d’effectuer des relevés naturalistes (flore, faune) avec une précison de localisation élevée, de faire des relevés photographiques aériens (drones) et d’automatiser la conduite automatisée des véhicules agricoles afin d’augmenter la précision, la qualité et la traçabilité des interventions.
+Cette technologie permet par exemple d’effectuer des relevés naturalistes (flore, faune) avec une précision de localisation élevée, de faire des relevés photographiques aériens (drones) et d’automatiser la conduite automatisée des véhicules agricoles afin d’augmenter la précision, la qualité et la traçabilité des interventions.
 
 Contact: contact@centipede.fr
 
