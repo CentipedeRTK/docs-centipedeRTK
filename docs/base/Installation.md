@@ -33,15 +33,17 @@ Dans un premier temps il est nécessaire de mettre à jour le [firmware](https:/
   * Attendre la fin de la procédure de mise à jour
 ![firmware](https://gblobscdn.gitbook.com/assets%2F-LYSZeu4HjB-NrVI4riL%2F-LZ52KPCRzypMK4cqtQW%2F-LZ52Z_bl9GHQP8dz7By%2Fstep6.png?alt=media&token=f8f7240b-79b4-4856-87ea-26e12c1aac36)
 
-### 2. Télécharger l'image pour Raspberry Pi
+### 2. Télécharger l'image pour Raspberry Pi / Orange Pi Zero
 
-Télécharger l'image pour Raspberry Pi de Base RTK sur votre ordinateur (~ 560 Mo) : [BaseGNSS-RPi-2.3.1](https://github.com/jancelin/pi-gen_RTKbase/releases/download/BaseGNSS-RPi-2.3.1/RTKBaseGNSS_2_3_1.zip). 
+Télécharger depuis votre ordinateur l'image RTKBase pour votre carte :
+ - Raspberry Pi (~ 560 Mo) : [BaseGNSS-RPi-2.3.1](https://github.com/jancelin/pi-gen_RTKbase/releases/download/BaseGNSS-RPi-2.3.1/RTKBaseGNSS_2_3_1.zip).
+ - Orange Pi Zero : [BaseGNSS-Opi-Zero](https://github.com/Stefal/build/releases/download/v2.3.4/Armbian_22.02.0-trunk_Orangepizero_bullseye_current_5.15.32_minimal.img.zip)
 
 **Attention**, ne pas copier directement l'image Base_GNSS_X.X.X.zip sur la carte micro SD !!!
 
 ### 3. Télécharger et installer ETCHER 
 
-Télécharger et installer ETCHER sur votre ordinateur (windows, linux, mac). Ce programme va permettre d'installer correctement l'image BaseRTK téléchargée dans la carte micro SD : <https://etcher.io/>.
+Télécharger et installer ETCHER sur votre ordinateur (windows, linux, mac). Ce programme va permettre d'installer correctement l'image BaseGNSS téléchargée dans la carte micro SD : <https://etcher.io/>.
 
 ### 4. Insérer la carte Micro SD dans l'ordinateur 
 
