@@ -53,7 +53,7 @@ Télécharger et installer ETCHER sur votre ordinateur (windows, linux, mac). Ce
 
 Démarrer Etcher, choisir l'image téléchargée, la carte SD (normalement déjà sélectionnée) et flasher la carte :
 
-   ![etcher](https://jancelin.github.io/docs-centipedeRTK/assets/images/install/etcher.png)
+   ![etcher](/assets/images/install/etcher.png)
 
 ### 6. Retirer ensuite la carte SD du PC
 
@@ -83,7 +83,7 @@ En option, il est possible d'activer une connexion WIFI si vous n'avez pas de r�
 
 > Mot de passe: ```admin```
 
-![base gnss](https://jancelin.github.io/docs-centipedeRTK/assets/images/basegnss/basegnss.gif)
+![base gnss](/assets/images/basegnss/basegnss.gif)
 
 En cas de problème
 {: .label .label-yellow }

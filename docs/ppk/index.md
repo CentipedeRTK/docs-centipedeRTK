@@ -27,7 +27,7 @@ Vous pouvez utiliser à la place de votre base les données du RGP si vous n'ave
 * Il faut ensuite sélectionner la base souhaitée sur la carte à l'aide de l'outil de sélection puis l'ajouter au panier.
 * Télécharger l'archive au format ZIP une fois celle-ci disponible.
 
-![ign](https://jancelin.github.io/docs-centipedeRTK/assets/images/positionnement/ign.png)
+![ign](/assets/images/positionnement/ign.png)
 
 Vous pouvez ne récupérer que le **XXXXX.20o**
 
@@ -54,7 +54,7 @@ Télécharger cette version d'RTKLIB fournie par rtkexplorer: [RTKLIB Code: Wind
 * Cocher Unit: **24h**
 * Selectionner votre fichier **.ubx** issue de votre **.zip** dans **RTCM, RCV RAW or RINEX OBS**
 	* le logiciel va ecrire le chemin une serie de fichier (.obs, .nav,...) dans ce même dossier
-![ign](https://jancelin.github.io/docs-centipedeRTK/assets/images/positionnement/rinex1.png)
+![ign](/assets/images/positionnement/rinex1.png)
 * Cliquer sur **Options**
 	* Choisir **Rinex ver 2.11**
 	* Cocher **Scan Obs Types**, **Half Cyc Corr**, **Iono Corr**, **Time Corr**, **Leap Sec**
@@ -63,7 +63,7 @@ Télécharger cette version d'RTKLIB fournie par rtkexplorer: [RTKLIB Code: Wind
 	* Cocher **L1**, **L2/E5b**
 	* **Receiver Options**: ```-TADJ=1```
 
-![ign](https://jancelin.github.io/docs-centipedeRTK/assets/images/positionnement/rinex2.png)
+![ign](/assets/images/positionnement/rinex2.png)
 * Cliquer sur **OK**
 * Cliquer su **Convert**
 
@@ -153,7 +153,7 @@ rtkpost.exe
 
  Dans l'exemple ci-dessous, vous pouvez observer un maillage au mm avec **16527 points situés dans 1,5 cm2**. C'est bien mais nous allons maintenant nettoyer ce nuage de point pour ne garder que les meilleures données.
  
-![rtkplot](https://jancelin.github.io/docs-centipedeRTK/assets/images/positionnement/rtkplot.png)
+![rtkplot](/assets/images/positionnement/rtkplot.png)
  
 ## 5. Filtrer les données et calculer la position médiane.
  
@@ -166,7 +166,7 @@ rtkpost.exe
 * Cliquer sur *couche* > *Ajouter une couche* > *Ajouter une couche de texte délimité*
 * Choisir le fichier .pos puis cliquer sur *Ouvrir*
         
-![qgis](https://jancelin.github.io/docs-centipedeRTK/assets/images/positionnement/calc_base_qgis_1.png)   
+![qgis](/assets/images/positionnement/calc_base_qgis_1.png)   
 
 * Dans *Format de fichier*, sélectionner le délimiteur personnalisé *Espace*
 * Fixer la valeur du *Nombre de lignes à ignorer* à 26 ou 27 (en fonction du fichier .pos généré)
@@ -176,7 +176,7 @@ rtkpost.exe
 * Sélectionner le SRC 4326 (WGS 84)
 * Cliquer sur *OK*
    
-![qgis](https://jancelin.github.io/docs-centipedeRTK/assets/images/positionnement/calc_base_qgis_2.png)
+![qgis](/assets/images/positionnement/calc_base_qgis_2.png)
 
 ### Filtrer les données .pos
 
@@ -194,5 +194,5 @@ On retrouve ici les points affichés dans RTKPLOT, appliquons maintenant si beso
   ```
 * Cliquer sur *OK*
    
-![qgis](https://jancelin.github.io/docs-centipedeRTK/assets/images/positionnement/calc_base_qgis_3.png)
+![qgis](/assets/images/positionnement/calc_base_qgis_3.png)
 

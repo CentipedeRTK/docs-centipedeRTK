@@ -17,19 +17,19 @@ Pour cela nous allons transformer un fichier de log de 24h de données satellita
 
 * Se rendre dans l'onglet **logs** de votre base RTK et cliquer sur le crayon (```edit```) d'un **.zip** complet de 24h.
 
-![log2rinex](https://jancelin.github.io/docs-centipedeRTK/assets/images/positionnement/log2rinex1.png)
+![log2rinex](/assets/images/positionnement/log2rinex1.png)
 
 * Une fenêtre s'ouvre pour vous proposer de convertir le fichier de log en fichier RINEX compatible avec les services en ligne d'IGN pour le calcul du positionnement précis. Cliquer sur **CREATE**
 
-![log2rinex](https://jancelin.github.io/docs-centipedeRTK/assets/images/positionnement/log2rinex2.png)
+![log2rinex](/assets/images/positionnement/log2rinex2.png)
 
 * Patientez lors de la création du fichier RINEX cela peut durer plusieurs minutes.
 
-![log2rinex](https://jancelin.github.io/docs-centipedeRTK/assets/images/positionnement/log2rinex3.png)
+![log2rinex](/assets/images/positionnement/log2rinex3.png)
 
 * Téléchargez le fichier créé. Une fois la fenêtre fermée (```close```) le fichier RINEX est également disponible dans la liste des logs avec un nom **AAAA-MM-JJ-MP.20o**, son poids est d'environ 4 Mo.
 
-![log2rinex](https://jancelin.github.io/docs-centipedeRTK/assets/images/positionnement/log2rinex4.png)
+![log2rinex](/assets/images/positionnement/log2rinex4.png)
 
     
 ### 3. Post traitement IGN
@@ -45,7 +45,7 @@ Cette étape permet de corriger les données brutes de votre base RTK avec les s
 
 Le rapport de positionnement est transmis après quelques minutes sur votre boite mail.
 
-![ign](https://jancelin.github.io/docs-centipedeRTK/assets/images/positionnement/ign_reseau_en_ligne1.png)
+![ign](/assets/images/positionnement/ign_reseau_en_ligne1.png)
 
 
 ### 4. Interprétation du rapport 
@@ -59,7 +59,7 @@ Le rapport de positionnement est transmis après quelques minutes sur votre boit
 * Il est important de regarder la partie **EXACTITUDE ESTIMÉE (2*SIGMA)** car elle va vous donner la qualité du calcul. **Vos valeurs doivent être inférieures à 8mm en E_N, E_E et inférieures à 16mm en E_H.**
 * Noter les coordonnées de votre base dans cet ordre **Latitude Longitude Hell** afin de les copier dans votre base RTK.
 
-![ign](https://jancelin.github.io/docs-centipedeRTK/assets/images/positionnement/rapport_ign1.png)
+![ign](/assets/images/positionnement/rapport_ign1.png)
 
 
 * Passons à la finalisation du [Paramétrage du positionnement de votre Base RTK](param_positionnement){: .btn }

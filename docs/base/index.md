@@ -17,4 +17,4 @@ Le résultat obtenu est un flux de données (RTCM) qui va servir à un autre ré
 
 Les récepteurs peuvent autant servir en Rover qu'en Base. Les prochaines pages vont vous permettre de fabriquer votre propre base GNSS RTK.
 
-![logo](https://jancelin.github.io/docs-centipedeRTK/assets/images/index/1.jpg)
+![logo](/assets/images/index/1.jpg)

@@ -5,7 +5,7 @@ nav_order: 5
 has_children: true
 ---
 
-![architecture rover](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/mm_rover_small.jpg)
+![architecture rover](/assets/images/montage_rover/mm_rover_small.jpg)
 
 ## Application Lefebure (propriétaire)
 
@@ -19,7 +19,7 @@ Il est possible d'enregistrer plusieurs profils d'utilisation en fonction de vos
 
 [Lefebure NtripClient documentation](http://lefebure.com/software/android-ntripclient/)
 
-![Lefebure ntrip client](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/lefebure.gif)
+![Lefebure ntrip client](/assets/images/montage_rover/lefebure.gif)
 
 ## Bluetooth GNSS (Open-Source)
 
@@ -59,9 +59,9 @@ Partagez les données collectées avec d'autres utilisateurs sous forme de Geopa
 
 ## Application RTKGPS+ Android (Open-source)
 
-![rtkgps+](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/rtkgps_logo.png)
+![rtkgps+](/assets/images/montage_rover/rtkgps_logo.png)
 
-![rtkgps+](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/rtkgps.png)
+![rtkgps+](/assets/images/montage_rover/rtkgps.png)
 
 L'application RTKGPS+ est un projet OpenSource initié par [illarionov](https://github.com/illarionov/RtkGps) il y a 7 ans, repris par [eltorio](https://github.com/eltorio/RtkGps) il y a 2 ans et [mis à jour](https://github.com/jancelin/RtkGps/releases) pour permettre le fonctionnement avec les modules F9P.
 
@@ -69,7 +69,7 @@ Cette application utilise RTKLIB Navi, qui permet une géolocalisation RTK avec 
 
 L'application permet de faire une localisation fictive, c'est-à-dire de ne plus utiliser le récepteur interne du smartphone mais celui de l'antenne RTK, et donc d'utiliser un service de géolocalisation avec une précision centimétrique. Elle a la capacité de s'exécuter en tâche de fond et propose une interface relativement simple.
 
-L'application permet également d'enregistrer l'historique des positions dans un fichier .pos ([cf doc Qgis](https://jancelin.github.io/docs-centipedeRTK/docs/base/positionnement.html#qgis)), devenir serveur de données ou client d'un serveur de tracking.
+L'application permet également d'enregistrer l'historique des positions dans un fichier .pos ([cf doc Qgis](/docs/base/positionnement.html#qgis)), devenir serveur de données ou client d'un serveur de tracking.
 
 ## Installation
 
@@ -116,8 +116,8 @@ L'application permet également d'enregistrer l'historique des positions dans un
   * L'**Age** indique la dernière correction reçue de la base RTK.
   * Le **Ratio** indique la précision du calcul.
 
-![rtkgps+](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/rtkgps.png)
+![rtkgps+](/assets/images/montage_rover/rtkgps.png)
 
 * Vous pouvez maintenant utiliser vos applications habituelles nécessitant la géolocalisation. Celle-ci est désormais effectuée par votre antenne externe et RTKGPS+.
 
-![RTKrover](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/rtkgps_input.gif)
+![RTKrover](/assets/images/montage_rover/rtkgps_input.gif)

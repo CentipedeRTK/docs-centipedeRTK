@@ -18,7 +18,7 @@ Cette étape doit vous permettre de bien anticiper quel matériel acheter en fon
  
  **Ce document: [MEILLEURES PRATIQUES À L’INTENTION DES FOURNISSEURS DE SERVICES GNSS EN MODE RTK](https://www.rncan.gc.ca/sites/www.nrcan.gc.ca/files/earthsciences/pdf/MeilleuresPratiques_Station_de_Reference_GNSS.pdf) vous donnera les informations nécessaires afin d'anticiper au mieux votre installation, c'est l'étape la plus importante dans l'installation d'une base GNSS RTK**
 
-![lienss](https://jancelin.github.io/docs-centipedeRTK/assets/images/mat/base_lienss.jpg)
+![lienss](/assets/images/mat/base_lienss.jpg)
 
 ### Liste
 
@@ -52,7 +52,7 @@ Il est également possible d'utilise un POE pour alimenter la base via le cable 
 
 ### Assemblage
 
-![composant](https://jancelin.github.io/docs-centipedeRTK/assets/images/mat/composant.jpg)
+![composant](/assets/images/mat/composant.jpg)
 
 
 Dans un premier temps faites un premier montage sans la boite:
@@ -64,10 +64,10 @@ Dans un premier temps faites un premier montage sans la boite:
 
 ### Montage
 
-![composant](https://jancelin.github.io/docs-centipedeRTK/assets/images/mat/boite1.jpg)
-![composant](https://jancelin.github.io/docs-centipedeRTK/assets/images/mat/boite2.jpg)
-![composant](https://jancelin.github.io/docs-centipedeRTK/assets/images/mat/boite3.jpg)
-![composant](https://jancelin.github.io/docs-centipedeRTK/assets/images/mat/boite4.jpg)
+![composant](/assets/images/mat/boite1.jpg)
+![composant](/assets/images/mat/boite2.jpg)
+![composant](/assets/images/mat/boite3.jpg)
+![composant](/assets/images/mat/boite4.jpg)
 
 
 ### Next step

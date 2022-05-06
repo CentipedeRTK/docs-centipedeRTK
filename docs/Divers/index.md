@@ -62,7 +62,7 @@ https://dronesurvey.asia/2019/12/04/teodrone-teokit-for-phantom4/
 - [x] Quels protocoles peut-on suivre pour évaluer la précision du signal RTK fourni par le réseau Centipède ?
 - [ ] Peut-on utiliser le réseau Centipède comme gold standard pour évaluer la précision d'autres systèmes gps (drone, robot...) ?
 
-![quality](https://jancelin.github.io/docs-centipedeRTK/assets/images/autre/qualityxzy.png)
+![quality](/assets/images/autre/qualityxzy.png)
 
 <iframe width="100%" height="600" frameborder="0" style="border:0" src="https://centipede.fr/index.php/view/embed/?repository=centtest&project=track&layers=B000000TTTTT&bbox=-159446.878983%2C5773299.034967%2C-87213.887264%2C5813199.163726&crs=EPSG%3A3857&layerStyles=llh_view%3Ad%C3%A9faut" allowfullscreen></iframe> 
 

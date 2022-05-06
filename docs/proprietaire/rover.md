@@ -14,14 +14,14 @@ nav_order: 2
 * Soit ajouter une carte SIM M2M débloquée, soit établir une connexion en WiFi avec son Smartphone en Hotspot. Il n'a pas été possible dans notre cas d'utiliser la carte SIM M2M intégrée à l'antenne, car elle est bloquée pour l'utilisation d'Orpheon
 * type de levé – votre type de levé - options du mobile, il faut utiliser le format de diffusion : RTCM RTK
 
-![trimbleR4](https://jancelin.github.io/docs-centipedeRTK/assets/images/consoles_rtk/trimble1.jpg)
+![trimbleR4](/assets/images/consoles_rtk/trimble1.jpg)
 
 
 * type de levé – votre type de levé – liaison de données mobile – clic sur la flèche à droite du contact GNSS – nouveau
 
-![trimbleR4](https://jancelin.github.io/docs-centipedeRTK/assets/images/consoles_rtk/trimble2.jpg)
+![trimbleR4](/assets/images/consoles_rtk/trimble2.jpg)
 
-![trimbleR4](https://jancelin.github.io/docs-centipedeRTK/assets/images/consoles_rtk/trimble3.jpg)
+![trimbleR4](/assets/images/consoles_rtk/trimble3.jpg)
 
 
 ### Trimble R2
@@ -47,24 +47,24 @@ Il faudra que le smartphone (connecté en bluetooth à l'antenne) soit connecté
 * Besoin de la trame 1008 sur la base (MAJ rtkbase 2.2.0)
 * Carte SIM M2M débloquée, soit établir une connexion en WiFi avec son Smartphone en Hotspot
 
-![spectra_surveypro](https://jancelin.github.io/docs-centipedeRTK/assets/images/consoles_rtk/spectra_surveypro1.jpg)
+![spectra_surveypro](/assets/images/consoles_rtk/spectra_surveypro1.jpg)
 
-![spectra_surveypro](https://jancelin.github.io/docs-centipedeRTK/assets/images/consoles_rtk/spectra_surveypro2.jpg)
+![spectra_surveypro](/assets/images/consoles_rtk/spectra_surveypro2.jpg)
 
-![spectra_surveypro](https://jancelin.github.io/docs-centipedeRTK/assets/images/consoles_rtk/spectra_surveypro3.jpg)
+![spectra_surveypro](/assets/images/consoles_rtk/spectra_surveypro3.jpg)
 
-![spectra_surveypro](https://jancelin.github.io/docs-centipedeRTK/assets/images/consoles_rtk/spectra_surveypro4.jpg)
+![spectra_surveypro](/assets/images/consoles_rtk/spectra_surveypro4.jpg)
 
-![spectra_surveypro](https://jancelin.github.io/docs-centipedeRTK/assets/images/consoles_rtk/spectra_surveypro5.jpg)
+![spectra_surveypro](/assets/images/consoles_rtk/spectra_surveypro5.jpg)
 
-![spectra_surveypro](https://jancelin.github.io/docs-centipedeRTK/assets/images/consoles_rtk/spectra_surveypro6.jpg)
+![spectra_surveypro](/assets/images/consoles_rtk/spectra_surveypro6.jpg)
 
-![spectra_surveypro](https://jancelin.github.io/docs-centipedeRTK/assets/images/consoles_rtk/spectra_surveypro7.jpg)
+![spectra_surveypro](/assets/images/consoles_rtk/spectra_surveypro7.jpg)
 
-![spectra_surveypro](https://jancelin.github.io/docs-centipedeRTK/assets/images/consoles_rtk/spectra_surveypro8.jpg)
+![spectra_surveypro](/assets/images/consoles_rtk/spectra_surveypro8.jpg)
 
-![spectra_surveypro](https://jancelin.github.io/docs-centipedeRTK/assets/images/consoles_rtk/spectra_surveypro9.jpg)
+![spectra_surveypro](/assets/images/consoles_rtk/spectra_surveypro9.jpg)
 
-![spectra_surveypro](https://jancelin.github.io/docs-centipedeRTK/assets/images/consoles_rtk/spectra_surveypro10.jpg)
+![spectra_surveypro](/assets/images/consoles_rtk/spectra_surveypro10.jpg)
 
 
