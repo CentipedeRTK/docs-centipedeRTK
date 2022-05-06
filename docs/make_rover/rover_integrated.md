@@ -48,12 +48,12 @@ La disponibilité des composants chez les fournisseurs peut évoluer voir dispar
 |[Module FT232 USB-C vers UART](https://www.amazon.fr/gp/product/B09F6FGMD7/)|| 12,5€ |
 |[Adaptateur fileté 5/8"-11](https://www.amazon.fr/gp/product/B07QCSTFVW/)|| 9€ |
 |[Câble TNC angle droit vers SMA angle droit 10cm](https://www.aliexpress.com/item/1005001963693834.html)|| 3€ |
-|[6 Écrous hexagonaux M3](https://fr.rs-online.com/web/p/ecrous-hexagonaux/189563) (paquet de 100) | 189-563 | 7.8€ |
-|[6 Vis M3 ](https://fr.rs-online.com/web/p/vis-a-metaux/0526984) (paquet de 100) | 526-984| 7€ |
+|[6 Écrous hexagonaux M3](https://fr.farnell.com/tr-fastenings/m3-hfa2-s100/full-nut-stainless-steel-a2-m3/dp/1420788) (paquet de 100) | 1420788 | 4.5€ |
+|[6 Vis tête bombée M3 x 12mm ](https://fr.farnell.com/tr-fastenings/m312-bha2mcs100/vis-tete-bombee-hexa-s-s-a2-m3x12/dp/1420717) (paquet de 100) | 1420717 | 6€ |
 |(En option) [Canne d'arpentage](https://www.aliexpress.com/item/1005003772471466.html)|| 110€ |
 |(En option) [Valise de rangement étanche 215x272x166 mm](https://fr.farnell.com/b-w/2000-y-si/case-waterproof-pp-type-2000-yell/dp/3374618)| 2000-Y-SI | 60€ |
 | | | |
-|Total environ| |450€ (600€)|
+|Total environ| |450€ (620€)|
 
 ![montage rover 5.1](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/2-rover_v5-1.jpg)
 
