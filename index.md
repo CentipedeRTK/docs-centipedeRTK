@@ -11,7 +11,7 @@ has_children: true
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5814772.svg)](https://doi.org/10.5281/zenodo.5814772)
 
-Centipède RTK est un réseau de bases GNSS ouvertes et disponibles pour toute personne se trouvant dans la zone de couverture. Le réseau est étendu par des instituts publics, des particuliers, des acteurs privés comme les agriculteurs ou d'autres partenaires publics.
+Centipède RTK est un réseau colllaboratif de bases GNSS ouvertes et disponibles pour toute personne se trouvant dans la zone de couverture. Le réseau est étendu par des instituts publics, des particuliers, des acteurs privés comme les agriculteurs ou d'autres partenaires publics.
 
 L'objectif du projet est d'offrir une couverture complète du territoire métropolitain. Il est soutenu financièrement par INRAE et a bénéficié dès son démarrage en 2019 de moyens mutualisés entre des instituts de recherche, des organismes publics, des agriculteurs et des entreprises privées. La carte ci-dessous présente l'étendue actuelle du réseau.
 
