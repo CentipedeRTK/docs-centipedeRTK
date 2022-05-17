@@ -4,7 +4,7 @@ title: 404
 nav_exclude: true
 ---
 
-[![DOI](https://zenodo.org/badge/228579577.svg)](https://zenodo.org/badge/latestdoi/228579577)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5814772.svg)](https://doi.org/10.5281/zenodo.5814772)
 
 # docs-centipedeRTK
 Documentations de Centipede RTK: le réseau collaboratif de Bases GNSS RTK
