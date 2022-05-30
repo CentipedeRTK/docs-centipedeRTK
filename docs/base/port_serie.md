@@ -27,5 +27,5 @@ dtoverlay=pi3-miniuart-bt
 
 voici un exemple de branchement sur le port serie du raspberry Pi.
 
-   ![serial](https://jancelin.github.io/docs-centipedeRTK/assets/images/basegnss/radio_serial.jpg)
+   ![serial](/assets/images/basegnss/radio_serial.jpg)
 

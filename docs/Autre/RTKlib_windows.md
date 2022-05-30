@@ -5,7 +5,7 @@ parent: Autres Rover RTK
 nav_order: 5
 ---
 
-## 5.2 Utilisation Rover RTK sur PC Windows 
+## 5.2 Utilisation Rover RTK sur PC Windows
 
 > Cette méthode est un exemple, il existe d'autres méthodes pour paramétrer un client Ntrip sous windows avec un récepteur F9P.
 > L'objectif est d'intégrer les binaires Ublox plutôt que du NMEA, les paramètres du F9P sont quant à eux injectés à chaque lancement pour adapter facilement la configuration en fonction du travail à effectuer (Rate, Mask,DynModel,...). Le paramétrage est également plus fin afin d'avoir un FIX RTK rapide, stable et répétable.
@@ -50,13 +50,13 @@ Il est nécessaire d'installer un virtual port COM sur windows pour récupérer 
 
 * Une fois installé ouvrir le logiciel et vérifier les ports ouverts, dans l'exemple **COM9** reçois les messages et **COM 10** diffuse le message (NMEA)
 
-![com](https://jancelin.github.io/docs-centipedeRTK/assets/images/rover_w/1.PNG)
+![com](/assets/images/rover_w/1.PNG)
 
 * Brancher l'antenne + récepteur F9P en USB
 
 * Ouvrir ensuite le [gestionnaire de périphériques](https://support.microsoft.com/fr-fr/help/4026149/windows-open-device-manager) et vérifier les ports COM, dans l'exemple **COM9** et **COM10** comme précédemment expliqué et **COM7** le récepteur F9P en USB.
 
-![com](https://jancelin.github.io/docs-centipedeRTK/assets/images/rover_w/2.PNG)
+![com](/assets/images/rover_w/2.PNG)
 
 > Repérez bien ces 3 Ports COM, il est indispensable de bien les identifier pour la suite du paramétrage en les adaptant à votre configuration, dans l'exemple:
 > * **COM7**: Entrée USB de l'antenne GNSS
@@ -70,9 +70,9 @@ Il est nécessaire d'installer un virtual port COM sur windows pour récupérer 
 
 * Télécharger la dernière version de [RTKlib version Rtkexplorer demo5](http://rtkexplorer.com/downloads/rtklib-code/)
 * le décompresser dans le dossier de son choix.
-* Ouvrir RTKNavi 
+* Ouvrir RTKNavi
 
-![RTKnavi](https://jancelin.github.io/docs-centipedeRTK/assets/images/rover_w/3.PNG)
+![RTKnavi](/assets/images/rover_w/3.PNG)
 
 * Télécharger ce [fichier de paramétrage](https://raw.githubusercontent.com/jancelin/docs-centipedeRTK/master/assets/param_rtklib/RTKlib_windows.conf)
 * cliquer sur **option ...**
@@ -80,18 +80,18 @@ Il est nécessaire d'installer un virtual port COM sur windows pour récupérer 
 
 > Permet de paramétrer automatiquement certains paramètres de RTkLIb
 
-![RTKnavi](https://jancelin.github.io/docs-centipedeRTK/assets/images/rover_w/a1.PNG)
+![RTKnavi](/assets/images/rover_w/a1.PNG)
 
 * Cliquer sur le **I** en haut à droite
 * cliquer sur **ROVER** > **Opt**
 
-![RTKnavi](https://jancelin.github.io/docs-centipedeRTK/assets/images/rover_w/4.PNG)
+![RTKnavi](/assets/images/rover_w/4.PNG)
 
 * Modifier si besoin le Port **COM7** (Entrée USB de l'antenne GNSS) en fonction de votre paramétrage.
 * Télécharger ce [fichier de paramétrage](https://raw.githubusercontent.com/jancelin/docs-centipedeRTK/master/assets/param_rtklib/ZED-F9P.cmd)
 * cliquer sur **ROVER** > **Cmd**
 
-![RTKnavi](https://jancelin.github.io/docs-centipedeRTK/assets/images/rover_w/a1.PNG)
+![RTKnavi](/assets/images/rover_w/a1.PNG)
 
 * Cliquer sur **LOAD** et choisir le dernier [fichier téléchargé](https://raw.githubusercontent.com/jancelin/docs-centipedeRTK/master/assets/param_rtklib/ZED-F9P.cmd)
 * Cocher **Commands at startup**
@@ -99,17 +99,17 @@ Il est nécessaire d'installer un virtual port COM sur windows pour récupérer 
 > Permet de charger des paramètres  injectés au module F9P à chaque démarrage
 
 * Cliquer sur **Base Staion** > **Opt**
-* Modifier le Mountpoint sur la base [Centipede](https://centipede.fr) la plus proche de vous. 
+* Modifier le Mountpoint sur la base [Centipede](https://centipede.fr) la plus proche de vous.
 
-> Si vous n'êtes pas couverts par une Base CentipedeRTK vous pouvez en fabriquer une [ici](https://jancelin.github.io/docs-centipedeRTK/3_Materiels.html).
+> Si vous n'êtes pas couverts par une Base CentipedeRTK vous pouvez en fabriquer une [ici](/docs/base/).
 
-![RTKnavi](https://jancelin.github.io/docs-centipedeRTK/assets/images/rover_w/5.PNG)
+![RTKnavi](/assets/images/rover_w/5.PNG)
 
 * Cliquer sur le **O** en haut à droite
 * cliquer sur **Solution** > **Option**
 * Modifier si besoin le Port **COM9** (Sortie NMEA de RTKlib) en fonction de votre paramétrage.
 
-![RTKnavi](https://jancelin.github.io/docs-centipedeRTK/assets/images/rover_w/6.PNG)
+![RTKnavi](/assets/images/rover_w/6.PNG)
 
 * Faire **EXIT** et ré-ouvrir RTKNavi pour l'enregistrement des paramètres.
 
@@ -122,7 +122,7 @@ Il est nécessaire d'installer un virtual port COM sur windows pour récupérer 
 
 * Si ce premier test apporte une solution en **FIX** passons à la suite.
 
-![RTKnavi](https://jancelin.github.io/docs-centipedeRTK/assets/images/rover_w/9.PNG)
+![RTKnavi](/assets/images/rover_w/9.PNG)
 
 ### 5.2.4 Connexion pour [AgOpenGps](https://agopengps.discourse.group/)
 
@@ -132,11 +132,4 @@ Il est nécessaire d'installer un virtual port COM sur windows pour récupérer 
 
 * Cliquer sur **Connexion**
 
-![RTKnavi](https://jancelin.github.io/docs-centipedeRTK/assets/images/rover_w/11.PNG)
-
-
-
-
-
-
-
+![RTKnavi](/assets/images/rover_w/11.PNG)

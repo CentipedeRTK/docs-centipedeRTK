@@ -32,9 +32,9 @@ nav_order: 1
 
 * Télécharger la dernière version de [RTKlib version Rtkexplorer demo5](http://rtkexplorer.com/downloads/rtklib-code/)
 * le décompresser dans le dossier de son choix.
-* Ouvrir RTKNavi 
+* Ouvrir RTKNavi
 
-![RTKnavi](https://jancelin.github.io/docs-centipedeRTK/assets/images/rover_w/3.PNG)
+![RTKnavi](/assets/images/rover_w/3.PNG)
 
 * Télécharger ce [fichier de paramétrage](https://raw.githubusercontent.com/jancelin/docs-centipedeRTK/master/assets/param_rtklib/RTKlib_windows.conf)
 * cliquer sur **option ...**
@@ -42,18 +42,18 @@ nav_order: 1
 
 > Permet de paramétrer automatiquement certains paramètres de RTkLIb
 
-![RTKnavi](https://jancelin.github.io/docs-centipedeRTK/assets/images/rover_w/a2.PNG)
+![RTKnavi](/assets/images/rover_w/a2.PNG)
 
 * Cliquer sur le **I** en haut à droite
 * cliquer sur **ROVER** > **Opt**
 
-![RTKnavi](https://jancelin.github.io/docs-centipedeRTK/assets/images/rover_w/4.PNG)
+![RTKnavi](/assets/images/rover_w/4.PNG)
 
 * Modifier si besoin le Port **COM7** (Entrée USB de l'antenne GNSS) en fonction de votre paramétrage.
 * Télécharger ce [fichier de paramétrage](https://raw.githubusercontent.com/jancelin/docs-centipedeRTK/master/assets/param_rtklib/ZED-F9P.cmd)
 * cliquer sur **ROVER** > **Cmd**
 
-![RTKnavi](https://jancelin.github.io/docs-centipedeRTK/assets/images/rover_w/a1.PNG)
+![RTKnavi](/assets/images/rover_w/a1.PNG)
 
 * Cliquer sur **LOAD** et choisir le dernier [fichier téléchargé](https://raw.githubusercontent.com/jancelin/docs-centipedeRTK/master/assets/param_rtklib/ZED-F9P.cmd)
 * Cocher **Commands at startup**
@@ -61,17 +61,17 @@ nav_order: 1
 > Permet de charger des paramètres  injectés au module F9P à chaque démarrage
 
 * Cliquer sur **Base Staion** > **Opt**
-* Modifier le Mountpoint sur la base [Centipede](https://centipede.fr) la plus proche de vous. 
+* Modifier le Mountpoint sur la base [Centipede](https://centipede.fr) la plus proche de vous.
 
-> Si vous n'êtes pas couverts par une Base CentipedeRTK vous pouvez en fabriquer une [ici](https://jancelin.github.io/docs-centipedeRTK/3_Materiels.html).
+> Si vous n'êtes pas couverts par une Base CentipedeRTK vous pouvez en fabriquer une [ici](/docs/base/).
 
-![RTKnavi](https://jancelin.github.io/docs-centipedeRTK/assets/images/rover_w/5.PNG)
+![RTKnavi](/assets/images/rover_w/5.PNG)
 
 * Cliquer sur le **O** en haut à droite
 * cliquer sur **Solution** > **Option**
 * Modifier si besoin le Port **COM9** (Sortie NMEA de RTKlib) en fonction de votre paramétrage.
 
-![RTKnavi](https://jancelin.github.io/docs-centipedeRTK/assets/images/rover_w/6.PNG)
+![RTKnavi](/assets/images/rover_w/6.PNG)
 
 * Faire **EXIT** et ré-ouvrir RTKNavi pour l'enregistrement des paramètres.
 
@@ -82,7 +82,4 @@ nav_order: 1
 
 > L'antenne de réception doit bien sûr être en extérieur dans un milieu dégagé
 
-![RTKnavi](https://jancelin.github.io/docs-centipedeRTK/assets/images/rover_w/9.PNG)
-
-
-
+![RTKnavi](/assets/images/rover_w/9.PNG)

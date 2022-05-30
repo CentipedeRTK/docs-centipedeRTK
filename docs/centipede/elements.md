@@ -5,19 +5,19 @@ parent: Le Reseau Centipede RTK
 nav_order: 3
 ---
 
-![elements](https://jancelin.github.io/docs-centipedeRTK/assets/mindMap/BaseRtk.jpg)
+![elements](/assets/mindMap/BaseRtk.jpg)
 
-![elements](https://jancelin.github.io/docs-centipedeRTK/assets/mindMap/rover_pc.jpg)
+![elements](/assets/mindMap/rover_pc.jpg)
 
-![elements](https://jancelin.github.io/docs-centipedeRTK/assets/mindMap/centipede_radio.png)
+![elements](/assets/mindMap/centipede_radio.png)
 
-![elements](https://jancelin.github.io/docs-centipedeRTK/assets/mindMap/rover_smartphone.jpg)
+![elements](/assets/mindMap/rover_smartphone.jpg)
 
-![elements](https://jancelin.github.io/docs-centipedeRTK/assets/mindMap/centipede_tcp.png)
+![elements](/assets/mindMap/centipede_tcp.png)
 
-![elements](https://jancelin.github.io/docs-centipedeRTK/assets/mindMap/Caster.jpg)
+![elements](/assets/mindMap/Caster.jpg)
 
-![elements](https://jancelin.github.io/docs-centipedeRTK/assets/mindMap/centipede_ntrip.png)
+![elements](/assets/mindMap/centipede_ntrip.png)
 
 
 

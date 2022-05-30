@@ -70,14 +70,14 @@ J'utilise du scratch 3M Dual-lock pour l'assemblage des composants, cela permet 
 
 * Découper des bandes scratch 3M Dual-lock à la bonne taille et les coller.
 
-![assemblage](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/assemblage1.jpg)
+![assemblage](/assets/images/montage_rover/assemblage1.jpg)
 
 * Assembler les modules
 
-![assemblage](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/assemblage2.jpg)
+![assemblage](/assets/images/montage_rover/assemblage2.jpg)
 
 * Connecter une antenne
 
-![RTKrover](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/rover_1.jpg)
+![RTKrover](/assets/images/montage_rover/rover_1.jpg)
 
-![RTKrover](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/rover_pied_2.jpg)
+![RTKrover](/assets/images/montage_rover/rover_pied_2.jpg)

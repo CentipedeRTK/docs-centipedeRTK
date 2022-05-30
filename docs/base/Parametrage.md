@@ -9,7 +9,7 @@ nav_order: 3
 
 Pour la connexion sur `http://basegnss.local` (ou l'IP du Rasperry Pi) il est nécessaire de saisir un mot de passe (`admin`), il est conseillé de le modifier par la suite.
 
-![base gnss](https://jancelin.github.io/docs-centipedeRTK/assets/images/basegnss/basegnss1.gif)
+![base gnss](/assets/images/basegnss/basegnss1.gif)
 
 La base dispose de 3 onglets.
 
@@ -29,11 +29,11 @@ C'est le service permettant de récupérer les signaux des satellites et de les 
 
 * **Base coordinates** : C'est ici que vous rentrerez la position exacte de votre base RTK après réception du rapport IGN ou post-traitement. Cette position doit être entrée sous la forme "Latitude Longitude Élevation".
 
-    ![base gnss](https://jancelin.github.io/docs-centipedeRTK/assets/images/basegnss/base_coordinates.png)
+    ![base gnss](/assets/images/basegnss/base_coordinates.png)
     
     Lorsque vous aurez enregistré ce paramètre, la position exacte sera représentée par la cible visible sur la carte (Onglet 'Status')
 
-    ![base gnss](https://jancelin.github.io/docs-centipedeRTK/assets/images/basegnss/basegnss_coord_check.png)
+    ![base gnss](/assets/images/basegnss/basegnss_coord_check.png)
     
     Si vous constatez que la position de la cible n'est pas du tout au bon endroit, alors vérifiez que vous n'avez pas inversé la latitude et la longitude, ou bien laissé un '-' devant une des coordonnées.
 
@@ -43,7 +43,7 @@ C'est le service permettant de récupérer les signaux des satellites et de les 
 
 * **Tcp port** : le port de communication de ce service.
 
-    ![base gnss](https://jancelin.github.io/docs-centipedeRTK/assets/images/basegnss/basegnss_settings1.png)
+    ![base gnss](/assets/images/basegnss/basegnss_settings1.png)
 
 #### Ntrip service
 
@@ -56,7 +56,7 @@ C'est ici que vous allez paramétrer votre base pour qu'elle soit accessible sur
 * **Rtcm messages** : Par défaut la base est configurée pour envoyer certains messages, mais vous avez la possibilité de les personnaliser et de rajouter une fréquence d'envoie (ex: 1004(15),...). une liste des messages possible est disponible [ici](https://www.use-snip.com/kb/knowledge-base/rtcm-3-message-list/?gclid=EAIaIQobChMI6NC3pcj06QIVg53VCh3T1gG8EAAYASAAEgKGD_D_BwE)
 * **Receiver options:** avec l'option par défaut ```-TADJ=1``` permet d'avoir des secondes rondes.
 
-![base gnss](https://jancelin.github.io/docs-centipedeRTK/assets/images/basegnss/basegnss_settings2.png)
+![base gnss](/assets/images/basegnss/basegnss_settings2.png)
 
 #### Rtcm server service 
 
@@ -66,7 +66,7 @@ Il est possible de se connecter directement à sa base RTK pour recevoir la tram
 * **Rtcm server messages** : explication identique au Ntrip Service
 * **Receiver options:** avec l'option par défaut ```-TADJ=1``` permet d'avoir des secondes rondes.
 
-    ![base gnss](https://jancelin.github.io/docs-centipedeRTK/assets/images/basegnss/basegnss_settings3.png)
+    ![base gnss](/assets/images/basegnss/basegnss_settings3.png)
     
 #### Rtcm serial service 
 
@@ -76,7 +76,7 @@ Il est possible de connecter un émetteur radio pour recevoir la trame de correc
 * **Rtcm server messages** : explication identique au Ntrip Service
 * **Receiver options:** avec l'option par défaut ```-TADJ=1``` permet d'avoir des secondes rondes.
 
-    ![base gnss](https://jancelin.github.io/docs-centipedeRTK/assets/images/basegnss/basegnss_settings7.png)
+    ![base gnss](/assets/images/basegnss/basegnss_settings7.png)
 
 #### File service
 
@@ -86,7 +86,7 @@ Paramétrage des fichiers de logs nécessaires, par exemple, au calcul de la pos
 
 **Ensuite, si vous n'avez pas l'utilité de faire du post-traitement, il est recommandé, afin d'améliorer la durée de vie de la carte SD, de couper le service**.
 
-![base gnss](https://jancelin.github.io/docs-centipedeRTK/assets/images/basegnss/basegnss_settings4.png)
+![base gnss](/assets/images/basegnss/basegnss_settings4.png)
 
 #### System Settings
 
@@ -95,7 +95,7 @@ Paramétrage des fichiers de logs nécessaires, par exemple, au calcul de la pos
 * **Diagnostic**: affiche une nouvelle page web avec l'état des services.
 * **Power** : permet de redémarrer(Reboot) et d'éteindre(Shutdown) votre base RTK.
 
-    ![base gnss](https://jancelin.github.io/docs-centipedeRTK/assets/images/basegnss/basegnss_settings5.png)
+    ![base gnss](/assets/images/basegnss/basegnss_settings5.png)
 
 ### LOGS
  
@@ -105,7 +105,7 @@ Paramétrage des fichiers de logs nécessaires, par exemple, au calcul de la pos
 * Pour lancer une conversion RINEX d'un fichier .zip attendre 24h entières soit 1 journée complète. Par exemple, si vous démarrez vos logs le 18/07/2020 à 15h30 attendez jusqu'au 20/07/2020 matin.
 * Les fichiers convertis en RINEX sont également accessibles dans ce tableau au format **AAAA-MM-JJ-MP.20o**
   
-    ![base gnss](https://jancelin.github.io/docs-centipedeRTK/assets/images/basegnss/basegnss_settings6.png)
+    ![base gnss](/assets/images/basegnss/basegnss_settings6.png)
 
 Passons maintenant au calcul du [positionnement de la base](positionnement){: .btn }
 

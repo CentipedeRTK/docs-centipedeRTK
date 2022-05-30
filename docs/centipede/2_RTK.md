@@ -7,7 +7,7 @@ nav_order: 2
 
 ## Le GNSS RTK c'est quoi?
 
-![sketch](https://jancelin.github.io/docs-centipedeRTK/assets/images/index/1.jpg)
+![sketch](/assets/images/index/1.jpg)
 
 > "La Cinématique temps réel (Real Time Kinematic, en anglais ou RTK) est une technique de positionnement par satellite basée sur l'utilisation de mesures de la phase des ondes porteuses des signaux émis par les systèmes GPS, GLONASS ou Galileo. Une station de référence fournit des corrections en temps réel permettant d'atteindre une précision de l'ordre du centimètre.
 
@@ -46,7 +46,7 @@ nav_order: 2
 
 [PDF-   Quels sont les usages actuels de la géolocalisation pour l’agriculture française?](https://www.agrotic.org/wp-content/uploads/2019/02/7_190423_SeminaireAgroTIC_Observatoire.pdf)
 
-[PDF-   GNSS Precise Positioning and RTKLIB](https://jancelin.github.io/docs-centipedeRTK/assets/images/index/15a_PPP_RTKLIB.pdf)
+[PDF-   GNSS Precise Positioning and RTKLIB](/assets/images/index/15a_PPP_RTKLIB.pdf)
 
 [PDF-   Cost Effective Precise Positioning with GNSS](https://www.fig.net/resources/publications/figpub/pub74/Figpub74.pdf)
 

@@ -38,7 +38,7 @@ L'injection permet de paramétrer le récepteur F9P pour une utilisation avec RT
 
 * Télécharger/créer le fichier de configuration: [F9P_Rover_USB_UART1-115200Bd_FREQ-800ms_GPS-GLO-GAL-BEI_Lefebure-SWMaps-RTKGP+.txt](https://raw.githubusercontent.com/jancelin/docs-centipedeRTK/master/assets/param_rtklib/F9P_Rover_USB_UART1-115200Bd_FREQ-800ms_GPS-GLO-GAL-BEI_Lefebure-SWMaps-RTKGP+.txt)
 
-![arduino](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/u-center.gif)
+![arduino](/assets/images/montage_rover/u-center.gif)
 
 * Aller dans **Tools** > **Receiver Configuration**
 * Sélectionner u-blox Generation 9
@@ -80,7 +80,7 @@ Connecter l'arduino au HC-05 avec les câbles:
 * TX pin 10
 * EN pin 9
 
-![arduino](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/arduino.jpg)
+![arduino](/assets/images/montage_rover/arduino.jpg)
 
 Connecter ensuite l'arduino au PC avec le câble USB.
 
@@ -88,7 +88,7 @@ Connecter ensuite l'arduino au PC avec le câble USB.
 
 [Télécharger le programme Arduino](https://www.arduino.cc/en/Main/Software) sur votre PC, l'installer et lancer le programme.
 
-![arduino](https://jancelin.github.io/docs-centipedeRTK/assets/images/montage_rover/arduino.gif)
+![arduino](/assets/images/montage_rover/arduino.gif)
 
 * Paramétrer le programme pour qu'il reconnaisse le matériel et la connexion :
   * Outils > Type de carte > Arduino Nano
@@ -109,10 +109,10 @@ void setup() {
 
 void loop()
 {
-  if (mySerial.available())  
+  if (mySerial.available())
   Serial.write(mySerial.read());
 
-  if (Serial.available())  
+  if (Serial.available())
   mySerial.write(Serial.read());
 }
 ```
