@@ -14,7 +14,8 @@ nav_order: 2
 
 Dans un premier temps il est nécessaire de mettre à jour le [firmware](https://fr.wikipedia.org/wiki/Firmware) de votre module GNSS F9P :
 
-* [Installer U-center](https://www.u-blox.com/en/product/u-center) (Windows seulement)
+* [Installer U-center](https://www.u-blox.com/en/product/u-center) (Windows seulement) Attention, n'installez pas U-Center 2, mais U-Center :
+![u-center](/assets/images/install/u_center_1_on_u-blox_website.png)
 
 * Update F9P firmware :
   * [Télécharger le fichier de mise à jour le plus récent](https://www.u-blox.com/en/product/zed-f9p-module?file_category=Firmware%2520Update). Au 2022-04-12 il s'agit de la version [1.30](https://content.u-blox.com/sites/default/files/UBX_F9_100_HPG130.aa1ce2137147f95bbde5532f1b495848.bin)
