@@ -11,7 +11,7 @@ nav_order: 1
 
 | Antenne John Deere Star Fire SF3000 | Antenne John Deere Star Fire SF6000 |
 |:-:|:-:|
-| ![SF3000-ModemRTK](https://user-images.githubusercontent.com/84226377/141510298-29aa7f77-cb7d-4738-87f3-4840f0ee4079.jpg)| _TODO: photo a inserer_ |
+| ![SF3000-ModemRTK](/assets/images/consoles_tracteurs/SF3000-ModemRTK.jpg)| _TODO: photo a inserer_ |
 | _SF3000, support Deluxe, Modem RTK mobile 4G LTE_ | _SF6000, Modem RTK mobile 4G LTE_ |
 
 Ce wiki a été réalisé essentiellement avec un command center 4, une antenne SF3000 en version 2.80S, entre mars 2021 (prises de vues photo) et decembre 2021 (finalisation de la rédaction avant parution en V1.0). Voir tableau de versions et bases documentaires en bas de page.
@@ -37,7 +37,7 @@ Le modem doit être préalablement configuré (via un cable ethernet) pour fonct
 ### **2) Vérifier mes licences**
 Accéder à l'écran de configuration de l'antenne (voir page 30_2 de DOC2), puis sur l'onglet **Activations**
 
-![SF3000-Principal-Activations](https://user-images.githubusercontent.com/84226377/141526421-dd9148b5-1fdc-4fe1-b8f5-01e2437d02e8.jpg)
+![SF3000-Principal-Activations](/assets/images/consoles_tracteurs/SF3000-Principal-Activations.jpg)
 _Onglet Activation d'une SF3000 sur CommandCenter 4_
 Pour que centipede fonctionne, il vous faudra les même licences que ci dessus:  SF1, SF2 ou SF3 Ready, RTK ainsi qu'une licence M-RTK  d'un an ou de 5 ans
 
@@ -45,15 +45,15 @@ Pour que centipede fonctionne, il vous faudra les même licences que ci dessus: 
 Accéder à la page StarFire RTK Mobile depuis la page de l'antenne en appuyant sur le bouton suivant depuis l'ecran de l'antenne:
 | Antenne John Deere Star Fire SF3000 | Antenne John Deere Star Fire SF6000 |
 |:-:|:-:|
-|![SF3000-Acces SF RTK Mobile-reduit](https://user-images.githubusercontent.com/84226377/142719621-f4771462-7279-445e-8b6b-46acb507286b.jpg)|![SF6000-Acces SF RTK Mobile-reduit](https://user-images.githubusercontent.com/84226377/142719632-98e3cc65-6d8f-443c-a15a-e02da1f79d27.jpg)|
+|![SF3000-Acces SF RTK Mobile-reduit](/assets/images/consoles_tracteurs/SF3000-Acces_SF_RTK_Mobile-reduit.jpg)|![SF6000-Acces SF RTK Mobile-reduit](/assets/images/consoles_tracteurs/SF6000-Acces_SF_RTK_Mobile-reduit.jpg)|
 |_icône pour accéder à la page RTK Mobile sur une SF3000_|_icône pour accéder à la page RTK Mobile sur une SF6000_|
 
-![SF3000-StarFire RTK mobile](https://user-images.githubusercontent.com/84226377/142719944-9dfe1ae7-6241-43c1-b0e2-b14185ff307e.jpg)
+![SF3000-StarFire RTK mobile](/assets/images/consoles_tracteurs/SF3000-StarFire_RTK_mobile.jpg)
 _Page StarFire RTK Mobile d'une SF3000 sur un Command Center 4_
 
 Pour configurer le port série M-RTK, Appuyer sur **Paramètres série et Message NMEA: Config**
 
-![SF3000-SF RTK Mobile - Config NMEA](https://user-images.githubusercontent.com/84226377/144566994-371430e2-eb32-4b2a-9151-01e4af906c0a.jpg)
+![SF3000-SF RTK Mobile - Config NMEA](/assets/images/consoles_tracteurs/SF3000-SF_RTK_Mobile-Config_NMEA.jpg)
 _configuration du port série / NMEA d'un modem JD LTE_
 les paramètres RS232 RTK sont **19200/8/N/1**
 les messages NMEA sont Freq sortie: **5** et GGA **coché**
@@ -63,11 +63,11 @@ les limites d'age de connexion sont Age Max **15s** et Temps init min **5**
 
 | Annuler  | Confirmer|
 |---|---|
-|![SF3000-SF RTK Mobile - Annuler](https://user-images.githubusercontent.com/84226377/142723783-1f386ad6-4b3f-4fd9-811d-8046bab1b506.jpg) | ![SF3000-SF RTK Mobile - Validation](https://user-images.githubusercontent.com/84226377/142723761-9f69b391-d807-409e-8518-6fcadf4a876b.jpg) |
+|![SF3000-SF RTK Mobile - Annuler](/assets/images/consoles_tracteurs/SF3000-SF_RTK_Mobile-Annuler.jpg) | ![SF3000-SF RTK Mobile - Validation](/assets/images/consoles_tracteurs/SF3000-SFRTKMobile-Validation.jpg) |
 
 Pour configurer la carte SIM, Appuyer sur **Modem et Reseau: Config**
 
-![SF3000-SF RTK Mobile - Passerelle](https://user-images.githubusercontent.com/84226377/141527139-94db7f8c-eb4b-4bc7-b7ca-74384fa71ce6.jpg)
+![SF3000-SF RTK Mobile - Passerelle](/assets/images/consoles_tracteurs/SF3000-SF_RTK_Mobile-Passerelle.jpg)
 _configuration de la carte SIM, pour une carte SIM Orange vendue avec une AirBox_
 
 Pour exploiter les fonctions avancées (creation d'un profil, ...), référez vous aux pages page 60A-1 et 60A-2 de DOC2.
@@ -84,13 +84,13 @@ Pour passer à la configuration des paramètres de correction (RTK), appuyer sur
 
 | Annuler  | Page précédente | Page suivante | Confirmer|
 |---|---|---|---|
-|![SF3000-SF RTK Mobile - Annuler](https://user-images.githubusercontent.com/84226377/142723783-1f386ad6-4b3f-4fd9-811d-8046bab1b506.jpg) | ![SF3000-SF RTK Mobile - Page precedente](https://user-images.githubusercontent.com/84226377/142723810-95b6fea6-99a7-4e65-a89f-1749d1194d25.jpg) |![SF3000-SF RTK Mobile - Page suivante](https://user-images.githubusercontent.com/84226377/142723738-cccea338-e658-4d13-b878-a4e1706efd67.jpg) | ![SF3000-SF RTK Mobile - Validation](https://user-images.githubusercontent.com/84226377/142723761-9f69b391-d807-409e-8518-6fcadf4a876b.jpg) |
+|![SF3000-SF RTK Mobile - Annuler](/assets/images/consoles_tracteurs/SF3000-SF_RTK_MobileAnnuler.jpg) | ![SF3000-SF RTK Mobile - Page precedente](/assets/images/consoles_tracteurs/SF3000-SF_RTK_MobilePagePrecedente.jpg) |![SF3000-SF RTK Mobile - Page suivante](/assets/images/consoles_tracteurs/SF3000-SF_RTK_MobilePageSuivante.jpg) | ![SF3000-SF RTK Mobile - Validation](/assets/images/consoles_tracteurs/SF3000-SF_RTK_MobileValidation.jpg) |
 
 ### **4) Configurer centipede**
 
 Pour afficher cet écran, suivre les instruction du 3)Configurer ma carte SIM, et appuyer sur **Page suivante**.
 
-![SF3000-SF RTK Mobile - PAra Donnee correction](https://user-images.githubusercontent.com/84226377/142723903-1b438049-16b6-41aa-8743-e252f2cb4f24.jpg)
+![SF3000-SF RTK Mobile - PAra Donnee correction](/assets/images/consoles_tracteurs/SF3000-SF_RTK_Mobile-PAraDonneeCorrection.jpg)
 _configuration sur la base SIM80 du caster centipede_
 
 Les données à rentrer sur cet écran sont:
@@ -113,7 +113,7 @@ Le "Mode Position" doit etre **M-RTK 3D**.
 L'état du modem doit être **Branché**.
 L'âge des corrections doit être de 2 secondes ou moins.
 Le chiffre des données recues doit défiler de plusieurs ko par secondes (j'ai constaté une consommation d'un peu plus de 2 Mo par heure)) 
-![SF3000-StarFire RTK mobile](https://user-images.githubusercontent.com/84226377/141526989-83fdff0a-1e99-4f48-b414-d70805f99e6b.jpg)
+![SF3000-StarFire RTK mobile](/assets/images/consoles_tracteurs/SF3000-StarFire_RTKmobile.jpg)
 
 
 documents de reference:
