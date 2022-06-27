@@ -60,9 +60,52 @@ Par mesure de prudence, s'assurer que la configuration est bien enregistrée :
 
 Le module bluetooth HC-05 est livré avec les configurations d'origine qu'il est nécessaire de modifier (notamment la vitesse de transmission de données).
 
-Il est possible de le configurer directement avec un câble série, la procédure sera bientôt disponible....
+Il est possible de le configurer directement avec un [câble série version FTDI](https://docs.centipede.fr/docs/make_rover/configuration.html#ajouter-un-module-bluetooth-hc-05-version-ftdi) ou avec un [arduino nano](https://docs.centipede.fr/docs/make_rover/configuration.html#ajouter-un-module-bluetooth-hc-05-version-arduino-nano):
 
-Pour le moment, nous allons avoir besoin de câbles jumpers pour connecter le HC-05 à l'arduino, d'un câble USB pour le relier au PC et enfin du programme Arduino installé sur le PC afin de "discuter" avec le module bluetooth HC-05.
+## Ajouter un module Bluetooth HC-05: version FTDI
+
+Le module bluetooth HC-05 est livré avec les configurations d'origine qu'il est nécessaire de modifier (notamment la vitesse de transmission de données).
+
+Nous allons avoir besoin de câbles jumpers pour connecter le HC-05 à l'arduino, d'un câble USB pour le relier au PC et enfin d'un FTDI qui fait l'intermédiaire entre le câble USB et le module BT. Vérifier que le bouton poussoir du FTDI est bien en mode '5V'.
+
+|Matériel|Prix HT|
+|--------|----|
+|[FTDI + câbles Femelle-Femelle](https://www.amazon.fr/FT232RL-Serial-Arduino-C%C3%A2ble-Modulo/dp/B075XK737D/ref=sr_1_10?keywords=Ftdi+Usb&qid=1652798495&sr=8-10)|5€|
+|[câble USB A > USB mini-B](https://fr.rs-online.com/web/p/cables-usb/1862803/)|2.6€|
+
+### Connexion du FTDI au module bluetooth HC-05
+
+Connecter le FTDI au HC-05 avec les 4 câbles:
+
+* **HC-05  <->  FTDI**
+* VCC  <->  5V _(cable Violet sur la photo)_
+* GND  <->  GND _(cable Vert sur la photo)_
+* TX  <->  RX _(cable Blanc sur la photo)_
+* RX  <->  TX _(cable Gris sur la photo)_
+
+![FTDI](/assets/images/montage_rover/FTDI.jpg)
+
+Connecter ensuite l'arduino au PC avec le câble USB tout en appuyant sur le bouton du module bluetooth. Si la fréquence de clignotement est environ 3sec, le module est bien prêt à être configuré. S'il clignote plusieurs fois par secondes, il n'est pas en mode 'configuration' : il faut déconnecter et reconnecter.
+
+### Paramétrage du module HC-05 avec le logiciel Arduino
+
+[Télécharger le programme Arduino](https://www.arduino.cc/en/Main/Software) sur votre PC, l'installer et lancer le programme.
+
+* Appuyer sur la flèche en haut à gauche pour téléverser le programme dans l'arduino.
+* Ouvrir le **Moniteur Série** (loupe en haut à droite de la fenêtre) et régler les 2 menus déroulants sur :
+  * **les deux, NL et CR**
+  * **9600 bauds**
+* Écrire la commande **AT** et appuyer sur **envoyer** : le moniteur doit renvoyer **OK**, cela veut dire que vous communiquez bien avec le module Bluetooth.
+* Écrire la commande **AT+UART=115200,1,0** et appuyer sur **envoyer** : le moniteur doit renvoyer **OK**, la vitesse de transmission a été modifiée.
+* Écrire la commande **AT+NAME=CENTIPEDE** et appuyer sur **envoyer** : le moniteur doit renvoyer **OK**, le nom du module a été changé ( vous pouvez vérifier sur un smartphone en faisant un scan bluetooth).
+
+Le code PIN du bluetooth est **1234** par défaut, vous pouvez le modifier en entrant la commande **AT+PSWD="5678"** + **envoyer** (dans cet exemple le code sera 5678).
+
+> Plus d'informations sur les options de paramétrage [ici](https://retroetgeek.com/geek/arduino/configuration-du-module-hc-05-pour-arduino/)
+
+## Ajouter un module Bluetooth HC-05: version arduino nano
+
+Nous allons avoir besoin de câbles jumpers pour connecter le HC-05 à l'arduino, d'un câble USB pour le relier au PC et enfin du programme Arduino installé sur le PC afin de "discuter" avec le module bluetooth HC-05.
 
 |Matériel|Prix HT|
 |--------|----|
@@ -70,7 +113,7 @@ Pour le moment, nous allons avoir besoin de câbles jumpers pour connecter le HC
 |[câbles jumpers femelles](https://fr.rs-online.com/web/p/kit-de-cables-dupont/7916450/)|3€|
 |[câble USB A > USB mini-B](https://fr.rs-online.com/web/p/cables-usb/1862803/)|2.6€|
 
-### Connexion de l'arduino au module bluetooth HC-05
+
 
 Connecter l'arduino au HC-05 avec les câbles:
 
@@ -84,7 +127,7 @@ Connecter l'arduino au HC-05 avec les câbles:
 
 Connecter ensuite l'arduino au PC avec le câble USB tout en appuyant sur le bouton du module bluetooth. Si la fréquence de clignotement est environ 3sec, le module est bien prêt à être configuré. S'il clignote plusieurs fois par secondes, il n'est pas en mode 'configuration'.
 
-### Arduino
+### Paramétrage du module HC-05 avec le logiciel Arduino
 
 [Télécharger le programme Arduino](https://www.arduino.cc/en/Main/Software) sur votre PC, l'installer et lancer le programme.
 
@@ -126,49 +169,6 @@ void loop()
 * Écrire la commande **AT+NAME=CENTIPEDE** et appuyer sur **envoyer** : le moniteur doit renvoyer **OK**, le nom du module a été changé ( vous pouvez vérifier sur un smartphone en faisant un scan bluetooth).
 
 Le code PIN du bluetooth est **1234** par défaut, vous pouvez le modifier en entrant la commande **AT+PSWD=5678** + **envoyer** (dans cet exemple le code sera 5678).
-
-> Plus d'informations sur les options de paramétrage [ici](https://retroetgeek.com/geek/arduino/configuration-du-module-hc-05-pour-arduino/)
-
-Une fois cette étape terminée, vous pouvez débrancher le module et passer à l'assemblage.
-
-## Ajouter un module Bluetooth : version FTDI
-
-Le module bluetooth HC-05 est livré avec les configurations d'origine qu'il est nécessaire de modifier (notamment la vitesse de transmission de données).
-
-Nous allons avoir besoin de câbles jumpers pour connecter le HC-05 à l'arduino, d'un câble USB pour le relier au PC et enfin d'un FTDI qui fait l'intermédiaire entre le câble USB et le module BT. Vérifier que le bouton poussoir du FTDI est bien en mode '5V'.
-
-|Matériel|Prix HT|
-|--------|----|
-|[FTDI + câbles Femelle-Femelle](https://www.amazon.fr/FT232RL-Serial-Arduino-C%C3%A2ble-Modulo/dp/B075XK737D/ref=sr_1_10?keywords=Ftdi+Usb&qid=1652798495&sr=8-10)|5€|
-|[câble USB A > USB mini-B](https://fr.rs-online.com/web/p/cables-usb/1862803/)|2.6€|
-
-### Connexion du FTDI au module bluetooth HC-05
-
-Connecter le FTDI au HC-05 avec les 4 câbles:
-
-* **HC-05  <->  FTDI**
-* VCC  <->  5V _(cable Violet sur la photo)_
-* GND  <->  GND _(cable Vert sur la photo)_
-* TX  <->  RX _(cable Blanc sur la photo)_
-* RX  <->  TX _(cable Gris sur la photo)_
-
-![photo_2022-05-17_16-15-25 (2)](https://user-images.githubusercontent.com/24956276/168840816-4d38b3ed-2c9d-4a6d-8ac0-59f5bd3b2300.jpg)
-
-Connecter ensuite l'arduino au PC avec le câble USB tout en appuyant sur le bouton du module bluetooth. Si la fréquence de clignotement est environ 3sec, le module est bien prêt à être configuré. S'il clignote plusieurs fois par secondes, il n'est pas en mode 'configuration' : il faut déconnecter et reconnecter.
-
-### Arduino
-
-[Télécharger le programme Arduino](https://www.arduino.cc/en/Main/Software) sur votre PC, l'installer et lancer le programme.
-
-* Appuyer sur la flèche en haut à gauche pour téléverser le programme dans l'arduino.
-* Ouvrir le **Moniteur Série** (loupe en haut à droite de la fenêtre) et régler les 2 menus déroulants sur :
-  * **les deux, NL et CR**
-  * **9600 bauds**
-* Écrire la commande **AT** et appuyer sur **envoyer** : le moniteur doit renvoyer **OK**, cela veut dire que vous communiquez bien avec le module Bluetooth.
-* Écrire la commande **AT+UART=115200,1,0** et appuyer sur **envoyer** : le moniteur doit renvoyer **OK**, la vitesse de transmission a été modifiée.
-* Écrire la commande **AT+NAME=CENTIPEDE** et appuyer sur **envoyer** : le moniteur doit renvoyer **OK**, le nom du module a été changé ( vous pouvez vérifier sur un smartphone en faisant un scan bluetooth).
-
-Le code PIN du bluetooth est **1234** par défaut, vous pouvez le modifier en entrant la commande **AT+PSWD="5678"** + **envoyer** (dans cet exemple le code sera 5678).
 
 > Plus d'informations sur les options de paramétrage [ici](https://retroetgeek.com/geek/arduino/configuration-du-module-hc-05-pour-arduino/)
 
