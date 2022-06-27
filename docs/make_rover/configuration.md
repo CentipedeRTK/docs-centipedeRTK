@@ -85,7 +85,7 @@ Connecter le FTDI au HC-05 avec les 4 câbles:
 
 ![FTDI](/assets/images/montage_rover/FTDI.jpg)
 
-Connecter ensuite l'arduino au PC avec le câble USB tout en appuyant sur le bouton du module bluetooth. Si la fréquence de clignotement est environ 3sec, le module est bien prêt à être configuré. S'il clignote plusieurs fois par secondes, il n'est pas en mode 'configuration' : il faut déconnecter et reconnecter.
+Connecter ensuite le FDTI au PC avec le câble USB tout en appuyant sur le bouton du module bluetooth. Si la fréquence de clignotement est environ 3sec, le module est bien prêt à être configuré. S'il clignote plusieurs fois par secondes, il n'est pas en mode 'configuration' : il faut déconnecter et reconnecter.
 
 ### Paramétrage du module HC-05 avec le logiciel Arduino
 
