@@ -21,6 +21,8 @@ Il est possible d'enregistrer plusieurs profils d'utilisation en fonction de vos
 
 ![Lefebure ntrip client](/assets/images/montage_rover/lefebure.gif)
 
+![Tuto utilisation avec un Rover F9P et Centipede](https://www.agrotic.org/wp-content/uploads/2019/10/Utiliser-un-Rover-RTK-Centipede-sur-Android-avec-Input-et-Lefebure.docx-1.pdf)
+
 ## Bluetooth GNSS (Open-Source)
 
 ![Bluetooth gnss](https://play-lh.googleusercontent.com/dLnImcx6IPTAN2pCbtBtoh5QDTuENf7hOsImlCxTlAAlmmR6OplAwOfcyeHaXaPoVaU=s180)
