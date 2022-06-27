@@ -71,22 +71,22 @@ Il faudra que le smartphone (connecté en bluetooth à l'antenne) soit connecté
 
 * Ajout du contact GNSS (Paramètres > Connexions > Contacts GNSS > Nouveau)
 
-![contactGNSS](https://github.com/Thibtib51/help_-jancelin_docs-centipedeRTK-/blob/d6d8480173465ec42fec47280da95aed73d0a8f3/Screenshot_2022-04-15-10-44-34.png)
+![Spectra contactGNSS](/assets/images/consoles_rtk/SpectraContactGNSS.png)
 
 * Ajout Type de levé (Paramètres > Types de levé > Nouveau)
 * Mettre un nom (au choix) et mettre le Type de style sur "GNSS" puis Accepter
 * Dans Option du mobile
-![Option du mobile partie 1](https://github.com/Thibtib51/help_-jancelin_docs-centipedeRTK-/blob/d6d8480173465ec42fec47280da95aed73d0a8f3/Screenshot_2022-04-15-10-54-33.png)
-![Option du mobile partie 2](https://github.com/Thibtib51/help_-jancelin_docs-centipedeRTK-/blob/d6d8480173465ec42fec47280da95aed73d0a8f3/Screenshot_2022-04-15-10-54-53.png)
+![Spectra Option du mobile partie 1](/assets/images/consoles_rtk/SpectraOptiondumobilepartie1.png)
+![Spectra Option du mobile partie 2](/assets/images/consoles_rtk/SpectraOptiondumobilepartie2.png)
 
 *Dans Liaison de données mobile
-![Liaison de données mobile](https://github.com/Thibtib51/help_-jancelin_docs-centipedeRTK-/blob/d6d8480173465ec42fec47280da95aed73d0a8f3/Screenshot_2022-04-15-10-55-27.png) 
+![Spectra Liaison de données mobile](/assets/images/consoles_rtk/SpectraLiaisondedonneesmobile.png) 
 
 * Lancer une mesure (Topographie Générale > Mesurer > Choisir le nom inscrit au Type de levé
 * Choix de la base Centipede
-![Choix de la base](https://github.com/Thibtib51/help_-jancelin_docs-centipedeRTK-/blob/d6d8480173465ec42fec47280da95aed73d0a8f3/Screenshot_2022-04-15-11-09-10.png)
+![Spectra Choix de la base](/assets/images/consoles_rtk/SpectraChoixdelabase.png)
 * Résultat
-![Résultat](https://github.com/Thibtib51/help_-jancelin_docs-centipedeRTK-/blob/66f99124219f9ddaaa9df1362caf3cb6d44d1601/Screenshot_2022-04-15-11-28-40.png)
+![Spectra Résultat](/assets/images/consoles_rtk/Spectra_Resultat.png)
 
 
 
