@@ -76,16 +76,21 @@ Il faudra que le smartphone (connecté en bluetooth à l'antenne) soit connecté
 * Ajout Type de levé (Paramètres > Types de levé > Nouveau)
 * Mettre un nom (au choix) et mettre le Type de style sur "GNSS" puis Accepter
 * Dans Option du mobile
+
 ![Spectra Option du mobile partie 1](/assets/images/consoles_rtk/SpectraOptiondumobilepartie1.png)
 ![Spectra Option du mobile partie 2](/assets/images/consoles_rtk/SpectraOptiondumobilepartie2.png)
 
 *Dans Liaison de données mobile
+
 ![Spectra Liaison de données mobile](/assets/images/consoles_rtk/SpectraLiaisondedonneesmobile.png) 
 
-* Lancer une mesure (Topographie Générale > Mesurer > Choisir le nom inscrit au Type de levé
+* Lancer une mesure: Topographie Générale > Mesurer > Choisir le nom inscrit au Type de levé
 * Choix de la base Centipede
+
 ![Spectra Choix de la base](/assets/images/consoles_rtk/SpectraChoixdelabase.png)
+
 * Résultat
+
 ![Spectra Résultat](/assets/images/consoles_rtk/Spectra_Resultat.png)
 
 
