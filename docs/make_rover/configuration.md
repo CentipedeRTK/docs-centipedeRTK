@@ -125,7 +125,7 @@ void loop()
 * Écrire la commande **AT+UART=115200,1,0** et appuyer sur **envoyer** : le moniteur doit renvoyer **OK**, la vitesse de transmission a été modifiée.
 * Écrire la commande **AT+NAME=CENTIPEDE** et appuyer sur **envoyer** : le moniteur doit renvoyer **OK**, le nom du module a été changé ( vous pouvez vérifier sur un smartphone en faisant un scan bluetooth).
 
-Le code PIN du bluetooth est **1234** par défaut, vous pouvez le modifier en entrant la commande **AT+PSWD=5678** + **envoyer** (dans cet exemple le code sera 5678).
+Le code PIN du bluetooth est **1234** par défaut, vous pouvez le modifier en entrant la commande **AT+PSWD="5678"** + **envoyer** (dans cet exemple le code sera 5678).
 
 > Plus d'informations sur les options de paramétrage [ici](https://retroetgeek.com/geek/arduino/configuration-du-module-hc-05-pour-arduino/)
 
