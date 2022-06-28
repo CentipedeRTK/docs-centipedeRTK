@@ -37,7 +37,7 @@ Dans un premier temps il est nécessaire de mettre à jour le [firmware](https:/
 ### 2. Télécharger l'image pour Raspberry Pi / Orange Pi Zero
 
 Télécharger depuis votre ordinateur l'image RTKBase pour votre carte :
- - Raspberry Pi (~ 560 Mo) : [BaseGNSS-RPi-2.3.4](https://github.com/jancelin/pi-gen_RTKbase/releases/download/BaseGNSS-RPi-2.3.4/RTKBaseGNSS_2_3_4.zip).
+ - Raspberry Pi (~ 560 Mo) : [BaseGNSS-RPi-2.3.4](https://s3.bazile.io/basegnss/image_2022-06-14-RTKBaseGNSS.zip).
  - Orange Pi Zero : [BaseGNSS-Opi-Zero](https://github.com/Stefal/build/releases/download/v2.3.4/Armbian_22.02.0-trunk_Orangepizero_bullseye_current_5.15.32_minimal.img.zip)
 
 **Attention**, ne pas copier directement l'image Base_GNSS_X.X.X.zip sur la carte micro SD !!!
