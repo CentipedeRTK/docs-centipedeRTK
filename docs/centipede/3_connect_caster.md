@@ -13,4 +13,4 @@ nav_order: 4
     * Mdp: centipede
 * Format: RTCM3
 
-> Limite de connexion: 1 par IP
+> Limite de connexion: un matériel/ntrip client par IP
