@@ -12,3 +12,5 @@ nav_order: 4
     * Login: centipede
     * Mdp: centipede
 * Format: RTCM3
+
+> Limite de connexion: 1 par IP
