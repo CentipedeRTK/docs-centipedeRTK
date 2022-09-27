@@ -36,21 +36,23 @@ Il est conseillé d'utiliser du filament en [PETG](https://prusament.com/fr/mate
 
 La disponibilité des composants chez les fournisseurs peut évoluer voir disparaître mais ils ont des dimensions assez standards. Assurez d'avoir les mêmes dimensions si vous en trouvez ailleurs, sinon modifier le modèle d'impression 3D.
 
-|matériel|ref|prix|
-|---|---|---|
-|[Batterie LIPo 3.7v 2000mAh](https://boutique.semageek.com/fr/533-batterie-lithium-ion-polymere-37v-2000mah-3002958281613.html)|ADA 2011|18€|
-|[PowerBoost 1000 Charger 1A](https://boutique.semageek.com/fr/1405-powerboost-1000-charger-rechargeable-5v-lipo-usb-boost-1a-3009227033751.html?search_query=PowerBoost+1000+Charger+-+Rechargeable+5V+Lipo+USB+Boost&results=113)|ADA 2465|24€|
-|[micro interrupteur à glissière 3.7mmX8.5mmX3.5mm](https://www.amazon.fr/gp/product/B08L6FMV84/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1) (boite de 150)||10€|
-|[DA233 multi-band GNSS Antenna](https://store-drotek.com/925-da233.html)|0925|70€|
-|[DP0601 RTK GNSS (XL F9P)](https://store-drotek.com/891-rtk-zed-f9p-gnss.html)| 0891B08A| 180€|
-|[Adaptateur USB C vers USB Micro B](https://www.amazon.fr/GeekerChip-Pi%C3%A8ces-Adaptateur-Femelle-Galaxy/dp/B08F9S9H4K/ref=psdc_2908498031_t3_B08WM1ZFZR)||1€|
-|[Bluetooth HC-05](https://www.amazon.fr/gp/product/B07BHRG9KB/ref=ppx_yo_dt_b_asin_title_o04_s01?ie=UTF8&psc=1)||5,6€|
-|[SMA Mâle vers SMA Femelle Coude 135° 45°](https://www.amazon.fr/WE-WHLL-connecteur-Adaptateur-biseaut%C3%A9-Lunettes/dp/B08QCDL774/ref=sr_1_10?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=OM175088RFS6&keywords=SMA+M%C3%A2le+SMA+Femelle+45%C2%B0&qid=1635941613&sprefix=sma+m%C3%A2le+sma+femelle+45+%2Caps%2C74&sr=8-10)||3,5€|
-|[8 Vis à métaux M2 tête Cylindrique Pozidriv inox 6mm](https://fr.rs-online.com/web/p/vis-a-metaux/0528693) (paquet de 100)|528-693| 6.7€|
-|[4 Écrous hexagonal M3, Acier Inoxydable](https://fr.rs-online.com/web/p/ecrous-hexagonaux/189563) (paquet de 100)|189-563 |7.8€ |
-|[4 Vis à métaux M3 tête Cylindrique fendue inox 20mm](https://fr.rs-online.com/web/p/vis-a-metaux/0526984)) (paquet de 100) |526-984|7€ |
+**Prix et référence à jour au 20/09/2022**
+
+|matériel|ref|prix TTC|frais de port (FR)|
+|---|---|---|---|
+|[Batterie LIPo 3.7v 2000mAh](https://boutique.semageek.com/fr/533-batterie-lithium-ion-polymere-37v-2000mah-3002958281613.html)|BAT0005|19.20€||
+|[PowerBoost 1000 Charger 1A](https://boutique.semageek.com/fr/1405-powerboost-1000-charger-rechargeable-5v-lipo-usb-boost-1a-3009227033751.html?search_query=PowerBoost+1000+Charger+-+Rechargeable+5V+Lipo+USB+Boost&results=113)|ADA 2465|23.94€|5.45€|
+|[micro interrupteur à glissière 3.7mmX8.5mmX3.5mm](https://www.amazon.fr/gp/product/B08L6FMV84/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1) (boite de 150)||8.99€||
+|[DA233 multi-band GNSS Antenna](https://store-drotek.com/925-da233.html)|0925|83.88€|5.00€|
+|[DP0601 RTK GNSS (XL F9P)](https://store-drotek.com/891-rtk-zed-f9p-gnss.html)|0891B08A|203.88€|10.00€|
+|[Adaptateur USB C vers USB Micro B](https://www.amazon.fr/GeekerChip-Pi%C3%A8ces-Adaptateur-Femelle-Galaxy/dp/B08F9S9H4K/ref=psdc_2908498031_t3_B08WM1ZFZR)(boite de 6)||5.82€||
+|[Bluetooth HC-05](https://www.amazon.fr/gp/product/B07BHRG9KB/ref=ppx_yo_dt_b_asin_title_o04_s01?ie=UTF8&psc=1)||9.20€||
+|[SMA Mâle vers SMA Femelle Coude 135° 45°](https://www.amazon.fr/WE-WHLL-connecteur-Adaptateur-biseaut%C3%A9-Lunettes/dp/B08QCDL774/ref=sr_1_10?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=OM175088RFS6&keywords=SMA+M%C3%A2le+SMA+Femelle+45%C2%B0&qid=1635941613&sprefix=sma+m%C3%A2le+sma+femelle+45+%2Caps%2C74&sr=8-10)(par 2)||9.98€|7.50€|
+|[8 Vis à métaux M2 tête Cylindrique Pozidriv inox 6mm](https://fr.rs-online.com/web/p/vis-a-metaux/0528693) (paquet de 100)|528-693| 8.26€||
+|[4 Écrous hexagonal M3, Acier Inoxydable](https://fr.rs-online.com/web/p/ecrous-hexagonaux/189563) (paquet de 100)|189-563 |10.81€ ||
+|[4 Vis à métaux M3 tête Cylindrique fendue inox 20mm](https://fr.rs-online.com/web/p/vis-a-metaux/0526984)) (paquet de 100) |526-984|10.25€ |10.20€|
 | | | |
-|Total environ| |310€|
+|Total TTC environ| |394€| 38.15€|
 
 ![montage rover 5.1](/assets/images/montage_rover/2-rover_v5-1.jpg)
 
