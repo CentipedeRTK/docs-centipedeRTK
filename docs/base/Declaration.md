@@ -7,7 +7,7 @@ nav_order: 6
 
 ## Déclaration sur le Réseau Centipede
 
-Enfin, envoyer un courriel à [**contact@centipede.fr**](contact@centipede.fr) pour activer votre base sur la [Carte](https://centipede.fr) :
+Enfin, envoyer un courriel à [**contact@centipede.fr**](mailto:contact@centipede.fr) pour activer votre base sur la [Carte](https://centipede.fr) :
 
 * Nom Prénom
 * Profession
