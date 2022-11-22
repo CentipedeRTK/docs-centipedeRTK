@@ -7,43 +7,16 @@ nav_order: 3
 
 ## Paramétrage
 
-Pour la connexion sur `http://basegnss.local` (ou l'IP du Rasperry Pi) il est nécessaire de saisir un mot de passe (`admin`), qu'il est conseillé de le modifier par la suite.
+Pour la connexion sur `http://basegnss.local` (ou l'IP du Rasperry Pi) il est nécessaire de saisir un mot de passe (`admin`), il est conseillé de le modifier par la suite.
 
 ![base gnss](/assets/images/basegnss/basegnss1.gif)
 
-Nous allons nous occuper du premier paramétrage de la base. Pour un tour d'horizon plus complet des différentes possibilités, rendez-vous sur la page blablabla
-
-RTKBase dispose de 3 onglets, STATUS, SETTINGS et LOGS. Commençons par aller sur l'onglet STATUS où vous devriez voir le niveau de réception des satellites, et après quelques secondes de calculs, la position approximative de la base, représentée par la puce bleu sur la carte.
-
-Tout va bien ? Si oui, alors direction l'onglet SETTINGS, et cliquons sur les options du service Ntrip. Le réglage important est celui du nom de la base, qu'on indique dans le champs "mount name". Ce nom est à choisir par vous-même, ne doit pas dépasser **4 caractères en majuscules**, ne pas être déjà utilisé par une autre base, et en évitant les noms de villes importantes (LYON serait une mauvaise idée).
-
-Les autres options du service Ntrip doivent être les suivantes :
-* **Caster address** : par défaut **caster.centipede.fr**
-* **Caster port** : par défaut **2101**
-* **Caster password** : Le mot de passe pour le caster centipède est **centipede**
-
-Un clic sur le bouton "save", et c'est terminé. 
-Non non ! On n'active pas le service Ntrip pour le moment, où alors on commencerait à envoyer un signal de correction avec des coordonnées fantaisistes.
-
-En revanche, on active le "File Service", il va enregistrer le signal de la base et créer une archive tous les jours à 4H00. Pour effectuer le calcul précis, il nous faut une archive contenant 24 heures d'enregistrement de 00H00 à 23H59. Donc, si nous sommes mardi, il faut patienter jusqu'à jeudi matin.
-
-En attendant, vous pouvez aller lire les explications des différentes possibilités de RTKBase sur cette page.
-
-Ca y est ? C'est jeudi ? Alors passons au calcul du [positionnement de la base](positionnement){: .btn }
-
-
-
-
-
-
-
-
-
+La base dispose de 3 onglets.
 
 ### STATUS
 
 * Visualisation de la qualité de réception de chaque satellite (graphique).
-* Position approximative de la base et possibilité de copier les coordonnées.
+* Position approximative de la base et la possibilité de copier les coordonnées.
 * Carte de situation de la base, le pictogramme bleu donne la position approximative instantanée, la cible la position exacte de la base renseignée dans SETTINGS >Main service > Base coordinates.
 
 ### SETTINGS
