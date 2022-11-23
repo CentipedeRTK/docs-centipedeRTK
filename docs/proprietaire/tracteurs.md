@@ -116,10 +116,11 @@ Le chiffre des données recues doit défiler de plusieurs ko par secondes (j'ai 
 ![SF3000-StarFire RTK mobile](/assets/images/consoles_tracteurs/SF3000-StarFire_RTKmobile.jpg)
 
 
-documents de reference:
-DOC1: PFP12907_John_Deere_Mobile_RTK_FR.pdf :John Deere RTK Mobile, Guide de référence[PFP12907_John_Deere_Mobile_RTK_FR.pdf](https://github.com/jancelin/centipede/files/7530133/PFP12907_John_Deere_Mobile_RTK_FR.pdf)
-DOC2: OMPFP21126.pdf : Modem Mobile RTK 4G LTE de John Deere, livret d'entretien, Edition F1 (French)[OMPFP21126.pdf](https://github.com/jancelin/centipede/files/7530139/OMPFP21126.pdf)
-DOC3: PFP22140_28.pdf: Modem Mobile RTK 4G LTE de John Deere, notice de montage, 21JUN21 (French)[PFP22140_28.pdf](https://github.com/jancelin/centipede/files/7530147/PFP22140_28.pdf)
+Documents de référence :
+
+ - DOC1: PFP12907_John_Deere_Mobile_RTK_FR.pdf :John Deere RTK Mobile, Guide de référence [PFP12907_John_Deere_Mobile_RTK_FR.pdf](https://github.com/jancelin/centipede/files/7530133/PFP12907_John_Deere_Mobile_RTK_FR.pdf)
+ - DOC2: OMPFP21126.pdf : Modem Mobile RTK 4G LTE de John Deere, livret d'entretien, Edition F1 (French) [OMPFP21126.pdf](https://github.com/jancelin/centipede/files/7530139/OMPFP21126.pdf)
+ - DOC3: PFP22140_28.pdf: Modem Mobile RTK 4G LTE de John Deere, notice de montage, 21JUN21 (French) [PFP22140_28.pdf](https://github.com/jancelin/centipede/files/7530147/PFP22140_28.pdf)
 
 | Version | Date  | Auteur | Modifications effectuées |
 |---|---|---|---|
