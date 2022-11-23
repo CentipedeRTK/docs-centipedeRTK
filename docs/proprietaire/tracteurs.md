@@ -6,9 +6,9 @@ nav_order: 1
 ---
 
 ## Exemples de connexion au caster Centipede avec du Matériel Agricole
- - ## [John Deere](#John-Deere)  
- - ## [Case IH](#Case-IH)  
- - ## [Fendt](#Fendt)
+ - ## [John Deere](#john-deere-1)
+ - ## [Case IH](#case-ih-1)
+ - ## [Fendt](#fendt-1)
 
 ___
 ### John Deere
