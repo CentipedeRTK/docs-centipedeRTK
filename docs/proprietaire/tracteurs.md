@@ -6,7 +6,11 @@ nav_order: 1
 ---
 
 ## Exemples de connexion au caster Centipede avec du Matériel Agricole
+ - ## [John Deere](#John-Deere)  
+ - ## [Case IH](#Case-IH)  
+ - ## [Fendt](#Fendt)
 
+___
 ### John Deere
 
 | Antenne John Deere Star Fire SF3000 | Antenne John Deere Star Fire SF6000 |
