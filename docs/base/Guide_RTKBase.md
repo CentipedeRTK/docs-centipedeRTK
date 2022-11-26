@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Paramétrage
+title: Guide RTKBase
 parent: Fabriquer une base RTK
-nav_order: 3
+nav_order: 7
 ---
 
 ## Paramétrage
@@ -80,7 +80,7 @@ Il est possible de connecter un émetteur radio pour recevoir la trame de correc
 
 #### File service
 
-Paramétrage des fichiers de logs nécessaires, par exemple, au calcul de la position précise de la base. Il est conseillé de conserver les paramètres par défaut. 
+Paramétrage des fichiers de logs nécessaires, par exemple, au calcul de la position précise de la base ou à du post-traitement. Il est conseillé de conserver les paramètres par défaut. 
 
 **Il est indispensable de démarrer ce service à la mise en route de la base afin de pouvoir calculer sa position précise**
 
@@ -99,13 +99,13 @@ Paramétrage des fichiers de logs nécessaires, par exemple, au calcul de la pos
 
 ### LOGS
  
-* La base enregistre si le  **File service** est activé le flux de données des satellites. **Il est indispensable de lancer l'acquisition des logs pour le calcul du positionnement de la base**.
-* Tous les jours à 04h du matin une compression des fichiers du jour précédent est effectuée en .zip, son poids est d'environ 160 Mo.
+* Si le  **File service** est activé, la base enregistre le flux de données des satellites. C'est ici qu'on va retrouver ces fichiers. **Il est indispensable de lancer l'acquisition des logs pour le calcul du positionnement de la base**.
+* Tous les jours à 04h du matin une compression du ou des fichiers du jour précédent est effectuée en .zip, son poids est d'environ 160 Mo.
 * Ces fichiers peuvent être convertis en RINEX (après 24h et compression en .zip) avec le bouton edit (crayon) afin de réaliser le calcul de la position précise.
 * Pour lancer une conversion RINEX d'un fichier .zip attendre 24h entières soit 1 journée complète. Par exemple, si vous démarrez vos logs le 18/07/2020 à 15h30 attendez jusqu'au 20/07/2020 matin.
 * Les fichiers convertis en RINEX sont également accessibles dans ce tableau au format **AAAA-MM-JJ-MP.20o**
   
     ![base gnss](/assets/images/basegnss/basegnss_settings6.png)
 
-Passons maintenant au calcul du [positionnement de la base](positionnement){: .btn }
+
 

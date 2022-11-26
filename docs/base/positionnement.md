@@ -15,11 +15,11 @@ Pour cela nous allons transformer un fichier de log de 24h de données satellita
 
 ### 1. Convertir un fichier de log en fichier RINEX
 
-* Se rendre dans l'onglet **logs** de votre base RTK et cliquer sur le crayon (```edit```) d'un **.zip** complet de 24h.
+* Se rendre dans l'onglet **LOGS** de votre base RTK et cliquer sur le crayon (```edit```) d'un **.zip** complet de 24h.
 
 ![log2rinex](/assets/images/positionnement/log2rinex1.png)
 
-* Une fenêtre s'ouvre pour vous proposer de convertir le fichier de log en fichier RINEX compatible avec les services en ligne d'IGN pour le calcul du positionnement précis. Cliquer sur **CREATE**
+* Une fenêtre s'ouvre pour vous proposer de convertir le fichier de log en fichier RINEX compatible avec les services en ligne d'IGN pour le calcul du positionnement précis. Cliquer sur **Create**
 
 ![log2rinex](/assets/images/positionnement/log2rinex2.png)
 

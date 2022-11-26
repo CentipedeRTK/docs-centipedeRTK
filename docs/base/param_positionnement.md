@@ -21,4 +21,6 @@ nav_order: 5
 
 ![base gnss](/assets/images/basegnss/basegnss_position.png)
 
+* Maintenant, vous pouvez désactiver le **File service**, sauf si vous avez besoin de faire des post-traitements.
+
 * [Déclarer maintenant votre Base sur le Réseau Centipède](Declaration){: .btn }
