@@ -34,9 +34,9 @@ Pour cela nous allons transformer un fichier de log de 24h de données satellita
     
 ### 3. Post traitement IGN
 
-Cette étape permet de corriger les données brutes de votre base RTK avec les stations de référence du [Réseau Géodésique Permanent](http://rgp.ign.fr/) afin d'obtenir une position précise corrigée.
+Cette étape permet de corriger les données brutes de votre base RTK avec les stations de référence du [Réseau Géodésique Permanent](http://rgp.ign.fr/) ou [NRCAN](https://webapp.csrs-scrs.nrcan-rncan.gc.ca/geod/account-compte/login.php)si vous êtes hors France ou pays frontaliers, afin d'obtenir une position précise corrigée.
 
-* se rendre sur le site [calculs GNSS Réseau en ligne](http://rgp.ign.fr/SERVICES/calcul_online.php)
+* se rendre sur le site [calculs GNSS Réseau en ligne](http://rgp.ign.fr/SERVICES/calcul_online.php) ou [NRCAN](https://webapp.csrs-scrs.nrcan-rncan.gc.ca/geod/account-compte/login.php)si vous êtes hors de France (Documentation en cours d'écriture...)
 * Dans la section "Fichiers d'observation au format RINEX" Importer votre fichier **AAAA-MM-JJ-MP.20o** dans **Pivot**
 * Dans la section "Stations GNSS Permanentes à intégrer" Renseigner nombre maximum 8 et éloignement maximum 1000 km
 * Renseigner son adresse mail pour recevoir le rapport
