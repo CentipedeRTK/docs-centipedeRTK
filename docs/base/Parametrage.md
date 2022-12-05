@@ -29,7 +29,7 @@ Ensuite, allons sur l'onglet **STATUS** où vous devriez voir le niveau de réce
 
 Tout va bien ? Si oui, alors direction l'onglet **SETTINGS**, et cliquons sur le bouton `Options` du service Ntrip. Le réglage important est celui du nom de la base, qu'on indique dans le champs "mount name". Ce nom est à choisir par vous-même, ne doit pas dépasser **4 caractères en majuscules**, ne pas être déjà utilisé par une autre base, et en évitant les noms de villes importantes (LYON serait une mauvaise idée).
 
-**TODO Insérer lien vers le tableau des bases existantes**
+[Liste des bases au 05 décembre 2022](/assets/liste_base/2022-12-05_liste_bases.txt)
 
 Les autres options du service Ntrip doivent être les suivantes :
 * **Caster address** : par défaut **caster.centipede.fr**
