@@ -19,15 +19,15 @@ Une fois arrivé sur la page de connexion, il suffit d'entrer le mot de passe pa
 
 Maintenant nous allons nous occuper du premier paramétrage de la base.
 
-RTKBase dispose de 3 onglets, **STATUS**, **SETTINGS** et **LOGS**. Commençons par aller sur l'onglet **SETTINGS** où il faut activer le "Main Service" s'il ne l'est pas déjà.
+RTKBase dispose de 3 onglets, <span style="color:#007BFF">**STATUS**</span>, <span style="color:#007BFF">**SETTINGS**</span> et <span style="color:#007BFF">**LOGS**</span>. Commençons par aller sur l'onglet <span style="color:#007BFF">**SETTINGS**</span> où il faut activer le "Main Service" s'il ne l'est pas déjà.
 
 ![Main Service actif](/assets/images/basegnss/rtkbase_main_service.png) 
 
-Ensuite, allons sur l'onglet **STATUS** où vous devriez voir le niveau de réception des satellites, et après quelques secondes de calculs, la position approximative de la base, représentée par la puce bleu sur la carte, ainsi que les coordonnées enregistrées de la base représentées par la cible noire :
+Ensuite, allons sur l'onglet <span style="color:#007BFF">**STATUS**</span> où vous devriez voir le niveau de réception des satellites, et après quelques secondes de calculs, la position approximative de la base, représentée par la puce bleu sur la carte, ainsi que les coordonnées enregistrées de la base représentées par la cible noire :
 
 ![Onglet STATUS](/assets/images/basegnss/rtkbase_status.png)
 
-Tout va bien ? Si oui, alors direction l'onglet **SETTINGS**, et cliquons sur le bouton `Options` du service Ntrip. Le réglage important est celui du nom de la base, qu'on indique dans le champs "mount name". Ce nom est à choisir par vous-même, ne doit pas dépasser **4 caractères en majuscules**, ne pas être déjà utilisé par une autre base, et en évitant les noms de villes importantes (LYON serait une mauvaise idée).
+Tout va bien ? Si oui, alors direction l'onglet <span style="color:#007BFF">**SETTINGS**</span>, et cliquons sur le bouton `Options` du service Ntrip. Le réglage important est celui du nom de la base, qu'on indique dans le champs "mount name". Ce nom est à choisir par vous-même, ne doit pas dépasser **4 caractères en majuscules**, ne pas être déjà utilisé par une autre base, et en évitant les noms de villes importantes (LYON serait une mauvaise idée).
 
 [Liste des bases au 05 décembre 2022](/assets/liste_base/2022-12-05_liste_bases.txt)
 
