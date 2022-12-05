@@ -8,7 +8,7 @@ nav_order: 3
 ## Connexion
 Pour se connecter sur la page Web de RTKBase, on utilise soit l'adresse `http://basegnss.local` dans un navigateur Web, soit si ça ne fonctionne pas, l'adresse IP de la carte. Cette adresse IP peut être retrouvée depuis l'interface de votre modem/routeur (livebox, freebox, etc) ou avec des outils tels que [Angry IP Scanner (windows)](https://angryip.org/) ou [Port Authority (Android)](https://play.google.com/store/apps/details?id=com.aaronjwood.portauthority.free&pli=1)).
 
-| <img src="../../assets/images/basegnss/ip_livebox.png" alt="livebox" height="250"/> | <img src="../../assets/images/basegnss/ip_angry_ip_scanner.png" alt="livebox" height="250"/> | <img src="../../assets/images/basegnss/ip_port_authority.png" alt="livebox" height="250"/>
+| <a href="../../assets/images/basegnss/ip_livebox.png"><img src="../../assets/images/basegnss/ip_livebox.png" alt="livebox" height="250"/> </a> | <a href="../../assets/images/basegnss/ip_angry_ip_scanner.png"><img src="../../assets/images/basegnss/ip_angry_ip_scanner.png" alt="livebox" height="250"/></a> | <a href="../../assets/images/basegnss/ip_port_authority.png"><img src="../../assets/images/basegnss/ip_port_authority.png" alt="livebox" height="250"/></a>
 
 Sur les exemples ci-dessus, vous pouvez voir que la base utilise l'ip 192.168.1.12, donc dans la barre d'adresse du navigateur on peut entrer `http://192.168.1.12`  
 Vous remarquerez que la base a vu son suffixe `.local` devenir `.home`. C'est la faute à la Livebox, ce sera peut-être différent chez vous.
