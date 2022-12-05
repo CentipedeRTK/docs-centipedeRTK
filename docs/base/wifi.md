@@ -3,7 +3,7 @@ layout: default
 title: Activation du wifi
 parent: Installation logiciel
 grand_parent: Fabriquer une base RTK
-nav_order: 7
+nav_order: 8
 ---
 
 ## Activation du wifi
