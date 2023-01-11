@@ -15,7 +15,9 @@ Dans un premier temps il est nécessaire de mettre à jour le [firmware](https:/
 * [Install U-center](https://content.u-blox.com/sites/default/files/2022-04/u-center-v22.02_0.zip) (Windows seulement)
 
 * Update F9P firmware :
-  * [Télécharger le fichier de mise à jour le plus récent](https://www.u-blox.com/en/product/zed-f9p-module?file_category=Firmware%2520Update). Au 2022-04-12 il s'agit de la version [1.30](https://content.u-blox.com/sites/default/files/UBX_F9_100_HPG130.aa1ce2137147f95bbde5532f1b495848.bin).
+  * Télécharger le fichier de mise à jour 1.13 ou 1.32 (https://www.u-blox.com/en/product/zed-f9p-module?file_category=Firmware%2520Update).
+    * [1.13](https://content.u-blox.com/sites/default/files/UBX_F9_100_HPG130.aa1ce2137147f95bbde5532f1b495848.bin)
+    * [1.32](https://content.u-blox.com/sites/default/files/2022-05/UBX_F9_100_HPG132.df73486d99374142f3aabf79b7178f48.bin)
   * Connecter en USB le récepteur F9P au PC
   * Ouvrir U-center en mode administrateur (click droit **Executer en mode administrateur**)
   * Connecter le récepteur (bouton en haut à gauche) au bon port COM
@@ -36,7 +38,9 @@ Dans un premier temps il est nécessaire de mettre à jour le [firmware](https:/
 
 L'injection permet de paramétrer le récepteur F9P pour une utilisation avec RTKlib et plus particulièrement RTKGPS+ sur Android
 
-* Télécharger/créer le fichier de configuration: [F9P_Rover_USB_UART1-115200Bd_FREQ-800ms_GPS-GLO-GAL-BEI_Lefebure-SWMaps-RTKGP+.txt](https://raw.githubusercontent.com/jancelin/docs-centipedeRTK/master/assets/param_rtklib/F9P_Rover_USB_UART1-115200Bd_FREQ-800ms_GPS-GLO-GAL-BEI_Lefebure-SWMaps-RTKGP+.txt)
+* Télécharger/créer le fichier de configuration: 
+ * avec Firmware 1.13: [F9P_HPG1-13_Rover_USB_UART1-115200Bd_FREQ-800ms_GPS-GLO-GAL-BEI_Lefebure-SWMaps-RTKGP+.txt](/assets/param_rtklib/F9P_Rover_USB_UART1-115200Bd_FREQ-800ms_GPS-GLO-GAL-BEI_Lefebure-SWMaps-RTKGP+.txt)
+ * avec Firmware 1.32: [F9P_HPG1-32_Rover_USB_UART1-115200Bd_FREQ-800ms_GPS-GLO-GAL-BEI_Lefebure-SWMaps-RTKGP+.txt](/assets/param_rtklib/F9P_Rover_USB_UART1-115200Bd_FREQ-800ms_GPS-GLO-GAL-BEI_Lefebure-SWMaps-RTKGP+.txt)
 
 ![arduino](/assets/images/montage_rover/u-center.gif)
 
