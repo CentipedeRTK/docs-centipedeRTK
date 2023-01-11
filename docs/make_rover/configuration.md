@@ -39,8 +39,8 @@ Dans un premier temps il est nécessaire de mettre à jour le [firmware](https:/
 L'injection permet de paramétrer le récepteur F9P pour une utilisation avec RTKlib et plus particulièrement RTKGPS+ sur Android
 
 * Télécharger/créer le fichier de configuration: 
- * avec Firmware 1.13: [F9P_HPG1-13_Rover_USB_UART1-115200Bd_FREQ-800ms_GPS-GLO-GAL-BEI_Lefebure-SWMaps-RTKGP+.txt](/assets/param_rtklib/F9P_Rover_USB_UART1-115200Bd_FREQ-800ms_GPS-GLO-GAL-BEI_Lefebure-SWMaps-RTKGP+.txt)
- * avec Firmware 1.32: [F9P_HPG1-32_Rover_USB_UART1-115200Bd_FREQ-800ms_GPS-GLO-GAL-BEI_Lefebure-SWMaps-RTKGP+.txt](/assets/param_rtklib/F9P_Rover_USB_UART1-115200Bd_FREQ-800ms_GPS-GLO-GAL-BEI_Lefebure-SWMaps-RTKGP+.txt)
+ * avec Firmware 1.13: [F9P_HPG1-13_Rover_USB_UART1-115200Bd_FREQ-800ms_GPS-GLO-GAL-BEI_Lefebure-SWMaps-RTKGP+.txt](/assets/param_rtklib/F9P_HPG1-13_Rover_USB_UART1-115200Bd_FREQ-800ms_GPS-GLO-GAL-BEI_Lefebure-SWMaps-RTKGP%2B.txt)
+ * avec Firmware 1.32: [F9P_HPG1-32_Rover_USB_UART1-115200Bd_FREQ-800ms_GPS-GLO-GAL-BEI_Lefebure-SWMaps-RTKGP+.txt](/assets/param_rtklib/F9P_HPG1-32_Rover_USB_UART1-115200Bd_FREQ-800ms_GPS-GLO-GAL-BEI_Lefebure-SWMaps-RTKGP%2B.txt)
 
 ![arduino](/assets/images/montage_rover/u-center.gif)
 
