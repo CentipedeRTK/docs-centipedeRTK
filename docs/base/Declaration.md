@@ -22,11 +22,13 @@ Une fois que votre base sera déclarée par un administrateur, elle sera visible
   * la base est pré déclarée sur le caster mais en attente de vérification du positionnement géographique.
   * elle est non accessible dans la liste des bases mais utilisable en renseignant manuellement le Point de montage.
 * ensuite en orange 🟠 : 
-  * La base est disponible dans la liste des points de montage http://caster.centipede.fr, 
+  * La base est disponible dans la liste des points de montage http://caster.centipede.fr:2101
   * ses informations (type d'antenne, rapport de positionnement,...) sont en vérification.
 * Enfin en vert 🟢 : 
   * la base est accessible, valide et utilisable par la communautée.
-  * ses métadonnées et statut (allumée 🟢, éteinte 🔴 sont disponible sur la carte htts://centipede.fr avec une actualisation toute les 30 secondes.
+  * Le statut de la base (allumée 🟢, éteinte 🔴) sont disponibles sur la carte https://centipede.fr avec une actualisation toute les 30 secondes, un mail automatique est envoyé au resposable de la base en cas de coupure supérieure à 5 minutes.
+  * Les métadonnées (rapport de positionnement, position, état, messages diffusés, taçabilité des déconnexions,...) de la base sont disponibles en cliquant sur votre base via https://centipede.fr
+
 > En fonction de la disponibilité des administrateurs, le traitement de votre courriel peut prendre plusieurs jours, mais votre base est utilisable tout de suite.
 
 Un test de fonctionnement est réalisé toutes les 15 secondes sur l'ensemble du Réseau, si votre base RTK ne renvoie pas de signal au caster (panne électrique, coupure réseau, problème matériel,...) un mail vous sera envoyé automatiquement pour prévenir du dysfonctionnement et elle apparaitra en rouge sur la carte. Vous recevrez un nouveau mail lors de sa reconnexion au caster.
