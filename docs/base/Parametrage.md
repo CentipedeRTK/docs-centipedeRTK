@@ -34,7 +34,7 @@ Tout va bien ? Si oui, alors direction l'onglet <span style="color:#007BFF">**SE
 Les autres options du service Ntrip doivent être les suivantes :
 * **Caster address** : par défaut **caster.centipede.fr**
 * **Caster port** : par défaut **2101**
-* **Caster password** : Le mot de passe pour le caster centipède est **centipede**
+* **Caster password** : Le mot de passe pour le caster centipède est **centipede** (en minuscule, et sans accent)
 
 Un clic sur le bouton `Save`, et c'est terminé.  
 
