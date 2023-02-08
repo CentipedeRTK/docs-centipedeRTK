@@ -45,7 +45,9 @@ Télécharger depuis votre ordinateur l'image RTKBase pour votre carte :
 
 ### 3. Télécharger et installer ETCHER 
 
-Télécharger et installer BalenaEtcher sur votre ordinateur (windows, linux, mac). Ce programme va permettre d'installer correctement l'image BaseGNSS téléchargée dans la carte micro SD : <https://www.balena.io/etcher>.
+Télécharger et installer BalenaEtcher sur votre ordinateur (windows, linux, mac). Ce programme va permettre d'installer correctement l'image BaseGNSS téléchargée dans la carte micro SD : <https://www.balena.io/etcher>. Si vous utilisez Windows, vous pouvez choisir la version portable :
+
+  ![Etcher Website](/assets/images/install/balena_etcher_website.png)
 
 ### 4. Insérer la carte Micro SD dans l'ordinateur 
 
