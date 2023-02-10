@@ -13,8 +13,8 @@ Cette étape doit vous permettre de bien anticiper quel matériel acheter en fon
 
  * La zone d'implantation de l'antenne de réception ne nécessite pas une position dominante, mais doit proposer une visibilité maximum du ciel ; il est indispensable de ne pas avoir d'obstacles (bâtiments, arbres, murs ...) au-dessus des 10 premiers degrés par rapport au plan horizontal de l'antenne.
  * Elle doit également être très stable au niveau de sa position, il est donc préférable de la fixer sur un plot en béton ou sur le pignon d'un bâtiment (Attention à la dilatation des bâtiments en acier).
- * Il peut y avoir une certaine distance entre l'antenne et le reste du matériel ; il est important d'anticiper cette distance (au maximum 3 mètres pour éviter une dégradation du signal) et de commander un câble d'antenne à la bonne longueur.
- * La base RTK doit absolument avoir accès à Internet via **un câble ethernet (RJ45) de préférence** afin de partager ses corrections sur le réseau Centipede ou en TCP, il est donc nécessaire d'avoir un point accès à Internet non loin de la zone d'implantation et d'adapter la longueur du câble en fonction des besoins. Si vous ne disposez pas d'une connexion à proximité, vous pouvez opter pour [2 boitiers CPL](https://www.boitiercpl.fr/) en ethernet.
+ * Il peut y avoir une certaine distance entre l'antenne et le reste du matériel ; il est important d'anticiper cette distance et de commander un câble d'antenne à la bonne longueur. Il est recommandé de ne pas dépasser 5 à 7 mètres. Au delà, il faudra utiliser du câble de haute qualité, qui sera coûteux et rigide.
+ * La base RTK doit absolument avoir accès à Internet via **un câble ethernet (RJ45) de préférence** afin de partager ses corrections sur le réseau Centipede, il est donc nécessaire d'avoir un point accès à Internet non loin de la zone d'implantation et d'adapter la longueur du câble en fonction des besoins. Contrairement au câble antenne, le câble ethernet peut être plus long (jusqu'à 100 mètres). Si vous ne disposez pas d'une connexion à proximité, vous pouvez opter pour [2 boitiers CPL](https://www.boitiercpl.fr/) en ethernet.
  
  **Ce document: [MEILLEURES PRATIQUES À L’INTENTION DES FOURNISSEURS DE SERVICES GNSS EN MODE RTK](https://www.rncan.gc.ca/sites/www.nrcan.gc.ca/files/earthsciences/pdf/MeilleuresPratiques_Station_de_Reference_GNSS.pdf) vous donnera les informations nécessaires afin d'anticiper au mieux votre installation, c'est l'étape la plus importante dans l'installation d'une base GNSS RTK**
 
@@ -38,7 +38,7 @@ Voici la liste des éléments nécessaires à la mise en place d'une base RTK L1
 |[boite étanche je-200](https://www.mhzshop.com/shop/Accessoires-MHz/Boites-etanches/Boite-etanche-avec-fixation-mat-203x203x65mm-GentleBOX-JE-200.html)|16€|
 |TOTAL|410€|
 
-Il est également possible d'utilise un POE pour alimenter la base via le cable ethernet: 
+Dans le cas où il n'y a pas de prise 230V à proximité de la base, et/ou pour simplifier l'installation, il est possible d'utiliser du [POE](https://fr.wikipedia.org/wiki/Alimentation_%C3%A9lectrique_par_c%C3%A2ble_Ethernet) pour alimenter la base via le cable ethernet: 
 
 [Injecteur](https://www.trendnet.com/langfr/products/poe-splitters-injectors-extenders/tpe-104GS)
 
