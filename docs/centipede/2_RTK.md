@@ -54,3 +54,7 @@ nav_order: 2
 
 [WEB-   NtripCaster Version 2.0.x Operations Manual](https://igs.bkg.bund.de/root_ftp/NTRIP/documentation/ntripcaster_manual.html)
 
+## RTCM3
+
+[RTCM SC-104 Messages for real-time GNSS applications](https://igs.bkg.bund.de/ntrip/about)
+
