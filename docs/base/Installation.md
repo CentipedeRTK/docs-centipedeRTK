@@ -19,7 +19,7 @@ Dans un premier temps il est nécessaire de mettre à jour le [firmware](https:/
 Si U-Center refuse de démarrer avec un message d'erreur du type "MSVCR120.dll introuvable", installez ce pack [vc_redist 2013 x64](https://download.microsoft.com/download/f/e/c/fece8bbd-3379-4db1-8006-b8f47783b2cb/vcredist_x86.exe).
 
 * Update F9P firmware :
-  * [Télécharger le fichier de mise à jour le plus récent](https://www.u-blox.com/en/product/zed-f9p-module?file_category=Firmware%2520Update). Au 2022-04-12 il s'agit de la version [1.30](https://content.u-blox.com/sites/default/files/UBX_F9_100_HPG130.aa1ce2137147f95bbde5532f1b495848.bin)
+  * [Télécharger le fichier de mise à jour le plus récent](https://www.u-blox.com/en/product/zed-f9p-module?file_category=Firmware%2520Update). Au 2023-02-25 il s'agit de la version [1.32](https://content.u-blox.com/sites/default/files/2022-05/UBX_F9_100_HPG132.df73486d99374142f3aabf79b7178f48.bin)
   * Connecter en USB le récepteur F9P au PC
   * Ouvrir U-center en mode administrateur (click droit **Executer en mode administrateur**)
   * Connecter le récepteur (bouton en haut à gauche) au bon port COM
