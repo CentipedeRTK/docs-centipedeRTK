@@ -25,7 +25,7 @@ Pour cela nous allons transformer un fichier de log de 24h de données satellita
 
 * Patientez lors de la création du fichier RINEX cela peut durer plusieurs minutes.
 
-![log2rinex](/assets/images/positionnement/log2rinex3.png)
+![log2rinex](/assets/images/positionnement/log2rinex3.gif)
 
 * Téléchargez le fichier créé. Une fois la fenêtre fermée (```close```) le fichier RINEX est également disponible dans la liste des logs avec un nom **AAAA-MM-JJ-MP.20o**, son poids est d'environ 4 Mo.
 
