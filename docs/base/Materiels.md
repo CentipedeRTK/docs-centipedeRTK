@@ -40,7 +40,7 @@ Voici la liste des éléments nécessaires à la mise en place d'une base RTK L1
 
 Dans le cas où il n'y a pas de prise 230V à proximité de la base, et/ou pour simplifier l'installation, il est possible d'utiliser du [POE](https://fr.wikipedia.org/wiki/Alimentation_%C3%A9lectrique_par_c%C3%A2ble_Ethernet) pour alimenter la base via le cable ethernet: 
 
-[Injecteur](https://www.trendnet.com/langfr/products/poe-splitters-injectors-extenders/tpe-104GS)
+[Injecteur](https://www.trendnet.com/langfr/products/poe-splitters-injectors-extenders/tpe-115GI-v2.1)
 
 [Séparateur](https://www.trendnet.com/langfr/products/PoE/Gigabit-PoE-Splitter-TPE-104GS-v2)
 
