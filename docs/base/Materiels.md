@@ -44,6 +44,8 @@ Dans le cas où il n'y a pas de prise 230V à proximité de la base, et/ou pour 
 
 [Séparateur](https://www.trendnet.com/langfr/products/PoE/Gigabit-PoE-Splitter-TPE-104GS-v2)
 
+Ces bases sont aussi disponibles en kit ou prémontées sur [rtkbase.eu](https://rtkbase.eu). Ce site est géré par le développeur de RTKBase. L'achat direct en ligne n'est pas possible pour le moment, il faut passer par le formulaire de contact.
+
 
 ![POE](https://raw.githubusercontent.com/Stefal/rtkbase/master/images/base_f9p_raspberry_pi.jpg)
 <p align="center"><sup><i>crédit Stéphane Péneau</i></sup></p>
