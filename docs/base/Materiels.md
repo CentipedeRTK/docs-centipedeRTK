@@ -38,7 +38,9 @@ Voici la liste des éléments nécessaires à la mise en place d'une base RTK L1
 |[boite étanche je-200](https://www.mhzshop.com/shop/Accessoires-MHz/Boites-etanches/Boite-etanche-avec-fixation-mat-203x203x65mm-GentleBOX-JE-200.html)|16€|
 |TOTAL|410€|
 
-Dans le cas où il n'y a pas de prise 230V à proximité de la base, et/ou pour simplifier l'installation, il est possible d'utiliser du [POE](https://fr.wikipedia.org/wiki/Alimentation_%C3%A9lectrique_par_c%C3%A2ble_Ethernet) pour alimenter la base via le cable ethernet: 
+Dans le cas où il n'y a pas de prise 230V à proximité de la base, et/ou pour simplifier l'installation, il est possible d'utiliser du [POE](https://fr.wikipedia.org/wiki/Alimentation_%C3%A9lectrique_par_c%C3%A2ble_Ethernet) pour alimenter la base via le cable ethernet : 
+
+![schéma base Poe](/assets/images/mat/schema_POE.png)
 
 [Injecteur](https://www.trendnet.com/langfr/products/poe-splitters-injectors-extenders/tpe-115GI-v2.1)
 
@@ -58,7 +60,7 @@ Ces bases sont aussi disponibles en kit ou prémontées sur [rtkbase.eu](https:/
 
 
 Dans un premier temps faites un premier montage sans la boite:
-   * Assembler l'antenne [D910](https://store.drotek.com/da-910-multiband-gnss-antenna) sur son support
+   * Assembler l'antenne [DA910](https://store.drotek.com/da-910-multiband-gnss-antenna) sur son support
    * Connecter le câble d'antenne au récepteur [F9P](https://store-drotek.com/891-rtk-zed-f9p-gnss.html)
    * Connecter le cordon USB entre le [F9P](https://store.drotek.com/rtk-zed-f9p-gnss) et le [Raspberry Pi 3/4](https://www.kubii.fr/les-cartes-raspberry-pi/2119-raspberry-pi-3-modele-b-1-gb-kubii-713179640259.html)
    * Connecter le [câble ethernet RJ45](https://www.mhzshop.com/shop/Cables-et-cordons/Cordons-reseau/) à votre réseau (BOX internet, CPL, prise réseau Rj45) et au [Raspberry Pi 3/4](https://www.kubii.fr/les-cartes-raspberry-pi/2119-raspberry-pi-3-modele-b-1-gb-kubii-713179640259.html)
