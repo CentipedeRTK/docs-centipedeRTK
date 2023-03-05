@@ -15,5 +15,5 @@ Le symptome principal est que l'interface web de RTKbase est inaccessible, alors
 
 **Livebox 5** <-cordon rj45-> **Switch** <-cordon rj45-> **Base avec Orange Pi Zero**
 
-Le problème a été remonté à Orange, mais sans réponse pour le moment : https://communaute.orange.fr/t5/Livebox/Livebox-5-Orange-Pi-Zero-probl%C3%A8mes-en-connexion-ethernet/td-p/2865493
+Le problème a été remonté à Orange, mais sans réponse pour le moment : [message forum Orange](https://communaute.orange.fr/t5/Livebox/Livebox-5-Orange-Pi-Zero-probl%C3%A8mes-en-connexion-ethernet/td-p/2865493)
 
