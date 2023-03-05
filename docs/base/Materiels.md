@@ -38,7 +38,9 @@ Voici la liste des éléments nécessaires à la mise en place d'une base RTK L1
 |[boite étanche je-200](https://www.mhzshop.com/shop/Accessoires-MHz/Boites-etanches/Boite-etanche-avec-fixation-mat-203x203x65mm-GentleBOX-JE-200.html)|16€|
 |TOTAL|410€|
 
-Dans le cas où il n'y a pas de prise 230V à proximité de la base, et/ou pour simplifier l'installation, il est possible d'utiliser du [POE](https://fr.wikipedia.org/wiki/Alimentation_%C3%A9lectrique_par_c%C3%A2ble_Ethernet) pour alimenter la base via le cable ethernet: 
+Dans le cas où il n'y a pas de prise 230V à proximité de la base, et/ou pour simplifier l'installation, il est possible d'utiliser du [POE](https://fr.wikipedia.org/wiki/Alimentation_%C3%A9lectrique_par_c%C3%A2ble_Ethernet) pour alimenter la base via le cable ethernet : 
+
+![schéma base Poe](/assets/images/mat/schema_POE.png)
 
 [Injecteur](https://www.trendnet.com/langfr/products/poe-splitters-injectors-extenders/tpe-104GS)
 
