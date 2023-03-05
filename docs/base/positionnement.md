@@ -19,7 +19,7 @@ Pour cela nous allons transformer un fichier de log de 24h de données satellita
 
 ![log2rinex](/assets/images/positionnement/log2rinex1.png)
 
-* Une fenêtre s'ouvre pour vous proposer de convertir le fichier de log en fichier RINEX compatible avec les services en ligne d'IGN pour le calcul du positionnement précis. Cliquer sur **Create**
+* Une fenêtre s'ouvre pour vous proposer de convertir le fichier de log en fichier RINEX. Choissisez le préréglage IGN, qui est compatible avec les services en ligne d'IGN pour le calcul du positionnement précis. Cliquer sur **Create Rinex File**
 
 ![log2rinex](/assets/images/positionnement/log2rinex2.png)
 
