@@ -25,9 +25,9 @@ has_children: true
 
 - [ ] Pour conseiller les agriculteurs voulant faire leur système d'autoguidage, quels sont les prérequis ? 
 
-[getting started](https://agopengps.discourse.group/c/operations/13)
+[getting started](https://discourse.agopengps.com/c/operations/13)
 
-[hardware AGopenGps](https://agopengps.discourse.group/c/hardware/7)
+[hardware AGopenGps](https://discourse.agopengps.com//c/hardware/7)
 
 ## Drone volant
 

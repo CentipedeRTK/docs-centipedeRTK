@@ -7,7 +7,7 @@ nav_order: 2
 
 # Un autoguidage tracteur 
 
-[AgOpenGps](https://agopengps.discourse.group/)
+[AgOpenGps](https://discourse.agopengps.com//)
 
 
 [![tracteur](http://img.youtube.com/vi/Rt7MVSYjw1Y/0.jpg)](http://www.youtube.com/watch?v=Rt7MVSYjw1Y "tracteur")

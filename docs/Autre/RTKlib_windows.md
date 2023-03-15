@@ -124,7 +124,7 @@ Il est nécessaire d'installer un virtual port COM sur windows pour récupérer 
 
 ![RTKnavi](/assets/images/rover_w/9.PNG)
 
-### 5.2.4 Connexion pour [AgOpenGps](https://agopengps.discourse.group/)
+### 5.2.4 Connexion pour [AgOpenGps](https://discourse.agopengps.com//)
 
 * Ouvrir **AgOpenGPS** > **Paramètres de configurations**
 
