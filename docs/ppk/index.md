@@ -126,7 +126,7 @@ rtkpost.exe
 
 * Récupérer la date GPS de la collecte de données: http://navigationservices.agi.com/GNSSWeb/
 > par exemple le 5 février 2019 correspond au 2039:2
-* se rendre sur le site ftp://cddis.nasa.gov/gnss/products/
+* se rendre sur le site ftp://gdc.cddis.eosdis.nasa.gov/gnss/products/
 * chercher le dossier correspondant à la date GPS et l'ouvrir
 > dans notre exemple 2039
 * Chercher le Fichier :igs"dategps+jour".sp3.Z , télécharger le et décompressez-le
