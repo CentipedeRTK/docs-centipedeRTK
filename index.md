@@ -5,7 +5,7 @@ nav_order: 1
 has_children: true
 ---
 
-# Centipède
+# CentipedeRTK
 
 ## Le Real Time Kinematic collaboratif, ouvert et Open Source  🛰️ 🛰️ 🛰️
 
