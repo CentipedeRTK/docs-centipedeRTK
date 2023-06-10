@@ -98,12 +98,12 @@ Connecter ensuite le FDTI au PC avec le câble USB tout en appuyant sur le bouto
 * Appuyer sur la flèche en haut à gauche pour téléverser le programme dans l'arduino.
 * Ouvrir le **Moniteur Série** (loupe en haut à droite de la fenêtre) et régler les 2 menus déroulants sur :
   * **les deux, NL et CR**
-  * **9600 bauds**
+  * **38400 bauds**
 * Écrire la commande **AT** et appuyer sur **envoyer** : le moniteur doit renvoyer **OK**, cela veut dire que vous communiquez bien avec le module Bluetooth.
 * Écrire la commande **AT+UART=115200,1,0** et appuyer sur **envoyer** : le moniteur doit renvoyer **OK**, la vitesse de transmission a été modifiée.
 * Écrire la commande **AT+NAME=CENTIPEDE** et appuyer sur **envoyer** : le moniteur doit renvoyer **OK**, le nom du module a été changé ( vous pouvez vérifier sur un smartphone en faisant un scan bluetooth).
 
-Le code PIN du bluetooth est **1234** par défaut, vous pouvez le modifier en entrant la commande **AT+PSWD="5678"** + **envoyer** (dans cet exemple le code sera 5678).
+Le code PIN du bluetooth est **1234** par défaut, vous pouvez le modifier en entrant la commande **AT+PSWD=5678** + **envoyer** (dans cet exemple le code sera 5678).
 
 > Plus d'informations sur les options de paramétrage [ici](https://retroetgeek.com/geek/arduino/configuration-du-module-hc-05-pour-arduino/)
 
