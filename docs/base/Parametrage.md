@@ -29,7 +29,7 @@ Ensuite, allons sur l'onglet <span style="color:#007BFF">**STATUS**</span> où v
 
 Tout va bien ? Si oui, alors direction l'onglet <span style="color:#007BFF">**SETTINGS**</span>, et cliquons sur le bouton `Options` du service Ntrip. Le réglage important est celui du nom de la base, qu'on indique dans le champs "mount name". Ce nom est à choisir par vous-même, ne doit pas dépasser **4 caractères en majuscules**, ne pas être déjà utilisé par une autre base, et en évitant les noms de villes importantes (LYON serait une mauvaise idée).
 
-La liste des Mount Points dèja déclarés sur le réseau est disponible **[dans ce tableau](https://logs.centipede.fr/d/eQQ2q6_4k/mount-point?orgId=1&viewPanel=2)**. (Faire un clic droit, ouvrir le lien dans un nouvel onglet). Dans l'interface vous pouvez cliquer sur le petit entonnoir gris pour faire directement une recherche dans la liste.
+La liste des Mount Points dèja déclarés sur le réseau est disponible **[dans ce tableau](https://logs.centipede.fr/d/eQQ2q6_4k/mount-point?orgId=1&viewPanel=2)**. (Faire un clic droit, ouvrir le lien dans un nouvel onglet). Dans l'interface vous pouvez cliquer sur le petit entonnoir gris pour faire directement une recherche en MAJUSCULE dans la liste.
 
 Les autres options du service Ntrip doivent être les suivantes :
 * **Caster address** : par défaut **caster.centipede.fr**
