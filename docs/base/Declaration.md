@@ -12,9 +12,16 @@ Enfin, envoyer un courriel à [**contact@centipede.fr**](mailto:contact@centiped
 * Nom Prénom
 * Profession
 * Courriel
-* Nom du point de montage de votre base GNSS RTK (de 4 caractères en MAJUSCULES et/ou chiffres)
+* Nom du point de montage de votre base GNSS RTK (de 4 caractères en MAJUSCULES et/ou chiffres), Pensez bien à vérifier que votre Mount point n'es pas déjà pris en vérifiant **[dans ce tableau](https://logs.centipede.fr/d/eQQ2q6_4k/mount-point?orgId=1&viewPanel=2)**
 * Matériels utilisés: modèle de votre antenne et de votre récepteur.
-* le rapport du calcul de positionnement envoyé par IGN (fichier.tar.gz)
+* Les documents necessaires à la vérification de la position de votre base:
+  * Pour la FRANCE:
+    * le rapport du calcul de positionnement envoyé par IGN (fichier.tar.gz)
+    * Votre fichier RINEX envoyé précédement à IGN
+  * Hors de FRANCE:
+    * le rapport du calcul de positionnement envoyé par NRCAN (full_output.zip)
+    * Une copie des valeurs du lien "sommaire" envoyé par NRCAN
+    * Votre fichier RINEX envoyé précédement à NRCAN
 * Plusieurs photos (minimum 2) de l'installation de votre antenne (proche et vue d'ensemble).
 
 Une fois que votre base sera déclarée par un administrateur, elle sera visible sur la carte:
