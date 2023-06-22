@@ -22,7 +22,7 @@ Les instituts de recherche comme [INRAE](https://www.inrae.fr/) ou le [CNRS](htt
 Cette technologie permet par exemple d’effectuer des relevés naturalistes (flore, faune) avec une précision de localisation élevée, de faire des relevés photographiques aériens (drones) et d’automatiser la conduite automatisée des véhicules agricoles afin d’augmenter la précision, la qualité et la traçabilité des interventions.
 
 Depuis peu, nous avons pu finaliser une collaboration avec le **Réseau National GNSS Permanent** (RENAG - cf. [doi:10.15778/resif.rg](https://doi:10.15778/resif.rg) ).
-Cette collaboration a donné lieu à la mutualisation d'un certain nombre de nos bases respectives. Le réseau CentipèdeRTK a donc été enrichi d'une trentaine de bases RENAG, notamment dans le sud-est de la métropole. En outre, les bases CentipedeRTK sont désormais rinexées (= leurs données sont archivées) dans les bases de données RENAG, ce qui constitue un gage sérieux de pérénnité pour les données du réseau. Réciproquement, les bases CentipèdeRTK sont utilisées pour les analyses opérées par RENAG quotidiennement.
+Cette collaboration a donné lieu à la mutualisation d'un certain nombre de nos bases respectives. Le réseau CentipèdeRTK a donc été enrichi d'une trentaine de bases RENAG, notamment dans le sud-est de la métropole. En outre, les bases CentipedeRTK sont désormais rinexées (= leurs données sont archivées) dans les bases de données RENAG (via le centre de données : [doi.org/10.17616/R31NJN5L](http://doi.org/10.17616/R31NJN5L), ce qui constitue un gage sérieux de pérénnité pour les données du réseau. Réciproquement, les bases CentipèdeRTK sont utilisées pour les analyses opérées par RENAG quotidiennement.
 
 Contact: contact@centipede.fr
 
