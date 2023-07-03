@@ -15,7 +15,7 @@ CentipedeRTK est un réseau collaboratif de bases GNSS ouvertes et disponibles p
 
 L'objectif du projet est d'offrir une couverture complète du territoire métropolitain. Il est soutenu financièrement par INRAE et a bénéficié dès son démarrage en 2019 de moyens mutualisés entre des instituts de recherche, des organismes publics, des agriculteurs et des entreprises privées. La carte ci-dessous présente l'étendue actuelle du réseau.
 
-[Carte du réseau](https://centipede.fr/index.php/view/map/?repository=centipede&project=centipede){:target="_blank"}
+[Carte du réseau](https://centipede.fr/index.php/view/map/?repository=cent&project=centipede){:target="_blank"}
 
 [http://caster.centipede.fr:2101](http://caster.centipede.fr:2101){:target="_blank"}
 
