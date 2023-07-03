@@ -121,7 +121,7 @@ Orbits and Clocks Used: NRCan/IGS Final
 GNSS Data: GPS & GLONASS
 GRS80 ellipsoid used for (x,y,z) to (lat,lon,h) transformation
 ```
-Se rendre sur https://gunicsba.github.io/nrcan_etrf_en.html et suivre la méthode afin de calculer votre position en ETRF
+Se rendre sur [https://gunicsba.github.io/nrcan_etrf_en.html](https://gunicsba.github.io/nrcan_etrf_en.html) et suivre la méthode afin de calculer votre position en ETRF ou autre. Sur cette page se trouve aussi des outils en ligne pour la conversion des coordonnées dans un système local.
 
 ### 4.2.2 Pays sans système de coordonnées
 
