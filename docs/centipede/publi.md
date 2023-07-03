@@ -2,7 +2,7 @@
 layout: default
 title: Publications
 parent: Le Reseau Centipede RTK
-nav_order: 5
+nav_order: 2
 ---
 
 ## Publications
@@ -11,7 +11,7 @@ nav_order: 5
 
 Julien Ancelin, Sylvie Ladet, Wilfried Heintz
 
-Spatial Analysis and GEOmatics 2023, GDR MAGIS Méthodes et Applications pour la Géomatique et l'Information Spatiale; Centre de Recherche en Données et Intelligence Géospatiales de l’Université Laval (Québec), Jun 2023, Québec, Canada. 
+Spatial Analysis and GEOmatics 2023, GDR MAGIS Méthodes et Applications pour la Géomatique et l'Information Spatiale; Centre de Recherche en Données et Intelligence Géospatiales de l’Université Laval (Québec), Jun 2023, Québec, Canada.
 
 [hal-04144737](https://hal.inrae.fr/hal-04144737){:target="_blank"}
 
@@ -27,9 +27,9 @@ EGU General Assembly, 2023, Vienna, Austria. 2023, [10.5194/egusphere-egu23-9059
 
 * **RTK GNSS-Assisted Terrestrial SfM Photogrammetry without GCP: Application to Coastal Morphodynamics Monitoring**
 
-Jaud, M.; Bertin, S.; Beauverger, M.; Augereau, E.; Delacourt, C. 
+Jaud, M.; Bertin, S.; Beauverger, M.; Augereau, E.; Delacourt, C.
 
-RTK GNSS-Assisted Terrestrial SfM Photogrammetry without GCP: Application to Coastal Morphodynamics Monitoring. Remote Sens. 2020, 12, 1889. 
+RTK GNSS-Assisted Terrestrial SfM Photogrammetry without GCP: Application to Coastal Morphodynamics Monitoring. Remote Sens. 2020, 12, 1889.
 
 [10.3390/rs12111889](https://doi.org/10.3390/rs12111889){:target="_blank"}
 

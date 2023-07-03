@@ -2,7 +2,7 @@
 layout: default
 title: Systèmes de référence
 parent: Le Reseau Centipede RTK
-nav_order: 2
+nav_order: 5
 ---
 
 ## Pense-bête
@@ -14,7 +14,7 @@ nav_order: 2
 * **EPSG:4965** / [coordonnées géographiques RGF93](https://epsg.io/4965) ellipsoïdales en mètre, 3D
 * **EPSG:2154** / [coordonnées projetées RGF93 / Lambert-93](https://epsg.io/2154) plane en mètre
   * à utiliser pour la conception de cartes
-* **EPSG:5698** / [coordonnées projetées RGF93 / Lambert-93 + NGF-IGN69 height](https://epsg.io/5698) plane en mètre + altimétrie 
+* **EPSG:5698** / [coordonnées projetées RGF93 / Lambert-93 + NGF-IGN69 height](https://epsg.io/5698) plane en mètre + altimétrie
   * à utiliser pour la conception de cartes et permet une lecture altimétrique de la donnée collectée
 
 ### Transformation d’un point d’un système de coordonnées de référence à un autre
@@ -47,7 +47,7 @@ Les coordonnées géographiques sont exprimées en degrés sexagésimaux (Degré
 
 Attention, des coordonnées géographiques n'ont aucun sens si on ne les accompagne pas des informations sur le système géodésique dans lequel elles sont exprimées.
 
-Les différents systèmes de coordonnées utilisés en géographie sont étroitement liés aux différents systèmes de référence : 
+Les différents systèmes de coordonnées utilisés en géographie sont étroitement liés aux différents systèmes de référence :
 
 |Systèmes de coordonnées|Systèmes de référence|
 |---|---|
@@ -57,7 +57,7 @@ Les différents systèmes de coordonnées utilisés en géographie sont étroite
 
 ## [Réseau Géodésique Français 1993 (RGF93)](https://geodesie.ign.fr/index.php?page=rgf93)
 
-Le Référentiel Géodésique Français 93 est le repère de référence tridimensionnel géocentrique de précision centimétrique, adapté aux techniques modernes de positionnement pour la France métropolitaine. Les liens suivants mènent à des informations destinées à l'accompagnement des utilisateurs dans la migration de leurs données vers le repère de référence défini par le nouveau décret n°2019-165 du 5 mars 2019 relatif au système national de référence de coordonnées. 
+Le Référentiel Géodésique Français 93 est le repère de référence tridimensionnel géocentrique de précision centimétrique, adapté aux techniques modernes de positionnement pour la France métropolitaine. Les liens suivants mènent à des informations destinées à l'accompagnement des utilisateurs dans la migration de leurs données vers le repère de référence défini par le nouveau décret n°2019-165 du 5 mars 2019 relatif au système national de référence de coordonnées.
 
  Il matérialise sur le territoire métropolitain un repère de référence précis, adapté aux technologies modernes, et compatible avec les références mondiales. Il est tridimensionnel et géocentrique et correspond à la réalisation française de l'ETRS89 (European Terrestrial Reference System 1989). Il convient de rappeler que l'ETRS89 :
 
@@ -67,7 +67,7 @@ Le Référentiel Géodésique Français 93 est le repère de référence tridime
 
 Le RGF93 est donc compatible avec le système mondial ITRS et à fortiori le système usuel WGS 84.
 
-En application des décrets 2000-1276 du 26 décembre 2000, 2006-272 du 3 avril 2006 et 2019-165 du 5 mars 2019 (et son arrêté), le RGF93 constitue la référence géographique légale. 
+En application des décrets 2000-1276 du 26 décembre 2000, 2006-272 du 3 avril 2006 et 2019-165 du 5 mars 2019 (et son arrêté), le RGF93 constitue la référence géographique légale.
 
 ### Caractéristiques
 
@@ -88,7 +88,7 @@ Le RGF93 est un repère de référence :
 
 Le développement rapide de l'utilisation du GNSS a suscité de nouveaux besoins en matière de systèmes de référence et de conversions de coordonnées, en particulier dans le domaine de l'altimétrie. Alors qu'en géodésie traditionnelle on sépare les déterminations planimétriques et altimétriques, le GNSS permet d'intégrer ces opérations. Il devient dès lors nécessaire de convertir les hauteurs ellipsoïdales en altitudes.
 
-En plus de l'ellipsoïde, qui est un modèle mathématique de la Terre, la géodésie traite de surfaces de référence liées au champ de pesanteur : le géoïde, le quasi-géoïde et leurs différentes réalisations. 
+En plus de l'ellipsoïde, qui est un modèle mathématique de la Terre, la géodésie traite de surfaces de référence liées au champ de pesanteur : le géoïde, le quasi-géoïde et leurs différentes réalisations.
 
 Le géoïde est la surface du potentiel de pesanteur terrestre qui coïncide au mieux avec le niveau moyen de la mer.
 
@@ -106,8 +106,3 @@ Pour la France continentale, la surface de conversion altimétrique RAF20 a ét�
 [RAF20 pour la France continentale (RGF93 v2b NGF-IGN69)](https://geodesie.ign.fr/contenu/fichiers/documentation/grilles/metropole/RAF20.tac)
 
 [Ensemble des grilles de conversions altimétrique IGN](https://geodesie.ign.fr/index.php?page=grilles)
-
-
-
-
-

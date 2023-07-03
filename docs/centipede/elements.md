@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Elements du réseau 
+title: Elements du réseau
 parent: Le Reseau Centipede RTK
-nav_order: 3
+nav_order: 7
 ---
 
 ![elements](/assets/mindMap/BaseRtk.jpg)
@@ -18,7 +18,3 @@ nav_order: 3
 ![elements](/assets/mindMap/Caster.jpg)
 
 ![elements](/assets/mindMap/centipede_ntrip.png)
-
-
-
-

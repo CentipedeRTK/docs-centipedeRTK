@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Connexion au caster 
+title: Connexion au caster
 parent: Le Reseau Centipede RTK
-nav_order: 4
+nav_order: 3
 ---
 
 * Adresse caster: caster.centipede.fr

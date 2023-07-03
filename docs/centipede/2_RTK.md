@@ -2,7 +2,7 @@
 layout: default
 title: Le GNSS RTK c'est quoi?
 parent: Le Reseau Centipede RTK
-nav_order: 2
+nav_order: 4
 ---
 
 ## Le GNSS RTK c'est quoi?
@@ -57,4 +57,3 @@ nav_order: 2
 ## RTCM3
 
 [RTCM SC-104 Messages for real-time GNSS applications](https://igs.bkg.bund.de/ntrip/about)
-

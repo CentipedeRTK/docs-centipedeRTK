@@ -2,7 +2,7 @@
 layout: default
 title: FAQ
 parent: Le Reseau Centipede RTK
-nav_order: 5
+nav_order: 6
 ---
 
 ## 1 FAQ
