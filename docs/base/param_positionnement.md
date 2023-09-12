@@ -22,5 +22,7 @@ nav_order: 5
 ![base gnss](/assets/images/basegnss/basegnss_position.png)
 
 * Maintenant, vous pouvez désactiver le **File service**, sauf si vous avez besoin de faire des post-traitements.
+* C'est aussi le bon moment de faire une sauvegarde des paramètres de votre base, afin de pouvoir les réinsérer facilement en cas de réinitialisation. Pour ceci, en bas de l'onglet <span style="color:#007BFF">**SETTINGS**</span> cliquez sur le bouton "Backup", et conservez le fichier qui est téléchargé.
+![base gnss](/assets/images/basegnss/rtkbase_backup_settings.png)
 
-* [Déclarer maintenant votre Base sur le Réseau Centipède](Declaration){: .btn }
+* C'est presque terminé : [Déclarer maintenant votre Base sur le Réseau Centipède](Declaration){: .btn }
