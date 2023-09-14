@@ -25,4 +25,4 @@ nav_order: 5
 * C'est aussi le bon moment de faire une sauvegarde des paramètres de votre base, afin de pouvoir les réinsérer facilement en cas de réinitialisation. Pour ceci, en bas de l'onglet <span style="color:#007BFF">**SETTINGS**</span> cliquez sur le bouton "Backup", et conservez le fichier qui est téléchargé.
 ![base gnss](/assets/images/basegnss/rtkbase_backup_settings.png)
 
-* C'est presque terminé : [Déclarer maintenant votre Base sur le Réseau Centipède](Declaration){: .btn }
+* C'est presque terminé : [Déclarer maintenant votre Base sur le Réseau Centipède](Declaration){: .btn .btn-blue }

@@ -94,7 +94,7 @@ En cas de problème
 
 Si vous ne voyez pas de position ou de barre sur le graphique c'est que l'initialisation de votre module GNSS s'est mal déroulée, il est conseillé de vérifier les branchements, flasher de nouveau la carte SD et recommencer l'installation.
 
-Passons ensuite au [Paramétrage](Parametrage){: .btn }
+Passons ensuite au [Paramétrage](Parametrage){: .btn .btn-blue }
 
 #### Connexion en ssh pour les développeurs ou le débugage
 

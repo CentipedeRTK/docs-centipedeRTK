@@ -156,5 +156,5 @@ GRS80 ellipsoid used for (x,y,z) to (lat,lon,h) transformation
 
 
 
-* Passons à la finalisation du [Paramétrage du positionnement de votre Base RTK](param_positionnement){: .btn }
+* Passons à la finalisation du [Paramétrage du positionnement de votre Base RTK](param_positionnement){: .btn .btn-blue }
 

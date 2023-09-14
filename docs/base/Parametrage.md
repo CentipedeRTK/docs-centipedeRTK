@@ -50,4 +50,4 @@ Ce service va enregistrer le signal de la base et créer une archive tous les jo
 
 En attendant, vous pouvez aller lire les explications des différentes possibilités de RTKBase sur le [Guide de RTKBase](Guide_RTKBase).
 
-Ca y est ? C'est jeudi ? Alors passons au calcul du [positionnement de la base](positionnement){: .btn }
+Ca y est ? C'est jeudi ? Alors passons au calcul du [positionnement de la base](positionnement){: .btn .btn-blue }
