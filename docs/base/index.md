@@ -13,6 +13,8 @@ Pour obtenir une précision centimétrique, il est nécessaire d'avoir un récep
 
 Elle sera fixée sur un support stable avec une vue dégagée vers le ciel. Elle connait sa position très précisément (au millimètre) et "écoute" 24h/24 l'ensemble des satellites (GPS, Glonass, Galileo...). Elle compare en temps réel sa position réelle et sa position estimée via les signaux des satellites.
 
+Une base du réseau Centipède doit fonctionner **24 heures sur 24, 365 jours par an.**
+
 Le résultat obtenu est un flux de données (RTCM) qui va servir à un autre récepteur GNSS ("Rover") afin de corriger sa position.
 
 Les récepteurs peuvent autant servir en Rover qu'en Base. Les prochaines pages vont vous permettre de fabriquer votre propre base GNSS RTK.
