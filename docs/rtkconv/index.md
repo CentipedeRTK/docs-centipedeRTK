@@ -8,7 +8,7 @@ has_children: true
 ## Conversion log .ubx vers Rinex et Analyse qualité réception GNSS
 
 * Récupérer un fichier ```.ubx```. Pour les utilisateurs de RTKbase ils sont situés dans l'onglet **logs**, choisir un des ```*.zip```, le télécharger et le décompresser.
-* Télécharger [RTKLIB](http://rtkexplorer.com/downloads/rtklib-code/)
+* Télécharger [RTKLIB](https://github.com/rtklibexplorer/RTKLIB/releases)
 * Décompresser le zip
 * Double-clique sur **rtklaunch.exe**
 
