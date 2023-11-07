@@ -80,6 +80,30 @@ Paramétrer le flux Ntrip :
  > Detailled section->measurement :
 * Cocher MeasEpoch uniquement
 
+* sur la base gnss:
+
+Rotation, compression et suppression des données brutes :
+
+Créer le fichier /etc/logrotate.d/GNSS :
+```
+/var/log/GNSS.sbf
+{
+	daily
+	copytruncate
+	rotate 30
+	dateext
+	dateformat _%Y%m%d
+	dateyesterday
+	extension .sbf
+	compress
+	postrotate
+		kill $(pgrep ^cat) > /dev/null
+		stty -F /dev/ttyACM0 raw > /dev/null
+		cat >> /var/log/GNSS.sbf < /dev/ttyACM0 &
+	endscript
+}
+```
+
 #### Sauvegarder la config 
 
 * Cliquer sur « save » dans la fenêtre tout en bas à droite.
