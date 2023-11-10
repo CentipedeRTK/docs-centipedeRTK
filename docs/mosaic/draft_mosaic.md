@@ -61,7 +61,7 @@ exit 0
 
 #### Paramétrer le flux Ntrip :
 
-* Corrections -> Corrections Output -> New RTCM3 output -> IP server (Next) -> New IP server connection (Next) -> Port 5026, "Mode TCP (send only)" (next) -> param RTCM3 Output:
+* Corrections -> Corrections Output -> New RTCM3 output -> IP server (Next) -> New IP server connection (Next) -> Port ```5026```, ```Mode TCP (send only)``` (next) -> param RTCM3 Output:
 	* Décocher MSM4
 	* Cocher MSM7,1006,1008,1019,1020,1033,1042,1046,1230
 * Finish
