@@ -117,3 +117,6 @@ Créer le fichier /etc/logrotate.d/GNSS :
 
 * Cliquer sur « save » dans la fenêtre tout en bas à droite.
 
+#### connect to pi zero
+
+https://gnss1.tudelft.nl/pub/varia/Septentrio_mosaic-go_raspberry_pi_zero_w.pdf
