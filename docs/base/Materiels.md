@@ -11,7 +11,8 @@ Cette étape doit vous permettre de bien anticiper quel matériel acheter en fon
 
 ### Choix de la zone d'implantation
 
- * La zone d'implantation de l'antenne de réception ne nécessite pas une position dominante, mais doit proposer une visibilité maximum du ciel ; il est indispensable de ne pas avoir d'obstacles (bâtiments, arbres, murs ...) au-dessus des 10 premiers degrés par rapport au plan horizontal de l'antenne et dans toutes les directions.</br>Ces 10° correspondent à 1.76 mètres de hauteur tous les 10 mètres de distance, ce qui veut dire qu'un obstacle qui dépasse l'antenne de 8.8 mètres, mais à 50 mètres de distance, ne sera pas gênant.
+ * La zone d'implantation de l'antenne de réception ne nécessite pas une position dominante, mais doit proposer une visibilité maximum du ciel ; il est indispensable de ne pas avoir d'obstacles (bâtiments, arbres, murs ...) au-dessus des 10 premiers degrés par rapport au plan horizontal de l'antenne et dans toutes les directions.\
+ Ces 10° correspondent à 1.76 mètres de hauteur tous les 10 mètres de distance, ce qui veut dire qu'un obstacle qui dépasse l'antenne de 8.8 mètres, mais à 50 mètres de distance, ne sera pas gênant. ![illustration pente 10°](/assets/images/basegnss/antenne_10deg.png)
 
  * Elle doit également être très stable au niveau de sa position, il est donc préférable de la fixer sur un plot en béton ou sur le pignon d'un bâtiment (Attention à la dilatation des bâtiments en acier).
 
