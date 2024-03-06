@@ -82,7 +82,7 @@ Les 2 documents (summary et full_output.zip) + le rinex créé précédement vou
 	* une carte au format pdf permettant de visualiser la répartition des stations de référence ainsi que les résidus de la mise en référence
 	* le rapport de calcul au format texte 
 * Le rapport est composé de plusieurs parties, la position de votre base se situe à la fin du document dans la zone **====== RGF93 ======**
-* Il est important de regarder la partie **EXACTITUDE ESTIMÉE (2*SIGMA)** car elle va vous donner la qualité du calcul. **Vos valeurs doivent être inférieures à 8mm en E_N, E_E et inférieures à 16mm en E_H.**
+* Il est important de regarder la partie **EXACTITUDE ESTIMÉE (2*SIGMA)** car elle va vous donner la qualité du calcul. **Vos valeurs doivent être inférieures à 10mm en E_N, E_E et inférieures à 20mm en E_H.**
 * Noter les coordonnées de votre base dans cet ordre **Latitude Longitude Hell** afin de les copier dans votre base RTK.
 
 ![ign](/assets/images/positionnement/rapport_ign1.png)
