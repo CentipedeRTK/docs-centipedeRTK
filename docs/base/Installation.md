@@ -39,7 +39,7 @@ Si U-Center refuse de démarrer avec un message d'erreur du type "MSVCR120.dll i
 
 Télécharger depuis votre ordinateur l'image RTKBase pour votre carte :
  - Raspberry Pi (~ 560 Mo) : [BaseGNSS-RPi-2.4.1](https://github.com/CentipedeRTK/pi-gen_RTKbase/releases/download/RTKBaseGNSS-RPi-2.4.1/RTKBaseGNSS_2_4_1.zip) , Mettre à jour RTKbase si besoin une fois l'image installée !
- - Orange Pi Zero : [BaseGNSS-Opi-Zero](https://github.com/Stefal/build/releases/download/2.4.1_23.02/Armbian_23.02.2_Orangepizero_bullseye_current_5.15.93_minimal.zip)
+ - Orange Pi Zero : [BaseGNSS-Opi-Zero](https://github.com/Stefal/build/releases/download/2.5.0_23.11/Armbian-unofficial_23.11.0-trunk_RTKBase_2.5.0_Orangepizero_bookworm_current_6.1.63_minimal.zip)
 
 **Attention**, ne pas copier directement l'image Base_GNSS_X.X.X.zip sur la carte micro SD !!!
 
