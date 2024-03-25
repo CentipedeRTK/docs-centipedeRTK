@@ -35,11 +35,13 @@ Si U-Center refuse de démarrer avec un message d'erreur du type "MSVCR120.dll i
   * Attendre la fin de la procédure de mise à jour
 ![firmware](https://gblobscdn.gitbook.com/assets%2F-LYSZeu4HjB-NrVI4riL%2F-LZ52KPCRzypMK4cqtQW%2F-LZ52Z_bl9GHQP8dz7By%2Fstep6.png?alt=media&token=f8f7240b-79b4-4856-87ea-26e12c1aac36)
 
-### 2. Télécharger l'image pour Raspberry Pi / Orange Pi Zero
+### 2. Télécharger l'image pour Raspberry Pi / Orange Pi
 
 Télécharger depuis votre ordinateur l'image RTKBase pour votre carte :
  - Raspberry Pi (~ 560 Mo) : [BaseGNSS-RPi-2.4.1](https://github.com/CentipedeRTK/pi-gen_RTKbase/releases/download/RTKBaseGNSS-RPi-2.4.1/RTKBaseGNSS_2_4_1.zip) , Mettre à jour RTKbase si besoin une fois l'image installée !
- - Orange Pi Zero : [BaseGNSS-Opi-Zero](https://github.com/Stefal/build/releases/download/2.5.0_23.11/Armbian-unofficial_23.11.0-trunk_RTKBase_2.5.0_Orangepizero_bookworm_current_6.1.63_minimal.zip)
+ - Orange Pi Zero : [BaseGNSS-Opi-Zero](https://github.com/Stefal/build/releases/download/2.5.0_24.02/Armbian-unofficial_24.2.1_RTKBase_2.5.0_Orangepizero_bookworm_current_6.6.16_minimal.zip)
+ - Orange Pi Zero 2 : [BaseGNSS-Opi-Zero2](https://github.com/Stefal/build/releases/download/2.5.0_24.02/Armbian-unofficial_24.2.1_RTKBase_2.5.0_Orangepizero2_bookworm_current_6.6.16_minimal.zip)
+ - Orange Pi Zero 3 : [BaseGNSS-Opi-Zero3](https://github.com/Stefal/build/releases/download/2.5.0_24.02/Armbian-unofficial_24.2.1_RTKBase_2.5.0_Orangepizero3_bookworm_current_6.6.16_minimal.zip)
 
 **Attention**, ne pas copier directement l'image Base_GNSS_X.X.X.zip sur la carte micro SD !!!
 
