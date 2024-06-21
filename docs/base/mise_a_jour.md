@@ -21,6 +21,9 @@ Ce message indique que le système d'exploitation qui fait fonctionner RTKBase e
 * Sortir la carte micro SD de la base
 * Suivre les étapes 2 à 6 de la page [Installation](Installation).
 * Restaurer vos paramètres avec le bouton **Restore**, et en sélectionnant le fichier de sauvegarde créé précédemment.
+
 ![base gnss](/assets/images/basegnss/backup_restore_1.png)
 
-Réactivez les services dont vous avez besoin, en général **Main service** et **Ntrip A service**, et voilà, votre base utilise désormait la toute dernière version de RTKBase ainsi que la version la plus récente du système d'exploitation.
+Réactivez les services dont vous avez besoin, en général **Main service** et **Ntrip A service**.
+
+Et voilà ! votre base utilise désormait la toute dernière version de RTKBase ainsi que la version la plus récente du système d'exploitation.
