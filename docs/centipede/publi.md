@@ -608,4 +608,4 @@ Lien : [Springer](https://link.springer.com/chapter/10.1007/978-3-031-54376-0_28
 
 [B-Boost 2021 : Conférence - Centipède RTK : fabriquer des bases en autonomie et à faible coût](https://youtu.be/gTMEe4CBmTg){:target="_blank"}
 
-[sur Youtube]https://www.youtube.com/results?search_query=centipedertk
+[sur Youtube...](https://www.youtube.com/results?search_query=centipedertk)
