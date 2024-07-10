@@ -3,11 +3,6 @@ layout: default
 title: Publications
 parent: Le Reseau Centipede RTK
 nav_order: 2
----a---
-layout: default
-title: Publications
-parent: Le Reseau Centipede RTK
-nav_order: 2
 ---
 
 ### Synthèse des articles citant CentipedeRTK
