@@ -7,7 +7,7 @@ nav_order: 2
 
 ### Sommaire des articles citant CentipedeRTK
 
--[Evaluation of Tropospheric Estimates from CentipedeRTK, a Collaborative Network of Low-Cost GNSS Stations](#evaluation-of-tropospheric-estimates-from-centipedertk-a-collaborative-network-of-low-cost-gnss-stations) *(2024) / *Évaluation des estimations troposphériques à partir de CentipedeRTK, un réseau collaboratif de stations GNSS à faible coût*
+- [Evaluation of Tropospheric Estimates from CentipedeRTK, a Collaborative Network of Low-Cost GNSS Stations](#evaluation-of-tropospheric-estimates-from-centipedertk-a-collaborative-network-of-low-cost-gnss-stations) *(2024) / *Évaluation des estimations troposphériques à partir de CentipedeRTK, un réseau collaboratif de stations GNSS à faible coût*
 
 - [Enhancing Atmospheric Monitoring Capabilities: A Comparison of Low- and High-Cost GNSS Networks for Tropospheric Estimations](#enhancing-atmospheric-monitoring-capabilities-a-comparison-of-low--and-high-cost-gnss-networks-for-tropospheric-estimations) *(2024)* / *Amélioration des Capacités de Surveillance Atmosphérique : Une Comparaison des Réseaux GNSS à Faible Coût et Haut Coût pour les Estimations Troposphériques*
 
