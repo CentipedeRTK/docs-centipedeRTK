@@ -7,7 +7,9 @@ nav_order: 2
 
 ### Sommaire des articles citant CentipedeRTK
 
-- [Enhancing Atmospheric Monitoring Capabilities: A Comparison of Low- and High-Cost GNSS Networks for Tropospheric Estimations](#enhancing-atmospheric-monitoring-capabilities-a-comparison-of-low-and-high-cost-gnss-networks-for-tropospheric-estimations) *(2024)* / *Amélioration des Capacités de Surveillance Atmosphérique : Une Comparaison des Réseaux GNSS à Faible Coût et Haut Coût pour les Estimations Troposphériques*
+-[Evaluation of Tropospheric Estimates from CentipedeRTK, a Collaborative Network of Low-Cost GNSS Stations](#evaluation-of-tropospheric-estimates-from-centipedertk-a-collaborative-network-of-low-cost-gnss-stations) *(2024) / *Évaluation des estimations troposphériques à partir de CentipedeRTK, un réseau collaboratif de stations GNSS à faible coût*
+
+- [Enhancing Atmospheric Monitoring Capabilities: A Comparison of Low- and High-Cost GNSS Networks for Tropospheric Estimations](#enhancing-atmospheric-monitoring-capabilities-a-comparison-of-low--and-high-cost-gnss-networks-for-tropospheric-estimations) *(2024)* / *Amélioration des Capacités de Surveillance Atmosphérique : Une Comparaison des Réseaux GNSS à Faible Coût et Haut Coût pour les Estimations Troposphériques*
 
 - [Évaluation des performances de solutions GNSS Real Time Kinematic commerciales et open source pour la géolocalisation des arbres en forêt](#évaluation-des-performances-de-solutions-gnss-real-time-kinematic-commerciales-et-open-source-pour-la-géolocalisation-des-arbres-en-forêt) *(2024)* / *Evaluation of the Performance of Commercial and Open Source GNSS Real Time Kinematic Solutions for Forest Tree Geolocation*
 
