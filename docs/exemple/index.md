@@ -1,10 +1,8 @@
 ---
 layout: default
-title: Exemples d'utilisations
+title: Publications
 nav_order: 9
 has_children: true
 ---
 
-# Exemples d'utilisations
-
-
+# Publications
