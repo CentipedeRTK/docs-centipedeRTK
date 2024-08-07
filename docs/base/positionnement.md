@@ -74,7 +74,7 @@ Les 2 documents (summary et full_output.zip) + le rinex créé précédement vou
 
 ### 4. Interprétation du rapport 
 
-###  4.1 En FRANCE
+###  4.1 FRANCE
 
 * Le rapport (xxxxxx.tar.gz) est à décompresser, il sera également nécessaire de le fournir au moment de la déclaration de votre base sur le réseau Centipede.
 * Le rapport contient 3 documents:
@@ -89,14 +89,13 @@ Les 2 documents (summary et full_output.zip) + le rinex créé précédement vou
 
 ###  4.2 hors FRANCE
 
-### 4.2.1 Pays ayant un système de coordonnées
+### 4.2.1 European countries
 
-Exemple pour les pays Européen, à adapter en fonction de votre situation  géographique. 
+Example for European countries
 
-> Documentation en cours d'écriture, pour toute question rendez-vous sur le [forum](https://forum.geocommuns.fr/t/coordinates-transformation-hors-zone-rgf93/827/30) et/ou le groupe de discussion [télégram](https://t.me/Centipede_RTK)
-
-Copier le **summary** / **sommaire** reçu par NRCAN
-> Exemple d'un fichier:
+* Copy the **summary** / **sommaire** received by NRCAN
+  
+> Example of a file:
 
 ```
 The estimated coordinates ITRF20 2023-05-24 for the 2023-05-25-CT_nrcan_1_.obs RINEX file are as follows:
@@ -121,7 +120,8 @@ Orbits and Clocks Used: NRCan/IGS Final
 GNSS Data: GPS & GLONASS
 GRS80 ellipsoid used for (x,y,z) to (lat,lon,h) transformation
 ```
-Se rendre sur [https://gunicsba.github.io/nrcan_etrf_en.html](https://gunicsba.github.io/nrcan_etrf_en.html) et suivre la méthode afin de calculer votre position en ETRF ou autre. Sur cette page se trouve aussi des outils en ligne pour la conversion des coordonnées dans un système local.
+.
+* Go to [https://gunicsba.github.io/nrcan_etrf_en.html](https://gunicsba.github.io/nrcan_etrf_en.html) and follow the method to calculate your position in ETRF2000. Remember to download the file so that you can provide it when declaring your base.
 
 ### 4.2.2 Pays sans système de coordonnées
 
