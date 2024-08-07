@@ -121,7 +121,7 @@ GNSS Data: GPS & GLONASS
 GRS80 ellipsoid used for (x,y,z) to (lat,lon,h) transformation
 ```
 .
-* Go to [ITRF20 to ETRF2000 conversion](https://gunicsba.github.io/nrcan_itrf-ectt_etrf-epsg_io.html) and follow the method to calculate your position in ETRF2000. Remember to download the file so that you can provide it when declaring your base.
+* Go to [ITRF20 to ETRF2000 conversion](https://nrcan2etrf.centipede.fr/nrcan_itrf-ectt_etrf-epsg_io.html) and follow the method to calculate your position in ETRF2000. Remember to download the file so that you can provide it when declaring your base.
 
 ### 4.2.2 Pays sans système de coordonnées
 
