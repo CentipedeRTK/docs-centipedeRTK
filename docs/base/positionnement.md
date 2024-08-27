@@ -125,7 +125,7 @@ GRS80 ellipsoid used for (x,y,z) to (lat,lon,h) transformation
 
 ### 4.2.2 Pays sans système de coordonnées
 
-Les coordonées sont à garder en ITRF, dans le **summary** / **sommaire** reçu par NRCAN récupérer les coordonnées décimales et remplacer les virgules par un espace afin de pouvoir les copier dans votre base RTK.
+Les coordonnées sont à garder en ITRF, dans le **summary** / **sommaire** reçu par NRCAN récupérer les coordonnées décimales et remplacer les virgules par un espace afin de pouvoir les copier dans votre base RTK.
 > Exemple d'un fichier:
 
 ```
@@ -133,7 +133,7 @@ The estimated coordinates ITRF20 2023-05-24 for the 2023-05-25-CT_nrcan_1_.obs R
 Latitude	N46° 09' 53.4007"	± 0.002 m (95%)
 Longitude	W0° 56' 54.7154"	± 0.002 m (95%)
 Ellipsoidal Height	65.270 m	± 0.008 m (95%)
-[46.16483353,-0.94853206,65.270] <---- Vos coordonnées en ITRF20!!
+[46.16483353,-0.94853206,65.270]          <---- Vos coordonnées en ITRF20!!
 
 UTM Zone 30 (North)
 Northing	5114407.540 m
@@ -152,7 +152,7 @@ GNSS Data: GPS & GLONASS
 GRS80 ellipsoid used for (x,y,z) to (lat,lon,h) transformation
 ```
 
-> Coordonnées à retenir: **46.16483353,-0.94853206,65.270**
+> Coordonnées à retenir: **46.16483353 -0.94853206 65.270**
 
 
 
