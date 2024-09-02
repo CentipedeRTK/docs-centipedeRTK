@@ -36,7 +36,7 @@ nav_order: 1
 
 ### Evaluation of Tropospheric Estimates from CentipedeRTK, a Collaborative Network of Low-Cost GNSS Stations
 
-*En cours de publication...*
+*Bosser, P., Ancelin, J., Métois, M. et al. Evaluation of tropospheric estimates from CentipedeRTK, a collaborative network of low-cost GNSS stations. GPS Solut 28, 158 (2024). https://doi.org/10.1007/s10291-024-01699-3*
 
 #### Contexte et Objectif
 
