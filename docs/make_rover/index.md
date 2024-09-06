@@ -17,8 +17,6 @@ Dans cette section nous allons voir comment fabriquer un Rover GNSS RTK Bluetoot
 Les rovers GNSS RTK Bluetooth sont assemblés dans un boitier imprimé 3D, il est donc possible de le faire évoluer ou rajouter des modules comme un support pour canne d'arpentage, une poignée, un support de smartphone,... N'hésitez pas à partager vos développements/remixs [ici](https://www.prusaprinters.org/fr/prints/90252-gnss-rtk-v51/remixes).
 
 ## [V6 en développement](rover_v6){: .btn}
-![montage rover 6](/assets/images/montage_rover/v6_1.jpg)
-![montage rover 6](/assets/images/montage_rover/v6_3.jpg)
 
 ## [V5.1](rover_v5_1){: .btn }
 ![montage rover 5.1](/assets/images/montage_rover/16-rover_v5-1.jpg)
