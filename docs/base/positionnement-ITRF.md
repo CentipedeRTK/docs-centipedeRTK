@@ -8,12 +8,12 @@ nav_order: 3
 
 * Se rendre dans l'onglet <span style="color:#007BFF">**LOGS**</span> de votre base RTK et cliquer sur le crayon (```edit```) d'un **.zip** complet de 24h.
 
-![log2rinex](/assets/images/positionnement/log2rinex1_nrcan.png)
+![log2rinex](/assets/images/positionnement/log2rinex1.png)
 
 * Une fenêtre s'ouvre pour vous proposer de convertir le fichier de log en fichier RINEX.
 * Si vous êtes hors de France: **Utiliser un Fichier de logs datant de plus de 15 jours** puis choissisez le préréglage **NRCAN**, qui est compatible avec les services en ligne d'NRCAN pour le calcul du positionnement précis. Cliquer sur **Create Rinex File**
 
-![log2rinex](/assets/images/positionnement/log2rinex2.png)
+![log2rinex](/assets/images/positionnement/log2rinex1_nrcan.png)
 
 * Patientez lors de la création du fichier RINEX cela peut durer plusieurs minutes.
 
@@ -73,12 +73,12 @@ GRS80 ellipsoid used for (x,y,z) to (lat,lon,h) transformation
 ```
 * Récupérer les coordonnées dans le rapport, exemple:
 	*	**[46.16483353,-0.94853206,65.270]** <---- Vos coordonnées en ITRF20
-	* les adapter pour les insérer dans votre base GNSS: **46.16483353 -0.94853206 65.270**
+* les adapter pour les insérer dans votre base GNSS, enlever les "[]" et remplacer les  "," par un espace : **46.16483353 -0.94853206 65.270**
 
 ![itrf2etrf](/assets/images/positionnement/itrf2etrf_5.png)
 
 > Vos coordonnées géographiques sont maintenant dans un système global au niveau international.
-Chaque continent et/ou pays a souvent un système de coordonnées local en plus, comme l'ETRF2000 en Europe ou le RGF93 en France, afin de prendre en considération les mouvements locaux.s
+Chaque continent et/ou pays ont souvent un système de coordonnées local en plus, comme l'ETRF2000 en Europe ou le RGF93 en France, afin de prendre en considération les mouvements locaux.s
 Si vous avez besoin d'avoir d'être convergeant avec le système de coordonnées de votre pays merci de nous faire remonter vos besoins sur le [forum](https://forum.geocommuns.fr/c/rtk-centipede/18)
 
 * Passons à la finalisation du [Paramétrage du positionnement de votre Base RTK](param_positionnement){: .btn .btn-blue }

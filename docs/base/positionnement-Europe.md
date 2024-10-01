@@ -8,12 +8,12 @@ nav_order: 2
 
 * Se rendre dans l'onglet <span style="color:#007BFF">**LOGS**</span> de votre base RTK et cliquer sur le crayon (```edit```) d'un **.zip** complet de 24h.
 
-![log2rinex](/assets/images/positionnement/log2rinex1_nrcan.png)
+![log2rinex](/assets/images/positionnement/log2rinex1.png)
 
 * Une fenêtre s'ouvre pour vous proposer de convertir le fichier de log en fichier RINEX.
 * Si vous êtes hors de France: **Utiliser un Fichier de logs datant de plus de 15 jours** puis choissisez le préréglage **NRCAN**, qui est compatible avec les services en ligne d'NRCAN pour le calcul du positionnement précis. Cliquer sur **Create Rinex File**
 
-![log2rinex](/assets/images/positionnement/log2rinex2.png)
+![log2rinex](/assets/images/positionnement/log2rinex1_nrcan.png)
 
 * Patientez lors de la création du fichier RINEX cela peut durer plusieurs minutes.
 
@@ -87,12 +87,11 @@ GRS80 ellipsoid used for (x,y,z) to (lat,lon,h) transformation
 
 ![itrf2etrf](/assets/images/positionnement/itrf2etrf_3.png)
 
-* Les coordonnées finales de votre base GNSS sont maintenant affichées, Cliquer sur:
-  * **4. Export Form Data .txt ...** pour télécharger le rapport de conversion afin de pouvoir l'envoyer lors de votre déclaration sur le réseau Centipede-RTK.
+* Les coordonnées finales de votre base GNSS sont maintenant affichées, Cliquer sur **4. Export Form Data .txt ...** pour télécharger le rapport de conversion afin de pouvoir l'envoyer lors de votre déclaration sur le réseau Centipede-RTK.
 
 ![itrf2etrf](/assets/images/positionnement/itrf2etrf_4.png)
 
-	* **5. Finaly, Copy Converted Coordinates for ....** pour copier ces valeurs et les insérer dans les paramètres de coordonnées de votre base GNSS.
+* cliquer sur **5. Finaly, Copy Converted Coordinates for...** pour copier ces valeurs et les insérer dans les paramètres de coordonnées de votre base GNSS.
 
 ![itrf2etrf](/assets/images/positionnement/itrf2etrf_5.png)
 
