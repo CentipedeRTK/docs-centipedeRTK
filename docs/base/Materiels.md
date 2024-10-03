@@ -29,12 +29,12 @@ Dans le cas où il n'y a pas de prise 230V à proximité de la base, et/ou pour 
 
 ![schéma base Poe](/assets/images/mat/schema_POE.png)
 
-[Modèle d'Injecteur POE](https://www.trendnet.com/langfr/products/poe-splitters-injectors-extenders/tpe-115GI-v2.1),[Modèle de Séparateur POE](https://www.trendnet.com/langfr/products/PoE/Gigabit-PoE-Splitter-TPE-104GS-v2)
+[Modèle d'Injecteur POE](https://www.trendnet.com/langfr/products/poe-splitters-injectors-extenders/tpe-115GI-v2.1){:target="_blank"} et [Modèle de Séparateur POE](https://www.trendnet.com/langfr/products/PoE/Gigabit-PoE-Splitter-TPE-104GS-v2){:target="_blank"}
 
 ![POE](https://raw.githubusercontent.com/Stefal/rtkbase/master/images/base_f9p_raspberry_pi.jpg)
 <p align="center"><sup><i>crédit Stéphane Péneau</i></sup></p>
 
-[VIDEO Assemblage RTKbase](http://rtkbase.eu/assemblage_base_gnss_brut.mp4)
+[VIDEO Assemblage RTKbase](http://rtkbase.eu/assemblage_base_gnss_brut.mp4){:target="_blank"}
 
 
 ### Choix du récepteur GNSS:

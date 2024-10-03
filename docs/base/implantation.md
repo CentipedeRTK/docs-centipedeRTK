@@ -23,3 +23,5 @@ nav_order: 1
 ![lienss](/assets/images/implantation/implantation_base_centipedeRTK.jpg)
 
 ![lienss](/assets/images/implantation/base_lienss.jpg)
+
+Passons aux [matériels et à l'assemblage](Materiels){: .btn .btn-blue }

@@ -22,37 +22,14 @@ Voici la liste des éléments nécessaires à la mise en place d'une base GNSS [
 Pour le moment Rtkbase ne possède pas de paramétrage automatique pour ce récepteur GNSS, il est necessaire de passer par un logiciel pour injecter les paramètres.
 
 * Utiliser un de ces logiciels pour paramétrer le recepteur GNSS:
-  * [Realterm](https://realterm.sourceforge.io/) ![param](/assets/images/mat/realterm_um980.jpg)
-  * [Arduino IDE](https://www.arduino.cc/en/software)
+  * télécharger et installer [Realterm](https://realterm.sourceforge.io/){:target="_blank"}
+  * Télécharger ce fichier : [conf_base_GNSS_UM980.txt](/assets/param_files/conf_base_GNSS_UM980.txt){:target="_blank"}
 
-```
-FRESET
-
-
-
-VERSIONA
-
-CONFIG SIGNALGROUP 7 0
-MODE BASE 1 TIME 60 1
-rtcm1077 1
-rtcm1087 1
-rtcm1097 1
-rtcm1107 1
-rtcm1117 1
-rtcm1127 1
-rtcm1019 1
-rtcm1020 1
-rtcm1042 1
-rtcm1044 1
-rtcm1045 1
-rtcm1046 1
-UNILOGLIST
-
-SAVECONFIG
-```
+  ![param](/assets/images/mat/realterm_um980_1.jpg)
+  ![param](/assets/images/mat/realterm_um980_1.jpg)
 
 * Il faudra, une fois la carte SD flashée (étape suivante), modifier le fichier de configuration présent dans RTKBASE :
-[settings.conf](/assets/param_files/RTKBase_2.6.0_test_2024-09-14_22H28.conf)
+[settings.conf](/assets/param_files/RTKBase_2.6.0_test_2024-09-14_22H28.conf){:target="_blank"}
 
 ### Assemblage
 

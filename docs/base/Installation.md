@@ -40,8 +40,6 @@ Vous pouvez retirer la carte SD du PC et l'insérer maintenant dans le Raspberry
 
 En option, il est possible d'activer une connexion WIFI si vous n'avez pas de réseau filaire (déconseillé!) ainsi que le port série pour connecter par exemple un émetteur radio. Pour ce faire, ré-insérez la carte SD dans votre PC puis suivez la procédure de modification des fichiers de configurations du premier démarrage:
 
-[WIFI](wifi){: .btn }
-
 [port série](port_serie){: .btn }
 
 ----
