@@ -7,7 +7,8 @@ nav_order: 3
 
 ### Liste
 
-Voici la liste des éléments nécessaires à la mise en place d'une base GNSS F9p bi-fréquences:
+Voici la liste des éléments nécessaires à la mise en place d'une base GNSS [Ublox F9p](https://www.u-blox.com/en/product/zed-f9p-module) bi-fréquences:
+<img src="https://content.u-blox.com/sites/default/files/products/ZED-F9P-top-bottom.png" width="200">
 
 |Matériel|Prix HT|
 |--------|----|

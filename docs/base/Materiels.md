@@ -8,6 +8,8 @@ has_children: true
 
 ## Materiel
 
+Nous utiliserons le logiciel Open Source [RTKBase](https://github.com/Stefal/rtkbase) pour fabriquer une base GNSS maison. Ces bases sont aussi disponibles en kit ou prémontées sur [rtkbase.eu](https://rtkbase.eu). Ce site est géré par le développeur de RTKBase.
+
 Cette étape doit vous permettre de bien anticiper quel matériel acheter en fonction de la zone d'installation de l'antenne RTK et de vos possibilités de raccordement à un réseau Internet pour diffuser les corrections produites. En fin de page vous avez le choix entre différents récepteurs GNSS, bi-fréquences et tri-fréquences.
 
 ### Assemblage (hors récepteur GNSS)
@@ -23,8 +25,6 @@ Cette étape doit vous permettre de bien anticiper quel matériel acheter en fon
 |[câble ethernet RJ45 (longueur à adapter)](https://www.mhzshop.com/shop/Cables-et-cordons/Cordons-reseau/)|6€|
 |[boite étanche je-200](https://www.mhzshop.com/shop/Accessoires-MHz/Boites-etanches/Boite-etanche-avec-fixation-mat-203x203x65mm-GentleBOX-JE-200.html)|16€|
 
-
-
 Dans le cas où il n'y a pas de prise 230V à proximité de la base, et/ou pour simplifier l'installation, il est possible d'utiliser du [POE](https://fr.wikipedia.org/wiki/Alimentation_%C3%A9lectrique_par_c%C3%A2ble_Ethernet) pour alimenter la base via le cable ethernet :
 
 ![schéma base Poe](/assets/images/mat/schema_POE.png)
@@ -34,11 +34,9 @@ Dans le cas où il n'y a pas de prise 230V à proximité de la base, et/ou pour 
 ![POE](https://raw.githubusercontent.com/Stefal/rtkbase/master/images/base_f9p_raspberry_pi.jpg)
 <p align="center"><sup><i>crédit Stéphane Péneau</i></sup></p>
 
-> Ces bases sont aussi disponibles en kit ou prémontées sur [rtkbase.eu](https://rtkbase.eu). Ce site est géré par le développeur de RTKBase. L'achat direct en ligne n'est pas possible pour le moment, il faut passer par le formulaire de contact.
-
 [VIDEO Assemblage RTKbase](http://rtkbase.eu/assemblage_base_gnss_brut.mp4)
 
 
 ### Choix du récepteur GNSS:
 
-Passons maintenant au choix du récepteur GNSS et son paramétrage: 
+Passons maintenant au choix du récepteur GNSS et son paramétrage:

@@ -8,9 +8,6 @@ nav_order: 3
 
 ## Installation
 
-> Installation avec Raspberry Pi [3](https://www.kubii.fr/les-cartes-raspberry-pi/2119-raspberry-pi-3-modele-b-1-gb-kubii-713179640259.html) ou [4](https://www.kubii.fr/les-cartes-raspberry-pi/2770-nouveau-raspberry-pi-4-modele-b-1gb-kubii-0765756931168.html)
-
-
 ### 1. Télécharger l'image pour Raspberry Pi / Orange Pi
 
 Télécharger depuis votre ordinateur l'image RTKBase pour votre carte :
