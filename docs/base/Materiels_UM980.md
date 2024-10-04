@@ -35,7 +35,7 @@ Pour le moment Rtkbase ne possède pas de paramétrage automatique pour ce réce
   * Rechercher le **Port** de votre récepteur:
     * Si votre numéro de port n'est pas dans la liste, cliquer sur **/VCP0** puis sur **V change**, une nouvelle fenêtre s'ouvrira pour choisir quel Port COM connecter. Choisir celui que vous avez trouvé précédemment, dans mon exemple COM12.
 
-> dans mon exemple le COM12 est **12=/VCP0** et cliquer sur **V Change** pour que s'affiche que le numéro
+> dans mon exemple le COM12 est **12=/VCP0** et cliquer sur **V Change** pour que s'affiche seulement le numéro
 
 ![param](/assets/images/mat/rt_port.png)
 ![param](/assets/images/mat/realterm_um980_1.jpg)
@@ -55,9 +55,6 @@ Pour le moment Rtkbase ne possède pas de paramétrage automatique pour ce réce
 ![param](/assets/images/mat/rt_done.png)
 
 * Si tout est OK vous pouvez maintenant débrancher votre récepteur GNSS du PC et le connecter en USB dans votre base GNSS
-
-* Il faudra ensuite, une fois la carte SD flashée (étape suivante), modifier le fichier de configuration présent dans RTKBASE :
-[settings.conf](/assets/param_files/RTKBase_2.6.0_test_2024-09-14_22H28.conf){:target="_blank"}
 
 ### Assemblage
 
