@@ -55,6 +55,9 @@ Pour le moment Rtkbase ne possède pas de paramétrage automatique pour ce réce
 ![param](/assets/images/mat/rt_done.png)
 
 * Si tout est OK vous pouvez maintenant débrancher votre récepteur GNSS du PC et le connecter en USB dans votre base GNSS
+* Après les prochaines étapes, quand vous aurez accès à l'interface web de RTKBase, il sera nécessaire de modifier les paramètres du **Main Service** afin de les rendre compatible avec la configuration de l'UM980.
+
+![UM980_RTKbase](/assets/images/mat/UM980_rtkbase.png)
 
 ### Assemblage
 
