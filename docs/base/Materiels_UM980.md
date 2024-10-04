@@ -27,8 +27,8 @@ Pour le moment Rtkbase ne possède pas de paramétrage automatique pour ce réce
 
 * Ouvrir ce fichier en cliquant sur le lien puis faire **CTRL S** pour le sauvegarder dans le dossier de votre choix:
   * [conf_base_GNSS_UM980.txt](/assets/param_files/.txt){:target="_blank"}
-* Télécharger et installer [Realterm](https://sourceforge.net/projects/realterm/files/latest/download){:target="_blank"}
-  * Source: (https://realterm.sourceforge.io/){:target="_blank"}
+* Télécharger et installer [Realterm_exe](https://sourceforge.net/projects/realterm/files/latest/download){:target="_blank"}
+  * Source: [Realterm_source](https://realterm.sourceforge.io/){:target="_blank"}
 * Démarrer en mode administrateur (click droit) le programme **RealTerm**
 * Cliquer sur l'onglet en bas à gauche **Port** puis:
   * Modifier le **Baud** à la valeur **15200**
@@ -50,7 +50,7 @@ Pour le moment Rtkbase ne possède pas de paramétrage automatique pour ce réce
 
 ![param](/assets/images/mat/rt_send.png)
 
-* A la fin  de la procédure, il est écrit **Done** au dessus de la barre de progression. Des messages (en jaune) s'écrivent régulièrement (si vous avez une antenne branchée au récepteur GNSS et quelle soit en extérieur)
+* A la fin  de la procédure, il est écrit **Done** au dessus de la barre de progression. Des messages (en jaune) s'écrivent régulièrement (si vous avez une antenne branchée au récepteur GNSS et quelle est bien placée en extérieur)
 
 ![param](/assets/images/mat/rt_done.png)
 
