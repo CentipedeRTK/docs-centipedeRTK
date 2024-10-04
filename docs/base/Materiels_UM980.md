@@ -21,12 +21,41 @@ Voici la liste des éléments nécessaires à la mise en place d'une base GNSS [
 
 Pour le moment Rtkbase ne possède pas de paramétrage automatique pour ce récepteur GNSS, il est necessaire de passer par un logiciel pour injecter les paramètres.
 
-* Utiliser un de ces logiciels pour paramétrer le recepteur GNSS:
-  * télécharger et installer [Realterm](https://realterm.sourceforge.io/){:target="_blank"}
-  * Télécharger ce fichier : [conf_base_GNSS_UM980.txt](/assets/param_files/conf_base_GNSS_UM980.txt){:target="_blank"}
+* Utiliser un de ce logiciel pour paramétrer le recepteur GNSS:
+  * Brancher votre récepteur GNSS en USB au PC, ouvrir le **gestionnaire de périphériques**, cliquer sur **Ports** et noter le numéro de port **COM** de **USB Serial Port**. Dans mon exemple **12**
 
-  ![param](/assets/images/mat/realterm_um980_1.jpg)
-  ![param](/assets/images/mat/realterm_um980_1.jpg)
+![param](/assets/images/mat/gesPerif.png)
+
+  * télécharger et installer [Realterm](https://realterm.sourceforge.io/){:target="_blank"}
+  * ouvrir ce fichier en cliquant sur le lien puis faire **CTRL S" pour le sauvegarder:
+    * [conf_base_GNSS_UM980.txt](/assets/param_files/.txt){:target="_blank"}
+  * démarrer en mode administrateur (click droit) le programme RealTerm.
+  * Cliquer sur l'onglet en bas à gauche **Port** puis:
+    * modifier le **Baud** à la valeur **15200**
+    * Rechercher le **Port** de votre récepteur:
+      * si votre numéro de port n'est pas dans la liste, cliquer sur **/VCP0** puis sur **V change**, une nouvelle fenêtre s'ouvrira pour choisir quel Port COM connecter. Choisir celui que vous avez trouvé précédemment. (dans mon exemple COM12)
+
+![param](/assets/images/mat/realterm_um980_1.jpg)
+
+      * dans mon exemple le 12 **12=/VCP0** et cliquer sur **V Change**
+
+![param](/assets/images/mat/rt_port.png)
+
+  * Cliquer sur l'onglet **Send** puis:
+    * modifier la deuxième valeur du **Delays** à **8000**
+    * Dans **Dump File to Port** sélectionné le fichier téléchargé précédemment : **[conf_base_GNSS_UM980.txt](/assets/param_files/conf_base_GNSS_UM980.txt){:target="_blank"}
+
+![param](/assets/images/mat/realterm_um980_2.jpg)
+
+* Cliquer enfin sur **Send**, sur la partie de l'écran noir les commandes vont se succéder.
+
+![param](/assets/images/mat/rt_send.png)
+
+    * A la fin  de la procédure il est écrit **Done** au dessus de la barre de progression et des messages (en jaune) s'écrivent régulièrement (si vous avez une antenne branchée au récepteur GNSS et quelle soit en extérieur)
+
+![param](/assets/images/mat/rt_done.png)
+
+* Vous pouvez maintenant débrancher votre récepteur GNSS du PC et le connecter en USB dans votre base
 
 * Il faudra, une fois la carte SD flashée (étape suivante), modifier le fichier de configuration présent dans RTKBASE :
 [settings.conf](/assets/param_files/RTKBase_2.6.0_test_2024-09-14_22H28.conf){:target="_blank"}
