@@ -16,12 +16,8 @@ has_children: true
 
 ```mermaid
 graph TD;
-    ESP32-->pin16_RX;
-    pin16_RX-->UART1_TR;
-    UART1_Tx-->GNSS;
-    ESP32-->pin17_TX;
-    pin17_TX-->UART1_RX;
-    UART1_RX-->GNSS;
+    ESP32-->pin16_RX-->UART1_TX-->GNSS;
+    ESP32-->pin17_TX-->UART1_RX-->GNSS;
 ```
 
 ### Personnaliser son rover :
