@@ -15,17 +15,9 @@ has_children: true
 ![ESP32](https://docs.espressif.com/projects/esp-idf/en/v4.4.4/esp32/_images/esp32-devkitC-v4-pinout.png)
 
 ```mermaid
-flowchart LR
-00 {EPS32}
-10 {Récepteur GNSS}
-11 [UART 1]
-12 [UART 2]
-00 --> 01[PIN 16]
-00 --> 02[PIN 17]
-01 -->|UART1 Rx| -->|UART1 Tx| --> 11
-02 -->|UART1 Tx| -->|UART1 Rx| --> 11
-11 --> 10
-12 --> 10
+graph TD;
+ESP32-->UART1_Rx-->UART1_Tx-->GNSS;
+ESP32-->UART1_Tx-->UART1_Rx-->GNSS;
 ```
 
 ### Personnaliser son rover :
