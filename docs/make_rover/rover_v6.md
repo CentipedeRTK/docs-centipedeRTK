@@ -9,5 +9,9 @@ has_children: true
 > experimental code!!!
 
 ### This code allows you to connect an esp32 :
-* [esp32-wifi-ntrip](https://github.com/buched/F9p-ntrip-esp32) 	:white_check_mark:
-* [esp32--android-BT](https://github.com/jancelin/RoverGNSS_RTK_BT_esp32_f9p) 	:white_check_mark:
+* Un rover Bluetooth : [esp32--android-BT](https://github.com/jancelin/rover-gnss/blob/master/unit_tests/8-BT/README.md){:target="_blank"}
+* Un rover Bluetooth/UDP/serial avec NtripClient intégré: [esp32-wifi-ntrip](https://github.com/jancelin/rover-gnss/blob/master/unit_tests/3b-GNSS_RTK/README.md){:target="_blank"}
+
+![rover V6](/assets/images/montage_rover)
+
+### Paramétrages des Récepteurs GNSS compatibles:
