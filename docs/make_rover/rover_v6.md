@@ -6,10 +6,11 @@ nav_order: 1
 has_children: true
 ---
 
-<img src="/assets/images/montage_rover/v6_esp32.jpg" width="100">
+> En cours de développement/rédaction
+
+<img src="/assets/images/montage_rover/v6_esp32.jpg" width="250">
 
 ### Matériel:
-
 
 ![ESP32](https://docs.espressif.com/projects/esp-idf/en/v4.4.4/esp32/_images/esp32-devkitC-v4-pinout.png)
 
