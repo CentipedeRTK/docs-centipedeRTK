@@ -18,13 +18,13 @@ Voici la liste des éléments nécessaires à la mise en place d'un rover GNSS [
 
 
 * Connecter le récepteur GNSS en USB à un PC, attendre 1 min le temps qu'il démarre.
-* Se rendre à l'adresse http://192.168.3.1 pour accéder à l'interface Septentrio afin de paramétrer le récepteur.
+* Se rendre à l'adresse [http://192.168.3.1](http://192.168.3.1){:target="_blank"} pour accéder à l'interface Septentrio afin de paramétrer le récepteur.
 
 ![mosaic X5](/assets/images/mosaic_x5/x5-dashboard.png)
 
 ## Paramétrage par fichier:
 
-[param file X5](/assets/param_files/mosaic_x5/mosaic-X5_nmea_full_5hz_460800.txt), "CTRL S" pour sauvegarder sur votre PC.
+* Ouvrir le [param file X5](/assets/param_files/mosaic_x5/mosaic-X5_nmea_full_5hz_460800.txt) et faire un "CTRL S" pour sauvegarder le fichier sur votre PC.
 
 ![mosaic X5](/assets/images/mosaic_x5/x5-sauvegarde.png)
 
@@ -42,8 +42,8 @@ Voici la liste des éléments nécessaires à la mise en place d'un rover GNSS [
 ### Paramétrage satellites:
 
 ![mosaic X5](/assets/images/mosaic_x5/x5-expertPanel.png)
-![mosaic X5](/assets/images/mosaic_x5/x5-expertPanel_signalTracking.png)
+![mosaic X5](/assets/images/mosaic_x5/x5-expertPanel._signalTracking.png)
 
 ### Sauvegarde
 
-![mosaic X5](/assets/images/mosaic_x5/x5-sauvegrade.png)
+![mosaic X5](/assets/images/mosaic_x5/x5-sauvegarde.png)
