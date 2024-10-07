@@ -28,7 +28,7 @@ Voici la liste des éléments nécessaires à la mise en place d'un rover GNSS [
 
 ![mosaic X5](/assets/images/mosaic_x5/x5-sauvegarde.png)
 
-##Paramétrage manuel:
+## Paramétrage manuel:
 
 ### Activation sortie NMEA
 
