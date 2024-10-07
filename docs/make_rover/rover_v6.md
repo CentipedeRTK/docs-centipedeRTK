@@ -6,7 +6,7 @@ nav_order: 1
 has_children: true
 ---
 
-![rover V6](/assets/images/montage_rover/v6_esp32.jpg)
+<img src="/assets/images/montage_rover/v6_esp32.jpg" width="100">
 
 ### Matériel:
 
