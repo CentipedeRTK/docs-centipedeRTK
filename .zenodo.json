@@ -1,0 +1,52 @@
+{
+    "creators": [
+        {
+            "orcid": "0000-0002-8682-1883",
+            "affiliation": "INRAE",
+            "name": "Ancelin, Julien"
+        },
+        {
+            "orcid": "0000-0002-9244-9766",
+            "affiliation": "INRAE",
+            "name": "Heintz, Wilfried"
+        },
+        {
+            "orcid": "",
+            "affiliation": "Casawave",
+            "name": "Péneau, Stéphane"
+        },
+        {
+            "orcid": "0009-0007-2350-039X",
+            "affiliation": "L'institut Agro | Montpellier SupAgro",
+            "name": "Moinard, Simon"
+        },
+        {
+            "orcid": "",
+            "affiliation": "Indépendant",
+            "name": "Bazile, Romain"
+        },
+        {
+            "orcid": "0000-0003-2520-044X",
+            "affiliation": "IPGP",
+            "name": "Bonaimé, Sébastien"
+        },
+        {
+            "orcid": "",
+            "affiliation": "Ionosphère",
+            "name": "Joulin, David"
+        },
+        {
+            "orcid": "0000-0001-7548-743X",
+            "affiliation": "GéoTribu",
+            "name": "Moura, Julien"
+        }
+    ],
+
+    "license": "CC-BY-SA",
+    "title": "docs-centipedeRTK",
+    "upload_type": "documentation",
+    "access_right": "open",
+
+    "keywords": ["GNSS", "RTK","CentipedeRTK", "reproducible research", "Low cost research"],
+
+}
