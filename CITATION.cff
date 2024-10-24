@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Ancelin"
+  given-names: "Julien"
+  orcid: "https://orcid.org/0000-0002-8682-1883"
+- family-names: "Heintz"
+  given-names: "Wilfried"
+  orcid: "https://orcid.org/0000-0002-9244-9766"
+- family-names: "Péneau"
+  given-names: "Stéphane"
+- family-names: "Moinard"
+  given-names: "Simon"
+  orcid: "https://orcid.org/0009-0007-2350-039X"
+- family-names: "Bazile"
+  given-names: "Romain"
+- family-names: "Bonaimé"
+  given-names: "Sébastien"
+  orcid: "https://orcid.org/0000-0003-2520-044X"
+- family-names: "Joulin"
+  given-names: "David"
+- family-names: "Moura"
+  given-names: "Julien"
+  orcid: "https://orcid.org/0000-0001-7548-743X"
+title: "Documentation technique du projet Centipede-RTK"
+version: 2.5.2
+date-released: 2024-10-24
+url: "https://docs.centipede.fr"                        
