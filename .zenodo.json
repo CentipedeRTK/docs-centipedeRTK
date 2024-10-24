@@ -11,7 +11,6 @@
             "name": "Heintz, Wilfried"
         },
         {
-            "orcid": "",
             "affiliation": "Casawave",
             "name": "Péneau, Stéphane"
         },
@@ -21,7 +20,6 @@
             "name": "Moinard, Simon"
         },
         {
-            "orcid": "",
             "affiliation": "Indépendant",
             "name": "Bazile, Romain"
         },
@@ -31,7 +29,6 @@
             "name": "Bonaimé, Sébastien"
         },
         {
-            "orcid": "",
             "affiliation": "Ionosphère",
             "name": "Joulin, David"
         },
@@ -42,10 +39,11 @@
         }
     ],
 
-    "license": "CC-BY-SA",
     "title": "docs-centipedeRTK",
-    "upload_type": "documentation",
+    "upload_type": "publication",
+    "publication_type": "softwaredocumentation",
     "access_right": "open",
+    "license": "cc-by-sa-4.0",
 
     "keywords": ["GNSS", "RTK","CentipedeRTK", "reproducible research", "Low cost research"],
 
