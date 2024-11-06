@@ -26,7 +26,7 @@ Pour le moment Rtkbase ne possède pas de paramétrage automatique pour ce réce
 ![param](/assets/images/mat/gesPerif.png)
 
 * Ouvrir ce fichier en cliquant sur le lien puis faire **CTRL S** pour le sauvegarder dans le dossier de votre choix:
-  * [conf_base_GNSS_UM980.txt](/assets/param_files/.txt){:target="_blank"}
+  * **[conf_base_GNSS_UM980.txt](/assets/param_files/conf_base_GNSS_UM980.txt){:target="_blank"}**
 * Télécharger et installer [Realterm_exe](https://sourceforge.net/projects/realterm/files/latest/download){:target="_blank"}
   * Source: [Realterm_source](https://realterm.sourceforge.io/){:target="_blank"}
 * Démarrer en mode administrateur (click droit) le programme **RealTerm**
