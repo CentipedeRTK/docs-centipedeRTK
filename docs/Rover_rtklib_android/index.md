@@ -61,6 +61,8 @@ Partagez les données collectées avec d'autres utilisateurs sous forme de Geopa
 
 ## Application RTKGPS+ Android (Open-source)
 
+###<span style='color: red;'>**Note importante : le logiciel RTKGPS+ n'est actuellement plus suivi et peut donc présenter des incompatibilités voire des dysfonctionnements.**</span> 
+
 ![rtkgps+](/assets/images/montage_rover/rtkgps_logo.png)
 
 ![rtkgps+](/assets/images/montage_rover/rtkgps.png)
