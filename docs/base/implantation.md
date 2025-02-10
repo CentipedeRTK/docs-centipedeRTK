@@ -18,7 +18,7 @@ nav_order: 1
 
  * La base RTK doit absolument avoir accès à Internet via **un câble ethernet (RJ45) de préférence** afin de partager ses corrections sur le réseau Centipede, il est donc nécessaire d'avoir un point accès à Internet non loin de la zone d'implantation et d'adapter la longueur du câble en fonction des besoins. Contrairement au câble antenne, le câble ethernet peut être plus long (jusqu'à 100 mètres). Si vous ne disposez pas d'une connexion à proximité, vous pouvez opter pour [2 boitiers CPL](https://www.boitiercpl.fr/) en ethernet.
 
- **Ce document: [MEILLEURES PRATIQUES À L’INTENTION DES FOURNISSEURS DE SERVICES GNSS EN MODE RTK](https://www.rncan.gc.ca/sites/www.nrcan.gc.ca/files/earthsciences/pdf/MeilleuresPratiques_Station_de_Reference_GNSS.pdf) vous donnera les informations nécessaires afin d'anticiper au mieux votre installation, c'est l'étape la plus importante dans l'installation d'une base GNSS RTK**
+ **Ce document: [MEILLEURES PRATIQUES À L’INTENTION DES FOURNISSEURS DE SERVICES GNSS EN MODE RTK](https://ressources-naturelles.canada.ca/sites/nrcan/files/earthsciences/pdf/MeilleuresPratiques_Station_de_Reference_GNSS(1).pdf) vous donnera les informations nécessaires afin d'anticiper au mieux votre installation, c'est l'étape la plus importante dans l'installation d'une base GNSS RTK**
 
 ![lienss](/assets/images/implantation/implantation_base_centipedeRTK.jpg)
 
