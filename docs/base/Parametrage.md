@@ -6,7 +6,12 @@ nav_order: 3
 ---
 
 ## Connexion
-Pour se connecter sur la page Web de RTKBase, on utilise soit l'adresse `http://basegnss.local` dans un navigateur Web, soit si ça ne fonctionne pas, l'adresse IP de la carte. Cette adresse IP peut être retrouvée depuis l'interface de votre modem/routeur (livebox, freebox, etc) ou avec des outils tels que [Angry IP Scanner (windows)](https://angryip.org/) ou [Port Authority (Android)](https://play.google.com/store/apps/details?id=com.aaronjwood.portauthority.free&pli=1)).
+Pour se connecter sur la page Web de RTKBase, on entre l'adresse `http://basegnss.local` dans un navigateur Web. Si ça ne fonctionne pas, on peut utiliser l'application "Find_rtkbase" qui va chercher à détecter la base, et permettre d'ouvrir son interface en cliquant sur le bouton "Open". (prérequis : RTKBase 2.6.3)
+
+![Ecran de Find_rtkbase](/assets/images/basegnss/find_rtkbase_screenshot.png)
+- Télécharger Find_rtkbase [(Windows)](https://github.com/Stefal/rtkbase/raw/refs/heads/master/tools/find_rtkbase/dist/find_rtkbase.exe) [(Linux)](https://github.com/Stefal/rtkbase/raw/refs/heads/master/tools/find_rtkbase/dist/find_rtkbase)
+
+Autre solution, entrer l'adresse IP de la base dans le navigateur. Cette adresse IP peut être retrouvée depuis l'interface de votre modem/routeur (livebox, freebox, etc) ou avec des outils tels que [Angry IP Scanner (windows)](https://angryip.org/) ou [Port Authority (Android)](https://play.google.com/store/apps/details?id=com.aaronjwood.portauthority.free&pli=1)).
 
 | <a href="../../assets/images/basegnss/ip_livebox.png"><img src="../../assets/images/basegnss/ip_livebox.png" alt="livebox" height="250"/> </a> | <a href="../../assets/images/basegnss/ip_angry_ip_scanner.png"><img src="../../assets/images/basegnss/ip_angry_ip_scanner.png" alt="livebox" height="250"/></a> | <a href="../../assets/images/basegnss/ip_port_authority.png"><img src="../../assets/images/basegnss/ip_port_authority.png" alt="livebox" height="250"/></a>
 
