@@ -14,7 +14,7 @@ nav_order: 1
 
  * Elle doit également être très stable au niveau de sa position, il est donc préférable de la fixer sur un plot en béton ou sur le pignon d'un bâtiment (Attention à la dilatation des bâtiments en acier).
 
- * Il peut y avoir une certaine distance entre l'antenne et le reste du matériel ; il est important d'anticiper cette distance et de commander un câble d'antenne à la bonne longueur. Il est recommandé de ne pas dépasser 5 à 7 mètres. Au delà, il faudra utiliser du câble de haute qualité, qui sera coûteux et rigide.
+ * Il peut y avoir une certaine distance entre l'antenne et le reste du matériel ; il est important d'anticiper cette distance et de commander un câble d'antenne à la bonne longueur. Il est recommandé de ne pas dépasser 8 à 10 mètres. Au delà, il faudra utiliser du câble de haute qualité, qui sera coûteux et rigide.
 
  * La base RTK doit absolument avoir accès à Internet via **un câble ethernet (RJ45) de préférence** afin de partager ses corrections sur le réseau Centipede, il est donc nécessaire d'avoir un point accès à Internet non loin de la zone d'implantation et d'adapter la longueur du câble en fonction des besoins. Contrairement au câble antenne, le câble ethernet peut être plus long (jusqu'à 100 mètres). Si vous ne disposez pas d'une connexion à proximité, vous pouvez opter pour [2 boitiers CPL](https://www.boitiercpl.fr/) en ethernet.
 
