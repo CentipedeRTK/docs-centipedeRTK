@@ -12,7 +12,7 @@ Certains matériels demandent d'avoir des trames rtcm3 supplémentaires comme le
 
 En plus de la configuration de base, il vous sera surement demandé de rentrer un utilisateur et un mot de passe, voici les identifiants de connexion:
 
-* Adresse caster: **caster.centipede.fr** (ou adresse ip 147.100.179.214)
+* Adresse caster: **caster.centipede.fr**
 * Port: **2101**
 * Point de montage (nommé parfois mount point) à choisir en fonction de votre géolocalisation, regarder sur la [carte des bases](https://centipede.fr/index.php/view/map/?repository=cent&project=centipede)
 * Login: **centipede**
