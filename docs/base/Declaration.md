@@ -18,7 +18,10 @@ Enfin, envoyer un courriel à [**contact@centipede.fr**](mailto:contact@centiped
   * Pour la FRANCE:
     * le rapport du calcul de positionnement envoyé par IGN (fichier.tar.gz)
     * Votre fichier RINEX envoyé précédement à IGN
-  * Hors de FRANCE:
+  * En Europe géographique:
+    * le fichiers .txt de position isssu du système de convertion ETRF200 :https://nrcan2etrf.centipede.fr/nrcan_itrf-ectt_etrf-epsg_io.html
+    * Votre fichier RINEX (.obs) envoyé précédement à NRCAN
+  * En dehors de ces zones:
     * le rapport du calcul de positionnement envoyé par NRCAN (full_output.zip)
     * Une copie des valeurs du lien "sommaire" envoyé par NRCAN
     * Votre fichier RINEX envoyé précédement à NRCAN
