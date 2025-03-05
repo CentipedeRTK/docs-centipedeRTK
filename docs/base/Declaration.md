@@ -32,7 +32,7 @@ Une fois que votre base sera déclarée par un administrateur, elle sera visible
   * la base est pré déclarée sur le caster mais en attente de vérification du positionnement géographique.
   * elle est non accessible dans la liste des bases mais utilisable en renseignant manuellement le Point de montage.
 * ensuite en orange 🟠 : 
-  * La base est disponible dans la liste des points de montage http://caster.centipede.fr:2101, elle est accessible et utilisable.
+  * La base est disponible dans la liste des points de montage http://crtk.net:2101, elle est accessible et utilisable.
   * ses informations (type d'antenne, rapport de positionnement,...) sont en vérification cela peut prendre plusieurs jours en fonction de la disponibilité des validateurs.
 * Enfin en vert 🟢 : 
   * la base est accessible, valide et utilisable par la communautée.

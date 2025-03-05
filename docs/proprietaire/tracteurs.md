@@ -98,7 +98,7 @@ Pour afficher cet écran, suivre les instruction du 3)Configurer ma carte SIM, e
 _configuration sur la base SIM80 du caster centipede_
 
 Les données à rentrer sur cet écran sont:
-IP/URL: **caster.centipede.fr**
+IP/URL: **crtk.net**
 Port: **2101**
 Pt de montage: choisissez la base la plus proche/la plus adaptée a votre situation géographique en **MAJUSCULES** 
 Explorer cette carte pour trouver la base la plus proche: https://centipede.fr/index.php/view/map/?repository=cent&project=centipede

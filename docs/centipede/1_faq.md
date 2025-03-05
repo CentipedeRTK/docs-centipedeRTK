@@ -73,7 +73,7 @@ nav_order: 6
 
 > dans vos paramètres de connexion de votre matériel à un système de correction RTK, veuillez renseigner:
 
-> adresse du serveur: caster.centipede.fr
+> adresse du serveur: crtk.net
 
 > Port: 2101
 

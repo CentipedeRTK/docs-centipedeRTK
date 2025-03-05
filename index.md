@@ -17,7 +17,7 @@ L'objectif du projet est d'offrir une couverture complète du territoire métrop
 
 [Carte du réseau](https://centipede.fr/index.php/view/map/?repository=cent&project=centipede){:target="_blank"}
 
-[http://caster.centipede.fr:2101](http://caster.centipede.fr:2101){:target="_blank"}
+[http://crtk.net:2101](http://crtk.net:2101){:target="_blank"}
 
 * Aide technique:
 

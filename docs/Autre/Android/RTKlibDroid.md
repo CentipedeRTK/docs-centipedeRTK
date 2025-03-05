@@ -108,7 +108,7 @@ Rate: 1000 ms
 Model: Pedestrian
 Elevation: 10°
 Input: tcpcli :@localhost:8080:
-caster: caster.centipede.fr:2101 rtcm3
+caster: crtk.net:2101 rtcm3
 GPS : Oui
 GAL : Oui
 BDS : Oui
