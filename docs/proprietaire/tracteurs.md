@@ -4,6 +4,9 @@ title: Matériels Agricoles
 parent: Centipède & Matériels propriétaires
 nav_order: 1
 ---
+## Général : prérequis et paramétrages des autoguidages
+[Accéder au document descriptif des prérequis et paramétrages des autoguidages](./note_technique_centipede.pdf)
+___
 
 ## Exemples de connexion au caster Centipede avec du Matériel Agricole
  - ## [John Deere](#john-deere-1)
