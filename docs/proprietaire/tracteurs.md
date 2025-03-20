@@ -18,6 +18,8 @@ ___
 | ![SF3000-ModemRTK](/assets/images/consoles_tracteurs/SF3000-ModemRTK.jpg)| _TODO: photo a inserer_ |
 | _SF3000, support Deluxe, Modem RTK mobile 4G LTE_ | _SF6000, Modem RTK mobile 4G LTE_ |
 
+**<span style="color: red">!! ATTENTION AVEC LES BASES TRIPLE FRÉQUENCE !!</span>** => [Incompatibilité](/docs/incompatible/)
+
 Ce wiki a été réalisé essentiellement avec un command center 4, une antenne SF3000 en version 2.80S, entre mars 2021 (prises de vues photo) et decembre 2021 (finalisation de la rédaction avant parution en V1.0). Voir tableau de versions et bases documentaires en bas de page.
 
 ### **1)Pré-requis**
