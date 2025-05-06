@@ -28,6 +28,28 @@ L'objectif du projet est d'offrir une couverture complète du territoire métrop
 
 
 <iframe width="100%" height="600" frameborder="0" style="border:0" src="https://centipede.fr/index.php/view/map/?repository=cent&project=centipede&layers=0B00TTTTTTFT&bbox=-18790223.866773%2C-6984518.262969%2C18193067.893578%2C12798607.646933&crs=EPSG%3A3857&layerStyles=buffer%3Ad%C3%A9faut%3Bbasesrtk%3Ad%C3%A9faut" allowfullscreen></iframe>
+<iframe
+  id="lizmap-map"
+  src="…/lizmap/index.php/view/map?…"
+  width="100%"
+  height="600"
+  frameborder="0"
+  tabindex="-1"
+  onload="onLizmapLoad()"
+></iframe>
+
+<script>
+  function onLizmapLoad() {
+    const iframe = document.getElementById('lizmap-map');
+    // on retire tout focus sur l’iframe
+    iframe.blur();
+    // on redonne le focus à la fenêtre parent
+    window.focus();
+    // et on repositionne en haut si besoin
+    window.scrollTo(0, 0);
+  }
+</script>
+
 
 Les instituts de recherche comme [INRAE](https://www.inrae.fr/) ou le [CNRS](http://www.cnrs.fr/fr/page-daccueil) utilisent la géolocalisation pour référencer leurs données environnementales, mais la précision des systèmes de navigation par satellite, qui dépend des conditions atmosphériques, n’est que de quelques mètres. Des systèmes de correction différentiels peuvent compenser ce manque de précision : la cinématique en temps réel (Real Time Kinematic) permet ainsi d’approcher la précision centimétrique. Mais ce système nécessite une base de référence à proximité du lieu de collecte, l’accessibilité de son signal ainsi qu'un matériel extrêmement coûteux pour le  traiter. Depuis quelques années, des développeurs travaillent activement avec des logiciels et des composants open-source/open-hardware pour créer des solutions peu coûteuses, fiables, légères et faciles d’utilisation.
 
