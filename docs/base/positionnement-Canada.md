@@ -74,13 +74,13 @@ Données GNSS: GPS & GLONASS
 Ellipsoïde GRS80 utilisée pour la transformation de (x,y,z) à (lat,lon,h)
 ```
 * Récupérer les coordonnées dans le rapport, exemple:
-	*	**[46.29858940,-71.65715354,134.493]** <---- Vos coordonnées en ITRF20
+	*	**[46.29858940,-71.65715354,134.493]** <---- Vos coordonnées en **NAD83**
 * les adapter pour les insérer dans votre base GNSS, enlever les "[]" et remplacer les  "," par un espace : **46.29858940 -71.65715354 134.493**
 
 ![itrf2etrf](/assets/images/positionnement/itrf2etrf_5.png)
 
 > Vos coordonnées géographiques sont maintenant dans un système global au niveau international.
-Chaque continent et/ou pays ont souvent un système de coordonnées local en plus, comme l'ETRF2000 en Europe ou le RGF93 en France, afin de prendre en considération les mouvements locaux.s
+Chaque continent et/ou pays ont souvent un système de coordonnées local en plus, comme l'ETRF2000 en Europe, le RGF93 en France ou le NAD83 au Canada, afin de prendre en considération les mouvements locaux.s
 Si vous avez besoin d'avoir d'être convergeant avec le système de coordonnées de votre pays merci de nous faire remonter vos besoins sur le [forum](https://forum.geocommuns.fr/c/rtk-centipede/18)
 
 * Passons à la finalisation du [Paramétrage du positionnement de votre Base RTK](param_positionnement){: .btn .btn-blue }
