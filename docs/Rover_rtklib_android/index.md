@@ -35,6 +35,14 @@ Cette application prend en charge l'affichage des estimations de précision à p
 
 [Bluetooth GNSS sur le playstore](https://play.google.com/store/apps/details?id=com.clearevo.bluetooth_gnss)
 
+<div class="container">
+  <div class="video">
+    <video   style="display:block; width:100%; height:auto;">
+      <source src="/assets/images/montage_rover/BT_Gnss.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+</div>
 
 ## Application SW MAPS  (propriétaire)
 
