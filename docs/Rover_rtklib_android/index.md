@@ -37,7 +37,7 @@ Cette application prend en charge l'affichage des estimations de précision à p
 
 <div class="container">
   <div class="video">
-    <video   style="display:block; width:100%; height:auto;">
+    <video   style="display:block; width:50%; controls=true; height:auto;">
       <source src="/assets/images/montage_rover/BT_Gnss.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
