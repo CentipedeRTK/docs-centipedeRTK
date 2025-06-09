@@ -28,7 +28,7 @@ Enfin, envoyer un courriel à [**contact@centipede.fr**](mailto:contact@centiped
 * Plusieurs photos (minimum 2) de l'installation de votre antenne (proche et vue d'ensemble).
 
 Une fois que votre base sera déclarée par un administrateur, elle sera visible sur la carte:
-* tout d'abord en rouge 🔴 : 
+* tout d'abord en bleu 🔵 : 
   * la base est pré déclarée sur le caster mais en attente de vérification du positionnement géographique.
   * elle est non accessible dans la liste des bases mais utilisable en renseignant manuellement le Point de montage.
 * ensuite en orange 🟠 : 
