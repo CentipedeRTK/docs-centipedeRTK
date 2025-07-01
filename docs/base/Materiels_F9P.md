@@ -5,6 +5,10 @@ parent: Materiel et Assemblage
 nav_order: 3
 ---
 
+#  CETTE BASE N'EST PLUS RECOMMANDÉE !!
+
+Depuis l'arrivée des récepteurs Gnss triple fréquence à un tarif très proche, cette solution bi-fréquence n'est plus intéressante.
+
 ### Liste
 
 Voici la liste des éléments nécessaires à la mise en place d'une base GNSS [Ublox F9p](https://www.u-blox.com/en/product/zed-f9p-module) bi-fréquences:
@@ -13,7 +17,7 @@ Voici la liste des éléments nécessaires à la mise en place d'une base GNSS [
 |Matériel|Prix HT|
 |--------|----|
 |[F9P drotek: 5% ristourne code CENTIPEDERTK](https://store-drotek.com/891-rtk-zed-f9p-gnss.html) ou [F9P ardusimple](https://www.ardusimple.com/product/simplertk2b/)|180€|
-|[D910 antenna](https://store.drotek.com/da-910-multiband-gnss-antenna) ou [survey](https://www.ardusimple.com/product/survey-gnss-multiband-antenna/), pas de ublox ANN-MB!!!|100€|
+|[D910 antenna](https://store.drotek.com/da-910-multiband-gnss-antenna) ou [survey](https://www.ardusimple.com/product/survey-gnss-multiband-antenna/), pas de ublox ANN-MB !!!|100€|
 
 ### Assemblage
 
