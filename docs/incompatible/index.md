@@ -11,10 +11,8 @@ has_children: false
 
 Les bases triple fréquence (Mosaic-X5, UM980) avec les réglages par défaut, ont un débit trop élevé. La console du tracteur affiche un age de correction qui augmente jusqu'à ne plus fonctionner. 
 
-#### 2025-03-19 :
- La solution de contournement est de créer un second point de montage. Par exemple, si ma base s'appelle MABASE, dans le service Ntrip B j'indique MABASEL (L pour light), et d'utiliser ces messages rtcm : `1005(10),1006,1008(10),1019,1020(2),1032(10),1033(10),1042(2),1046(2),1074,1084,1094,1124(2),1230`
- 
- Ensuite, dans le tracteur, il faudra entrer manuellement le point de montage MABASEL
+#### 2025-07-01 :
+ La solution de contournement est d'utiliser le point de montage automatique **NEAR4**. Tout comme le point de montage **NEAR**, la connexion se fera automatiquement sur la base la plus proche, et en complément il réduit le débit en convertissant les messages MSM7 en messages MSM4 qui sont plus légers.
 
 ## Livebox 5
 Le modem/routeur Livebox 5 proposé par Orange/Sosh est incompatible avec les cartes **Orange Pi Zero**.
