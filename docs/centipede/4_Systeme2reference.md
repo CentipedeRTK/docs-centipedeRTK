@@ -96,7 +96,7 @@ Le géoïde est la surface du potentiel de pesanteur terrestre qui coïncide au 
 
 ![geoid](http://geoconfluences.ens-lyon.fr/images/glossaire/geoide.jpg)
 
-![quasi-geoid](https://geodesie.ign.fr/contenu/images/quasigeoidecarte3.jpg)
+![quasi-geoid](https://geodesie.ign.fr/files/geodesie/2024-12/quasigeoidecarte3.jpg)
 
 
 Le Service de Géodésie et de Métrologie diffuse des grilles de quasi-géoïde résultant des travaux de développement et de recherche ainsi que des surfaces de conversion d'altitudes directement utilisables pour une estimation de l'altimétrie par GNSS :
