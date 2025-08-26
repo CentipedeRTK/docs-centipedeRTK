@@ -27,9 +27,9 @@ Exemple de transformation de coordonnées géographiques RGF93 (EPSG:4171) vers 
 * avec Postgresql/postgis embarquant [Proj version >7](https://proj.org/usage/quickstart.html):
   * st_transform(st_setsrid(st_makepoint(45.988773737,-1.024687261,49.81495), 4171),5698);
 
-[RAF18b pour la France continentale Géotiff Proj](https://cdn.proj.org/fr_ign_RAF18b.tif)
+[RAF20 pour la France continentale Géotiff Proj](https://cdn.proj.org/fr_ign_RAF20.tif)
 
-[PROJ Datumgrid CDN](https://cdn.proj.org/)
+[Base de donnée mondiale de grilles fournies par PROJ](https://cdn.proj.org/)
 
 [PROJ et paramétrage des datumgrid pour l'altimétrie](https://proj.org/usage/network.html?highlight=geotiff)
 
