@@ -5,9 +5,11 @@ parent: Materiel et Assemblage
 nav_order: 3
 ---
 
-#  CETTE BASE N'EST PLUS RECOMMANDÉE !!
+#  **CETTE BASE N'EST PLUS RECOMMANDÉE !!**
 
-Depuis l'arrivée des récepteurs Gnss triple fréquence à un tarif très proche, cette solution bi-fréquence n'est plus intéressante.
+**Depuis l'arrivée des récepteurs Gnss triple fréquence à un tarif très proche, cette solution bi-fréquence n'est plus intéressante.**
+
+**N'achetez pas le matériel ci-dessous !!**
 
 ### Liste
 
