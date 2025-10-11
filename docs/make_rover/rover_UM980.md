@@ -29,7 +29,7 @@ Voici la liste des éléments nécessaires à la mise en place d'un rover GNSS [
   * Source: [Realterm_source](https://realterm.sourceforge.io/){:target="_blank"}
 * Démarrer en mode administrateur (click droit) le programme **RealTerm**
 * Cliquer sur l'onglet en bas à gauche **Port** puis:
-  * Modifier le **Baud** à la valeur **15200**
+  * Modifier le **Baud** à la valeur **115200**
   * Rechercher le **Port** de votre récepteur:
     * Si votre numéro de port n'est pas dans la liste, cliquer sur **/VCP0** puis sur **V change**, une nouvelle fenêtre s'ouvrira pour choisir quel Port COM connecter. Choisir celui que vous avez trouvé précédemment, dans mon exemple COM12.
 
