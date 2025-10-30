@@ -36,8 +36,8 @@ Une fois que votre base sera déclarée par un administrateur, elle sera visible
   * ses informations (type d'antenne, rapport de positionnement,...) sont en vérification cela peut prendre plusieurs jours en fonction de la disponibilité des validateurs.
 * Enfin en vert 🟢 : 
   * la base est accessible, valide et utilisable par la communautée.
-  * Le statut de la base (allumée 🟢, éteinte 🔴) est disponible sur la carte https://centipede.fr avec une actualisation toute les 30 secondes, un mail automatique est envoyé au resposable de la base en cas de coupure supérieure à 5 minutes.
-  * Les métadonnées (rapport de positionnement, position, état, messages diffusés, taçabilité des déconnexions,...) de la base sont disponibles en cliquant sur votre base via https://centipede.fr
+  * Le statut de la base (allumée 🟢, éteinte 🔴) est disponible sur la [carte](https://map.centipede-rtk.org/index.php/view/map?repository=cent&project=centipede) avec une actualisation toute les 30 secondes, un mail automatique est envoyé au resposable de la base en cas de coupure supérieure à 5 minutes.
+  * Les métadonnées (rapport de positionnement, position, état, messages diffusés, taçabilité des déconnexions,...) de la base sont disponibles en cliquant sur votre base sur la [carte](https://map.centipede-rtk.org/index.php/view/map?repository=cent&project=centipede)
   * Vous recevrez un mail de confirmation.
 
 > En fonction de la disponibilité des administrateurs, le traitement de votre courriel peut prendre plusieurs jours, mais votre base est utilisable tout de suite.

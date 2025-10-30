@@ -17,7 +17,7 @@ En plus de la configuration de base, il vous sera surement demandé de rentrer u
 * Port: **2101**
 * Point de montage (nommé parfois mount point, stream, base, etc..) :
   * Choisir 'NEAR' pour une sélection automatique de la base la plus proche. Il faut que votre matériel envoie une trame GGA pour donner sa position.
-  * Ou à choisir manuellement en fonction de votre géolocalisation, regarder sur la [carte des bases](https://centipede.fr/index.php/view/map/?repository=cent&project=centipede)
+  * Ou à choisir manuellement en fonction de votre géolocalisation, regarder sur la [carte des bases](https://map.centipede-rtk.org/index.php/view/map?repository=cent&project=centipede)
 * Login: **centipede**
 * Mot de passe: **centipede**
 * Format: **RTCM3**

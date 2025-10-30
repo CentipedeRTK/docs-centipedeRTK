@@ -60,8 +60,8 @@ nav_order: 1
 
 > Permet de charger des paramètres  injectés au module F9P à chaque démarrage
 
-* Cliquer sur **Base Staion** > **Opt**
-* Modifier le Mountpoint sur la base [Centipede](https://centipede.fr) la plus proche de vous.
+* Cliquer sur **Base Station** > **Opt**
+* Modifier le Mountpoint sur la base [Centipede](https://map.centipede-rtk.org/index.php/view/map?repository=cent&project=centipede) la plus proche de vous.
 
 > Si vous n'êtes pas couverts par une Base CentipedeRTK vous pouvez en fabriquer une [ici](/docs/base/).
 

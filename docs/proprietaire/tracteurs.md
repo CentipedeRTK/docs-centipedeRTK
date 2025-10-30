@@ -109,7 +109,7 @@ Les données à rentrer sur cet écran sont:
 IP/URL: **crtk.net**
 Port: **2101**
 Pt de montage: choisissez la base la plus proche/la plus adaptée a votre situation géographique en **MAJUSCULES** 
-Explorer cette carte pour trouver la base la plus proche: https://centipede.fr/index.php/view/map/?repository=cent&project=centipede
+Explorer cette carte pour trouver la base la plus proche: https://map.centipede-rtk.org/index.php/view/map?repository=cent&project=centipede
 
 pour rentrer ID utilisateur et mot de passe, appuyer sur **Modifier Infos Connexion**
 

@@ -69,7 +69,7 @@ nav_order: 6
 
 * ### Comment me connecter au service si mon matériel est compatible ?
 
-> Vérifier dans un premier temps que vous êtes bien dans une zone couverte géographiquement par le [réseau Centipède](https://centipede.fr){:target="_blank"}
+> Vérifier dans un premier temps que vous êtes bien dans une zone couverte géographiquement par le [réseau Centipède](https://map.centipede-rtk.org/index.php/view/map?repository=cent&project=centipede){:target="_blank"}
 
 > dans vos paramètres de connexion de votre matériel à un système de correction RTK, veuillez renseigner:
 
