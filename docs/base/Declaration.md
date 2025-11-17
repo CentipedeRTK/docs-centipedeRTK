@@ -12,7 +12,7 @@ Enfin, envoyer un courriel à [**contact@centipede.fr**](mailto:contact@centiped
 * Nom Prénom
 * Profession
 * Courriel
-* Nom du point de montage de votre base GNSS RTK (de 4 caractères en MAJUSCULES et/ou chiffres), Pensez bien à vérifier que votre Mount point n'es pas déjà pris en vérifiant **[dans ce tableau](https://logs.centipede.fr/d/eQQ2q6_4k/mount-point?orgId=1&viewPanel=2)**
+* Nom du point de montage de votre base GNSS RTK (de 4 caractères en MAJUSCULES et/ou chiffres), Pensez bien à vérifier que votre Mount point n'es pas déjà pris en vérifiant **[dans ce tableau](https://gf.centipede-rtk.org/d/ef4e1ohu7fgg0a/mount-point-list?orgId=7)**
 * Matériels utilisés: modèle de votre antenne et de votre récepteur.
 * Les documents necessaires à la vérification de la position de votre base:
   * Pour la FRANCE:
