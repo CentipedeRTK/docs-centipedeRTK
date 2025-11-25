@@ -17,6 +17,17 @@ Voici la liste des éléments nécessaires à la mise en place d'une base GNSS [
 |[simpleRTK3B Budget](https://www.ardusimple.com/product/simplertk3b-budget/) ou [UM980 RTK GNSS receiver](https://gnss.store/unicore-gnss-modules/248-elt0223.html)|~200€|
 |[BT-800S](https://store.beitian.com/products/beitian-high-gain-high-precision-gnss-antenna-provide-stability-and-reliability-gnss-signal-for-positioning-applications-bt-800s?_pos=1&_sid=bcd57f6d3&_ss=r&variant=44374047490335) ou [Budget Survey Tripleband GNSS Antenna](https://www.ardusimple.com/product/budget-survey-tripleband-gnss-antenna-ip66/)|~100€|
 
+### Mise à jour du Firmware
+
+Pour mettre à jour le firmware, télécharger préalablement le logiciel [UPrecise](https://github.com/sparkfun/SparkFun_RTK_Torch/blob/main/UM980_Firmware/uprecise-v2-0.exe) (Windows only)
+Télécharger également la dernière version du [firmware](https://github.com/sparkfun/SparkFun_RTK_Torch/tree/main/UM980_Firmware)
+
+   * Ouvrir UPrecise puis cliquer sur Receiver upgrade dans le menu vertical à gauche
+
+
+
+
+
 ### Assemblage
 
 Dans un premier temps faites un premier montage sans la boite:
