@@ -20,12 +20,15 @@ Voici la liste des éléments nécessaires à la mise en place d'une base GNSS [
 ### Mise à jour du Firmware
 
 Pour mettre à jour le firmware, télécharger préalablement le logiciel [UPrecise](https://github.com/sparkfun/SparkFun_RTK_Torch/blob/main/UM980_Firmware/uprecise-v2-0.exe) (Windows only)
+
 Télécharger également la dernière version du [firmware](https://github.com/sparkfun/SparkFun_RTK_Torch/tree/main/UM980_Firmware)
 
-   * Ouvrir UPrecise puis cliquer sur Receiver upgrade dans le menu vertical à gauche
-
-
-
+   * Ouvrir UPrecise puis attendre que la carte soit détectée après l'avoir branchée au PC
+   * Cliquer sur Receiver upgrade dans le menu vertical à gauche
+   * Une nouvelle fenêtre s'ouvre
+   * Choisir le fichier du firmware (.pkg) en cliquant sur "Select upgrade file"
+   * Sélectionner "Soft reset" puis lancer la mise à jour
+   * Celle-ci peut prendre un certain temps, se fier à la barre de progression
 
 
 ### Assemblage
