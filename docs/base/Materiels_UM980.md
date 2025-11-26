@@ -25,9 +25,15 @@ Télécharger également la dernière version du [firmware](https://github.com/s
 
    * Ouvrir UPrecise puis attendre que la carte soit détectée après l'avoir branchée au PC
    * Cliquer sur Receiver upgrade dans le menu vertical à gauche
+     
+     ![uprecise](/assets/images/mat/uprecise-upgrade-rcvr.png)
+     
    * Une nouvelle fenêtre s'ouvre
    * Choisir le fichier du firmware (.pkg) en cliquant sur "Select upgrade file"
    * Sélectionner "Soft reset" puis lancer la mise à jour
+
+     ![uprecise](/assets/images/mat/uprecise-upgrade.png)
+     
    * Celle-ci peut prendre un certain temps, se fier à la barre de progression
 
 
