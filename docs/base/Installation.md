@@ -11,10 +11,10 @@ nav_order: 3
 ### 1. Télécharger l'image pour Raspberry Pi / Orange Pi
 
 Télécharger depuis votre ordinateur l'image RTKBase pour votre carte :
- - Orange Pi Zero : [BaseGNSS_2.6.3_Opi-Zero](https://github.com/Stefal/build/releases/download/2.6.3_25.02/Armbian-unofficial_25.2.1_RTKBase_2.6.3_Orangepizero_bookworm_current_6.6.72_minimal.zip)
- - Orange Pi Zero 2 : [BaseGNSS_2.6.3_Opi-Zero2](https://github.com/Stefal/build/releases/download/2.6.3_25.02/Armbian-unofficial_25.2.1_RTKBase_2.6.3_Orangepizero2_bookworm_current_6.6.72_minimal.zip)
- - Orange Pi Zero 3 : [BaseGNSS_2.6.3_Opi-Zero3](https://github.com/Stefal/build/releases/download/2.6.3_25.02/Armbian-unofficial_25.2.1_RTKBase_2.6.3_Orangepizero3_bookworm_current_6.6.72_minimal.zip)
- - Raspberry Pi 64b: [BaseGNSS-RPi-2.6.1_1](https://github.com/CentipedeRTK/pi-gen_RTKbase/releases/download/RTKBase-GNSS-RPi-2.6.1_1/image_2024-10-04-RTKBase-2-6-1_1_bookworm_64-lite.zip)
+ - Orange Pi Zero : [BaseGNSS_2.7.0_Opi-Zero](https://github.com/Stefal/build/releases/download/2.7.0_25.11/Armbian-unofficial_25.11.1_RTKBase_2.7.0_Orangepizero_trixie_current_6.12.58_minimal.zip)
+ - Orange Pi Zero 2 : [BaseGNSS_2.7.0_Opi-Zero2](https://github.com/Stefal/build/releases/download/2.7.0_25.11/Armbian-unofficial_25.11.1_RTKBase_2.7.0_Orangepizero2_trixie_current_6.12.58_minimal.zip)
+ - Orange Pi Zero 3 : [BaseGNSS_2.7.0_Opi-Zero3](https://github.com/Stefal/build/releases/download/2.7.0_25.11/Armbian-unofficial_25.11.1_RTKBase_2.7.0_Orangepizero3_trixie_current_6.12.58_minimal.zip)
+ - Raspberry Pi 64b: [BaseGNSS_2.7.0_Raspberry_Pi](https://github.com/Stefal/build/releases/download/2.7.0_25.11/Armbian-unofficial_25.11.1_RTKBase_2.7.0_Rpi4b_trixie_current_6.12.58_minimal.zip)
 
 **Attention**, ne pas copier directement l'image Base_GNSS_X.X.X.zip sur la carte micro SD !!!
 
