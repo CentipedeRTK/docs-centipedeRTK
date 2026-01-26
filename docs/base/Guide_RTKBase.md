@@ -57,9 +57,9 @@ C'est ici que vous allez paramétrer votre base pour qu'elle soit accessible sur
 * **Caster address** : par défaut **caster.centipede.fr**
 * **Caster port** : par défaut **2101**
 * **Caster password** : Le mot de passe pour le caster centipède est **centipede**.
-* **Mount name** : C'est le nom de votre Base RTK, à vous de choisir **4 caractères en majuscule**.
+* **Mount name** : C'est le nom de votre Base RTK, à vous de choisir **4 à 6 caractères en majuscule**.
 * **Rtcm messages** : Par défaut la base est configurée pour envoyer certains messages, mais vous avez la possibilité de les personnaliser et de rajouter une fréquence d'envoie (ex: 1004(15),...). une liste des messages possible est disponible [ici](https://www.use-snip.com/kb/knowledge-base/rtcm-3-message-list/?gclid=EAIaIQobChMI6NC3pcj06QIVg53VCh3T1gG8EAAYASAAEgKGD_D_BwE)
-* **Receiver options** : l'option par défaut ```-TADJ=1``` permet d'avoir des secondes rondes.
+* **Receiver options** : l'option ```-TADJ=1``` est spécifique au récepteur Ublox F9P et permet d'avoir des secondes rondes.
 
 ### Ntrip B service
 
@@ -76,7 +76,7 @@ Permet d'activer un caster directement dans RTKBase. Une fois activé, votre rov
 * **Local caster port** : le port sur lequel pourra se connecter le rover. La valeur par défaut est 2101.
 * **Local caster mount name** : nom du point de montage de votre base sur le caster local.
 * **Local caster rtcm messages** : Liste des messages Rtcm envoyés par la base
-* **Local caster receiver options** : l'option par défaut ```-TADJ=1``` permet d'avoir des secondes rondes.
+* **Local caster receiver options** : l'option ```-TADJ=1``` est spécifique au récepteur Ublox F9P et permet d'avoir des secondes rondes.
 
 ### Rtcm server service 
 
@@ -86,7 +86,7 @@ Il est possible de se connecter directement à sa base RTK pour recevoir la tram
 
 * **Rtcm server port** : port de sortie du flux de correction
 * **Rtcm server messages** : explication identique au Ntrip Service
-* **Receiver options** : l'option par défaut ```-TADJ=1``` permet d'avoir des secondes rondes.
+* **Receiver options** : l'option ```-TADJ=1``` est spécifique au récepteur Ublox F9P et permet d'avoir des secondes rondes.
     
 ### Rtcm serial service 
 
@@ -96,7 +96,7 @@ Il est possible de connecter un émetteur radio pour recevoir la trame de correc
 
 * **Rtcm server port** : port de sortie du flux de correction, il est nécessaire de modifier 2 fichiers dans la partition /boot pour activer le port série du Raspberry Pi, la méthode est expliquée dans la section [port série](port_serie){: .btn }
 * **Rtcm server messages** : explication identique au Ntrip Service
-* **Receiver options** : l'option par défaut ```-TADJ=1``` permet d'avoir des secondes rondes.
+* **Receiver options** : l'option ```-TADJ=1``` est spécifique au récepteur Ublox F9P et permet d'avoir des secondes rondes.
 
 ### File service
 
