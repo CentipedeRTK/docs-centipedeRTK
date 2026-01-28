@@ -9,9 +9,9 @@ has_children: false
 
 ## Antennes John Deere SF6000 SF7000 SF7500
 
-Les bases triple fréquence (Mosaic-X5, UM980) avec les réglages par défaut, ont un débit trop élevé. La console du tracteur affiche un age de correction qui augmente jusqu'à ne plus fonctionner. 
+Les bases triple fréquence (Mosaic-X5, UM980) avec les réglages par défaut, ont un débit trop élevé. La console du tracteur affiche un age de correction qui augmente jusqu'à ne plus fonctionner.
 
-#### 2025-07-01 :
+### 2025-07-01 Solution :
  La solution de contournement est d'utiliser le point de montage automatique **NEAR4**. Tout comme le point de montage **NEAR**, la connexion se fera automatiquement sur la base la plus proche, et en complément il réduit le débit en convertissant les messages MSM7 en messages MSM4 qui sont plus légers.
 
 ## Livebox 5
