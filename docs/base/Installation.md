@@ -47,14 +47,15 @@ En option, il est possible d'activer une connexion WIFI si vous n'avez pas de r�
 ### 6. Assemblage et premier démarrage
 
 1. Brancher un câble ethernet sur votre réseau afin que votre base puisse envoyer ses données au caster Centipede.
-2. Connecter en USB le récepteur F9P.
-3. Insérer la carte micro SD dans le Raspberry Pi et le mettre sous tension.
+2. Connecter le récepteur GNSS à la carte Raspberry Pi / Orange Pi ou autre.
+3. Insérer la carte micro SD dans la carte Raspberry Pi / Orange Pi et la mettre sous tension.
 
-    > Il est possible de connecter un écran en HDMI sur le raspberry pour visualiser le déroulement de l'installation.
+    > Selon le modèle de carte il est parfois possible de connecter un écran en HDMI pour visualiser le déroulement de l'installation.
 
-4. Les leds du raspberry s'allument et/ou clignotent pendant ce premier démarrage (démarrage des services). Quand l'une d'elles s'éteint définitivement (attention à ne pas confondre avec certaines petites coupures) l'installation est terminée (~ 3 min ou plus).
+4. Les leds vertes et/ou rouges de la carte Raspberry Pi / Orange Pi s'allument et/ou clignotent pendant ce premier démarrage (démarrage des services). (~ 5 min ou plus).
 
     ![](https://projects-static.raspberrypi.org/projects/raspberry-pi-setting-up/3addc4ca2ca0b7c999bdb03a46801a729614b235/en/images/pi-plug-in.gif)
+    (animation connexion sur Raspberry Pi)
 
 5. Sur un PC connecté au même réseau, ouvrir un navigateur Internet et accéder à l'interface de la base RTK via l'URL : **<http://basegnss.local>** ou avec l'ip du Raspberry Pi si vous êtes sur un réseau.
 
