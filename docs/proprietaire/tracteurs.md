@@ -20,9 +20,9 @@ Documents aimablement transmis par la Chambre d'Agriculture de la Somme
 - ### <a href="/assets/images/consoles_tracteurs/Claas_cemis.pdf" target="_blank" rel="noopener noreferrer">Claas Cemis 1200</a>
 - ### <a href="/assets/images/consoles_tracteurs/Claas_S10.pdf" target="_blank" rel="noopener noreferrer">Claas S10 </a>
 - ### <a href="/assets/images/consoles_tracteurs/fendt_varioguide.pdf" target="_blank" rel="noopener noreferrer">Fendt Varioguide</a>
-- ### <a href="/assets/images/consoles_tracteurs/Massey_datatronic.pdf" target="_blank" rel="noopener noreferrer">Massey Ferguson Datatronic</a>
+- ### <a href="/assets/images/consoles_tracteurs/Massey_datatronic.pdf" target="_blank" rel="noopener noreferrer">Massey Ferguson Datatronic 5</a>
 - ### <a href="/assets/images/consoles_tracteurs/Trimble_Gfx750.pdf" target="_blank" rel="noopener noreferrer">Trimble TMX2050/GFX750 équivalent XCN2050/XCN1050</a>
-- ### <a href="/assets/images/consoles_tracteurs/valtra_smartouch.pdf" target="_blank" rel="noopener noreferrer">Valtra SmartTouch</a>
+- ### <a href="/assets/images/consoles_tracteurs/valtra_smartouch.pdf" target="_blank" rel="noopener noreferrer">Valtra SmartTouch RTK</a>
 
 
 ## Exemples de connexion au caster Centipede avec du aatériel agricole
