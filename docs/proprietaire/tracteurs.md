@@ -5,11 +5,11 @@ parent: Centipède & Matériels propriétaires
 nav_order: 1
 ---
 
-### Compatibilité des systèmes d’autoguidage avec Centipède-RTK
+## Compatibilité des systèmes d’autoguidage avec Centipède-RTK
 
 Ce travail de compatibilité a été réalisé par la chaire AgroTIC de SupAgro avec un groupe d’agriculteurs testeurs. Le tableau présente un extrait d’une liste non exhaustive des tests de compatibilité réalisés avec le réseau Centipède-RTK par les utilisateurs travaillant sur la culture de la vigne. Il recense les systèmes d’autoguidage ayant fonctionné dans différentes configurations. La Chambre d’agriculture de la Somme a également fait ce travail avec des utilisateurs travaillant sur des cultures industrielles.
 
-## [Tableau de compatibilité des consoles agricoles](https://docs.google.com/spreadsheets/d/1esAuBDgaHBoh1Rt-au8_zdiMD-ZjMgYSSE-TdeE1UIk/edit?gid=0#gid=0)
+### [Tableau de compatibilité des consoles agricoles](https://docs.google.com/spreadsheets/d/1esAuBDgaHBoh1Rt-au8_zdiMD-ZjMgYSSE-TdeE1UIk/edit?gid=0#gid=0)
 
 
 ## Tutoriels pour le paramétrage de consoles agricoles
