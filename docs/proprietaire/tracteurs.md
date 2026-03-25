@@ -25,7 +25,7 @@ Documents aimablement transmis par la Chambre d'Agriculture de la Somme
 - ### <a href="/assets/images/consoles_tracteurs/valtra_smartouch.pdf" target="_blank" rel="noopener noreferrer">Valtra SmartTouch RTK</a>
 
 
-## Exemples de connexion au caster Centipede avec du aatériel agricole
+## Exemples de connexion au caster Centipede avec du matériel agricole
  - ### [John Deere](#john-deere-1)
  - ### [Case IH](#case-ih-1)
  - ### [Fendt](#fendt-1)
