@@ -6,25 +6,19 @@ nav_order: 1
 has_children: true
 ---
 
-> En cours de développement/rédaction
+# Rovers GNSS RTK (Bluetooth / ESP32) + configurations récepteurs
 
-<img src="/assets/images/montage_rover/v6_esp32.jpg" width="250">
+Ce dépôt regroupe **tout le nécessaire pour fabriquer un rover GNSS RTK** autour d’un récepteur (ex. u-blox, Unicore, …) et l’utiliser :
+- soit comme **rover “pass-through”** (le smartphone fait le client NTRIP et injecte les RTCM),
+- soit comme **rover autonome** (ESP32 + Wi-Fi : client NTRIP embarqué),
+- soit comme **rover connecté** (ESP32 + Wi-Fi + MQTT + capteurs).
 
-### Matériel:
+Il contient également un dossier de **configurations récepteurs GNSS** (profils NMEA/RTCM, débits UART, phrases NMEA, etc.) afin d’avoir un comportement stable et reproductible.
 
-![ESP32](https://docs.espressif.com/projects/esp-idf/en/v4.4.4/esp32/_images/esp32-devkitC-v4-pinout.png)
+L'objectif  est de fournir des briques **DIY** (matériel + firmware + tests) et documenter les variantes, tout en conservant une compatibilité maximale avec les applis mobiles GNSS/NTRIP.
 
-```mermaid
-graph TD;
-    ESP32-->pin16_RX-->UART1_TX-->GNSS;
-    ESP32-->pin17_TX-->UART1_RX-->GNSS;
-```
+Toutes les ressources sont disponibles sur la page [https://github.com/jancelin/rover-gnss](https://github.com/jancelin/rover-gnss) pour fabriquer sont rover RTK, [une version commerciale](https://natuition.odoo.com/shop/n2168-navx-2678) est également disponible pour ceux qui ne sont pas bricoleur.
 
-### Personnaliser son rover :
+<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/7676f812-7901-4b5d-8e46-d2eb5196bb27" />
 
-* Un rover Bluetooth : [esp32--android-BT](https://github.com/jancelin/rover-gnss/blob/master/unit_tests/8-BT/README.md){:target="_blank"}
-* Un rover Bluetooth/UDP/serial avec NtripClient intégré: [esp32-wifi-ntrip](https://github.com/jancelin/rover-gnss/blob/master/unit_tests/3b-GNSS_RTK/README.md){:target="_blank"}
 
-![rover V6](/assets/images/montage_rover/v6_esp32_1.jpg)
-
-### Récepteurs GNSS compatibles:
