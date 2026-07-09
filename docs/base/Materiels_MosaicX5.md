@@ -27,4 +27,4 @@ Dans un premier temps faites un premier montage sans la boite:
 
 
 ### Enfin
-* Prendre la [Micro SD 16Go](https://www.kubii.fr/carte-sd-et-stockage/2359-carte-microsd-16go-classe-10-u1-sandisk-kubii-619659161347.html) et passons maintenant à l'étape suivante: [Installation logiciel](Installation){: .btn .btn-blue }
+* Prendre la [Micro SD 32 Go](https://www.kubii.com/fr/support-de-stockage/4392-carte-sd-officielle-raspberry-pi-3272496319158.html) et passons maintenant à l'étape suivante: [Installation logiciel](Installation){: .btn .btn-blue }
