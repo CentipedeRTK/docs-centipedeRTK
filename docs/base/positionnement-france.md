@@ -19,7 +19,7 @@ nav_order: 1
 * Patientez lors de la création du fichier RINEX cela peut durer plusieurs minutes.
 
 ![log2rinex](/assets/images/positionnement/log2rinex3.gif)
-s
+
 * Téléchargez le fichier créé. Une fois la fenêtre fermée (```close```) le fichier RINEX est également disponible dans la liste des logs avec un nom **AAAA-MM-JJ-nom_de_votre_point_de_montage_ign.25o**, son poids est d'environ 4 Mo.
 
 ![log2rinex](/assets/images/positionnement/log2rinex4.png)
