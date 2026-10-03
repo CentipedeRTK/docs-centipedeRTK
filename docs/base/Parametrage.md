@@ -22,6 +22,10 @@ Une fois arrivé sur la page de connexion, il suffit d'entrer le mot de passe pa
 
 ## Paramétrage
 
+2026-09 : Le service de calcul de l'Ign est hors service.
+La mise en place d'une nouvelle base en France nécessite de suivre les instructions indiquées sur le [forum](https://forum.geocommuns.fr/t/service-de-calcul-de-lign-h-s/3441/4)
+{: .label .label-red }
+
 Maintenant nous allons nous occuper du premier paramétrage de la base.
 
 RTKBase dispose de 3 onglets, <span style="color:#007BFF">**STATUS**</span>, <span style="color:#007BFF">**SETTINGS**</span> et <span style="color:#007BFF">**LOGS**</span>. Commençons par aller sur l'onglet <span style="color:#007BFF">**SETTINGS**</span> où il faut activer le "Main Service" s'il ne l'est pas déjà.
@@ -41,7 +45,7 @@ Les autres options du service Ntrip A doivent être les suivantes :
 * **Caster port** : par défaut **2101**
 * **Caster password** : Le mot de passe pour le caster centipède est **centipede** (en minuscule, et sans accent)
 
-Un clic sur le bouton `Save`, et c'est terminé.  
+Un clic sur le bouton `Save`, et c'est terminé.
 
 ![Réglages Ntrip](/assets/images/basegnss/rtkbase_ntrip_service.png)
 
