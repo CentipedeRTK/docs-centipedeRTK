@@ -22,8 +22,8 @@ Une fois arrivé sur la page de connexion, il suffit d'entrer le mot de passe pa
 
 ## Paramétrage
 
-2026-09 : Le service de calcul de l'Ign est hors service.
-La mise en place d'une nouvelle base en France nécessite de suivre les instructions indiquées sur le [forum](https://forum.geocommuns.fr/t/service-de-calcul-de-lign-h-s/3441/4)
+**2026-09 : Le service de calcul de l'Ign est hors service.
+La mise en place d'une nouvelle base en France nécessite de suivre les instructions indiquées sur le [forum](https://forum.geocommuns.fr/t/service-de-calcul-de-lign-h-s/3441/4)**
 {: .label .label-red }
 
 Maintenant nous allons nous occuper du premier paramétrage de la base.
